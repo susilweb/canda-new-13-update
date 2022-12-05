@@ -45,8 +45,8 @@ export default function Home() {
         />
         <link rel="canonical" href="https://www.dynamicssquare.ca/" />
 
-        <meta property="og:title" content="Dynamics Square is" />
-        <meta name="og:description" content="Dynamics Square is" />
+        <meta property="og:title" content="We simplify your business processes by implementing innovative Microsoft cloud solutions to make your business thrive. Book a free consultation today." />
+        <meta name="og:description" content="We simplify your business processes by implementing innovative Microsoft cloud solutions to make your business thrive. Book a free consultation today." />
         <meta property="og:url" content="https://www.dynamicssquare.ca/img/about.jpg" />
         <meta property="og:image" content="https://www.dynamicssquare.ca/img/about.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
