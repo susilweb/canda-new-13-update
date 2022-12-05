@@ -6,6 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination,Autoplay,FreeMode } from "swiper";
+import Link from 'next/link';
 
 export default function Home() {
   // const addJsonLd = () => {
@@ -493,12 +494,14 @@ export default function Home() {
                   </h3>
                 </div>
                 <p>Connect and automate your finance and supply chain, drive customer engagement, unlock productivity and boost your sales with Dynamics 365 Business Central's strong abilities of analytics, reporting, and visualizations.</p>
+                <Link  href="/products/dynamics-365-business-central/">
                 <a
-                  href="/products/dynamics-365-business-central/"
+                 
                   className="read-more"
                 >
                   <span>Learn More...</span>
                 </a>
+                </Link>
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
@@ -515,12 +518,14 @@ export default function Home() {
                   </h3>
                 </div>
                 <p>Automate all your financial practices and proactively minimize your investment costs and financial complexity with built-in AI-driven analytics, insights, and reporting capabilities using enterprise-grade Dynamics 365 Finance solution.</p>
-                <a
-                  href="/products/microsoft-dynamics-365-finance/"
+               <Link href="/products/microsoft-dynamics-365-finance/">
+               <a
+                 
                   className="read-more"
                 >
                   <span>Learn More...</span>
                 </a>
+               </Link>
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
@@ -539,12 +544,14 @@ export default function Home() {
                 <p>
                 Smoothen process flow, get real-time data storage & transfer mechanisms across your organization. Increase operational efficiency by automating your entire supply chain practices with D365 Supply Chain.
                 </p>
+                <Link href="/products/dynamics-365-supply-chain-management/">
                 <a
-                  href="/products/dynamics-365-supply-chain-management/"
+                  
                   className="read-more"
                 >
                   <span>Learn More...</span>
                 </a>
+                </Link>
               </div>
             </div>
             <div
@@ -804,10 +811,12 @@ export default function Home() {
 
           <div className="row">
             <div className="col-lg-6 aos-init align-self-center">
-              <img
+              <Image
                 src="/img/system-health-check.png" 
                 className="system-health-check"
                 alt="Dynamics 365 System Health Check"
+                width={553}
+                height={531}
               />
             </div>
             <div className="col-lg-6 pt-4 pt-lg-0 content align-self-center">
@@ -1092,10 +1101,12 @@ export default function Home() {
             <div className="col-lg-6 align-self-center">
               <div className="testimonials-bg">
                 <div className="testimonials-rigt-iner">
-                  <img
+                  <Image
                     src="/img/testmonial-side-pic.png"
                     className="testmonial-side-pic"
                     alt="testmonial-side-pic"
+                    width={802}
+                    height={764}
                   />
                 </div>
               </div>
@@ -1198,9 +1209,11 @@ export default function Home() {
         <div className="container" data-aos="fade-up">
           <div className="row  gy-4">
             <div className="col-lg-5 align-self-center">
-              <img
+              <Image
                 src="/img/case-study-side-banner.png"
                 alt="case-study-side-banner"
+                width={640}
+                height={592}
               />
             </div>
             <div className="col-lg-1 align-self-center"></div>
