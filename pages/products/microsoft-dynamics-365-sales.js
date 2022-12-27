@@ -322,12 +322,12 @@ const Sales = () => {
           </header>
           </div>
           </div>
-          <div className="row gy-4 p-9">
+          <div className="row gy-4 p-9" style={{marginBottom:'30px'}}>
             <div className="col-lg-4">
               <div className="box box-999">
                 <h3>Dynamics 365 Sales Professional</h3>
                 <div className="price">
-                  <sup>$</sup>65<span>Per User/month</span>
+                  Can$83.20<span>Per User/month</span>
                 </div>
                 <p className="small-tt">
                 Core sales force automation and Microsoft 365 integration
@@ -338,14 +338,11 @@ const Sales = () => {
               <div className="box box-999">
                 <h3>Dynamics 365 Sales Enterprise</h3>
                 <div className="price">
-                  <sup>$</sup>95<span>Per User/Month</span>
+                  Can$121.60<span>Per User/Month</span>
                 </div>
                 <p className="small-tt">
                 Industry-leading sales force automation with contextual insights and advanced customization capabilities
                 </p>
-                <ul>
-                  <li>Now includes limited capacity of AI features</li>
-                </ul>
               </div>
             </div>
 
@@ -353,20 +350,42 @@ const Sales = () => {
               <div className="box box-999">
                 <h3>Dynamics 365 Sales Premium</h3>
                 <div className="price">
-                  <sup>$</sup>135<span>Per User/Month</span>
+                  Can$172.80<span>Per User/Month</span>
                 </div>
                 <p className="small-tt">Dynamics 365 Sales Enterprise plus prebuilt customizable intelligence solutions for sellers and managers</p>
               </div>
             </div>
 
+           
+          </div>
+          <div className="row justify-content-center">
+          <div className="col-lg-4">
+              <div className="box box-999">
+                <h3>Microsoft Relationship Sales</h3>
+                <div className="price">
+                  Can$179.13<span>Per User/Month</span>
+                </div>
+                <p className="small-tt">Dynamics 365 Sales Enterprise plus LinkedIn Sales Navigator Enterprise</p>
+              </div>
+            </div>
+
+            <div className="col-lg-4">
+              <div className="box box-999">
+                <h3>Microsoft Viva Sales</h3>
+                <div className="price">
+                  Can$51.20<span>Per User/Month</span>
+                </div>
+                <p className="small-tt">A seller experience application that lets sellers use Microsoft 365 and Microsoft Teams to automatically capture data into any CRM system, eliminating manual data entry and giving more time to focus on selling.</p>
+              </div>
+            </div>
             <div className="col-lg-12 col-md-12">
-              <div className="price-btn price-btnasd d-flex justify-content-center">
+              <div className="price-btn price-btnasd d-flex justify-content-center" style={{marginTop:'30px'}}>
                 <a 
                   data-bs-toggle="modal"
                   href="#exampleModal"
                   className="btn-get-red"
                 >
-                  <span>Get Power Apps Now</span>
+                  <span>Get Started Now</span>
                 </a >
               </div>
             </div>

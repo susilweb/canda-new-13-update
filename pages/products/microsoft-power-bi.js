@@ -406,7 +406,7 @@ const PowerBI = () => {
           </div>
         </div>
       </section>
-      <section id="pricing" className="pricing">
+      {/* <section id="pricing" className="pricing">
         <div className="container">
         <div className="row justify-content-center">
 <div className="col-lg-8 col-md-8">
@@ -616,6 +616,82 @@ const PowerBI = () => {
                   className="btn-get-red"
                 >
                   <span>Get Power Bi Now</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> */}
+        <section id="pricing" className="pricing">
+        <div className="container">
+        <div className="row justify-content-center">
+          <div className="col-lg-8 col-md-8">
+          <header className="section-header">
+            <h2>Power BI Pricing & Licensing</h2>
+            <p>As a Power BI Implementation Partner, we can identify the Power BI strategy that is most appropriate for you.</p>
+            </header>
+          </div>
+        </div>
+         
+          <div className="row gy-4 p-9 justify-content-center">
+            <div className="col-lg-4">
+              <div className="box box-22">
+                <h3>
+                Power BI Pro
+                </h3>
+                <p>Per user</p>
+                <div className="price">
+                Can$12.80<span>Per-User/Month</span>
+                </div>
+                <ul>
+                  <li className="text-center">
+                  License individual users with modern, self-service analytics to visualize data with live dashboards and reports, and share insights across your organization.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-4">
+              <div className="box box-22">
+                <h3>
+               Power BI Premium
+                </h3>
+                <p>Per user</p>
+                <div className="price">
+                Can$25.60<span>Per-User/Month</span>
+                </div>
+                <ul>
+                  <li className="text-center">
+                  License individual users to accelerate access to insights with advanced AI, unlock self-service data prep for big data, and simplify data management and access at enterprise scale.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-4">
+              <div className="box box-22">
+                <h3>
+               Power BI Premium
+                </h3>
+                <p>Per capacity</p>
+                <div className="price">
+                Can$6,393.60<span>Per-User/capacity</span>
+                </div>
+                <ul>
+                  <li className="text-center">
+                  License your organization with capacity to accelerate access to insights with advanced AI, unlock self-service data prep for big data, and simplify data management and access at enterprise scale—without per-user licenses for content consumers.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+          <div className="col-lg-12 col-md-12">
+              <div className="price-btn d-flex justify-content-center">
+                <a
+                  data-bs-toggle="modal"
+                  href="#exampleModal"
+                  className="btn-get-red"
+                >
+                  <span>Get Started Now</span>
                 </a>
               </div>
             </div>

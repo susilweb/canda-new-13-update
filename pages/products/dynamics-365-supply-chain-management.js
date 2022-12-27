@@ -458,7 +458,7 @@ const SupplyChainManagement = () => {
                   Supply Chain Management
                 </h3>
                 <div className="price">
-                  <sup>$</sup>180<span>Per-User/Per Month</span>
+                Can$230.40<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li className="text-center">
@@ -480,6 +480,19 @@ const SupplyChainManagement = () => {
                         </ul>
                        
                      </div> */}
+            </div>
+          </div>
+          <div className="row">
+          <div className="col-lg-12 col-md-12">
+              <div className="price-btn d-flex justify-content-center">
+                <a
+                  data-bs-toggle="modal"
+                  href="#exampleModal"
+                  className="btn-get-red"
+                >
+                  <span>Get Started Now</span>
+                </a>
+              </div>
             </div>
           </div>
         </div>

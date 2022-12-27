@@ -1,12 +1,13 @@
-import Head from 'next/head'
+import Head from 'next/head';
+import Link from 'next/link';
+import Image from 'next/image';
 
 const Dynamics365CustomerEngagement = () => {
   return (
     <>
       <Head>
-      <title>Dynamics 365 Customer Engagement Partner UK | Dynamics Square</title>
-<meta name="description" content="Uplift your sales &amp; marketing efforts and improve your customer relationships with our Microsoft Dynamics 365 Customer Engagement plans."/>
-<meta name="robots" content="noindex,nofollow" />
+      <title>Dynamics 365 Customer Engagement: A Cloud Marketing App</title>
+<meta name="description" content="Strengthen your relationships with customers via Dynamics 365 Customer Engagement - a cloud marketing solution. Connect with the Dynamics Square team."/>
 <link rel="canonical" href="https://www.dynamicssquare.ca/products/dynamics-365-customer-engagement/" />
       </Head>
       <section className="Solution-banner hero-1 hero">
@@ -14,30 +15,29 @@ const Dynamics365CustomerEngagement = () => {
           <div className="row">
             <div className="col-lg-6 mobile-4 align-self-center">
               <h1>
-                Microsoft Dynamics 365
-                <br />
-                Customer Engagement
+              Microsoft Dynamics 365 Customer Engagement
               </h1>
               <p>
-                Drive your sales higher, provide excellent customer service and
-                improve your marketing capabilities by Dynamics 365 CE
+              Connect all your interactions with prospects and customers and unify your entire business with a comprehensive <b>cloud-based CRM solution</b>; Dynamics 365 Customer Engagement. 
               </p>
               <div>
                 <div className="text-center text-lg-start">
-                  <a
+                 <Link href="#exampleModal">
+                 <a
                     data-bs-toggle="modal"
-                    href="#exampleModal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Book Free Consultation</span>
+                    <span>Click For Demo</span>
                   </a>
+                 </Link>
                 </div>
               </div>
             </div>
             <div className="col-lg-6 align-self-center text-center">
-              <img
+              <Image
                 src="/img/customer-engagement-banner.png"
                 alt="customer-engagement-banner"
+                width={699} height={447}
               />
             </div>
           </div>
@@ -46,31 +46,37 @@ const Dynamics365CustomerEngagement = () => {
 
       <section>
         <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
+          <div className="row justify-content-center">
+            <div className="col-lg-10">
               <header className="section-header">
-                <h2>What Is Dynamics 365 Customer Engagement?</h2>
-                <p>
-                  Dynamics 365 customer engagement (formerly known as{" "}
-                  <a href="/products/microsoft-dynamics-crm/">
-                    Microsoft Dynamics CRM
-                  </a>
-                  ) refers to the complete customer-driven package comprising
-                  modules like sales, customer service, marketing, field
-                  service, and project service automation. This combined package
-                  helps enterprises to manage, drive, and support their
-                  end-to-end customer-related practices to maximize return on
-                  investment and drive efficiency.
-                </p>
-                <p>
-                  Comes with flexible deployment options, Dynamics 365 Customer
-                  Engagement can be deployed either on-premises, on-cloud, or
-                  Hybrid. By implementing Dynamics 365 CE (Customer Engagement),
-                  enterprises can extend their business capabilities, drive
-                  customer-oriented practices, and can ensure improved agility
-                  that helps to drive growth and scalability in the long run.
-                </p>
+                <h2>What is Dynamics 365 Customer Engagement?</h2>
+                <p>Dynamics 365 customer engagement (formerly known as <Link href="/products/microsoft-dynamics-crm/">Microsoft Dynamics CRM</Link>) is a single cloud-based, analytics-driven robust customer engagement platform. Dynamics 365 Customer Engagement uniquely brings CRM (customer relationship management), CDP (customer data platforms), and CXM (customer experience management) into one entity, allowing you to manage the entire customer journey and lifecycle.</p>
               </header>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="busine_service_bottom custom05">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-5 align-self-center">
+              <div className="busine_service_bottom-left custom012">
+                <img
+                  src="/img/microosoft-partner.png"
+                  alt="microosoft-partner.png"
+                />
+              </div>
+            </div>
+            <div className="col-lg-1"></div>
+            <div className="col-lg-6 align-self-center">
+              <div className="side-heading-custom-01">
+                <h2>
+                Get Started with Dynamics 365 Customer Engagement
+                </h2>
+              </div>
+              <div className="custom-p-001">
+                <p>Extend your business capabilities, drive customer-oriented practices, and ensure improved agility to drive long-term growth and scalability. With Dynamics 365 Customer Engagement, you get flexible deployment options: <b>on-premises, on-cloud, or Hybrid implementation</b>. Learn more about the <b>Dynamics 365 Customer Engagement implementation</b> here.</p>
+              </div>
             </div>
           </div>
         </div>
@@ -81,10 +87,9 @@ const Dynamics365CustomerEngagement = () => {
           <div className="row">
             <div className="col-lg-6 align-self-center">
               <div className="side-heading">
-                <h2>Get Started With Dynamics 365 Customer Engagement</h2>
+                <h2>Get Started with Dynamics 365 Customer Engagement</h2>
                 <p>
-                  Why choose Dynamics Square as your Dynamics 365 Customer
-                  Engagement Implementation Partner?
+                Extend your business capabilities, drive customer-oriented practices, and ensure improved agility to drive long-term growth and scalability.With Dynamics 365 Customer Engagement, you get flexible deployment options: on-premises, on-cloud, or Hybrid implementation. Learn more about the Dynamics 365 Customer Engagement implementation here.
                 </p>
               </div>
               <div className="custom002">

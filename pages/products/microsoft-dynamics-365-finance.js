@@ -383,14 +383,14 @@ const Finance = () => {
           </div>
         </div>
          
-          <div className="row gy-4 p-9">
-            <div className="col-lg-6">
+          <div className="row gy-4 p-9 justify-content-center">
+            <div className="col-lg-5">
               <div className="box box-22">
                 <h3>
-                For First Dynamics App
+                Dynamics 365 Finance
                 </h3>
                 <div className="price">
-                  <sup>$</sup>180<span>Per-User/Per Month</span>
+                Can$230.40<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li className="text-center">
@@ -399,19 +399,17 @@ const Finance = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-6">
-              <div className="box box-22">
-                <h3>
-                For Subsequent Dynamics App
-                </h3>
-                <div className="price">
-                  <sup>$</sup>30<span>Per-User/Per Month</span>
-                </div>
-                <ul>
-                  <li className="text-center">
-                  An intelligent, automated, and trusted core financial management solution.
-                  </li>
-                </ul>
+          </div>
+          <div className="row">
+          <div className="col-lg-12 col-md-12">
+              <div className="price-btn d-flex justify-content-center">
+                <a
+                  data-bs-toggle="modal"
+                  href="#exampleModal"
+                  className="btn-get-red"
+                >
+                  <span>Get Started Now</span>
+                </a>
               </div>
             </div>
           </div>
