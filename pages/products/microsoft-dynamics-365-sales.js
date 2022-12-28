@@ -327,7 +327,7 @@ const Sales = () => {
               <div className="box box-999">
                 <h3>Dynamics 365 Sales Professional</h3>
                 <div className="price">
-                  Can$83.20<span>Per User/month</span>
+                  $83.20(CAD)<span>Per User/Month</span>
                 </div>
                 <p className="small-tt">
                 Core sales force automation and Microsoft 365 integration
@@ -338,7 +338,7 @@ const Sales = () => {
               <div className="box box-999">
                 <h3>Dynamics 365 Sales Enterprise</h3>
                 <div className="price">
-                  Can$121.60<span>Per User/Month</span>
+                  $121.60(CAD)<span>Per User/Month</span>
                 </div>
                 <p className="small-tt">
                 Industry-leading sales force automation with contextual insights and advanced customization capabilities
@@ -350,7 +350,7 @@ const Sales = () => {
               <div className="box box-999">
                 <h3>Dynamics 365 Sales Premium</h3>
                 <div className="price">
-                  Can$172.80<span>Per User/Month</span>
+                  $172.80(CAD)<span>Per User/Month</span>
                 </div>
                 <p className="small-tt">Dynamics 365 Sales Enterprise plus prebuilt customizable intelligence solutions for sellers and managers</p>
               </div>
@@ -363,7 +363,7 @@ const Sales = () => {
               <div className="box box-999">
                 <h3>Microsoft Relationship Sales</h3>
                 <div className="price">
-                  Can$179.13<span>Per User/Month</span>
+                  $179.13(CAD)<span>Per User/Month</span>
                 </div>
                 <p className="small-tt">Dynamics 365 Sales Enterprise plus LinkedIn Sales Navigator Enterprise</p>
               </div>
@@ -373,7 +373,7 @@ const Sales = () => {
               <div className="box box-999">
                 <h3>Microsoft Viva Sales</h3>
                 <div className="price">
-                  Can$51.20<span>Per User/Month</span>
+                  $51.20(CAD)<span>Per User/Month</span>
                 </div>
                 <p className="small-tt">A seller experience application that lets sellers use Microsoft 365 and Microsoft Teams to automatically capture data into any CRM system, eliminating manual data entry and giving more time to focus on selling.</p>
               </div>

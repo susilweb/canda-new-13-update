@@ -46,16 +46,17 @@ export default function Home() {
         />
         <link rel="canonical" href="https://www.dynamicssquare.ca/" />
 
-        <meta property="og:title" content="We simplify your business processes by implementing innovative Microsoft cloud solutions to make your business thrive. Book a free consultation today." />
-        <meta name="og:description" content="We simplify your business processes by implementing innovative Microsoft cloud solutions to make your business thrive. Book a free consultation today." />
-        <meta property="og:url" content="https://www.dynamicssquare.ca/img/about.jpg" />
-        <meta property="og:image" content="https://www.dynamicssquare.ca/img/about.jpg" />
-        <meta name="twitter:card" content="summary_large_image" />
-
-        <meta name="twitter:title" content="Microsoft Dynamics 365 Partner Canada| Dynamics Square" />
-        <meta name="twitter:description" content="Dynamics Square is CA&#039;s leading Gold Microsoft Dynamics 365 Partner helping businesses to achieve desired results with Dynamics 365 apps and services." />
-        <meta name="twitter:image" content="https://www.dynamicssquare.ca/img/about.jpg" />
-
+        <meta property="og:title" content="Microsoft Gold Partner Canada | Dynamics Square" />
+<meta property="og:site_name" content="Dynamics Square" />
+<meta property="og:url" content="https://www.dynamicssquare.ca/" />
+<meta property="og:description" content="We simplify your business processes by implementing innovative Microsoft cloud solutions to make your business thrive. Book a free consultation today." />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://www.dynamicssquare.ca/img/banner-head-image.png" />
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content="https://www.dynamicssquare.ca/" />
+<meta property="twitter:title" content="Microsoft Gold Partner Canada | Dynamics Square" />
+<meta property="twitter:description" content="We simplify your business processes by implementing innovative Microsoft cloud solutions to make your business thrive. Book a free consultation today." />
+<meta property="twitter:image" content="https://www.dynamicssquare.ca/img/banner-head-image.png" />
 
  <script
         type="application/ld+json"

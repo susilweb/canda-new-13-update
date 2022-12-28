@@ -390,7 +390,7 @@ const Finance = () => {
                 Dynamics 365 Finance
                 </h3>
                 <div className="price">
-                Can$230.40<span>Per-User/Per Month</span>
+                $230.40(CAD)<span>Per-User/Month</span>
                 </div>
                 <ul>
                   <li className="text-center">
