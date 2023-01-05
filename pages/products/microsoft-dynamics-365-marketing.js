@@ -1,17 +1,17 @@
 import Head from 'next/head'
+import Link from "next/link";
+import Image from "next/image";
 
 const Marketing = () => {
   return (
     <>
       <Head>
-        <title>
-        Microsoft Dynamics 365 Marketing | Dynamics Square
-        </title>
+        <title>Microsoft Dynamics 365 Marketing: AI-Powered Marketing Tool</title>
         <meta
           name="description"
-          content="Microsoft Dynamics 365 Marketing is a marketing automation application that allows you to transform leads into fruitful relationships in a more efficient and profitable way."
+          content="Design, predict, & deliver the right content for personalized journeys with AI-driven insights using Dynamics 365 for Marketing. Contact Dynamics Square team."
         />
-           <meta name="robots" content="noindex,nofollow" />
+           <meta name="robots" content="index,follow" />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.ca/products/microsoft-dynamics-365-marketing/"
@@ -23,9 +23,9 @@ const Marketing = () => {
           <div className="row">
             <div className="col-lg-5 mobile-1 align-self-center">
               <h1>
-              Dynamics 365 Marketing
+              Microsoft Dynamics 365 Marketing
               </h1>
-              <p>Automate your marketing to increase your conversion rates</p>
+              <p>Blend sales and marketing to deliver personalized and seamless customer experiences at every interaction.</p>
               <div>
                 <div className="text-center text-lg-start align-self-center">
                   <a
@@ -33,7 +33,7 @@ const Marketing = () => {
                     href="#exampleModal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Schedule a Demo</span>
+                    <span>Get a Call Back</span>
                   </a>
                 </div>
               </div>
@@ -53,15 +53,14 @@ const Marketing = () => {
               <div className="row justify-content-center">
                   <div className="col-lg-8 col-md-8">
                       <header className="section-header">
-                      <h2> What Is Dynamics 365 Marketing?</h2>
-                      <p>Dynamics 365 Marketing is a marketing automation application that allows you to transform leads into fruitful relationships in a more efficient and profitable way. With Dynamics 365 Marketing you will be able to tailor the customer journey to your needs and transform it into a unique experience until the sale is achieved, and even beyond.</p> <br/>
-                      </header>
+                      <h2>What is Microsoft Dynamics 365 Marketing?</h2>
+                      <p>Modern decision-making requires modern solutions. In a nutshell, Dynamics 365 for Marketing integrates two crucial components of an organization - Sales and Marketing. Using this <b>customer relationship management (CRM) app</b>, you can offer personalized buying experiences across all touchpoints for your customers and partners. Start attracting <b>customers today with Microsoft Dynamics 365 Marketing</b>.</p></header>
                 </div>
           </div>
           <div className="row justify-content-center">
                   <div className="col-lg-8 col-md-8">
                       <header className="section-header">
-                      <h2>Dynamics 365 Marketing Features</h2>
+                      <h2>Meet Expectations and Increase Loyalty</h2>
                       </header>
                 </div>
           </div>
@@ -85,7 +84,7 @@ const Marketing = () => {
                             alt="icons_centeralised-source"
                           />
                         </div>
-                        <span>Centralized Source</span>
+                        <span>Seamless Buying Experiences</span>
                       </button>
                     </h3>
                     <div
@@ -95,17 +94,7 @@ const Marketing = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        The platform offers a centralized source for all types
-                        of marketing information. This way, the members do not
-                        have to stay dependent upon different individuals for
-                        getting any data. They can simply log into the platform
-                        and get the desired information. When everything is
-                        available at one place and employees do not have to
-                        spend time searching and collecting data from different
-                        team members, it definitely saves a lot of time. When
-                        time is saved and the information is available at one
-                        single place, the operations of the organization
-                        continues to happen much smoothly and efficiently.
+                       <p>Integrate different Microsoft apps like Teams, <Link href="/products/microsoft-power-bi/"><a>Power BI</a></Link>, Outlook, Excel, and <Link href="/products/microsoft-dynamics-365-ai/"><a>Artificial Intelligence</a></Link> to understand more about your employees, customers, and partners while delivering out-of-the-box experiences.</p>
                       </div>
                     </div>
                   </div>
@@ -126,7 +115,7 @@ const Marketing = () => {
                             alt="icons_Personalized-Communication"
                           />
                         </div>
-                        <span>Personalized Communication</span>
+                        <span>Create Personalized Communication</span>
                       </button>
                     </h3>
                     <div
@@ -136,13 +125,7 @@ const Marketing = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        The platform offers a customized form of communication
-                        for the employees. Different customers need different
-                        marketing strategies depending upon the requirements and
-                        the product or service that is being marketed. <a href="/products/microsoft-dynamics-365/">Dynamics 365</a> allows the users to customize such communication or
-                        marketing strategy well by carefully segmenting the
-                        customers in different segments according to diverse
-                        factors.
+                        <p>Driven by rich personalization tools, your sales and marketing teams can easily create content that resonates with the audience. With the <b>power of Dynamics 365 marketing</b>, you can get a 360-degree view of your customer's journey to improve your marketing.</p>
                       </div>
                     </div>
                   </div>
@@ -163,7 +146,7 @@ const Marketing = () => {
                             alt="icons_Journey-Mapping"
                           />
                         </div>
-                        <span>Journey Mapping</span>
+                        <span>Map Customer Journey</span>
                       </button>
                     </h3>
                     <div
@@ -173,12 +156,7 @@ const Marketing = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        It is not always possible to track the activities that
-                        the customers are performing after a marketing campaign
-                        has been conducted. The platform offers the feature of
-                        noticing journey mapping of the customers through which
-                        they can know the journey of a customer after a
-                        marketing campaign has been conducted.
+                       <p>Insights from Dynamics 365 Marketing helps your team to see business from customers' perspectives, which allows you to live up to their expectations, earn loyalty and increase profits.</p>
                       </div>
                     </div>
                   </div>
@@ -206,7 +184,7 @@ const Marketing = () => {
                             alt="icons_Email-Templates"
                           />
                         </div>
-                        <span>Email Templates</span>
+                        <span>Engage More Customers</span>
                       </button>
                     </h3>
                     <div
@@ -216,13 +194,7 @@ const Marketing = () => {
                       data-bs-parent="#accnewds"
                     >
                       <div className="accordion-body">
-                        There are several templates available for emails that
-                        has to be sent to the customers and clients for the
-                        purpose of marketing. The platform also allows the users
-                        to customize these email templates so that they can be
-                        personalized as per the customer segmentation and
-                        according to the products and services for which the
-                        marketing campaign is being conducted.
+                       <p>By using real-time customer data, you can simplify your customer journey management; designing customer-led experiences such as <b>buyer personas, customer touchpoints, and emotions</b> to engage more customers.</p>
                       </div>
                     </div>
                   </div>
@@ -243,7 +215,7 @@ const Marketing = () => {
                             alt="icons_Customer-Feedback"
                           />
                         </div>
-                        <span>Customer Feedback</span>
+                        <span>Lead Score Automation</span>
                       </button>
                     </h3>
                     <div
@@ -253,15 +225,7 @@ const Marketing = () => {
                       data-bs-parent="#accnewds"
                     >
                       <div className="accordion-body">
-                        As there are forms for surveys and marketing campaigns,
-                        there are also forms that can be used for the purpose of
-                        feedback from the customers. It is extremely essential
-                        to collect feedback from the customers in order to
-                        understand whether the product or service marketed is
-                        gaining likes from the customers or not. Based on this
-                        feedback survey, teh organizations can either continue
-                        with the product or may think of making any changes in
-                        it.
+                       <p>Automate your lead scoring and convert leads into potential customers at speed with several marketing campaign options built into Dynamics 365 Marketing and bring more customers on board.</p>
                       </div>
                     </div>
                   </div>
@@ -282,7 +246,7 @@ const Marketing = () => {
                             alt="icons_Automated-Lead-Scoring"
                           />
                         </div>
-                        <span>Automated Lead Scoring</span>
+                        <span>Generate More Loyalty</span>
                       </button>
                     </h3>
                     <div
@@ -292,13 +256,7 @@ const Marketing = () => {
                       data-bs-parent="#accnewds"
                     >
                       <div className="accordion-body">
-                        Lead scoring is an essential method as it is the basic
-                        way to converted leads into potential customers.
-                        Dynamics 365 ensures to automate the process of lead
-                        scoring through different marketing campaigns.
-                        Ultimately, it leads to a smooth and efficient mode of
-                        lead scoring that also leads to welcoming of more number
-                        of potential customers on board.
+                        <p>Earn loyalty to your customers by delivering products and services based on their interactions. By using the built-in event triggering tool in <b>Dynamics 365 for Marketing</b>, you can turn your customer interactions into loyal customers.</p>
                       </div>
                     </div>
                   </div>
@@ -315,16 +273,12 @@ const Marketing = () => {
             <div className="col-lg-6 align-self-center">
               <div className="side-heading-custom-02">
                 <h2>
-                  What Comes in <br />
-                  the Package?
+                What This Marketing <br />
+                Module Has For You? 
                 </h2>
               </div>
               <div className="custom-p-001">
-                <p>
-                  Dynamics 365 for Marketing comes as an overall marketing
-                  package. Here are the elements that come included in the
-                  package.
-                </p>
+                <p>Dynamics 365 Marketing is a comprehensive marketing solution. Here are the components making Dynamics 365 Marketing a right fit for your business.</p>
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
@@ -353,11 +307,7 @@ const Marketing = () => {
                       data-bs-parent="#accnewss"
                     >
                       <div className="accordion-body">
-                        This covers a wide number of elements to smoothen up
-                        your marketing campaign such as a record of the customer
-                        profiles, marketing forms, email management, lead
-                        management, segmentation and journey of customers, and
-                        marketing analytics.
+                       <p>Using a variety of built-in components, you can seamlessly create and streamline your marketing campaigns, from marketing forms, segmentation, and customer journey tracking to email management, lead management, and marketing analytics.</p>
                       </div>
                     </div>
                   </div>
@@ -385,10 +335,7 @@ const Marketing = () => {
                       data-bs-parent="#accnewss"
                     >
                       <div className="accordion-body">
-                        This is a unique function available in this tool that
-                        helps the user in not just visualizing but also
-                        maintaining different activities that are in connection
-                        to some kind of events.
+                       <p>The most distinctive and popular feature of Dynamics 365 for Marketing is to not only visualize events, but also keep track of all marketing and sales related activities for better decision-making and experiences.</p>
                       </div>
                     </div>
                   </div>
@@ -416,12 +363,7 @@ const Marketing = () => {
                       data-bs-parent="#accnewss"
                     >
                       <div className="accordion-body">
-                        This particular function is something that allows the
-                        users to create online forms for the purpose of
-                        marketing. Users can make use of thisparticular function
-                        to create forms not just for direct marketing but also
-                        for other functions such as surveys, and others.
-                      </div>
+                       <p>Design online forms for purposes other than direct marketing, such as surveys, and others.</p>
                     </div>
                   </div>
                   <hr className="cls" />
@@ -448,16 +390,7 @@ const Marketing = () => {
                       data-bs-parent="#accnewss"
                     >
                       <div className="accordion-body">
-                        Apart from the above-mentioned functions or elements
-                        that come in package, Microsoft Dynamics also have some
-                        add-ons to offer. The first one is the option of Dynamic
-                        365 portals. This is basically a platform that allows
-                        all the users such as customers, clients, or the team
-                        members to interact and communicate on the platform.
-                        Also, another tool is Dynamics 365 Connector that is
-                        mainly for LinkedIn Lead Generation Forms. Through this
-                        tool, users can import the leads that have been
-                        generated through the lead tools on LinkedIn.
+                       <p>Dynamics 365 Marketing comes with useful add-ons like Dynamic 365 portals to interact and quickly set up communication with clients, customers, and partners. With Dynamics 365 Connector for LinkedIn, you can create Lead Generation Forms to get leads from LinkedIn.</p>
                       </div>
                     </div>
                   </div>
@@ -466,6 +399,7 @@ const Marketing = () => {
             </div>
           </div>
         </div>
+        </div>
       </section>
 
    
@@ -473,6 +407,7 @@ const Marketing = () => {
         <div className="container">
           <header className="section-header">
             <h2>Dynamics 365 Marketing Pricing</h2>
+            <p>Explore the most affordable subscription-based pricing</p>
           </header>
           <div className="row gy-4 p-9 justify-content-center">
             <div className="col-lg-5 col-md-5">
@@ -482,7 +417,7 @@ const Marketing = () => {
                 </h3>
                 <p><b>For organizations without any other Dynamics 365 application</b></p>
                 <div className="price">
-                  <sup>$</sup>1,500<span>Per Tenant/Month</span>
+                  $1,500<span>Per Tenant/Month</span>
                 </div>
                 <ul>
                   <li className="text-center">
@@ -498,7 +433,7 @@ const Marketing = () => {
                 </h3>
                 <p><b>For organizations with a qualifying Dynamics 365 application<sup>3</sup></b></p>
                 <div className="price">
-                  <sup>$</sup>750<span>Per Tenant/Month</span>
+                  $750<span>Per Tenant/Month</span>
                 </div>
                 <ul>
                   <li className="text-center">
@@ -530,8 +465,9 @@ const Marketing = () => {
             <div className="col-lg-5 m--t align-self-center">
             <div className="wy-sultion-left-head">
               <h2>
-                How does Marketing help to Elevate Your marketing Capabilities?
+              Make Marketing Work For You With Dynamics 365 for Marketing 
               </h2>
+              <h3>Get rid of repetitive & redundant tasks and improve customer experiences.</h3>
               </div>
             </div>
             <div className="col-lg-7">
@@ -540,28 +476,20 @@ const Marketing = () => {
                   <div className="why-solution-wrapper">
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                        Personalised Customer <br />
-                        Journey
+                      Tailored Customer <br />
+                      Journey
                       </h3>
                       <div className="overlay">
-                        <p>
-                          Guide the journey of your potential customers based on
-                          their past interactions to adapt the offer and
-                          increase the probability of purchase
-                        </p>
+                        <p>Improve your offer by using past interactions with your potential customers.</p>
                       </div>
                     </div>
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                        360 Customer <br />
-                        Vision
+                      Complete  <br />
+                      Customer View  
                       </h3>
                       <div className="overlay">
-                        <p>
-                          Provides a new understanding of the customer for a
-                          complete view of the consumer throughout the entire
-                          marketing and sales cycle
-                        </p>
+                        <p>This app provides marketers and salespeople with a complete view of the customer throughout the entire marketing and sales cycle.</p>
                       </div>
                     </div>
                   </div>
@@ -570,31 +498,22 @@ const Marketing = () => {
                   <div className="why-solution-wrapper">
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                        Generate More
+                      High Lead
                         <br />
-                        Leads
+                        Generation
                       </h3>
                       <div className="overlay">
-                        <p>
-                          Design omnichannel campaigns through email, social
-                          media, landing pages, web, phone calls, personal
-                          events, etc. to get more leads
-                        </p>
+                        <p>Get more done with less effort by integrating email, social media, landing pages, web, phone calls, and personal events.</p>
                       </div>
                     </div>
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                        Improve the Profitability
+                      Profitability
                         <br />
-                        of Your Investment
+                        & ROI 
                       </h3>
                       <div className="overlay">
-                        <p>
-                          Reduces management expenses and optimizes the use of
-                          resources thanks to a scalable platform that adapts to
-                          the specific needs of the company and offers all the
-                          functionalities in a single space
-                        </p>
+                        <p>This marketing tool maximizes the use of resources by integrating all functions into one location.</p>
                       </div>
                     </div>
                   </div>
@@ -620,18 +539,106 @@ const Marketing = () => {
             </div>
             <div className="col-lg-6 align-self-center">
               <div className="side-heading-custom-01">
-                <h3>Why Dynamics Square?</h3>
+                <h3>Why Choose Dynamics Square for Dynamics 365 Implementation?</h3>
               </div>
               <div className="custom-p-001">
-                <p>
-                  With more than 11 years of experience in the market, we
-                  develop and deploy industry solutions based on Microsoft
-                  technologies . Our experience, combined with our knowledge of
-                  innovation and disruptive technologies, allows us to offer
-                  services and solutions that respond to the demands of your
-                  market, guaranteeing a sustainable competitive advantage for
-                  your company.
-                </p>
+                <p>We have been implementing innovative <b>ERP and CRM (Customer Relationship Management) solutions based on Microsoft technology since 2011</b>. And, because of our real-world industry ability and a better understanding of Microsoft's innovative technologies, we provide services and solutions that are targeted to your company's needs and the demands of today's world. We empower you to become more resilient, sustainable, and future-proof.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="solution-faq faq">
+        <div className="container">
+        <div className="row justify-content-center">
+        <div className="col-lg-8 col-md-8">
+          <header className="section-header">
+            <h2>
+            Curious to Explore more about Dynamics 365 Marketing?
+            </h2>
+            <p>Scroll Down to Find the Best Answers Tailored for You!</p>
+          </header>
+          </div>
+          </div>
+          <div className="row justify-content-center mar-top-7">
+            <div className="col-lg-8">
+              <div className="accordion accordion-flush" id="faqlist1">
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-1"
+                    >Is Dynamics 365 a CRM or ERP application?</button>
+                  </h3>
+                  <div
+                    id="faq-content-1"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                     <p><Link href="/products/microsoft-dynamics-365/"><a>Microsoft Dynamics 365</a></Link> is a suite of cloud-based next-gen business apps that include various CRM, ERP modules and different productivity tools or add-ons.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-2"
+                    >Dynamics 365 marketing includes which three abilities?</button>
+                  </h3>
+                  <div
+                    id="faq-content-2"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body"><p>Dynamics 365 allows you to manage emails and all customer journeys. You can also plan and manage several events and marketing campaigns. Moreover, “Customer Voice” can be used to create surveys, personalize every interaction, capturing the right data in the right place and time within Dynamics 365 Marketing, and produce actionable insights.</p></div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-3"
+                    >Which CRM is the best: Dynamics 365 or Salesforce?</button>
+                  </h3>
+                  <div
+                    id="faq-content-3"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>Compared to other CRMs like Salesforce, and SAP's Sales Cloud, Microsoft Dynamics 365 has an easy-to-use UI (User Interface) and customization when it comes to reporting. While Salesforce and Sales Cloud are fully cloud-based, if you want or need an on-premises deployment, Microsoft Dynamics 365 is your only choice.  </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-4"
+                    >
+                    How much does a CRM automation tool like Dynamics 365 Marketing or Sales cost?  
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-4"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                     <p>Integrating a CRM system like Dynamics 365 Marketing or Dynamics 365 Sales costs between $5,000 and $20,000, depending on whether it is a legacy system or a Web service/cloud service. The budget should be higher if you are integrating legacy systems, and lower if you are integrating Web services.</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

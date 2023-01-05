@@ -145,7 +145,7 @@ section {
 .custom00004 p,
 .fax-accd .accordion-item .accordion-body,
 .fax-accd .accordion-item .accordion-body p,
-.parten-more p,
+parten-more. p,
 .side-heading-custom-02 ul li,
 .why-solution-wrapper-inner p,
 .why-solution-wrapper.why-solution-wrapper-1 .why-solution-wrapper-inner p {
@@ -5248,6 +5248,9 @@ section {
 .parten-more {
   border-radius: 5px;
   background: #fff;
+}
+.parten-more ul li{
+  margin-bottom:10px
 }
 .wr-in .number-st {
   box-shadow: 5px 5px 10px 0 rgb(22 92 196 / 16%);
