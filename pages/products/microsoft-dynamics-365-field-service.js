@@ -1,18 +1,22 @@
 import React, { useState } from "react";
 import Head from 'next/head'
 import ModalVideo from "react-modal-video";
+import Link from "next/link";
+import Image from "next/image";
+
+
 const FieldService = () => {
   const [isOpen, setOpen] = useState(false);
   const [open, setsOpen] = useState(false);
   return (
     <>
       <Head>
-        <title>Microsoft Dynamics 365 Field Service | Dynamics Square</title>
+        <title>Microsoft Dynamics 365 Field Service: AI-Enabled Service Tool</title>
         <meta
           name="description"
-          content="Streamline Your Field Operations and Optimize Your Resources By Leveraging Our Unique Microsoft Dynamics 365 Field service Plans."
+          content="Explore Dynamics 365 for Field Service and Transform your field services to deliver customer-preferred end-to-end field service. Contact support for more info."
         />
-           <meta name="robots" content="noindex,nofollow" />
+           <meta name="robots" content="index,follow" />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.ca/products/microsoft-dynamics-365-field-service/"
@@ -34,9 +38,7 @@ const FieldService = () => {
                 <br />
                 Field Service
               </h1>
-              <p>
-              Connect Your Resources, Automate Your Processes, and Optimize Your Workflow with Dynamics 365 Field Service
-              </p>
+              <p>Enable more connected field services using IoT and mixed-reality solutions, empower frontline employees, optimize scheduling, and deliver personalized customer experiences with <b>Dynamics 365 for field services</b>.</p>
               <div>
                 <div className="text-center text-lg-start">
                   <a
@@ -44,7 +46,7 @@ const FieldService = () => {
                     href="#exampleModal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Schedule a Demo</span>
+                    <span>Get Your Free Demo</span>
                   </a>
                 </div>
               </div>
@@ -61,29 +63,11 @@ const FieldService = () => {
 
       <section>
         <div className="container">
-        <div className="row justify-content-center">
-            <div className="col-lg-12 col-md-12">
-            <header className="section-header">
-            <h2>
-              What is dynamics 365
-              <br />
-              Field Service?
-            </h2>
-            <p>
-            Connect, engage, and serve your customers in real-time with Dynamics 365 Field Service. Ensure resource collaboration, optimize your resources, monitor service operations, and bring transparency in your overall commerce practices to drive continuous and maximized growth.
-            </p>
-          </header>
-            </div>
-          </div>
           <div className="row justify-content-center">
             <div className="col-lg-9 col-md-9">
             <header className="section-header">
-            <h2>
-            Boost Your Field Service Performance With Dynamics 365 Field Service
-            </h2>
-            <p>
-            Accelerate your field service operational flow, enable team collaboration, and improve your customer experience. Maximize your field-service capability by empowering your field service executives with real-time data insights and customer information so that they can make productive decisions in real-time to ensure continuity in their process flow.
-            </p>
+            <h2>What is Dynamics 365 Field Service?</h2>
+            <p><b>Field Service</b> employees strive for better response time, accurate data, effective communication, and less hectic collaboration. <b>Microsoft's Dynamics 365 for field Service</b> does the same by helping you become more proactive than reactive. It uses real-time data insights for highly connected field service experience. As a <Link href="/"><a>Microsoft Dynamics 365 Gold Partner</a></Link>, we help you implement this next-gen field service app to seamlessly:</p>
           </header>
             </div>
           </div>
@@ -108,7 +92,7 @@ const FieldService = () => {
                             alt="icons"
                           />
                         </div>
-                        <span>Real-time Customer Service</span>
+                        <span>Deliver Personalized Experiences</span>
                       </button>
                     </h3>
                     <div
@@ -118,7 +102,7 @@ const FieldService = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                      Diagnose your customer requirements and proactively serve them at their location. With the help of D365 Field Service, your field executives can complete maximum service calls and fix them accordingly.
+                     <p>Engage with your customers, provide post-engagement surveys, and offer self-service scheduling to meet customer expectations with on-time scheduling and technician location information.</p>
                       </div>
                     </div>
                   </div>
@@ -139,7 +123,7 @@ const FieldService = () => {
                             alt="icons"
                           />
                         </div>
-                        <span>Manage Resource Scheduling</span>
+                        <span>Empower Frontline Employees</span>
                       </button>
                     </h3>
                     <div
@@ -149,7 +133,7 @@ const FieldService = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                      Drive customer-centric approach wherein schedule customer-convenient visits. Assign the right task to the right-field technician as well as enable them with real-time updates, schedule changes, and more.
+                      <p>Empower your frontline workers by helping them access the correct information at the right time via intelligent route planning, internet of things (IoT) integration, & real-time remote expert collaboration using mixed reality.</p>
                       </div>
                     </div>
                   </div>
@@ -177,7 +161,7 @@ const FieldService = () => {
                             alt="icons"
                           />
                         </div>
-                        <span>Integration Opportunity</span>
+                        <span>Increase Employee Productivity</span>
                       </button>
                     </h3>
                     <div
@@ -187,7 +171,7 @@ const FieldService = () => {
                       data-bs-parent="#accnews"
                     >
                       <div className="accordion-body">
-                      To satisfy and fulfill your customized business flow, Microsoft Field Service Management Software can be integrated with any Microsoft application to maximize your business capabilities.
+                      <p>Give technicians access to in-context support to quickly resolve problems, build remote collaboration, streamline activities with a mobile-optimized interface, and boost employee productivity.</p>
                       </div>
                     </div>
                   </div>
@@ -208,7 +192,7 @@ const FieldService = () => {
                             alt="icons"
                           />
                         </div>
-                        <span>Real-Time Data Access</span>
+                        <span>Optimize Service Operations</span>
                       </button>
                     </h3>
                     <div
@@ -218,10 +202,31 @@ const FieldService = () => {
                       data-bs-parent="#accnews"
                     >
                       <div className="accordion-body">
-                      Drive a transparent approach wherein facilitate your field persons to access customer issues, schedules, routes, and more. Update your customers with the status of the service calls in real-time.
+                     <p>Inform and dispatch the right technician, smartly manage resource assignments via automated scheduling, and optimize your service delivery capabilities using <b>AI-enabled scheduling recommendations</b>.</p>
                       </div>
                     </div>
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="call-to-action-center hero-4">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-8">
+              <div className="call-to-action-content">
+                <h3>Get Started with Dynamics 365 Field Service Now!</h3>
+                <div className="text-center m-o-t new-btn-nn">
+                  <a
+                    data-bs-toggle="modal"
+                    href="#exampleModal"
+                    className="btn-get-started scrollto"
+                  >
+                    <span>Schedule a Free Demo</span>
+                  </a>
                 </div>
               </div>
             </div>
@@ -234,10 +239,8 @@ const FieldService = () => {
           <div className="row">
             <div className="col-lg-5 m--t align-self-center">
             <div className="wy-sultion-left-head">
-              <h2>Microsoft Dynamics 365 Field Service Features</h2>
-              <h3>
-              How D365 Field Service Helps to Accelerate Your Overall Field Service Flow ?
-              </h3>
+              <h2>Features of Microsoft Dynamics 365 Field Service</h2>
+              <h3>Maximize first-time-fix rates, decrease travel time, and boost your frontline employees' productivity </h3>
               </div>
               <div className="m-o-t m-o-t-b">
                 {/* <a href="#about" className="btn-get-started scrollto">
@@ -256,24 +259,20 @@ const FieldService = () => {
                   <div className="why-solution-wrapper">
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                        Create <br />
-                        Work Orders
+                      Automated <br />
+                      Scheduling
                       </h3>
                       <div className="overlay">
-                        <p>
-                        Seamlessly create work orders at customer locations. Enable your field people to identify their issues and fix diagnosed issues with the help of real-time customer data updates.
-                        </p>
+                        <p>Minimize travel time and maximize utilization while responding to delays, cancellations, and urgent work by using the built-in schedule optimization.</p>
                       </div>
                     </div>
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                        Automate <br />
-                        Resource Scheduling
+                      360-degree <br />
+                      View 
                       </h3>
                       <div className="overlay">
-                        <p>
-                        Effectively manage your resources, automate resource utilization, and ensure customer fulfillment with Microsoft's Field Service Management Solution.
-                        </p>
+                        <p>Enhance customer service with <b>Dynamics 365's</b> combined capabilities in <Link href="/products/dynamics-365-supply-chain-management/"><a>Supply Chain Management</a></Link> and <b>Field Service</b>.</p>
                       </div>
                     </div>
                   </div>
@@ -282,24 +281,20 @@ const FieldService = () => {
                   <div className="why-solution-wrapper">
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                      Drive Connected <br />
-                        Field Service
+                      Resources <br />
+                      Optimization 
                       </h3>
                       <div className="overlay">
-                        <p>
-                        Bring collaboration among your technicians, customers, and stakeholders to ensure serving improved level of customer service and support instantly.
-                        </p>
+                        <p>Help service managers assess chances to improve first-time-fix rates by using the rich insights dashboards.</p>
                       </div>
                     </div>
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                      Real-Time Reporting
-                        <br /> & Analytics
+                      Remote
+                        <br /> Collaboration 
                       </h3>
                       <div className="overlay">
-                        <p>
-                        Leverage AI-based insights and customer analytics in real-time to ensure accessing & managing work orders, scheduling customer visits, and ensuring reliable customer engagement.
-                        </p>
+                        <p>With <b>Dynamics 365 Remote Assist</b>, you can conduct remote inspections and real-time consultations with professionals to find solutions to issues more quickly.</p>
                       </div>
                     </div>
                   </div>
@@ -345,11 +340,8 @@ const FieldService = () => {
             </div>
             <div className="col-lg-6 align-self-center">
               <div className="side-heading">
-                <h2>Dynamics 365 Field Service</h2>
-                <p>
-                  Drive connected and seamless field experience to impact
-                  overall growth rate and scalability.
-                </p>
+                <h2>Dynamics 365 Field Service Support and Services</h2>
+                <p><b>Dynamics Square</b> delivers unique implementation support and services that exceed your expectations. </p>
               </div>
               <div className="busine_service_bottom-right">
                 <div className="card_new_img">
@@ -360,9 +352,7 @@ const FieldService = () => {
                 </div>
                 <div className="card_new_content">
                   <h3>Implementation</h3>
-                  <p>
-                  Strengthen your field service executives and their capabilities by implementing Dynamics 365 Field Service.
-                  </p>
+                  <p>Get more done with less with our in-demand Dynamics 365 Field Service implementation and reduce service calls.</p>
                   <div className="action-content">
                     <a data-bs-toggle="modal" href="#exampleModal">
                       Get Started
@@ -379,9 +369,7 @@ const FieldService = () => {
                 </div>
                 <div className="card_new_content">
                   <h3>Upgrade</h3>
-                  <p>
-                  Bring continuity in your Field Service practices and drive effective growth with high-end <a href="/our-services/dynamics-365-support-services">support services</a> .
-                  </p>
+                  <p>We offer unique Dynamics 365 upgrade and customization services that help you achieve continuous growth and drive business continuity.</p>
                   <div className="action-content">
                     <a data-bs-toggle="modal" href="#exampleModal">
                       Get Started
@@ -398,9 +386,7 @@ const FieldService = () => {
                 </div>
                 <div className="card_new_content">
                   <h3>Support</h3>
-                  <p>
-                  Boost your process flow and start driving scalable results with Dynamics 365 Field Service upgrade.
-                  </p>
+                  <p>Our connected field service support solutions help you turn your field service into a profit center and accelerate your business quickly.</p>
                   <div className="action-content">
                     <a data-bs-toggle="modal" href="#exampleModal">
                       Get Started
@@ -414,14 +400,14 @@ const FieldService = () => {
       </section>
       <section id="pricing" className="pricing">
         <div className="container">
-          <header className="section-header">
+          <div className="row justify-content-center">
+            <div className="col-lg-8">
+            <header className="section-header">
             <h2>Dynamics 365 Field Service Pricing</h2>
-            <p>
-              Automate your financial operations, improve decision making, bring
-              strategic impact on your finance, and minimize global financial
-              complexities & risks with dynamics 365 finance.{" "}
-            </p>
+            <p>Provide superior field services and deliver top-notch customer experience with an affordable Dynamics 365 Field Service pricing model.</p>
           </header>
+            </div>
+          </div>
           <div className="row gy-4 p-9 justify-content-center">
             <div className="col-lg-6 col-md-6">
               <div className="box box-22">
@@ -429,11 +415,11 @@ const FieldService = () => {
                 Dynamics 365 Field Service
                 </h3>
                 <div className="price">
-                  <sup>$</sup>95<span>Per-User/Month</span>
+                $95<span>Per-User/Month</span>
                 </div>
                 <ul>
                   <li className="text-center">
-                  Resolve service issues the first time, every time.
+                  Get the job done right the first time.
                   </li>
                 </ul>
               </div>
@@ -459,11 +445,8 @@ const FieldService = () => {
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <div className="call-to-action-content">
-                <h3>Maximize your business potentials</h3>
-                <p>
-                  Drive new business challenges by implementing Dynamics 365
-                  Field Service
-                </p>
+                <h3>Maximize your business potentialsGet Started with Dynamics 365 Field Service</h3>
+                <p>Dispatch the right solution to the right place at the right time.</p>
                 <div className="text-center m-o-t new-btn-nn">
                   <a
                     data-bs-toggle="modal"
@@ -479,100 +462,16 @@ const FieldService = () => {
         </div>
       </section>
 
-      <section className="blogs-extra">
-        <div className="container">
-        <header className="section-header">
-            <h2>Explore Our Recent Blogs & Resources</h2>
-            <p>Whether you are a start-up, an SMB, or an enterprise, the Dynamics Square blog is the best place to get inspired and learn more about Microsoft Business Applications.</p>
-          </header>
-          <div className="row top-2 gx-5 justify-content-center">
-            {/* <Blog /> */}
-            <div className="col-lg-6">
-              <div className="blogs-extra-title">
-                <h3>Documents</h3>
-              </div>
-              <div className="blogs-extra-right">
-                <ul>
-                  <li>
-                    <a
-                      target="_blank"
-                      href="/pdf/Remote-Service-Modernise-Your-Operations-with-Mixed-Reality.pdf"
-                    >
-                      <i className="bi bi-file-earmark-pdf"></i>Remote Service
-                      Modernise Your Operations with Mixed Reality
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      target="_blank"
-                      href="/pdf/Transform-your-field-service-with-IoT-AI-and-mixed-reality.pdf"
-                    >
-                      <i className="bi bi-file-earmark-pdf"></i>Transform Your
-                      Field Service With IoT, AI, and Mixed Reality
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      target="_blank"
-                      href="/pdf/Five-ways-to-know-if-connected-field-service-is-right-for-your-business.pdf"
-                    >
-                      <i className="bi bi-file-earmark-pdf"></i>Connected Field
-                      Service is Right for Your Business?
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      target="_blank"
-                      href="/pdf/5-innovative-ways-industry-leaders-modernize-their-field-service.pdf"
-                    >
-                      <i className="bi bi-file-earmark-pdf"></i>Innovative Ways
-                      Industry Leaders Modernize Their Field Service
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      target="_blank"
-                      href="/pdf/5-case-studies-from-manufacturing.pdf"
-                    >
-                      <i className="bi bi-file-earmark-pdf"></i>5 Case Studies
-                      From Manufacturing
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      target="_blank"
-                      href="/pdf/Dynamics_365_Enterprise_edition_Licensing_Guide-1-1.pdf"
-                    >
-                      <i className="bi bi-file-earmark-pdf"></i>Licensing Guide
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              {/* <div className="blogs-extra-title">
-                        <h4>Learn More</h4>
-                     </div>
-                     <div className="blogs-extra-right">
-                        <ul>
-                           <li><a href="#"><i className="bi bi-box-arrow-up-right"></i> Dynamics 365 Finance: Collections automation</a></li>
-                           <li><a href="#"><i className="bi bi-box-arrow-up-right"></i> Dynamics 365 Finance: Vendor invoice automation</a></li>
-                           <li><a href="#"><i className="bi bi-box-arrow-up-right"></i> Why to Upgrade Dynamics NAV to Business Central</a></li>
-                           <li><a href="#"><i className="bi bi-box-arrow-up-right"></i> Dynamics 365 Finance: Asset leasing</a></li>
-                        </ul>
-                     </div> */}
-            </div>
-          </div>
-        </div>
-      </section>
       <section className="solution-faq faq">
         <div className="container">
-          <header className="section-header">
-            <h2>
-              Have you got
-              <br />
-              questions about Field Service?
-            </h2>
-            <p>Click through to our FAQ for the best answers!</p>
+          <div className="row justify-content-center">
+            <div className="col-lg-8">
+            <header className="section-header">
+            <h2>Have You Got Questions About  Dynamics 365 Field Service?</h2>
+            <p>Scroll down through tailored FAQs for you!</p>
           </header>
+            </div>
+          </div>
           <div className="row justify-content-center mar-top-7">
             <div className="col-lg-8">
               <div className="accordion accordion-flush" id="faqlist1">
@@ -584,7 +483,7 @@ const FieldService = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-1"
                     >
-                      What are the standard features of Microsoft Field Service?
+                      What is included in all Dynamics 365 applications? 
                     </button>
                   </h3>
                   <div
@@ -593,52 +492,8 @@ const FieldService = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      Microsoft Dynamics 365 Field Service is designed to manage
-                      your end-to-end field service practices while saving time,
-                      cost, and efforts. It helps to improve and deliver onsite
-                      services to your customers to their locations. It empowers
-                      your field executives to work collaboratively leveraging
-                      onsite experience to fix customer issues in a seamless
-                      manner.
-                      <br />
-                      <br />
-                      <b>
-                        Here are the features involved in Microsoft Field
-                        Service:
-                      </b>
-                      <br />
-                      <ul>
-                        <li>
-                          Create and manage work orders seamlessly at customers’
-                          locations. By making effective use of scheduling and
-                          dispatch tools, manage your resources and equipment to
-                          improve your customer service, and optimize service
-                          schedules.
-                        </li>
-                        <li>
-                          Enhance communication and improve collaboration among
-                          customer service agents, field technicians,
-                          dispatchers, customers, and other stakeholders. Manage
-                          schedule change and service work in real-time.
-                        </li>
-                        <li>
-                          Manage your assets and enable preventive maintenance,
-                          stay updated with customer history and service status.
-                          Connect and engage them to deliver seamless field
-                          service with real-time efficiency.
-                        </li>
-                        <li>
-                          Seamlessly manage your stock levels, purchase order
-                          fulfillment, and product returns. Generate customer
-                          invoices, track resources, and more with Microsoft 365
-                          Field Service Automation.
-                        </li>
-                        <li>
-                          Develop key analytics and reports related to work
-                          order management, customer interactions & engagement,
-                          and other scheduling activities.
-                        </li>
-                      </ul>
+                     <p>Dynamics 365 suite of business apps is a pack of <Link href="/products/microsoft-dynamics-erp/"><a>powerful ERP (Enterprise Resource Planning)</a></Link>, <Link href="/products/microsoft-dynamics-crm/"><a>CRM (Customer Relationship Management)</a></Link>, and data visualization tools like <Link href="/products/microsoft-power-bi/"><a>Power BI (Business Intelligence)</a></Link>.</p>
+                     <p>Like SAP (System Analysis Program), Microsoft has been investing in advanced technologies like AI/ML, IoT, AR/VR, MR (Mixed Reality), and other intelligent technologies. The goal is to provide users with robust data security, 99% or above uptime SLAs (Service level agreements), and all-time phone/web support. You can <Link href="/contact-us/"><a>contact Dynamics Square for a free demo</a></Link> or discuss your requirements with our Microsoft consultants.</p>
                     </div>
                   </div>
                 </div>
@@ -649,9 +504,7 @@ const FieldService = () => {
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-2"
-                    >
-                      Is Dynamics 365 Field Service available on-premise?
-                    </button>
+                    >What is the procedure to install Dynamics 365 Field Service?</button>
                   </h3>
                   <div
                     id="faq-content-2"
@@ -659,16 +512,16 @@ const FieldService = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      Yes, Dynamics 365 Field Service is available for
-                      on-premises installations. Users can enjoy both the cloud
-                      and on-premises installations according to their specific
-                      data-driven needs and data-privacy concerns.
-                      <br />
-                      <br />
-                      To configure Microsoft Dynamics 365 Field Service
-                      automation for your field workforce, contact Dynamics
-                      Square. Our experts can help in implementing Dynamics 365
-                      Field Service for your on-premises systems.
+                     <p>Installing Dynamics 365 Field Service is like putting peanut butter on a piece of your favorite bread or, say installing peanut butter on your favorite bread. You can install Dynamics 365 apps for desktop, mobile, or even your new-gen tab devices. The installation will take about 30 minutes.</p>
+                     <p>Here is the sequence of steps to quickly install Dynamics 365 Field Service:</p>
+                     <p><b>Step-1</b> Google/Bing Dynamics 365</p>
+                     <p><b>Step-2</b> Go to your Microsoft 365 'Admin Center '</p>
+                     <p><b>Step-3</b> Select 'Billing'</p>
+                     <p><b>Step-4</b> Click on 'Purchase Services'</p>
+                     <p><b>Step-5</b> Select 'Dynamics 365 Field Service'</p>
+                     <p><b>Step-6</b> Click on 'buy your plan'</p>
+                     <p>When your installation process is completed, all apps will appear on your screen - 'Field Service' and 'Field Service Mobile.' You will be prompted for further instructions via your registered email. In case you find yourself in doubt, let Dynamics Square consultants know. <Link href="/contact-us/"><a>Click here</a></Link> to contact us.</p>
+                     <p>Finally, begin configuring/setting up your apps for your frontline employees, and enable and help them to create schedules, access, and complete work requests proactively when they are in the field.</p>
                     </div>
                   </div>
                 </div>
@@ -680,7 +533,7 @@ const FieldService = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-3"
                     >
-                      How do I install field services in Dynamics 365?
+                     Is Dynamics 365 Field Service available on-premises?
                     </button>
                   </h3>
                   <div
@@ -689,25 +542,8 @@ const FieldService = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      Dynamics 365 Field Service can be installed whether for
-                      desktop browser, mobile, or tab devices. The installation
-                      process can take up to 30 minutes.
-                      <br />
-                      <br />
-                      All you need to go through your Microsoft 365 ‘Admin
-                      Center’ then, select ‘Billing’, then click on ‘Purchase
-                      Services’, and then Select Dynamics 365 Field Service to
-                      buy your plan.
-                      <br />
-                      <br />
-                      Once, your installation process gets completed, you will
-                      see your apps will appear on your screen – ‘Field Service’
-                      and ‘Field Service Mobile’.
-                      <br />
-                      <br />
-                      now, configure and set up your app for your frontline
-                      workers so as they can create, schedule, access, and
-                      complete work orders when they are in the field.
+                     <p>Yes! Microsoft offers Dynamics 365 Field Service for on-premises installations too. Not on on-premises, you can use cloud services for your specific data-driven needs like data-security concerns, or exchange reports at speed.</p>
+                     <p>Contact Dynamics Square to help you configure Microsoft Dynamics 365 Field Service to automate your field service processes. Our Dynamics 365 Consultants can successfully implement Dynamics 365 Field Service at your existing on-premises systems or guide you if it is required to upgrade your hardware as well.</p>
                     </div>
                   </div>
                 </div>
@@ -719,8 +555,7 @@ const FieldService = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-4"
                     >
-                      How Field Service mobile app is beneficial for
-                      enterprises?
+                     What features of Microsoft Dynamics 365 Field Service are crucial to activate? 
                     </button>
                   </h3>
                   <div
@@ -729,24 +564,11 @@ const FieldService = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      Microsoft Field Service Management solution is designed to
-                      ensure smart scheduling and resource management using
-                      mobile devices while being in the field. Field Service
-                      mobile app empowers field executives or technicians to
-                      seamlessly access the information they need at customer
-                      location so as they can effortlessly and quickly complete
-                      the work orders.
-                      <br />
-                      <br />
-                      D365 Field Service helps your workforce to effectively
-                      communicate and collaborate with other co-workers and
-                      connect, engage, and serve improved experiences to the
-                      customers. Users can leverage this app to ensure work
-                      smarter from work order fulfilment to resource scheduling,
-                      seamless communication & collaboration to asset
-                      management, preventive maintenance to inventory
-                      management, and effortless billing to accurate analytics &
-                      reporting.
+                      <p>Microsoft Dynamics 365 Field Service is a cloud solution to manage all your end-to-end field services, saving you and your frontline employees time, cost, and effort. Implementing Dynamics 365 Field Service is like empowering your field executives to work collaboratively while leveraging onsite experience to help customers resolve issues timely.</p>
+                      <p>Here are the crucial features of Dynamics 365 Field Service:</p>
+                      <p><b>Dispatching the right help</b>: Create and manage work orders seamlessly at customers' locations and dispatch the right tools and technologies at the right time.</p>
+                      <p><b>Improving real-time Collaboration:</b> Enhanced ways of establishing communication are the key to improved collaboration among customer service agents, field technicians, dispatchers, customers, and everyone involved. Infused with the latest technology, Dynamics 365 Field Service helps you manage, schedule, and change field service-related tasks in real-time while fostering strong collaboration among different teams.</p>
+                      <p><b>Stock Level Management:</b> Dynamics 365 Field Service is designed and developed to help you manage your stock levels, purchase order fulfillment, task history, product returns, and more. You can also automate generating customer invoices and tracking resources in real-time using embedded IoT solutions.</p>
                     </div>
                   </div>
                 </div>
@@ -757,10 +579,7 @@ const FieldService = () => {
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-5"
-                    >
-                      Can the Field Service Mobile app can be used even when not
-                      connected to the internet?
-                    </button>
+                    >How can Dynamics 365 Field Service mobile app be a gamechanger for SMBs (Small and Midsize Business) and large enterprises?</button>
                   </h3>
                   <div
                     id="faq-content-5"
@@ -768,13 +587,14 @@ const FieldService = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      Yes, users can use the Field Service app whether online or
-                      offline as this app gets synchronized automatically
-                      whenever the new things or data gets updated or uploaded.
-                      Thus, if you are lacking with internet connection at any
-                      place, you can simply tap the offline option. While
-                      working offline, the information you use gets downloaded
-                      to your device only.
+                     <p>Today, most of the stuff you need is available at your fingertips using a mobile app. A mobile app in ways empowers people by allowing them to be more productive by reducing time and effort. Microsoft Field Service mobile app is a great tool to let your team ensure smart scheduling resource optimization by accessing data and insights using mobile devices like Smartphones, Tablets, and other personal internet-accessible devices.</p>
+                     <p>Here are the primary capabilities of the Dynamics 365 Field Service mobile app:</p>
+                     <ul>
+                      <li>Help you foster effective communication and collaboration among employees and customers.</li>
+                      <li>Provides highly connected experiences to better engage and deliver improved customer experiences.</li>
+                      <li>Assists you in working smarter, from requirement fulfillment to resource scheduling and optimization.</li>
+                      <li>You can seamlessly manage the history of your assets, preventive maintenance, inventory, billing, and invoices, along with performing accurate analytics & reporting.</li>
+                     </ul>
                     </div>
                   </div>
                 </div>
@@ -785,10 +605,7 @@ const FieldService = () => {
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-6"
-                    >
-                      How much does it cost to implement a Dynamics 365 Field
-                      Service module?
-                    </button>
+                    >What is new in Dynamics 365 Feild Service?</button>
                   </h3>
                   <div
                     id="faq-content-6"
@@ -796,14 +613,12 @@ const FieldService = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      Users can buy the Field Service app at £71.60 per user/per
-                      month applicable for First Dynamics 365 app. Further,
-                      ‘Subsequent Qualifying Dynamics 365 App’, users are
-                      required to pay £15.10 per user/per month.
-                      <br />
-                      <br /> To avail of more information for Microsoft Field
-                      Service Management licensing, connect with the experts at
-                      Dynamics Square.
+                     <p>You can deliver exceptionally unique customer experiences with new features in Dynamics 365 Field Service:</p>
+                     <p><b>Moving to a more proactive field service:</b> Modernizing field service with more connected built-in tools designed and developed to drive customer satisfaction and frontline employee productivity to new heights.</p>
+                     <p><b>Deliver customer-oriented experiences:</b> Allow customers to easily schedule service, monitor their progress requests, and accelerate problem resolution.</p>
+                     <p><b>Shifting from preventive to predictive maintenance:</b> Transform your services by delivering proactive solutions with IoT tools that are designed for proactive, outcome-based solutions.</p>
+                     <p><b>Built-in intelligence to optimize resources:</b> Optimize your resource scheduling with built-in intelligence to enhance customer satisfaction and streamline all field service operations.</p>
+                     <p><b>Automate the assigning of the right technician to the right request:</b> Reduce downtime and optimize service quality using connective intelligence to align work requests, resources, and customer preferences.</p>
                     </div>
                   </div>
                 </div>
@@ -814,10 +629,7 @@ const FieldService = () => {
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-7"
-                    >
-                      What sort of key capabilities can be availed of after
-                      implementing Dynamics 365 Field Service?
-                    </button>
+                    >What is the Dynamics 365 Field Service implementation cost?</button>
                   </h3>
                   <div
                     id="faq-content-7"
@@ -825,23 +637,10 @@ const FieldService = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      D365 Field Service offers a multitude of key capabilities
-                      to improve, automate, and streamline your field service
-                      operations:
-                      <br />
-                      <br />
-                      <ul>
-                        <li>Work Orders</li>
-                        <li>Scheduling &amp; Dispatch Tools</li>
-                        <li>Communication Tools</li>
-                        <li>Easy-to-use Mobile Application</li>
-                        <li>Asset Management</li>
-                        <li>Preventive Maintenance</li>
-                        <li>Inventory, Purchasing, &amp; Return</li>
-                        <li>Billing Management</li>
-                        <li>Time Tracking</li>
-                        <li>Analytics &amp; Reporting</li>
-                      </ul>
+                     <p>There is no straight answer to describe the Dynamics 365 Field Service implementation cost since it involves varied factors influencing the cost and methods of reducing costs.</p>
+                     <p>Field Service is a cloud-based AI-powered field service productivity module under the Dynamics 365 suite of business apps.</p>
+                     <p>Here is its pricing to resolve service issues the first time, every time: $ 95 per user/month</p>
+                     <p>CTA: <b>Implement Now!</b></p>
                     </div>
                   </div>
                 </div>
