@@ -1,17 +1,18 @@
 import React, { useState } from "react";
 import Head from 'next/head'
 import ModalVideo from "react-modal-video";
+import Link from "next/link";
 const HumanResource = () => {
   const [isOpen, setOpen] = useState(false);
   const [open, setsOpen] = useState(false);
   return (
     <>
       <Head>
-        <title>Dynamics 365 Human Resources - Optimize HR Programs</title>
+        <title>Dynamics 365 Human Resources: A Self-Service HR Tool</title>
         <meta
           name="description"
-          content="Dynamics 365 Human Resources: helps to hire the right talent, onboard the right resources, and retain the dedicated people in your organization to impact your organizational growth and scalability." />
-          <meta name="robots" content="noindex,nofollow" />
+          content="Hire the right talent to solve tomorrow's challenges today with Dynamics 365 Human Resources. Contact the Dynamics Square team for implementation help." />
+          <meta name="robots" content="index,follow" />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.ca/products/dynamics-365-human-resources/"
@@ -33,9 +34,7 @@ const HumanResource = () => {
                 Dynamics 365
                 Human Resources
               </h1>
-              <p>
-              Maximize Your Resource Utilization To Improve Efficiency With Dynamics 365 Human Resource
-              </p>
+              <p>Increase employee engagement with best practices, smart strategies, and creative tactics and successfully adapt recognition programs in uncertain times using Microsoft Dynamics 365 Human Resource. </p>
               <div>
                 <div className="text-center text-lg-start">
                   <a
@@ -43,7 +42,7 @@ const HumanResource = () => {
                     href="#exampleModal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Request a Callback</span>
+                    <span>Get a Demo</span>
                   </a>
                 </div>
               </div>
@@ -58,10 +57,11 @@ const HumanResource = () => {
       <section>
         <div className="container">
         <div className="row justify-content-center"> 
-        <div className="col-lg-8 col-md-8"> 
+        <div className="col-lg-9 col-md-9"> 
         <header className="section-header"> 
-        <h2> What is Dynamics 365 Human Resources?</h2> 
-<p>Microsoft Dynamics 365 Human Resource is referred to as the high-end solution that helps to improve your workforce capability so that they can onboard the right people with the right skill set, retain their existing talent, and can provide a better workplace wherein everyone can ensure their dedicated and productive efforts. Microsoft's Human Resource solution (Formerly known as Microsoft Dynamics 365 Talent) is a modernized way to manage and drive human resourcing practices seamlessly and effectively.</p> 
+        <h2>What Is Dynamics 365 Human Resources?</h2> 
+        <p>Microsoft Dynamics 365 Human Resources (formerly Microsoft Dynamics 365 Talent) is cloud-based human resources management (HRM) software. This app provides a set of tools on its modern dashboard to help HR teams transform the employee experience and support the company's long-term business goals and outcomes.</p>
+        <p><b>Implement Microsoft Dynamics 365 Human Resource</b> to increase organizational agility and optimize your HR programs to create an environment in which your employees and business can thrive.</p>
        </header> 
       </div>
       </div>
@@ -85,7 +85,7 @@ const HumanResource = () => {
                             alt="icons"
                           />
                         </div>
-                        <span>High-End Flexibility</span>
+                        <span>Reimagine Employee Experiences</span>
                       </button>
                     </h3>
                     <div
@@ -95,7 +95,7 @@ const HumanResource = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                      Dynamics 365 Human Resource is a highly flexible HRM solution that helps to manage your end-to-end practices. Further, it can be integrated seamlessly whether with your existing system or Microsoft applications.
+                     <p>Engage and help grow your employees with connected self-service experiences.</p>
                       </div>
                     </div>
                   </div>
@@ -116,7 +116,7 @@ const HumanResource = () => {
                             alt="icons"
                           />
                         </div>
-                        <span>Connected HRM</span>
+                        <span>Enhance HR Programs</span>
                       </button>
                     </h3>
                     <div
@@ -126,7 +126,7 @@ const HumanResource = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                      Enable connected human resourcing and recruitment practices to drive a transparent and parallel approach across your HRM practices from onboarding to compensation management, leaves & compliances management, payroll & employee performance management to training, and more.
+                     <p>Streamline leave and absence, time, benefit, and compensation management programs to reduce operational costs.</p>
                       </div>
                     </div>
                   </div>
@@ -154,7 +154,7 @@ const HumanResource = () => {
                             alt="icons"
                           />
                         </div>
-                        <span>Actionable Insights</span>
+                        <span>Accelerate Organizational Agility</span>
                       </button>
                     </h3>
                     <div
@@ -164,7 +164,40 @@ const HumanResource = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                      With AI-insights and depth analytics, strengthen your HR persons to make proactive decisions in terms of monitoring workforce performance to support appraisal process, manage regulatory compliances, and more to maximize employee productivity as well as to support the overall organizational growth at scale.
+                     <p>Integrate Dynamics 365 Human Resources with Dataverse to enable HR to run with the flexibility and agility that the business requires.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr className="mob-disp" />
+                <div className="accordion" id="accnew">
+                  <div className="accordion-item">
+                    <h3 className="accordion-header" id="headingTwo">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fin4"
+                        aria-expanded="false"
+                        aria-controls="fin4"
+                      >
+                        <div className="wr-in">
+                          <img
+                            src="/img/icons-_Highly-Flexible-Solution.svg"
+                            alt="icons"
+                          />
+                        </div>
+                        <span>Incorporate Workforce Insights</span>
+                      </button>
+                    </h3>
+                    <div
+                      id="fin4"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accnew"
+                    >
+                      <div className="accordion-body">
+                     <p>Access rich dashboards on any device that allow you to analyze and visualize people's data for data-driven decisions.</p>
                       </div>
                     </div>
                   </div>
@@ -180,11 +213,8 @@ const HumanResource = () => {
           <div className="row">
             <div className="col-lg-5 align-self-center">
             <div className="wy-sultion-left-head">
-              
             <h2>Microsoft Dynamics 365 Human Resources Features</h2>
-              <h3>
-              Optimize your workforce, maximize resource utilization, and drive an agile approach across your organization.</h3>
-              <p>By <a href="/products/dynamics-365-human-resources/">implementing Dynamics 365 Human Resources</a>, enterprises can engage & onboard the right talent and can build a productive workspace by effectively utilizing AI insights.</p>
+              <h3>See how Microsoft Dynamics 365 HR can help Elevate Your Financial Capabilities.</h3>
             </div>
               
             </div>
@@ -194,24 +224,20 @@ const HumanResource = () => {
                   <div className="why-solution-wrapper">
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                        Improve Employee <br /> Experience
+                      Build Business <br /> Competencies
                       </h3>
                       <div className="overlay">
-                        <p>
-                        Strengthen your HRM by providing the right set of tools to support day-to-day HR practices. With D365 HRM solution, streamline your employee data, drive employee engagement and allow your workforce with self-servicing to boost employees' overall workspace experience.
-                        </p>
+                        <p>Leverage networks, data judgment, business acumen, and leadership for thoughtful, helpful suggestions. Let your employees show off what they know and can do.</p>
                       </div>
                     </div>
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                        Smoothen HR
+                      Considerate 
                         <br />
-                        Practices
+                        Your Employees 
                       </h3>
                       <div className="overlay">
-                        <p>
-                        With the help of AI, enterprises can boost their employees' productivity, implement required changes, and adapt the required process flow for smoother HR practices. 
-                        </p>
+                        <p>It is easier to achieve better results and to be more productive when you know your employees well. Dynamics 365 Human Resources provides you with the ability to understand employees & managers well, making organizations a better place to work.</p>
                       </div>
                     </div>
                   </div>
@@ -220,25 +246,22 @@ const HumanResource = () => {
                   <div className="why-solution-wrapper">
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                        Boost
+                      Adopt Modern
                         <br />
-                        Agility
+                        Analytics 
                       </h3>
                       <div className="overlay">
-                        <p>
-                        <a href="/products/dynamics-365-human-resources/">D365 Human Resource</a>{" "} is designed and offered with the flexibility to be integrated with any partner solutions to introduce or maximize agility in your organization, automate your HR data, streamline your end-to-end HRM practices while ensuring data security and compliance.
-                        </p>
+                        <p>Making business strategy decisions in the digital age relies heavily on data. Measure profitability, margin, ROI, and TSR, as well as turnover, employee attitudes, bench strength, & performance to keep the business running smoothly.</p>
                       </div>
                     </div>
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                        Gain Workforce
+                      Assess Business
                         <br />
-                        Insights
+                        Readiness 
                       </h3>
                       <div className="overlay">
-                        <p>
-                        Enterprises can centralize their HRM data, monitor employees' activities, and can improve their overall workplace experience with the help of real-time AI insights, key reporting capabilities, and more.</p>
+                        <p>Identify whether you have the manpower, resources, and support to implement different strategies. Provide your HR professionals with regular opportunities to bridge HR with the broader business strategy and goals.</p>
                       </div>
                     </div>
                   </div>
@@ -280,10 +303,8 @@ const HumanResource = () => {
             </div>
             <div className="col-lg-6 align-self-center">
               <div className="side-heading">
-                <h2>Dynamics 365 Human Resources Services</h2>
-                <p>
-                Manage your workforce, maximize resource utilization, bring organizational agility, engage and onboard the right talent, leverage valuable AI insights to craft a better workspace with Dynamics 365 Human Resources.
-                </p>
+                <h2>Dynamics 365 HR Services</h2>
+                <p>Take your resourcing capabilities to the next level</p>
               </div>
               <div className="busine_service_bottom-right">
                 <div className="card_new_img">
@@ -294,12 +315,10 @@ const HumanResource = () => {
                 </div>
                 <div className="card_new_content">
                   <h3>Implementation</h3>
-                  <p>
-                  Improve and accelerate your human resource processes by implementing Dynamics 365 Human Resources.
-                  </p>
+                  <p>Integrate Dynamics 365 Human Resources to accelerate and improve your human resource processes.</p>
                   <div className="action-content">
                     <a data-bs-toggle="modal" href="#exampleModal">
-                      Get Implemented
+                    Get Started 
                     </a>
                   </div>
                 </div>
@@ -313,12 +332,10 @@ const HumanResource = () => {
                 </div>
                 <div className="card_new_content">
                   <h3>Upgrade</h3>
-                  <p>
-                  Configure your system with advanced human resource capabilities to upgrade your resource optimization.
-                  </p>
+                  <p>Set up your HR System with advanced human resources capabilities to optimize your human resources.</p>
                   <div className="action-content">
                     <a data-bs-toggle="modal" href="#exampleModal">
-                      Get Upgrade Solutions
+                    Get Started 
                     </a>
                   </div>
                 </div>
@@ -332,12 +349,10 @@ const HumanResource = () => {
                 </div>
                 <div className="card_new_content">
                   <h3>Support</h3>
-                  <p>
-                  Keep optimizing your resources and drive a smoother flow in your organization with our Dynamics 365 support services.
-                  </p>
+                  <p>We can help you optimize your Dynamics 365 resources and ensure smoother operations in your organization.</p>
                   <div className="action-content">
                     <a data-bs-toggle="modal" href="#exampleModal">
-                      Get Support Now
+                    Get Started 
                     </a>
                   </div>
                 </div>
@@ -352,14 +367,11 @@ const HumanResource = () => {
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <div className="call-to-action-content">
-                <h3>Maximize Your Business Potential</h3>
-                <p>
-                  Drive new business challenges by implementing Dynamics 365
-                  Human Resources
-                </p>
+                <h3>Align Your HR Activities To The Organization's Goals & Create HR Magic!</h3>
+                <p>Scale company culture, employee engagement, and recognition in the digital world with Dynamics 365 Human Resources</p>
                 <div className="text-center m-o-t new-btn-nn">
                   <a href="#about" className="btn-get-started scrollto">
-                    <span>Get Started Now</span>
+                    <span>Get Started Today</span>
                   </a>
                 </div>
               </div>
@@ -370,7 +382,8 @@ const HumanResource = () => {
       <section id="pricing" className="pricing">
         <div className="container">
           <header className="section-header">
-            <h2>Dynamics 365 Human Resources pricing</h2>
+            <h2>Dynamics 365 Human Resources Pricing</h2>
+            <p>Explore the Dynamic pricing slabs for Dynamics 365 HR</p>
           </header>
           <div className="row gy-4 p-9 justify-content-center">
             <div className="col-lg-6 col-md-6">
@@ -379,7 +392,7 @@ const HumanResource = () => {
                 Dynamics 365 Human Resources
                 </h3>
                 <div className="price">
-                  <sup>$</sup>120<span>Per-User/Per Month</span>
+                  $120<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li className="text-center">
@@ -394,7 +407,7 @@ const HumanResource = () => {
                 Dynamics 365 Human Resources Self-Service
                 </h3>
                 <div className="price">
-                  <sup>$</sup>4<span>Per-User/Per Month</span>
+                  $4<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li className="text-center">

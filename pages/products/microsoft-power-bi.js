@@ -63,8 +63,8 @@ const PowerBI = () => {
               <h2>What Is Microsoft Power Bi?</h2>
               <p>Microsoft Power BI is an award-winning business intelligence tool that helps your business to transform scattered and complex data into interactive reports, and data-driven insights so that you can make smarter decisions.</p>
               <p>The tech giant Microsoft invented Power BI to assist enterprises to break data silos and unlock insights for powerful decision-making, key metrics, and forecasting.</p>
-              <p>You can connect Power BI and Azure Data Services to exchange data, generate visual representation, and unlock new insights for timely and productive decision-making. With Power BI's help, your business analysts can smoothly enable dataflows and share data with data engineers and data scientists for advanced analytics and AI.</p>
-              <p>Further, Power BI allows extensive integration with Azure Data Services, including Azure Data-bricks, Azure Machine Learning, Azure SQL Data Warehouse, and Azure Data Factory for instant reports creation and visualize them using its dynamic dashboards.</p>
+              <p>You can connect Power BI and <Link href="/products/microsoft-azure/"><a>Azure Data Services</a></Link> to exchange data, generate visual representation, and unlock new insights for timely and productive decision-making. With Power BI's help, your business analysts can smoothly enable dataflows and share data with data engineers and data scientists for advanced analytics and AI.</p>
+              <p>Further, Power BI allows extensive integration with Azure Data Services, including Azure Data-bricks, <Link href="/products/azure-machine-learning/"><a>Azure Machine Learning</a></Link> Azure SQL Data Warehouse, and Azure Data Factory for instant reports creation and visualize them using its dynamic dashboards.</p>
             </header>
             </div>
             </div>
@@ -198,7 +198,7 @@ const PowerBI = () => {
                         Customizable
                       </h3>
                       <div className="overlay">
-                        <p>Power BI offers flexible configuration and customization options that can be tailored to your unique business context. It can be seamlessly incorporated into your current system or other Microsoft business apps.</p>
+                        <p>Power BI offers flexible configuration and customization options that can be tailored to your unique business context. It can be seamlessly incorporated into your current system or other <Link href="/products/microsoft-dynamics-365/"><a>Microsoft business apps</a></Link>.</p>
                       </div>
                     </div>
                     <div className="why-solution-wrapper-inner">
@@ -262,7 +262,7 @@ const PowerBI = () => {
                   </h3>
                 </div>
                 <div className="commen-boc-3-info">
-                  <p>Making Dynamics Square your Power BI implementation partner will enable you to effectively take advantage of Power BI capabilities to integrate your business intelligence experience with your ERP system and help your company have a significant impact.</p>
+                  <p>Making Dynamics Square your Power BI implementation partner will enable you to effectively take advantage of Power BI capabilities to integrate your business intelligence experience with your <Link href="/products/microsoft-dynamics-erp/"><a>ERP system</a></Link> and help your company have a significant impact.</p>
                 </div>
               </div>
             </div>
@@ -330,6 +330,27 @@ const PowerBI = () => {
           </div>
         </div>
       </section>
+      <section className="call-to-action-center hero-4">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-8">
+              <div className="call-to-action-content">
+                <h3>Want to explore more about Power BI?</h3>
+                <p>You can make informed decisions using our comprehensive <Link href="/guides/power-bi-guide-for-smb/"><a>Power BI Guide</a></Link>.</p>
+                <div className="text-center m-o-t new-btn-nn">
+                  <a
+                    href="/guides/power-bi-guide-for-smb/"
+                    className="btn-get-started scrollto"
+                  >
+                    <span>Read a PDF</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="busine_service_bottom">
         <div className="container">
           <div className="row">
@@ -406,7 +427,7 @@ const PowerBI = () => {
           </div>
         </div>
       </section>
-      {/* <section id="pricing" className="pricing">
+       <section id="pricing" className="pricing">
         <div className="container">
         <div className="row justify-content-center">
 <div className="col-lg-8 col-md-8">
@@ -424,7 +445,7 @@ const PowerBI = () => {
                   Pro
                 </h3>
                 <div className="price price-power">
-                  <sup>$</sup>9.99<span>Per-User/Per Month</span>
+                  $9.99<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li>
@@ -485,7 +506,7 @@ const PowerBI = () => {
                   Premium
                 </h3>
                 <div className="price price-power">
-                  <sup>$</sup>20<span>Per-User/Per Month</span>
+                  $20<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li>
@@ -546,7 +567,7 @@ const PowerBI = () => {
                   Premium
                 </h3>
                 <div className="price price-power">
-                  <sup>$</sup>4,995<span>Per-User/Per Month</span>
+                  $4,995<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li>
@@ -621,7 +642,7 @@ const PowerBI = () => {
             </div>
           </div>
         </div>
-      </section> */}
+      </section> 
         <section id="pricing" className="pricing">
         <div className="container">
         <div className="row justify-content-center">
@@ -783,7 +804,7 @@ const PowerBI = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-3"
                     >
-                      Can I use Power BI for Budgeting & Forecasting?
+                     Can Power BI be used for budgeting and forecasting? 
                     </button>
                   </h3>
                   <div
@@ -806,7 +827,7 @@ const PowerBI = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-4"
                     >
-                     How is Power BI different from traditional BI implementations?
+                    Is Power BI different from conventional Business Intelligence implementations? 
                     </button>
                   </h3>
                   <div
@@ -828,9 +849,7 @@ const PowerBI = () => {
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-5"
-                    >
-                     What is Power BI Report Server? Does this mean you are making Power BI available for on- premises systems?
-                    </button>
+                    >What is Power BI Report Server? Does this mean Power BI is available for on- premises?</button>
                   </h3>
                   <div
                     id="faq-content-5"
@@ -851,7 +870,7 @@ const PowerBI = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-6"
                     >
-                     How is Power BI licensed? How much does the Power BI premium cost?
+                    How is Power BI licensed? What is the cost of Power BI premium? 
                     </button>
                   </h3>
                   <div
@@ -873,7 +892,7 @@ const PowerBI = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-8"
                     >
-                     What if I want more functionality or a change?
+                   What if I want more functionality or a change? 
                     </button>
                   </h3>
                   <div
@@ -892,7 +911,7 @@ const PowerBI = () => {
           </div>
         </div>
       </section>
-      <section className="blogs-extra">
+      {/* <section className="blogs-extra">
         <div className="container">
         <div className="row justify-content-center">
         <div className="col-lg-8 col-md-8">
@@ -902,7 +921,6 @@ const PowerBI = () => {
           </header>
           </div></div>
           <div className="row top-2 gx-5 justify-content-center">
-            {/* <Blog /> */}
             <div className="col-lg-6 ">
               <div className="blogs-extra-title">
                 <h3>Important Power BI Links:</h3>
@@ -958,7 +976,7 @@ const PowerBI = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 };

@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link';
 
 const D360 = () => {
   return (
@@ -11,7 +12,7 @@ const D360 = () => {
           name="description"
           content="At Dynamics Square, we simplify your business processes by implementing Microsoft Dynamics 365 Applications. Get exclusive Dynamics 365 Implementation plans."
         />
-           <meta name="robots" content="noindex,nofollow" />
+           <meta name="robots" content="index,follow" />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.ca/products/microsoft-dynamics-365/"
@@ -24,12 +25,7 @@ const D360 = () => {
               <h1>
               Microsoft Dynamics 365 
               </h1>
-              <p>
-              Microsoft Dynamics 365 is a powerful tool capable of transforming business management, aligning all departments, streamlining data reporting, and process automation for growth and sustainability. With the cloud deployment option, Dynamics 365 ensures real-time data visibility to make smart decisions at ease. <br /><br />Let Dynamics Square transform your legacy system into Dynamics 365 with the best in class support and services. 
-
- 
-
-              </p>
+              <p>Never lose the trail of your business. Modernize your business operations through Microsoft's innovative enterprise-grade business management apps that foster collaboration using Microsoft Teams, LinkedIn, and Azure Cloud.</p>
               <div>
                 <div className="text-center text-lg-start">
                   <a
@@ -37,7 +33,7 @@ const D360 = () => {
                     href="#exampleModal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Get Dynamics 365!</span>
+                    <span>Get In Touch</span>
                   </a>
                 </div>
               </div>
@@ -46,6 +42,19 @@ const D360 = () => {
               <img src="/img/d360-banner.png" alt="Microsoft Dynamics 365" />
             </div>
           </div>
+        </div>
+      </section>
+      <section>
+        <div className="container">
+        <div className="row justify-content-center"> 
+        <div className="col-lg-9 col-md-9"> 
+        <header className="section-header"> 
+        <h2>What is Microsoft Dynamics 365?</h2> 
+        <p>Microsoft Dynamics 365 is a suite of second-to-none ERP/Financials, CRM (Customer Relationship Management), and eCommerce cloud solutions to manage your business effectively and efficiently. Microsoft launched this suite of unified business management modules in 2016. It has evolved since then into a full-fledged cloud solution that caters to your core business operations by intelligently learning new and emerging social or market trends.</p>
+       </header> 
+      </div>
+      </div>
+
         </div>
       </section>
 
@@ -66,31 +75,26 @@ const D360 = () => {
             <div className="col-lg-6 align-self-center">
               <div className="side-heading">
                 <h2>
-                What is Microsoft Dynamics 365?
+                Why Implement Dynamics 365? 
                 </h2>
               </div>
               <div className="custom002">
-                <p>
-                  <a href="/products/microsoft-dynamics-365/">
-                    Microsoft Dynamics 365
-                  </a>{" "}
-                  is a power pack collection of apps and add-ons combined with working as a perfect solution for all ERP (Enterprise Resource Planning) and CRM (Customer Relationship Management) requirements. Earlier, it was known as Dynamics Suite, but after the updates, it became Microsoft Dynamics 365 with added features and functionalities of ERP and CRM. It not only simplifies business management but also helps to upgrade the user experience.
-                  </p>
-                  <p>Being a cloud-based solution, Microsoft Dynamics 365 allows the users to seamlessly manage the handling, finance, sales, purchase, inventory, CRM, manufacturing, and more. It establishes a connection between the customer and the organization, making the relationship between the two solid and sustainable.</p>
+                <p>Customer relationships matter! Because of poor resource planning or relationships with your customers, or low collaboration among employees, it can become arduous to meet customer requests. So, rethink and implement Dynamics 365 to re-invent your business to start making waves.</p>
+                <p><b>Here is how Dynamics 365 boosts your business:</b></p>
                   <ul>
-                    <li>It is based on Microsoft Azure, a cloud computing service operated and managed by Microsoft.</li>
-                    <li>The data centers of Azure are available worldwide to help the apps and integrations connect 24/7.</li>
-                    <li>Microsoft allows users to connect with Dynamics 365, even with a web browser and a working internet connection.</li>
-                    <li>Traditionally, we have been installing the ERP or CRM software solution on company premises. But now, there is no need to install Dynamics 365 on On-premises servers as it can be deployed on Cloud.</li>
+                    <li>By connecting people, data, and business operations to a unified platform, it is easy to see and control everything about your business.</li>
+                    <li>Built-in <Link href="/products/microsoft-dynamics-365-ai/"><a>AI (Artificial Intelligence)</a></Link>, advanced analytics, and guided actions to make tomorrow's decisions today.</li>
+                    <li>Seamless integration among different models of Dynamics 365 and other Microsoft business apps like <Link href="/products/microsoft-power-bi/"><a>Power BI (a business intelligence tool)</a></Link>, <Link href="/products/microsoft-power-platform/"><a>Power Platform</a></Link>, <Link href="/products/microsoft-power-automate/"><a>Power Automate</a></Link>, Microsoft Team, Outlook, and SharePoint.</li>
+                    <li>Ease of access and smooth to operate; you can run any module of Dynamics 365 using a device that has the latest web browser and an internet connection.</li>
                   </ul>
-                  <br />
+                  <p><Link href="/products/microsoft-dynamics-365/"><a>Microsoft Dynamics 365</a></Link> is an opportunity to modernize your business operations since it comes packed with the <Link href="/products/microsoft-azure/"><a>power of Microsoft Cloud</a></Link>, Azure Services, <Link href="/products/microsoft-dynamics-365/mixed-reality/"><a>Mixed Reality</a></Link>, AI/ML, <Link href="/products/azure-iot-internet-of-things/"><a>Azure IoT (Internet of Things)</a></Link>, and a lot more intelligent business management stuff.</p>
                   <div className="text-center text-lg-start">
                   <a
                     data-bs-toggle="modal"
                     href="#exampleModal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Become Dynamics 365 User</span>
+                    <span>Click to Get Dynamics 365 Demo</span>
                   </a>
                 </div>
               </div>
@@ -98,13 +102,18 @@ const D360 = () => {
           </div>
         </div>
       </section>
-
       <section className="new-bg">
         <div className="container">
-          <header className="section-header">
-            <h2>Why Microsoft Dynamics 365 must be your choice?</h2>
-            <p>If you belong to small or mid-sized organizations and want a stable business solution for ERP and CRM needs, it must be your first choice. It is currently one of the most efficient business management solutions capable of building, deploying, and supporting advanced ERP & CRM features. Also, it is more flexible to provide the best support to end-user on time, whether they belong to manufacturing or after-sales service. There are several factors to choosing Microsoft Dynamics 365, which are listed below:</p>
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+            <header className="section-header">
+            <h2>Microsoft Dynamics 365</h2>
+            <p>The Right Choice For Large and Mid-Market Size Businesses</p>
+            <p>Stability and sustainability are the keys to the success of all small and mid-sized businesses (SMBs). Hence, they require an affordable yet efficient business management solution. By understanding what employees in SMBs and enterprises go through, Microsoft transformed its all-legacy ERPs such as <Link href="/products/microsoft-dynamics-nav/"><a>Dynamics NAV</a></Link>, <Link href="/products/microsoft-dynamics-gp/"><a>Dynamics GP (Great Plains)</a></Link>, and <Link href="/products/microsoft-dynamics-ax/"><a>Dynamics AX</a></Link> and brought them into a suite called Dynamics 365 - a robust cloud solution.</p>
+            <p><b>Capabilities and Features of Dynamics 365 That Speak Result</b></p>
           </header>
+            </div>
+          </div>
           <div className="row p-lg-6">
             <div className="col-lg-6">
               <div className="finace-acc">
@@ -119,7 +128,7 @@ const D360 = () => {
                         aria-expanded="false"
                         aria-controls="fin1"
                       >
-                        <span>Improved Overall Efficiency</span>
+                        <span>Efficiency</span>
                       </button>
                     </h3>
                     <div
@@ -129,7 +138,7 @@ const D360 = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        <p>Due to convenient features and functions, Microsoft Dynamics 365 helps the organization to increase the overall efficiency by up to 2X. The Dynamics 365 suite consists of full-fledged business applications, like CRM, Customer Service, Sales, Finance, Operations, Field Service, Project Service Automation, Marketing, etc., to help the organization grow, automate, and scale.</p>
+                        <p>All modules for business management under Dynamics 365 have a user-friendly interface with all the features visible on the dashboard of a selected module.</p>
                       </div>
                     </div>
                   </div>
@@ -145,7 +154,7 @@ const D360 = () => {
                         aria-controls="fin2"
                       >
                         
-                        <span>Built-in Analytics for Finance</span>
+                        <span>Scheduling</span>
                       </button>
                     </h3>
                     <div
@@ -155,7 +164,7 @@ const D360 = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                       <p>Dynamics 365 has a built-in-analytics to provide actual data insights related to finance and accounting processes. Microsoft Power BI supports this feature and helps the users to get deeper data for analysis and intelligent decisions.</p>
+                       <p>Centralize your customer issues and resolve them quickly using a built-in calendar and share it with other employees.</p>
                       </div>
                     </div>
                   </div>
@@ -171,7 +180,7 @@ const D360 = () => {
                         aria-controls="fin3"
                       >
                         
-                        <span>Data Management</span>
+                        <span>Analytics</span>
                       </button>
                     </h3>
                     <div
@@ -181,7 +190,7 @@ const D360 = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        <p>With Microsoft Dynamics 365, data management becomes a lot easier. It ensures the data is shared with the right people of the organization as per the work they perform.</p>
+                        <p>Microsoft business apps integrate seamlessly with Power BI for data analytics to break down data silos and provide actionable insights.</p>
                       </div>
                     </div>
                   </div>
@@ -204,7 +213,7 @@ const D360 = () => {
                         aria-controls="fin5"
                       >
                         
-                        <span>Support Scheduling</span>
+                        <span>Integration</span>
                       </button>
                     </h3>
                     <div
@@ -214,7 +223,7 @@ const D360 = () => {
                       data-bs-parent="#accnews"
                     >
                       <div className="accordion-body">
-                       <p>Support Scheduling is one of the important solutions for a growing organization to schedule the support for the customer. It delivers a centralized solution to manage the issues and requests of the customer. Also, it schedules the request using the required information using the calendar for an easy reminder. This lets the employees arrange the meeting on time, making the support convenient for all.</p>
+                       <p>Integrate Microsoft .NET framework, web services, Outlook, Teams, Excel, and other business apps to help your employees manage data effectively.</p>
                       </div>
                     </div>
                   </div>
@@ -230,7 +239,7 @@ const D360 = () => {
                         aria-controls="fin6"
                       >
                        
-                        <span>Integration with Outlook</span>
+                        <span>Data</span>
                       </button>
                     </h3>
                     <div
@@ -240,7 +249,7 @@ const D360 = () => {
                       data-bs-parent="#accnews"
                     >
                       <div className="accordion-body">
-                       <p>Microsoft Dynamics 365 provides seamless integration with Outlook making communication effortless and on time. Also, it helps the users to manage the client's data with all the required information. Microsoft Dynamics 365 not only allows Outlook to integrate but also allows the other apps of Microsoft, like Excel, Microsoft NFT framework, web services, Power BI, and more.</p>
+                       <p>Microsoft cloud is the most secure platform because of its Azure cloud services, leaving no way for data leaks and cyber threats.</p>
                       </div>
                     </div>
                   </div>
@@ -256,7 +265,7 @@ const D360 = () => {
                         aria-controls="fin7"
                       >
                         
-                        <span>Enhanced Communication</span>
+                        <span>Customers</span>
                       </button>
                     </h3>
                     <div
@@ -266,7 +275,7 @@ const D360 = () => {
                       data-bs-parent="#accnews"
                     >
                       <div className="accordion-body">
-                      Microsoft Dynamics 365 lets you connect with the system from anywhere and anytime using an internet connection. Whether you are working remotely or from company premises, it will keep you updated with the real-time data.
+                      <p>Understand your customers with powerful built-in tools that provide you with a customer's unified view to engage and serve more customers.</p>
                       </div>
                     </div>
                   </div>
@@ -282,23 +291,77 @@ const D360 = () => {
           <div className="row">
             <div className="col-lg-5">
               <div className="call_to_action-right over-img">
-                <img src="/img/MaskGroup8.png" alt="image" />
+                <img src="/img/MaskGroup8.png" alt="images" />
               </div>
             </div>
             <div className="col-lg-7 align-self-center">
               <div className="call_to_action-left">
-                <h3>Utilize Dynamics 365 Capabilities Now!</h3>
-                <p>
-                Let Dynamics Square be your reliable partner as we improve your business by offering you the right Dynamics 365 solutions custom-built to fit your business needs.
-                </p>
+                <h3>Transform your business with Dynamics 365's capabilities</h3>
+                <p>Dynamics Square is Canada's leading Microsoft Gold Partner, offering you a variety of <Link href="/products/microsoft-dynamics-erp/"><a>Microsoft's cloud ERP solutions</a></Link> as well as legacy ERP systems' upgrade services. Get in touch with our experts to upgrade your NAV, GP, or AX into <Link href="/products/dynamics-365-business-central/"><a>Dynamics 365 Business Central</a></Link>, <Link  href="/products/microsoft-dynamics-365-finance/"><a>Finance</a></Link>, or <Link href="/products/dynamics-365-supply-chain-management/"><a>Supply Chain</a></Link>.</p>
                 <div className="m-o-t m-o-t-inde">
-                  <a
+                  <Link  href="#exampleModal"><a
                     data-bs-toggle="modal"
-                    href="#exampleModal"
+                  
                     className="btn-get-started scrollto"
                   >
-                    <span>Get Dynamics 365!</span>
-                  </a>
+                    <span>Contact Us</span></a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="new-style-bg">
+        <div className="container">
+        <div className="row justify-content-center">
+            <div className="col-lg-9 col-md-8">
+          <header className="section-header">
+            <h2>Take your business to new heights with Dynamics 365 - a suite of intelligent business apps</h2>
+            <p>Implement Tomorrow's Technology and Solutions Today with <Link href="/"><a>Dynamics Square</a></Link></p>
+          </header>
+          </div></div>
+          <div className="row g-5 pad2xyr">
+            <div className="col-lg-6">
+              <div className="style-grid-1">
+                <div className="style-grid-content">
+                  <h3>Dynamics 365 Business Central</h3>
+                  <p>Microsoft's Business Central is an all-in-one cloud ERP solution that helps you manage your finances, supply chain, marketing, sales, commerce, accounting, and a lot more.</p>
+                </div>
+              </div>
+
+              <div className="style-grid-1">
+                <div className="style-grid-content">
+                  <h3>Dynamics 365 Finance</h3>
+                  <p>The Finance module in Dynamics 365 is an integrated financial management solution that goes beyond just managing financials. You can also automate core finance and accounting on a larger scale.</p>
+                </div>
+              </div>
+              <div className="style-grid-1">
+                <div className="style-grid-content">
+                  <h3>Dynamics 365 Supply Chain</h3>
+                  <p>Microsoft Dynamics 365 Supply Chain is designed and developed to assist large businesses that deal with complex data sets and want quick decisions. With the implementation of this cloud SCM solution, there is no need to look further.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="style-grid-1">
+                <div className="style-grid-content">
+                  <h3>Dynamics 365 Customer Engagement</h3>
+                  <p>A better understanding of customers about what they want is the key to increasing customer engagement. <Link href="/products/dynamics-365-customer-engagement/"><a>Dynamics 365 for Customer Engagement</a></Link> provides actionable insights to increase the customer number.</p>
+                </div>
+              </div>
+
+              <div className="style-grid-1">
+                <div className="style-grid-content">
+                  <h3>Dynamics 365 Sales</h3>
+                  <p>Strong collaboration among sales teams results in closing more deals. <Link href="/products/microsoft-dynamics-365-sales/"><a>Dynamics 365 Sales</a></Link> is the right sales management approach that seamlessly helps you win customers and turn them into real customers.</p>
+                </div>
+              </div>
+              <div className="style-grid-1">
+                <div className="style-grid-content">
+                  <h3>Dynamics 365 Customer Service</h3>
+                  <p>Winning customer loyalty is the first step towards transforming your business into a brand. Use <Link href="/products/microsoft-dynamics-365-customer-service/"><a>Dynamics 365 Customer Service</a></Link> to provide your customers with quick and unique customer service experience and win their loyalty for life.</p>
                 </div>
               </div>
             </div>
@@ -308,28 +371,24 @@ const D360 = () => {
 
       <section className="bg-shape">
         <div className="container">
+         <div className="row justify-content-center">
+          <div className="col-lg-9">
           <header className="section-header">
-            <h2>
-            Where is Microsoft Dynamics 365 data stored?
-            </h2>
+            <h2>Have You Got Data Security Concerns about Dynamics 365? No need to worry!</h2>
           </header>
+          </div>
+         </div>
           
 
           <div className="row">
             <div className="col-lg-7 align-self-center">
               <div className="commen-rit-info">
-                <p>In today's world, the data safety is one of the important concerns for all businesses. And it must be because the business is all about its internal and customer data. Before you know about the storage method, you must understand the Microsoft Dynamics 365 versions, which are </p>
+                <p>Microsoft and Dynamics Square passionately believe in protecting your data at all costs, giving you peace of mind and business continuity. Since Microsoft continuously releases security updates and enhanced features in all its business apps, we are ready to help you with two ways to get your data stored in a secure place:</p>
                 <ul>
-                  <li>Dynamics 365 Business for small businesses</li>
-                  <li>Dynamics 365 Enterprise for large industry</li>
+                  <li>Microsoft Dynamics Online Servers</li>
+                  <li>Hosted Servers - to store on-premises or using private servers</li>
                 </ul>
-                <p><b>Based on your industry type and data storage, you must select the data storage method as given below:</b></p>
-                <ul>
-                  <li>Microsoft Dynamics online servers</li>
-                  <li>Hosted Server (to store data on-premises or using private servers) </li>
-                </ul>
-                <p>From the above options, the Hosted Server is a costly option as compared to Microsoft's online servers as setting up the servers on-premises or private costs a lot and a data safety issue with the private servers.</p>
-                <p>In Microsoft Dynamics 365 Online, Microsoft Azure ensures the safety and security of stored data, and its transactions are safe with strong encryption. You don't need to be worried about the data safety as it is secured and protected with robust security.</p>
+                <p><b>Remember,</b> hosted server costs you a lot because of hardware expenses for on-premises or private servers. Hosted servers might become loopholes for third-party attackers to steal your data. So, it is recommended to use the Azure cloud server to keep your data safe and your business running.</p>
               </div>
             </div>
             <div className="col-lg-5 align-self-center">
@@ -345,26 +404,29 @@ const D360 = () => {
       </section>
       <section className="Solution-business-whys">
         <div className="container">
-        <header className="section-header">
-            <h2>How much is Microsoft Dynamics 365 Licensing and Cost?</h2>
-            <p>Microsoft provides two ways of Microsoft Dynamics 365 Licensing for the organizations. These plans are based on the apps and integrations that come under Microsoft Dynamics 365 and the number of users as per access to Dynamics 365.</p>
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+            <header className="section-header">
+            <h2>Microsoft Dynamics 365 Licensing and Cost?</h2>
+            <p>Microsoft offers affordable and flexible pricing and licensing for all Microsoft Dynamics 365 modules. You can opt for the most suitable business app that solves your business problems or buy different apps and integrate them with our help to manage and run your business the way you want.</p>
           </header>
+            </div>
+          </div>
           <div className="row g-5 justify-content-center">
           
             <div className="col-lg-8">
-              <div className="parten-more parten-more-ss text-center">
-              <h3>Select the package as per user licensing</h3>
-              <p>Microsoft provides <b>flexible pricing plans for Dynamics 365</b> or its applications. Users have the choice to opt for ERP or CRM, or they can use the mixed capabilities of both these solutions. Also, you can pay for selected apps and use them despite owning the whole CRM or ERP solution. It comes with several functions, like Finance and Operation, Retail, Talent, Sales, Customer Service, Field Service, Project Service Automation, Marketing, Customer Service Insights, and Power Apps. Or you can contact Dynamics Square for the latest info about licensing and cost.</p>
+              {/* <div className="parten-more parten-more-ss text-center">
+              <p>Contact Dynamics Square for the latest details on Dynamics 365 about licensing and cost. Or you can download our comprehensive guide on pricing and licensing for different apps under Dynamics 365 suite. </p>
               </div>
-              <br />
+              <br /> */}
               <div className="text-center m-o-t new-btn-nn">
-                  <a
+                  <Link   href="#exampleModal"><a
                     data-bs-toggle="modal"
-                    href="#exampleModal"
+                  
                     className="btn-get-started scrollto"
                   >
-                    <span>Dynamics 365 Pricing & Licensing Guide</span>
-                  </a>
+                    <span>Explore Dynamics 365 pricing and Licensing Guide</span></a>
+                  </Link>
                 </div>
             </div>
             
@@ -377,18 +439,15 @@ const D360 = () => {
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <div className="call-to-action-content">
-                <h3>Get Free Dynamics 365 Consultation!</h3>
-                <p>
-                Looking to implement Microsoft Dynamics 365 Business Application?
-                </p>
+                <h3>Is Your Dynamics 365 Partner not listening to your problems, connect with our experts to get the job done now!</h3>
                 <div className="text-center m-o-t new-btn-nn">
-                  <a
+                  <Link     href="#exampleModal"><a
                     data-bs-toggle="modal"
-                    href="#exampleModal"
+               
                     className="btn-get-started scrollto"
                   >
-                    <span>Schedule a Demo</span>
-                  </a>
+                    <span>Meet our Expert</span></a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -401,10 +460,9 @@ const D360 = () => {
           <div className="row justify-content-center">
             <div className="col-lg-8 col-md-8">
             <header className="section-header">
-            <h2>
-            Avail Microsoft Dynamics 365 With Dynamics Square 
-            </h2>
-            <p>Being a certified Microsoft Gold Partner, we provide you with seamless experience in upgrading or implementing the Dynamics 365 without disturbing your existing work process.</p>
+            <h2>Why should Dynamics Square be your Dynamics 365 implementation partner?</h2>
+            <p>We as a company and our experts are certified by Microsoft to help you deliver innovative, highly integrated business-centric solutions at affordable pricing.</p>
+            <p><b>Why Choose Dynamics Square:</b></p>
           </header>
             </div>
           </div>
@@ -415,10 +473,8 @@ const D360 = () => {
                   <img src="/img/Group774.svg" alt="Trustworthy Partner" />
                 </div>
                 <div className="commen-boc-2-info">
-                  <h3>Trustworthy Partner</h3>
-                  <p>
-                  We are known for trust and on-time deliveries. With a team of <b>135+</b> Microsoft Certified Professionals, we are serving <b>250+</b> clients across the globe to offer innovative and business-driven solutions. 
-                  </p>
+                  <h3>A Trustworthy Partner</h3>
+                  <p>We are Canada's leading Microsoft Gold Partner that believes in establishing long-lasting relationships with our customers. <Link href="/contact-us/"><a>Contact us</a></Link> whether you want to upgrade your NAV/GP/AX or freshly implement Dynamics 365 for your new/existing business.</p>
                 </div>
               </div>
             </div>
@@ -428,10 +484,8 @@ const D360 = () => {
                   <img src="/img/Group772.svg" alt="Trustworthy Partner" />
                 </div>
                 <div className="commen-boc-2-info">
-                  <h3>End-to-End Training</h3>
-                  <p>
-                  We help the users to understand the system effectively, making them adapt to new features and function with ease for smoother operation flow. 
-                  </p>
+                  <h3>Better Training</h3>
+                  <p>Our experts are exceptionally talented and understand people enough to provide training so that your employees can easily and quickly adapt to the newly installed ERP/CRM system for a smooth workflow. </p>
                 </div>
               </div>
             </div>
@@ -441,10 +495,8 @@ const D360 = () => {
                   <img src="/img/Group773.svg" alt="Off-Hours Support" />
                 </div>
                 <div className="commen-boc-2-info">
-                  <h3>Best Support</h3>
-                  <p>
-                  We have been working for the last 11 years 24/7 for the upliftment of small and mid-sized organizations with 99% satisfaction to provide any time support.
-                  </p>
+                  <h3>Excellent Support</h3>
+                  <p>11+ years of industry experience motivates us to provide our customers with both tech and non-tech support 24*7*365, uplifting businesses that result in 99% client retention.</p>
                 </div>
               </div>
             </div>
@@ -452,6 +504,90 @@ const D360 = () => {
           </div>
         </div>
       </section>
+      <section className="solution-faq faq">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-8 col-md-8">
+            <header className="section-header">
+            <h2>
+            Have you got questions about Microsoft Dynamics 365?   
+            </h2>
+            <p>Click through to our FAQ for the best answers!</p>
+          </header>
+            </div>
+          </div>
+          <div className="row justify-content-center mar-top-7">
+            <div className="col-lg-8">
+              <div className="accordion accordion-flush" id="faqlist1">
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-1"
+                    >
+                  What is the use of Dynamics 365? 
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-1"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>Dynamics 365 is a suite of business apps that help you foster your relationships with customers (CRM) and build your organization strong by resourcing the right resources (ERP). The business management modules in Dynamics 365 provide you with actionable insights to reduce overhead costs and advance your business' growth.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-2"
+                    >
+                    How to differentiate between Microsoft Dynamics 365 and Microsoft 365? 
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-2"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>What you see today as Office 365 on your windows 10 or 11, or your Androids was known as Microsoft 365 a few years back. It contains apps like Outlook, Word, Excel, PowerPoint, or OneNote for documentation and collaboration. While Microsoft Dynamics 365 is the power pack that helps industries run their business operations and is flexible to integrate Microsoft 365 apps for communication among employees of that company located at separate places.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-3"
+                    >
+                   What is the Difference between Salesforce and Microsoft Dynamics 365? 
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-3"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>Salesforce is a core CRM cloud service, whereas Dynamics 365 is a pack of business apps that includes CRM apps like Dynamics 365 for Marketing, Sales, Customer Engagement, and Customer Service, and Dynamics 365 Business Central to control and manage multiple operations of your business on its highly integrated intuitive and interactive interface.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
     </>
   );
 };
