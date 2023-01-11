@@ -1,36 +1,36 @@
 import React, { useState } from "react";
 import Head from 'next/head'
-// import ModalVideo from "react-modal-video";
+import ModalVideo from "react-modal-video";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import { Autoplay, FreeMode, Pagination } from "swiper";
+import Link from "next/link";
 const Ecommerce = () => {
   const [isOpen, setOpen] = useState(false);
   const [open, setsOpen] = useState(false);
   return (
     <>
       <Head>
-        <meta charSet="utf-8" />
-        <title>Dynamics 365 for Ecommerce Industry | Dynamics Square</title>
+        <title>Dynamics 365 Commerce: A Cloud E-Commerce Solution</title>
         <meta
           name="description"
-          content="Dynamics 365 for eCommerce is a powerful platform that helps businesses centralize their data, personalize their customers&#039; and partners&#039; experience, and maximize their growth potentials."
+          content="Microsoft Dynamics 365 Commerce-a cloud solution to unify your e-Commerce business processes to quickly market your products. Contact Dynamics Square."
         />
-        <meta name="robots" content="noindex,nofollow" />
+        <meta name="robots" content="index,follow" />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.ca/industries/ecommerce/"
         />
       </Head>
-      {/* <ModalVideo
+      <ModalVideo
         channel="youtube"
         autoplay
         isOpen={isOpen}
         videoId="1gbGf0dXUNE"
         onClose={() => setOpen(false)}
-      /> */}
+      /> 
       <main>
         <section className="Solution-banner hero-1 hero">
           <div className="container">
@@ -41,16 +41,14 @@ const Ecommerce = () => {
                   <br />
                   For Ecommerce
                 </h1>
-                <p>
-                Centralize Your Data, Personalize Your Customers' & Partners' Experience, And Maximize Your Growth Potentials With Dynamics 365 For ECommerce.
-                </p>
+                <p>Create an E-Commerce site and give people what they want. Bring data, customers, and <b>E-Commerce business partners</b> to a unified platform and deliver a personalized online shopping experience to drive sales with <Link href="/products/microsoft-dynamics-365-commerce/"><a>Dynamics 365 Commerce</a></Link>.</p>
                 <div className="text-center text-lg-start">
                   <a
                     data-bs-toggle="modal"
                     href="#exampleModal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Schedule a Demo</span>
+                    <span>Get a Demo</span>
                   </a>
                 </div>
               </div>
@@ -68,15 +66,21 @@ const Ecommerce = () => {
           <div className="row justify-content-center">
               <div className="col-lg-9 col-md-9">
               <header className="section-header">
-              <h2>
-              Why Choose Dynamics 365 for Your eCommerce Platform?
-              </h2>
-              <p>
-              Microsoft Dynamics 365 for Ecommerce is designed to automate and streamline your data, manage & serve your customers in real-time, predict sales, plan capacity, and ensure seamless customer fulfillment with the capability of making informed decisions in real-time.
-              </p>
-              <p>
-              Experts with 11+ years of industry exposure at Dynamics Square can help to bring seamless flow across your e-commerce operations. By implementing <a href="/products/microsoft-dynamics-365/">Microsoft Dynamics 365</a> for eCommerce, we enable online stores to manage their customers, simplify their warehousing, bring real-time eyes into the entire supply chain cycle, and ensure faster fulfillment that helps to drive continuous growth, and seamless global scalability.
-              </p>
+              <h2>What is E-Commerce?</h2>
+              <p>Today's requirement to sustain your online business or say your e-commerce platform is a secure and scalable e-commerce solution that satisfies your customers and your business. Customize products and offers for customers, process transactions quickly and securely, and focus on delivering personalized customer service. To make it better and more efficient, take the help of an intuitive <b>E-Commerce management platform</b> like <b>Microsoft Dynamics 365 Commerce</b>.</p>
+            </header>
+              </div>
+            </div>
+           
+          </div>
+        </section>
+        <section style={{marginTop:'-90px'}}>
+          <div className="container">
+          <div className="row justify-content-center">
+              <div className="col-lg-9 col-md-9">
+              <header className="section-header">
+              <h2>What is Dynamics 365 Commerce?</h2>
+              <p>Microsoft's Dynamics 365 is a unique E-Commerce solution that helps you deliver highly personalized and seamless buying experiences for your customers and business partners. Implement this Microsoft cloud solution and start engaging across all your traditional and emerging channels, build loyalty, exceed customer expectations, and transform your online business into a brand. Microsoft Dynamics 365 Commerce not only helps you modernize your retail store but goes beyond and provides you with AI-driven insights to better streamline your operations.</p>
             </header>
               </div>
             </div>
@@ -87,12 +91,8 @@ const Ecommerce = () => {
           <div className="container">
             <div className="row gx-5">
               <div className="col-lg-6 align-self-center">
-                <h2>
-                How to accelerate your operational flow with Dynamics 365 for Ecommerce?
-                </h2>
-                <p>
-                Stimulate your operational flow, level up your e-commerce practices, and drive innovation with Dynamics 365 for eCommerce. With the help of data automation and built-in AI capabilities, prepare custom reports and key analytics to optimize resources, fulfill warehousing, and support your decision-making process for improved productivity ahead.
-                </p>
+                <h2>How can I accelerate my E-Commerce business with Dynamics 365 Commerce?</h2>
+                <p>By automating data, using solutions with built-in <Link href="/products/microsoft-dynamics-365-ai/"><a>AI (Artificial Intelligence) capabilities</a></Link>, and cloud platforms.</p>
               </div>
               <div className="col-lg-6 align-self-center">
                 <div className="content-icons-modil-1">
@@ -116,9 +116,7 @@ const Ecommerce = () => {
                       </div>
                     </div>
                     <div className="cintent-right">
-                      <p>
-                      Using real-time AI data, key insights, and financial analytics; enable everyone in your organization to make instant decisions to drive a seamless e-commerce process cycle from maintaining the right inventory level to preparing a budget, planning capacity, and right production level to timely customer fulfillment.
-                      </p>
+                      <p>Built-in data automation tool helps you optimize your resources and support your business continuity while making your entire E-Commerce faster.</p>
                     </div>
                   </div>
 
@@ -129,9 +127,17 @@ const Ecommerce = () => {
                       </div>
                     </div>
                     <div className="cintent-right">
-                      <p>
-                      Accelerate your order management, manage actual stock level, track shipping status, and manage product delivery along with seamless return & refund process by upgrading your current system capabilities with Microsoft Ecommerce <a href="/products/erp/">ERP solutions</a>.
-                      </p>
+                      <p>Using real-time analytics, AI-driven customer insights enable every employee in your organization to make decisions and drive sales by accelerating manufacturing and production.</p>
+                    </div>
+                  </div>
+                  <div className="content-inner-moil-1">
+                    <div className="icons-left">
+                      <div className="ext-bord">
+                        <i className="bi bi-check2"></i>
+                      </div>
+                    </div>
+                    <div className="cintent-right">
+                      <p><b>Microsoft Dynamics 365 Commerce</b> is not only an app but a full-fledged eCommerce solution that assists you in managing your stock level, tracking shipping, and faster product delivery along with a hassle-free return and refund process. </p>
                     </div>
                   </div>
                 </div>
@@ -149,17 +155,15 @@ const Ecommerce = () => {
               </div>
               <div className="col-lg-7 align-self-center">
                 <div className="call_to_action-left">
-                  <h3>Consult with Our Experts</h3>
-                  <p>
-                  Connect and consult with our experts today to know how Dynamics 365 for E-commerce businesses could be a long-lasting productive deal.
-                  </p>
+                  <h3>Want to discuss your requirements with our Dynamics 365 Experts?</h3>
+                  <p>Connect, share your problems and ideas, and let our people execute the right solution for you to drive your eCommerce business.</p>
                   <div className="m-o-t m-o-t-inde">
                     <a
                       data-bs-toggle="modal"
                       href="#exampleModal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Schedule a Demo</span>
+                      <span>Schedule a Demo Now!</span>
                     </a>
                   </div>
                 </div>
@@ -173,7 +177,8 @@ const Ecommerce = () => {
           <div className="row justify-content-center">
               <div className="col-lg-9 col-md-9">
               <header className="section-header">
-              <h2> Microsoft Dynamics 365 For E-Commerce Features</h2>
+              <h2>Microsoft Dynamics 365 Commerce Features</h2>
+              <p>Re-imagine the way customers interact with your products, and improve direct sales to increase customer engagement before, after, and at the point of <Link href="/products/microsoft-dynamics-365-sales/"><a>sales with Microsoft Cloud</a></Link>, <Link href="/products/azure-iot-internet-of-things/"><a>Azure</a></Link>, and <Link href="/products/microsoft-power-apps/"><a>Power Apps</a></Link>. </p>
             </header>
               </div>
             </div>
@@ -187,10 +192,8 @@ const Ecommerce = () => {
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Order Management</h3>
-                    <p>
-                    Monitor and control your orders and faster customer fulfillment by ensuring <a href="/our-services/dynamics-365-implementation-services/">Microsoft Dynamics 365 implementation</a> for eCommerce companies.
-                    </p>
+                    <h3>Personalize Shopping Experiences</h3>
+                    <p>Get people interested in buying your products and services by analyzing your e-commerce site's web traffic and browse-to-buy conversion rates, and defining offers, and new products on customers' behavior using <Link href="/products/microsoft-azure/"><a>Microsoft Azure</a></Link>.</p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
@@ -201,10 +204,8 @@ const Ecommerce = () => {
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Inventory Management</h3>
-                    <p>
-                    Optimize your inventory flow, maintain the right stock level wherever and whenever required with the help of Microsoft ERP solutions for eCommerce.
-                    </p>
+                    <h3>Transact Sales Securely</h3>
+                    <p>Increase your transactions by increasing customers. Derive more customers and transactions by creating an easy-to-navigate e-commerce buying experience and deploying it using a more secure and compliant E-Commerce platform like <b>Dynamics 365 Commerce</b>.</p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
@@ -215,26 +216,11 @@ const Ecommerce = () => {
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Customer Management</h3>
-                    <p>
-                    Engage the right customers at the right time by taking advantage of instant AI insights and key reporting metrics. Serve a personalized experience to your customers in real-time. 
-                    </p>
+                    <h3>Meet Customer Demands</h3>
+                    <p>Adapt to the size and seasonality of your business to develop the ability to automatically handle increasing customer demand for your products and services using <b>Microsoft's PaaS (platform as a service)</b> and App services.</p>
                   </div>
                 </div>
-                <div className="busine_service_bottom-right-indst">
-                  <div className="card_new_img text-center">
-                    <img
-                      src="/img/Production-Mnagement (1).svg"
-                      alt="Finance Management"
-                    />
-                  </div>
-                  <div className="card_new_content">
-                    <h3>Finance Management</h3>
-                    <p>
-                    With Ecommerce ERP, improve your financial visibility across your financial practices from invoicing & billing to bills of material, planning & budgeting, forecasting, and more. 
-                    </p>
-                  </div>
-                </div>
+            
               </div>
               <div className="col-lg-6">
                 <div className="busine_service_bottom-right-indst">
@@ -245,10 +231,8 @@ const Ecommerce = () => {
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Supply Chain Management</h3>
-                    <p>
-                    ERP solutions for eCommerce can help to manage and improve your end-to-end supply chain pipeline to achieve productive and sustainable results. 
-                    </p>
+                    <h3>Optimize Supply Chain</h3>
+                    <p>Save time and money by intelligently streamlining your supply chain, reduce support costs, and increase satisfaction with your sellers and suppliers by incorporating online self-service portals.</p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
@@ -259,10 +243,8 @@ const Ecommerce = () => {
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Production Management</h3>
-                    <p>
-                    Manage and control your production line, streamline your planning, process optimization, directing & controlling along with capacity planning in real-time.
-                    </p>
+                    <h3>Drive Your Sales</h3>
+                    <p>Drive more sales by focusing on sales, not managing your IT infrastructure, because sales are the core of your business. Take advantage of Microsoft's pre-built services in the cloud and create an e-commerce solution to enhance your sales and increase profits.</p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
@@ -273,26 +255,11 @@ const Ecommerce = () => {
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Procurement</h3>
-                    <p>
-                    Bring a consistent flow in your procurement process wherein plan & manage to ensure the right stock-level and distribution by implementing Dynamics 365 for Ecommerce Businesses.
-                    </p>
+                    <h3>Implement Scalable e-commerce</h3>
+                    <p>Using Azure services, architect a scalable e-commerce web page that includes simple order processing workflows. Build personalized experiences by introducing Azure Functions and Web Apps and leave IT infrastructure to Azure. </p>
                   </div>
                 </div>
-                <div className="busine_service_bottom-right-indst">
-                  <div className="card_new_img text-center">
-                    <img
-                      src="/img/icons_Constituent Analytics.svg"
-                      alt="icons_Constituent Analytics"
-                    />
-                  </div>
-                  <div className="card_new_content">
-                    <h3>Reporting & Analytics</h3>
-                    <p>
-                    Bring strategic and productive flow within your organization with instant AI insights and reporting analytics capabilities to produce and deliver faster results.
-                    </p>
-                  </div>
-                </div>
+                
               </div>
             </div>
           </div>
@@ -302,17 +269,15 @@ const Ecommerce = () => {
             <div className="row justify-content-center">
               <div className="col-lg-9">
                 <div className="call-to-action-content">
-                  <h3>Let's Discuss Opportunity</h3>
-                  <p>
-                  Share your business insights and allow us to come up with a highly relevant solution for your enterprise to adapt, manage, and drive the dynamically changing process flow. By performing a deep system health check, our experts can suggest and implement the highly configured solution for your business to accelerate growth combined with global compliance management.
-                  </p>
+                  <h3>Want to Build a simple, agile, and reliable eCommerce experience?</h3>
+                  <p>Discuss your requirements with our Microsoft consultants and reveal a game-changing highly relevant e-Commerce solution for your business or idea.</p>
                   <div className="text-center m-o-t m-o-t-hv">
                     <a
                       data-bs-toggle="modal"
                       href="#exampleModal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Get Started Now</span>
+                      <span>Meet an Expert</span>
                     </a>
                   </div>
                 </div>
@@ -335,7 +300,6 @@ const Ecommerce = () => {
                     <div className="video-ytube video-ytubes">
                       <div className="popup-btn popup-btns">
                         <a
-                          data-bs-toggle="modal"
                           href="#javascript:void(0)"
                           onClick={() => setOpen(true)}
                         >
@@ -357,19 +321,24 @@ const Ecommerce = () => {
               </div>
               <div className="col-lg-6 d-flex align-items-center">
                 <div className="side-heading">
-                  <h2>
-                  How to Uplift Your Business Capabilities with Dynamics 365 for Ecommerce Business Solutions?
-                  </h2>
-                  <p>
-                  Let's connect to understand how Microsoft Dynamics 365 implementation for Ecommerce companies can enable you to drive efficiency and produce better. 
-                  </p>
+                  <h2>Get the more unified retail commerce solution for you!</h2>
+                  <ul>
+                    <li>Derive Omnichannel Engagement</li>
+                    <li>Deliver Rich Personalization</li>
+                    <li>Earn Customer Loyalty for life</li>
+                    <li>Make your digital commerce more streamlined</li>
+                    <li>Build AI-driven intelligent commerce</li>
+                    <li>Maximize Customer Conversions</li>
+                    <li>Meet Global needs with API-first eCommerce solutions</li>
+                    <li>Proactively safeguard your data</li>
+                  </ul>
                   <div className="text-lg-start">
                     <a
                       data-bs-toggle="modal"
                       href="#exampleModal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Schedule a Demo</span>
+                      <span>Get Started with Dynamics 365 Commerce</span>
                     </a>
                   </div>
                 </div>
@@ -383,7 +352,7 @@ const Ecommerce = () => {
           <div className="row justify-content-center">
               <div className="col-lg-9 col-md-9">
               <header className="section-header">
-              <h2>Explore Other Industries</h2>
+              <h2>Explore Other Industries & Discover More Dynamics 365 Solutions</h2>
             </header>
               </div>
             </div>
@@ -437,11 +406,7 @@ const Ecommerce = () => {
                               </div>
                               <div className="text-wrp-content">
                                 <h3>Food & Beverages</h3>
-                                <p>
-                                  Efficiently manage your inventory and supply
-                                  chain by implementing Dynamics 365 for Food
-                                  and Beverages business.
-                                </p>
+                                <p>Create and deploy an adaptive and intelligent supply chain that automatically responds to evolving demands with Dynamics 365 Supply Chain Management for your food, beverage, and processing industry.</p>
                                 <span>Explore Now</span>
                               </div>
                             </a>
@@ -461,11 +426,7 @@ const Ecommerce = () => {
                                 </div>
                                 <div className="text-wrp-content">
                                   <h3>Not for Profit</h3>
-                                  <p>
-                                    Bring Transparency And Drive Efficiency In
-                                    Your Non-Profit Organization With Microsoft
-                                    Dynamics 365 For Charities.
-                                  </p>
+                                  <p>Drive your mission of helping people in need at scale and provide quick assistance by automating your daily operations with Dynamics 365 for Non-Profits Hubs.</p>
                                   <span>Explore Now</span>
                                 </div>
                               </a>
@@ -487,11 +448,7 @@ const Ecommerce = () => {
                                 </div>
                                 <div className="text-wrp-content">
                                   <h3>Professional Services</h3>
-                                  <p>
-                                    Streamline And Efficiently Manage Your
-                                    Professional Services with Microsoft
-                                    Dynamics 365 Business Applications.
-                                  </p>
+                                  <p>Bring people, data, and processes close to your business on a more unified business management platform with Dynamics 365 for Professional Services and deliver top-notch professional services.</p>
                                   <span>Explore Now</span>
                                 </div>
                               </a>
@@ -512,11 +469,7 @@ const Ecommerce = () => {
                                 </div>
                                 <div className="text-wrp-content">
                                   <h3>Manufacturing & Distribution</h3>
-                                  <p>
-                                    Keep track of your production lines and
-                                    bring transparency with Microsoft Dynamics
-                                    365 for Manufacturing and Distribution.
-                                  </p>
+                                  <p>Manufacture a more resilient and sustainable manufacturing environment by driving innovation, optimizing processes, and strengthening customer relationships with Microsoft Cloud for Manufacturing. </p>
                                   <span>Explore Now</span>
                                 </div>
                               </a>
@@ -537,11 +490,7 @@ const Ecommerce = () => {
                                 </div>
                                 <div className="text-wrp-content">
                                   <h3>Startups</h3>
-                                  <p>
-                                    Leverage maximum possible resources to
-                                    manage end-to-end business processes for
-                                    your Startup with Microsoft Dynamics 365.
-                                  </p>
+                                  <p>Utilize Dynamics 365 for Startups to manage all end-to-end processes and build a culture of innovation for your startup and gradually turn it into a growing company.</p>
                                   <span>Explore Now</span>
                                 </div>
                               </a>
@@ -557,24 +506,7 @@ const Ecommerce = () => {
             </div>
           </div>
         </section>
-        <section className="blogs-extra">
-          <div className="container">
-          <div className="row justify-content-center">
-              <div className="col-lg-9 col-md-9">
-              <header className="section-header">
-              <h2>Explore Our Recent Blogs & Resources</h2>
-              <p>Whether you are a start-up, an SMB, or an enterprise, the Dynamics Square blog is the best place to get inspired and learn more about Microsoft Business Applications.</p>
-            </header>
-              </div>
-            </div>
-            <div className="row top-2 gx-5">
-              {/* <Blog /> */}
-              <div className="col-lg-6 align-self-center">
-                <img src="/img/n/Dynamics-ecommerce-Banner.png" alt="" />
-              </div>
-            </div>
-          </div>
-        </section>
+        
       </main>
     </>
   );

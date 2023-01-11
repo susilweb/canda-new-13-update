@@ -1,17 +1,15 @@
 import Head from 'next/head'
+import Link from 'next/link';
 
 const SupportServices = () => {
   return (
     <>
       <Head>
-        <title>
-        Microsoft Dynamics 365 Support & Service Partner - Dynamics Square
-        </title>
+        <title>Dynamics Square: Dynamics 365 Support Services In Canada</title>
         <meta
           name="description"
-          content="Looking for Microsoft Dynamics 365 Support &amp; Service partner? Get Dynamics 365 CRM &amp; ERP support service plans at Dynamics Square. Do call us Today!"
-        />
-           <meta name="robots" content="noindex,nofollow" />
+          content="Dynamics Square is Canada's leading high-quality support for Dynamics 365, Dynamics NAV, Dynamics GP, & Managed Services. Contact us for instant help."/>
+           <meta name="robots" content="index,follow" />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.ca/our-services/dynamics-365-support-services/"
@@ -21,12 +19,8 @@ const SupportServices = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-6 mobile-4 align-self-center">
-              <h1>
-                Microsoft Dynamics 365 Support
-              </h1>
-              <p>
-              To maximize your resource utilization and leverage the full potential of your Dynamics 365 support configured system, enterprises should embrace proactive support services from a trustworthy Partner like Dynamics Square.
-              </p>
+              <h1>Microsoft Dynamics 365 Support Solutions</h1>
+              <p>Maintain, optimize, and re-invent your <Link href="/products/microsoft-dynamics-erp/"><a>Dynamics 365 ERP and CRM Systems</a></Link> with Dynamics Square's Support Services.</p>
               <div>
                 <div className="text-center text-lg-start">
                   <a
@@ -34,7 +28,7 @@ const SupportServices = () => {
                     href="#exampleModal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Schedule a Demo</span>
+                    <span>Contact Your Expert</span>
                   </a>
                 </div>
               </div>
@@ -54,9 +48,7 @@ const SupportServices = () => {
         <div className="row justify-content-center">
             <div className="col-lg-8 col-md-8">
           <header className="section-header">
-            <h2>
-            Dedicated Dynamics 365 Support Partner
-            </h2>
+            <h2>What is Dynamics 365 support? </h2>
             
           </header>
           </div></div>
@@ -68,10 +60,8 @@ const SupportServices = () => {
             </div>
             <div className="col-lg-6 align-self-center">
               <div className="custom-p-002">
-                <p>
-                To ensure process continuity, stabilize your process optimization, and focus on your business scope, enterprises are required to have an optimal support system. A smoother, reliable, and productive business flow can be achieved through dedicated Dynamics 365 Support Services designed for a specific business model and custom business practices.</p>
-                
-                <p>Our Microsoft certified can help you to diagnose your support requirement and can provide proactive support to enable productive and scalable flow across your organizational structure. Through our dedicated support services, we can promptly identify your system issues and can resolve them with accuracy and reliability.</p>
+                <p>Powered by 135+ Microsoft certified tech-consultants, we provide beyond-the-need technical assistance and optimization expertise for your business. From proactively helping you navigate the unexpected to providing all necessary ERP and CRM-related guidance and ongoing support, our experts are listening carefully.</p>
+                <p>Our top-notch <b>Dynamics 365</b> and legacy systems migration services deliver everything you need to mitigate risks and increase your ROI (return on investment).</p>
               </div>
               <div className="custom-btn-new">
                 <a
@@ -80,7 +70,7 @@ const SupportServices = () => {
                   data-bs-toggle="modal"
                   href="#exampleModal"
                 >
-                  <span>Request a Demo</span>
+                  <span>Meet our Experts</span>
                 </a>
               </div>
             </div>
@@ -93,25 +83,15 @@ const SupportServices = () => {
         <div className="row justify-content-center">
         <div className="col-lg-8 col-md-8">
           <header className="section-header">
-            <h2>Microsoft dynamics 365 Suite</h2>
-            <p>
-              Drive innovative and strategic approach through your business
-              premises with intelligent connected processes, data insights, and
-              adaptive <a href="/products/crm/">Dynamics 365 CRM</a> & <a href="/products/erp/">ERP solutions</a>.
-            </p>
+            <h2>Microsoft Dynamics 365 </h2>
+            <p>An affordable and strategic approach to boost your business operations, from resource planning, finances, and manufacturing to quickly bringing your product and services to the global market.</p>
           </header>
           </div></div>
           <div className="row p-lg-6">
             <div className="col-lg-5 align-self-center">
               <div className="side-heding-new">
-                <h3>
-                  Dynamics 365 Support Plans We Offer
-                </h3>
-                <p>
-                <a href="/">Dynamics Square</a> will handle every aspect of your Dynamics 365
-                  system from user support, training, customization, technical
-                  consultancy to development work.
-                </p>
+                <h3>What do we have in Dynamics 365 Support solutions for you?</h3>
+                <p>We have all you need to drive innovation. By intelligently connecting your processes, data sources, and people close to your business to a single intuitive business management platform like <Link href="/products/dynamics-365-business-central/"><a>Dynamics 365 Business Central</a></Link>, <Link href="/products/microsoft-power-bi/"><a>Microsoft Power BI</a></Link>, <Link href="/products/dynamics-365-supply-chain-management/"><a>Dynamics 365 Supply Chain</a></Link>, or other business-centric modules while providing training, customization, and tech consultancy we help you accelerate your business.</p>
               </div>
             </div>
             <div className="col-lg-1"></div>
@@ -144,7 +124,7 @@ const SupportServices = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                      Our Ad-Hoc Support model is designed to offer instant support for your short-length or one-time assignment. To carry out your independent requirement, we do not even ask you for any sort of commitment from your end. Understanding your business flow, we can offer your best-in-class support services suited to your specific workflow.
+                     <p>We have designed our Ad-Hoc Support model based on our years of expertise in providing ERP and CRM support. With careful study and understanding of your business processes, we offer instant help for your short-length or one-time assignment. No commitment is necessary from your side. Our experts are always inclined to help you with support services that best suit your business. <Link href="/contact-us/"><a>Contact our expert today!</a></Link></p>
                       </div>
                     </div>
                   </div>
@@ -174,7 +154,7 @@ const SupportServices = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                      Through our prepaid hours' support model, enterprises can leverage priority support for their ongoing practices. Our prepaid hours' support plan comprises 50-dedicated hours that ensure contribution to manage continuity in your business flow. With this support model, we provide instant technical help to the enterprises to maintain their smoother and uninterrupted process flow.
+                      <p>Leverage priority support for your ongoing business practices through our Prepaid Hours Support model. This plan comprises 50 dedicated hours, ensuring contribution to maintain your business continuity. Our standard Prepaid Hours Support model provides instant technical assistance to keep your processes uninterrupted and running smoothly. <b>Contact us to explore more.</b></p>
                       </div>
                     </div>
                   </div>
@@ -204,7 +184,7 @@ const SupportServices = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                      We undertake all your general system issues in terms of bug fixing, abundance in the process flow, and other system issues interrupting your system performance. Our yearly proficient support team can help to resolve your system issues, regain your system capabilities, and enable you to boost your workflow with our high-end Dynamics 365 Support Services.
+                     <p>We at <Link href="/"><a>Dynamics Square</a></Link> have a proficient support team that helps you resolve system issues and regain control of your system capabilities in your hand, enabling you to keep boosting your workflow throughout the year. <b>Get in touch.</b></p>
                       </div>
                     </div>
                   </div>
@@ -220,15 +200,15 @@ const SupportServices = () => {
           <div className="row justify-content-center">
             <div className="col-lg-6">
               <div className="call-to-action-content">
-                <h3>Get Dynamics 365 Support Today!</h3>
-                <p>Discuss your Dynamics 365 support requirements to get the best advice from our Microsoft consultant.</p>
+                <h3>World-Class Microsoft Dynamics 365 Support</h3>
+                <p>Bringing experts, resources, and Microsoft's ecosystem to your fingertips.</p>
                 <div className="text-center m-o-t new-btn-nn">
                   <a
                     data-bs-toggle="modal"
                     href="#exampleModal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Get Started Now</span>
+                    <span>Get Started Today!</span>
                   </a>
                 </div>
               </div>
@@ -242,12 +222,9 @@ const SupportServices = () => {
         <div className="row justify-content-center">
             <div className="col-lg-9 col-md-8">
           <header className="section-header">
-            <h2>
-            Uncover Your Business Scope With Our Dynamics 365 Consulting Services
-            </h2>
-            <p>
-            Dynamics Square has an extensive team with end-to-end expertise to take care of system and process integrity. Whether you want to eliminate your system risks, improve your system capabilities, want to train your end-users, or more, we are here to serve our optimal support services.
-            </p>
+            <h2>Unlock The Desired Dynamics 365 Support Today!</h2>
+            <p>Realize the strength and discover the potential of your business with <b>Dynamics Square's ERP and CRM consulting services</b>. We want you to get up and never stop!</p>
+            <p><b>See our solutions help you mitigate risks and improve your ERP/CRM system</b></p>
           </header>
           </div></div>
           <div className="row g-5 pad2xyr">
@@ -258,9 +235,7 @@ const SupportServices = () => {
                 </div>
                 <div className="style-grid-content">
                   <h3>Account Management</h3>
-                  <p>
-                  Since Microsoft continuously comes up with regular updates and enhancements in their <a href="/products/microsoft-dynamics-365/">Dynamics 365 products</a>. Experts at Dynamics Square take care of your timely system updates and requirement enhancements. We seamlessly manage your Dynamics 365 account to ensure your system compatibility with the latest releases and updates fulfilling your core requirement and future changes.
-                  </p>
+                  <p>Since Microsoft always keeps all Dynamics 365 products up to date, the rest is taken care of by Dynamics Square experts to help you implement the right solution so that you can seamlessly manage your Dynamics 365 account, ensuring you your business continuity.</p>
                 </div>
               </div>
 
@@ -270,9 +245,7 @@ const SupportServices = () => {
                 </div>
                 <div className="style-grid-content">
                   <h3>Add-ons</h3>
-                  <p>
-                  With time, there could be possible frequent changes in your process optimization. To support your customer process flow, our support team can extend your system capabilities with required functionalities in terms of add-ons. Considering the enterprise challenges and ways to overcome them, Microsoft comes up with regular updates and features enhancements.
-                  </p>
+                  <p>Add-Ons significantly enhance your ERP/CRM system's capabilities and help you overcome evolving market changes without customizing the entire system. Also, Microsoft produces regular updates and features, enhancing your system from time to time.</p>
                 </div>
               </div>
             </div>
@@ -283,9 +256,7 @@ const SupportServices = () => {
                 </div>
                 <div className="style-grid-content">
                   <h3>Training</h3>
-                  <p>
-                  There could be several stages where enterprises require dedicated training to bring and ensure productive flow across their organization. Such training can be provided in the form of end-user training to understand the newly implemented system and ensure successful user adaptation. Training can also be ensured when you avail of any sort of system update, integration, or enhancements.
-                  </p>
+                  <p>We get to understand your needs by carefully listening to all your requirements, and then implement a suitable business system while providing user adaptation training so that your employees start operating from day one.</p>
                 </div>
               </div>
 
@@ -298,9 +269,7 @@ const SupportServices = () => {
                 </div>
                 <div className="style-grid-content">
                   <h3>Modifications</h3>
-                  <p>
-                  Whenever changes take place in your enterprise, you are required to modify your functional requirement, and this generates a need for an adequate support system that can take responsibility to ensure potential changes in terms of updating your system with required functionality or advanced features that can be made possible either by Microsoft configuration or with third-party integration.
-                  </p>
+                  <p>Under <b>Dynamics 365, business management modules</b> are flexible in their integration. You can make changes and increase functionality by adding advanced features using third-party integrations and other Microsoft business apps and boosting your growth.</p>
                 </div>
               </div>
             </div>
@@ -313,9 +282,7 @@ const SupportServices = () => {
         <div className="row justify-content-center">
         <div className="col-lg-8 col-md-8">
           <header className="section-header">
-            <h2>
-            How Dynamics 365 Support Team Can Help You To Boost Your Business Capabilities
-            </h2>
+            <h2>Boost Your Business Capabilities with Dynamics Square's Excellent Dynamics 365 Support</h2>
           </header>
           </div></div>
           <div className="row pad15x">
@@ -323,16 +290,10 @@ const SupportServices = () => {
               <div className="commen-box-3">
                 <div className="icons">
                   <img src="/img/service-i-01.svg" alt="service-i-01" />
-                  <h3>
-                  Drive Smoother
-                    <br />
-                    Business Flow
-                  </h3>
+                  <h3>True, Global Support</h3>
                 </div>
                 <div className="commen-boc-3-info commen-boc-3-info-1">
-                  <p>
-                  Our experts can help to diagnose whether your current system is compatible to manage your current workflow or not. Our Dynamics 365 Support Services are offered to drive your system health check and upgrade your system accordingly to seamlessly carry out all your practices.
-                  </p>
+                  <p>Our experienced best-in-class team of Dynamics 365 professionals delivers beyond-expectation assistance if required.</p>
                 </div>
               </div>
             </div>
@@ -340,15 +301,10 @@ const SupportServices = () => {
               <div className="commen-box-3">
                 <div className="icons">
                   <img src="/img/service-i-02.svg" alt="service-i-02" />
-                  <h3>
-                  Bring Quick <br />
-                  Adaption
-                  </h3>
+                  <h3>Adjustable Service Plans</h3>
                 </div>
                 <div className="commen-boc-3-info commen-boc-3-info-1">
-                  <p>
-                  To ensure quick adaption, enterprises are required to acquire proper end-user training to know how to use the newly implemented or updated system efficiently. Here, availing of support and consulting services for Microsoft Business Applications from a trusted Microsoft Partner could be a productive deal for your enterprise.
-                  </p>
+                  <p>Avail yourself of all you need - information and a suitable solution without even paying for the assistance you do not require.</p>
                 </div>
               </div>
             </div>
@@ -356,15 +312,10 @@ const SupportServices = () => {
               <div className="commen-box-3">
                 <div className="icons">
                   <img src="/img/service-i-03.svg" alt="service-i-03" />
-                  <h3>
-                  Drive Seamless <br />
-                    Operational Flow
-                  </h3>
+                  <h3>On-time Issue Resolution</h3>
                 </div>
                 <div className="commen-boc-3-info commen-boc-3-info-1">
-                  <p>
-                  To drive seamless flow across your operational unit, enterprises should comprise a set of practices, skilled people, and the right working strategies. To gain so, we can help enterprises by configuring their system with required or updated functionality, providing proper training to the end-users, and other support to encourage and bring smoother operational flow.
-                  </p>
+                  <p>Our team of skilled Dynamics 365 professionals diligently identifies and resolves critical, time-sensitive issues to minimize the risks and impact on your business.</p>
                 </div>
               </div>
             </div>
@@ -373,16 +324,10 @@ const SupportServices = () => {
               <div className="commen-box-3">
                 <div className="icons">
                   <img src="/img/service-i-04.svg" alt="service-i-04" />
-                  <h3>
-                  Ensure Compatibility
-                    <br />
-                    with Trends
-                  </h3>
+                  <h3>Personalized Support Model</h3>
                 </div>
                 <div className="commen-boc-3-info commen-boc-3-info-1">
-                  <p>
-                  Considering the continuously changing market, industrial scenarios, and rising critical business challenges, Microsoft ensures regular updates and releases to support your concurrent processes as well as futuristic approach. Through our dedicated support system, we upgrade your system with all the required system capabilities to ensure and drive compatibility with growing market trends.
-                  </p>
+                  <p>Our Dynamics 365 Support Services offer guidance on your specific Dynamics 365 configuration, helping you leverage untapped features of the selected business app like Dynamics 365 Business Central that take your business to the next level.</p>
                 </div>
               </div>
             </div>
@@ -391,16 +336,10 @@ const SupportServices = () => {
               <div className="commen-box-3">
                 <div className="icons">
                   <img src="/img/service-i-05.svg" alt="service-i-05" />
-                  <h3>
-                  Custom
-                    <br />
-                    Support Model
-                  </h3>
+                  <h3>Growth-Oriented Expertise</h3>
                 </div>
                 <div className="commen-boc-3-info commen-boc-3-info-1">
-                  <p>
-                  Every business involves different processes, different workflow, and strategies. To support your custom processes, your supporting needs could be different. Analyzing and evaluating your specific business flow and the challenges you drive; we can provide customized support services to drive smoother and productive flow across your operational space.
-                  </p>
+                  <p>In addition to ensuring profitable project delivery, we help our clients effectively and effortlessly manage complex supply chains and intelligently optimize cross-functional processes. Expanding your business internationally or going public is what we help you with.</p>
                 </div>
               </div>
             </div>
@@ -409,16 +348,10 @@ const SupportServices = () => {
               <div className="commen-box-3">
                 <div className="icons">
                   <img src="/img/service-i-06.svg" alt="service-i-06" />
-                  <h3>
-                  Competitive
-                    <br />
-                    Pricing
-                  </h3>
+                  <h3>Development and Testing</h3>
                 </div>
                 <div className="commen-boc-3-info commen-boc-3-info-1">
-                  <p>
-                  At Dynamics Square, we believe in providing optimum support services wrapped with standard methodology and a modernized approach to our clients at competitive rates. We offer our Microsoft Dynamics 365 support services at 40% less pricing compared to other Microsoft support services providers. Connect and get the best quote to support your business context.
-                  </p>
+                  <p>With Dynamics Square's guidance, you can overcome your technical challenges by integrating third-party applications, customizing workflows, and integrating third-party applications.</p>
                 </div>
               </div>
             </div>

@@ -1,13 +1,14 @@
 import Head from 'next/head'
+import Link from 'next/link';
 
 const Inedex = () => {
     return (
         <>
         <Head>
-        <title>Dynamics 365 Services &amp; Consulting | Dynamics Square</title>
+        <title>Microsoft Dynamics 365 Services in Canada: Dynamics Square</title>
         <meta name="description"
-          content="We deliver comprehensive Dynamics 365 services including consulting, training, upgrade and implementation of Microsoft Business Applications to grow your business fast." />
-          <meta name="robots" content="noindex,nofollow" />
+          content="Take your business practices to a next level with Dynamics 365 and build a more sustainable & resilient future. Contact us for agile IT solutions & services." />
+          <meta name="robots" content="index,follow" />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.ca/our-services/"
@@ -18,18 +19,16 @@ const Inedex = () => {
           <div className="row">
             <div className="col-lg-6 mobile-1 align-self-center">
               <h1>
-              Microsoft Dynamics 365 Services
+              Our Dynamics 365 Services 
               </h1>
-              <p>
-              Take your business to the next level by our Dynamics 365 services and solutions.
-              </p>
+              <p>Unify your data and business processes at scale with <b>Dynamics Square's</b> years of proven expertise and transform the way you do business in the digital age.</p>
               <div className="text-center text-lg-start">
                 <a
                   data-bs-toggle="modal"
                   href="#exampleModal"
                   className="btn-get-started scrollto"
                 >
-                  <span>Request a Call Back</span>
+                  <span>Get In Touch Now!</span>
                 </a>
               </div>
             </div>
@@ -49,45 +48,15 @@ const Inedex = () => {
           <div className="row">
             <div className="col-lg-6">
               <div className="side-heading-custom-01">
-                <h2>
-                Microsoft Business Solutions
-                </h2>
+                <h2>Microsoft Business Solutions in the Dynamics Square way!</h2>
               </div>
               <div className="custom-p-001">
                 <p className="ne4">
-                  We deliver comprehensive <b>Microsoft business solutions</b>{" "}
-                  (&nbsp;
-                  <a
-                    title="Enterprise resource planning"
-                    href="/products/microsoft-dynamics-erp/"
-                  >
-                    enterprise resource planning
-                  </a>
-                  &nbsp;(ERP) and&nbsp;
-                  <a
-                    title="Customer relationship management"
-                    href="/products/microsoft-dynamics-crm/"
-                  >
-                    customer relationship management
-                  </a>
-                  &nbsp;(CRM)&nbsp;software applications ) that help your
-                  business transform into an ultra-efficient, customer-centric,
-                  thriving organization.
-                </p>
-                <p className="ne4">
-                  We analyze your requirements, understand your unique work
-                  style, and create a customized blueprint outlining solutions
-                  ideal for your business.
-                </p>
-                <p className="ne4">
-                  If your internal processes are consumed by chaos, we'll
-                  organize them. If you plan on establishing new clear-cut
-                  guidelines and standards for work and conduct, we'll devise
-                  them. If you want your teams to be proficient in multiple
-                  important technologies, we'll educate and train them. What we
-                  offer is a complete and comprehensive solution that helps your
-                  business thrive and grow.
-                </p>
+                Stay aware of your competition with our top-notch Microsoft cloud, <Link href="/products/microsoft-azure/"><a>Microsoft Azure</a></Link>, <Link href="/products/microsoft-dynamics-365-ai/"><a>AI (Artificial Intelligence)</a></Link>, <b>Power Apps</b>, Dataverse, <b>Dynamics 365, Power BI,</b> AR (Augmented Reality), VR (Virtual Reality), and MR (<b>Mixed Reality</b>) solutions.  
+                 </p>
+                 <p>We strive to provide the best Dynamics 365 and <b>Microsoft support and services</b> you have ever had. Our team takes your business seriously and as ours. It has been 11+ years since the beginning of the journey to provide smart business solutions to all business-sizes.</p>
+                 <p>Get everything that your business needs, from Enterprise resource planning (ERP), customer relationship management (CRM), and Business Intelligence (BI) apps, such as <Link href="/products/microsoft-power-bi/"><a>Power BI</a></Link> to  <Link href="/products/microsoft-dynamics-365/"><a>Microsoft Dynamics 365</a></Link> add-ons like AI-powered bots and other business applications plus integrations.</p>
+                 <p>Maximize the efficiency and productivity of your team beyond Microsoft's latest tech stack with <Link href="/"><a>Dynamics Square</a></Link>. Discover resources and business tips to support your vision to increase ROIs.</p>
               </div>
             </div>
             <div className="col-lg-6">
@@ -102,30 +71,45 @@ const Inedex = () => {
         </div>
       </section>
 
+      <section className="call-to-action-center hero-4">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-6">
+              <div className="call-to-action-content">
+                <h3>Explore our solutions & receive support right away.</h3>
+                <p>Get the most out of your budget on every Microsoft business solution with us.</p>
+                <div className="text-center m-o-t new-btn-nn">
+                  <a
+                    data-bs-toggle="modal"
+                    href="#exampleModal"
+                    className="btn-get-started scrollto"
+                  >
+                    <span>Chat with us</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section>
         <div className="container">
-          <header className="section-header">
+          <div className='row justify-content-center'>
+            <div className='col-lg-9'>
+            <header className="section-header">
             <h2>
-              Dynamics Services
-              <br />
-              We Offer
+            Dynamics 365 Services We Offer
             </h2>
-            <p>
-              Whether you need implementation, extension, upgrades, maintenance,
-              or reassessment for your technology investments, our services help
-              you assess your best options for - then bring that change to life.
-            </p>
+            <p>Offer flexibility, power, and style to empower your teams by implementing, extending, or upgrading your existing business management technology. </p>
           </header>
+            </div>
+          </div>
           <div className="row p-2">
             <div className="col-lg-4 col-md-6">
               <div className="location-list-wrper">
                 <h3>Implementation Service</h3>
-                <p>
-                  Adapts standard approach, implements advanced methodologies,
-                  and derive high-end process defining your business values and
-                  empowering your business process flow, and enabling growth
-                  potentials.
-                </p>
+                <p>Adopt the standard and latest business solutions. Implement Microsoft's sophisticated technology to derive high business values and open new growth opportunities.</p>
                 <br />
                 <div className="text-lg-center">
                   <a
@@ -140,12 +124,7 @@ const Inedex = () => {
             <div className="col-lg-4 col-md-6">
               <div className="location-list-wrper">
                 <h3>Upgrade Service</h3>
-                <p>
-                  Upgrade your system capabilities, process flow, adapt
-                  operational change, and bring quick user acceptance through
-                  our highly integrated and requirement-specific Dynamics 365
-                  upgrade services.
-                </p>
+                <p>Power up your legacy system capabilities, or upgrade the older version of your Dynamics NAV, GP, or AX to automate process flows, with our requirement-specific Dynamics 365 upgrade services.</p>
                 <br />
                 <div className="text-lg-center">
                   <a
@@ -161,12 +140,7 @@ const Inedex = () => {
             <div className="col-lg-4 col-md-6">
               <div className="location-list-wrper">
                 <h3>Support Service</h3>
-                <p>
-                  Drive continuity in your processes and ensure a sustainable
-                  approach with our seamless Dynamics 365 Support Services.
-                  Continuous monitoring of your system and processes can help to
-                  attain lifelong success.
-                </p>
+                <p>Keep business continuity by monitoring your system, and processes and ensure sustainability to attain long-term success using our personalized support services.</p>
                 <br />
                 <div className="text-lg-center">
                   <a

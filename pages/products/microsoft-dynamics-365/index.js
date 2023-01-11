@@ -5,12 +5,10 @@ const D360 = () => {
   return (
     <>
       <Head>
-        <title>
-        Microsoft Dynamics 365 Partner in USA | Dynamics 365 Experts
-        </title>
+        <title>Implement Microsoft Dynamics 365 with Dynamics Square</title>
         <meta
           name="description"
-          content="At Dynamics Square, we simplify your business processes by implementing Microsoft Dynamics 365 Applications. Get exclusive Dynamics 365 Implementation plans."
+          content="Dynamics Square is Canada's leading Dynamics 365 partner, helping small & mid-market size businesses win customers & earn their loyalty for life."
         />
            <meta name="robots" content="index,follow" />
         <link

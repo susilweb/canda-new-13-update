@@ -6,18 +6,19 @@ import "swiper/css/free-mode";
 import "swiper/css/navigation";
 import "swiper/css/thumbs";
 import { FreeMode, Navigation, Thumbs, Autoplay } from "swiper";
+import Link from 'next/link';
 
 const ImplementationServices = () => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
   return (
     <>
       <Head>
-        <title>Best Dynamics 365 Implementation Services | Dynamics Square</title>
+        <title>Your Microsoft Dynamics 365 Implementation Partner In Canada</title>
         <meta
           name="description"
-          content="Optimize your operations, bring transparency in your process flow, drive a resilient approach, enable a 360-degree view into your Supply Chain practices with..."
+          content="Dynamics Square is Canada's leading Microsoft Dynamics 365 Gold Partner for SMBs and large groups. Get in touch for all ERP & CRM implementation help."
         />
-           <meta name="robots" content="noindex,nofollow" />
+           <meta name="robots" content="index,follow" />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.ca/our-services/dynamics-365-implementation-services/"
@@ -28,12 +29,9 @@ const ImplementationServices = () => {
           <div className="row">
             <div className="col-lg-6 mobile-4 align-self-center">
               <h1>
-              Dynamics 365 Implementation Services
+              Dynamics 365 Implementation Services In Canada
               </h1>
-              <p>
-                
-Innovate and scale with confidence, drive an efficient approach, implement standard methodology, build sustainable solutions, empower your workforce, and strengthen your operational flow to produce better and grow high.
-              </p>
+              <p>Implement a world-class <Link href="/products/microsoft-dynamics-erp/"><a>Microsoft cloud ERP solution</a></Link> for your service and people-focused organization with <b>Dynamics Square</b>.</p>
               <div>
                 <div className="text-center text-lg-start">
                   <a
@@ -41,7 +39,7 @@ Innovate and scale with confidence, drive an efficient approach, implement stand
                     href="#exampleModal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Schedule a Demo</span>
+                    <span>Connect with a Dynamics Expert</span>
                   </a>
                 </div>
               </div>
@@ -63,12 +61,9 @@ Innovate and scale with confidence, drive an efficient approach, implement stand
             <div className="row justify-content-center">
                 <div className="col-lg-8 col-md-8">
                 <header className="section-header">
-                  <h2>
-                  Implementation Of Microsoft Dynamics 365 ERP & CRM Solutions
-                  </h2>
-                  <p>
-                  A successful implementation requires choosing high-end system configuration, advanced methodologies, and trustworthy Dynamics 365 Implementation Partner comprising the right skill set, industry exposure, and proficiency to configure domain-specific yet highly customized solutions for your business.
-                  </p>
+                  <h2>Take Your Business Ops to the Cloud with Microsoft Dynamics 365</h2>
+                  <p>Secure your data, reduce hardware and IT costs, expand your business, and empower your employees to start working anywhere, anytime.</p>
+                  <p><b>Dynamics Square</b> is a <b>Microsoft Gold Partner</b> and is trusted around the world when it comes to <Link href="/products/microsoft-dynamics-crm/"><a>implementing ERP/CRM solutions</a></Link>. Powered by enthusiasm to help others, our ERP experts have been helping businesses of all sizes to compete and grow on a scale since 2011. We customize and implement industry-specific Microsoft's highly advanced ERP, CRM, and business intelligence tools with people who have first-hand industry experience, making it easier for you to achieve your goals.</p>
                 </header>
                 </div>
               </div>
@@ -91,19 +86,23 @@ Innovate and scale with confidence, drive an efficient approach, implement stand
             <div className="col-lg-1"></div>
             <div className="col-lg-6 align-self-center">
               <div className="side-heading-custom-01">
-                <h2>
-                  Microsoft Dynamics
-                  <br />
-                  Implementation Partner
-                </h2>
+                <h2>Dynamics 365 Implementation Partner at Your Service</h2>
               </div>
               <div className="custom-p-001">
-                <p>
-                <a href="/">Dynamics Square</a> is an authorized Microsoft Gold Partner with an efficiency of implementing whether standard, agile, or custom-configured enterprise solutions to simplify business complexities, optimize & improve operations, and enable growth potential to drive profitability and discover scalable opportunities.
-                </p>
-                <p>
-                At Dynamics Square, we have experts to understand your business requirements by evaluating and ensuring proper system health check and other analyses. Considering your specific business flow and domain practices, we can implement the custom embedded solution to support your enterprise needs, CRM activities, Supply Chain flow, warehousing needs, project automation, finance operations, and more.
-                </p>
+                <p>We, at <Link href="/"><a>Dynamics Square</a></Link>, empower you to achieve your highest goal with powerful Microsoft cloud technology. Dynamics Square has experts capable enough to understand you and provide the right answer to your problems.</p>
+                <p>Not only do our experts help you with customizing and implementing the right cloud solution for your business, but they also provide strategic and effective advisory on various business apps under Microsoft's suite of business applications - <b>Dynamics 365</b>.</p>
+                <p><Link href="/products/microsoft-dynamics-365/"><a>Microsoft's Dynamics 365</a></Link> contains different software modules for your specific business needs, from finance, supply chain, project management, field service, and human resources to marketing, sales, warehouse management, and customer relationship management. </p>
+              </div>
+              <div>
+                <div className="text-center text-lg-start">
+                  <a
+                    data-bs-toggle="modal"
+                    href="#exampleModal"
+                    className="btn-get-started scrollto"
+                  >
+                    <span>Get In Touch</span>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -115,9 +114,7 @@ Innovate and scale with confidence, drive an efficient approach, implement stand
           <div className="row">
             <div className="col-lg-6 align-self-center">
               <div className="custom-bg-001-left">
-                <h2>
-                Implementing Domain-specific & Agile Business Solution For Your Enterprise
-                </h2>
+                <h2>Open a universe of possibilities and new business opportunities with Dynamics 365 Implementation and overcome any business challenge right away!</h2>
               </div>
             </div>
             <div className="col-lg-6">
@@ -144,10 +141,8 @@ Innovate and scale with confidence, drive an efficient approach, implement stand
                   />
                 </div>
                 <div className="style-grid-content">
-                  <h3>Finance</h3>
-                  <p>
-                  Gain improved financial visibility, leverage key financial insights & reports, and understand your financial flow to make informed decisions accordingly. By implementing <a href="/products/microsoft-dynamics-365-finance/">Dynamics 365 Finance</a> module, we help enterprises to automate their operations while reducing complexity levels and managing risks.
-                  </p>
+                  <h3>Dynamics 365 Finance</h3>
+                  <p>Derive profit by automating all your financials with <Link href="/products/microsoft-dynamics-365-finance/"><a>Dynamics 365 Finance</a></Link> - an AI-driven cloud solution infused with the power of embedded analytics and financial intelligence.</p>
                 </div>
               </div>
               <div className="style-grid-1">
@@ -155,10 +150,8 @@ Innovate and scale with confidence, drive an efficient approach, implement stand
                   <img src="/img/sales.svg" alt="sales" />
                 </div>
                 <div className="style-grid-content">
-                  <h3>Sales</h3>
-                  <p>
-                  Leveraging in-depth sales insights, predict sales, streamline customer data, and automate processes to achieve sustainable results. Implementation of Microsoft Dynamics 365 ERP and <a href="/products/crm/">CRM Solutions</a> can help to optimize sales, drive connected sales, and support agile practices.
-                  </p>
+                  <h3>Dynamics 365 Sales</h3>
+                  <p>Connect your sales and marketing teams, foster collaboration via their preferred communication channels, and win more customers to derive your sales at scale with <Link href="/products/microsoft-dynamics-365-sales/"><a>Dynamics 365 Sales</a></Link>.</p>
                 </div>
               </div>
               <div className="style-grid-1">
@@ -169,10 +162,8 @@ Innovate and scale with confidence, drive an efficient approach, implement stand
                   />
                 </div>
                 <div className="style-grid-content">
-                  <h3>Customer Service</h3>
-                  <p>
-                  Engage, manage, and serve your customers a personalized solution combined with omnichannel efficiency and enriched with the capability of providing timely support and technical assistance with the Implementation of <a href="/products/microsoft-dynamics-365/">Microsoft Dynamics 365</a> ERP and CRM solutions.
-                  </p>
+                  <h3>Dynamics 365 Customer Service</h3>
+                  <p>Better understand your customers, track, and record all their issues and timely resolve them and share related information in the knowledge base for others in a unified platform - <Link href="/products/microsoft-dynamics-365-customer-service/"><a>Dynamics 365 Customer Service</a></Link>.</p>
                 </div>
               </div>
               <div className="style-grid-1">
@@ -183,10 +174,8 @@ Innovate and scale with confidence, drive an efficient approach, implement stand
                   />
                 </div>
                 <div className="style-grid-content">
-                  <h3>Project Management</h3>
-                  <p>
-                  Enable project automation, improve your workflow, and drive a project-centric approach with a solely unified solution. Stay updated with real-time project status, monitor processes, and maximize your resource utilization while minimizing costs and maximizing profitability.
-                  </p>
+                  <h3>Dynamics 365 Project Operations</h3>
+                  <p>Integrate your sales, resourcing, finance, and project-centric operations in a single platform to derive a profitable project-centric business with <Link href="/products/dynamics-365-project-operations/"><a>Dynamics 365 Project Operations</a></Link> - an intelligent project automation tool.</p>
                 </div>
               </div>
             </div>
@@ -199,10 +188,8 @@ Innovate and scale with confidence, drive an efficient approach, implement stand
                   />
                 </div>
                 <div className="style-grid-content">
-                  <h3>Supply Chain</h3>
-                  <p>
-                  Optimize your operations, bring transparency in your process flow, drive a resilient approach, enable a 360-degree view into your Supply Chain practices with Dynamics 365 implementation services. Faster your time to market, streamline inventory & logistics, predict disruptions, and more.
-                  </p>
+                  <h3>Dynamics 365 Supply Chain</h3>
+                  <p>Utilize <Link href="/products/dynamics-365-supply-chain-management/"><a>Dynamics 365 Supply Chain Management's</a></Link> predictive analytics to turn data into actionable insights for better decision-making in inventory, warehouse, logistics, service, and manufacturing.</p>
                 </div>
               </div>
 
@@ -214,10 +201,8 @@ Innovate and scale with confidence, drive an efficient approach, implement stand
                   />
                 </div>
                 <div className="style-grid-content">
-                  <h3>Marketing</h3>
-                  <p>
-                  Engage & drive the right customers at right time, drive strategic growth, generate customer trust, and improve your customer retention rate by making effective use of decision-making insights, easy-to-use tools, and in-built features to support all your marketing campaigns.
-                  </p>
+                  <h3>Dynamics 365 Marketing</h3>
+                  <p><Link href="/products/microsoft-dynamics-365-marketing/"><a>Dynamics 365 Marketing</a></Link> is the best cloud marketing solution to help your marketing and sales team personalize and orchestrate customer journeys to derive a profitable sales cycle.</p>
                 </div>
               </div>
 
@@ -229,10 +214,8 @@ Innovate and scale with confidence, drive an efficient approach, implement stand
                   />
                 </div>
                 <div className="style-grid-content">
-                  <h3>Field Service</h3>
-                  <p>
-                  Combining our standard implementation methodology, correct approach, and your custom requirement, we deploy a high-end service module in your system integrated with AI, ML, and IoT capabilities to manage customers, empower field technicians, and enable remote assist capabilities.
-                  </p>
+                  <h3>Dynamics 365 Field Service</h3>
+                  <p>Provide exceptional field services to your customers and earn their loyalty for life using <Link href="/products/microsoft-dynamics-365-field-service/"><a>Dynamics 365 Field Service's</a></Link> actionable data insights and connected experiences.</p>
                 </div>
               </div>
               <div className="style-grid-1">
@@ -243,10 +226,8 @@ Innovate and scale with confidence, drive an efficient approach, implement stand
                   />
                 </div>
                 <div className="style-grid-content">
-                  <h3>Commerce</h3>
-                  <p>
-                  Through our highly integrated commerce solution, we enable enterprises to ensure an omnichannel experience to their customers combined with AI analytics, advanced commerce tools that helps to gain customer trust and drive growth while ensuring seamless global compliances management.
-                  </p>
+                  <h3>Dynamics 365 Commerce</h3>
+                  <p>With <Link href="/products/microsoft-dynamics-365-commerce/"><a>Dynamics 365 for Commerce</a></Link>, you can deliver a seamless E-Commerce experience that builds customer loyalty and surpasses emerging online channels, helping you engage more customers and derive profits.</p>
                 </div>
               </div>
             </div>
@@ -259,17 +240,15 @@ Innovate and scale with confidence, drive an efficient approach, implement stand
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <div className="call-to-action-content">
-                <h3>Connect, Share, & Reveal</h3>
-                <p>
-                Let us talk to come up with the potential requirement for your business in terms of implementing Dynamics 365 implementation services.
-                </p>
+                <h3>More than 135+ satisfied customers are accelerating their business at full throttle with our best in-service ERP and CRM solutions.</h3>
+                <p>Contact our experts, share your business requirements, and reveal the best <b>cloud ERP or CRM solution for your business</b>.</p>
                 <div className="text-center m-o-t new-btn-nn">
                   <a
                     data-bs-toggle="modal"
                     href="#exampleModal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Request a Call Back</span>
+                    <span>Connect Today!</span>
                   </a>
                 </div>
               </div>
@@ -290,13 +269,8 @@ Innovate and scale with confidence, drive an efficient approach, implement stand
             <div className="col-lg-6">
               <div className="box-6">
                 <div className="box-6-top-head">
-                  <h2>Our Dynamics 365 Implementation Methodology</h2>
-                  <p>
-                    We adapt standard yet custom approach by embracing
-                    Microsoft's Sure Step Methodology to streamline your
-                    business processes, ensuring maximum security and
-                    transparency.
-                  </p>
+                  <h2>Our Step-by-Step Dynamics 365 Implementation Methodology</h2>
+                  <p><b>11+ years of experience</b> working with organizations of different sizes have developed a capability in our experts to quickly identify problems and deliver the right solution based on Microsoft's latest sure-step methodology.</p>
                 </div>
                 <div className="box-6-bottom">
                   <div className="posi-bottm">
@@ -314,41 +288,31 @@ Innovate and scale with confidence, drive an efficient approach, implement stand
                       <SwiperSlide>
                         <div className="box-6-bottom">
                           <h4>ANALYSIS PHASE</h4>
-                          <p>
-                          Understanding your business flow, considering your business requirement, and evaluating your custom configuration and third-party integration needs, we implement a solution to simplify your process execution and enable growth.
-                          </p>
+                          <p>Here, our experts deep-dive into your project idea and business needs and then develop and carve a plan to find the best fit for you.</p>
                         </div>
                       </SwiperSlide>
                       <SwiperSlide>
                         <div className="box-6-bottom">
-                          <h4>DESIGNING PHASE</h4>
-                          <p>
-                          After analyzing your core requirement, we come up with your functional needs to be considered i your custom implementation and design part determining your core values and supporting across your current processes and future events.
-                          </p>
+                          <h4>DESIGNING</h4>
+                          <p>Following the project analysis phase, we strategize to create functional demands that specify your customization, configuration, and integration needs.</p>
                         </div>
                       </SwiperSlide>
                       <SwiperSlide>
                         <div className="box-6-bottom">
-                          <h4>DEVELOPMENT PHASE</h4>
-                          <p>
-                          After accomplishing the design part of your project, we perform custom coding, strategic interface designing, seamless data modeling, potential system integration, and secure data migration to ensure successful project development.
-                          </p>
+                          <h4>DEVELOPMENT</h4>
+                          <p>In this step, we start with developing your project, which comprises custom coding, interface designing, system integration, data migration, and related tasks.</p>
                         </div>
                       </SwiperSlide>
                       <SwiperSlide>
                         <div className="box-6-bottom">
-                          <h4>DEPLOYMENT PHASE</h4>
-                          <p>
-                            In our deployment phase, we ensure project deployment along with end-user training, user acceptance, module testing, etc. Applying our standard methodology, our team diagnose and ensure whether your newly implemented system is fulfilling all the required modules.
-                            </p>
+                          <h4>DEPLOYMENT</h4>
+                          <p>This step guarantees the completion of your project, including user acceptance testing and crucial user training (UAT).</p>
                         </div>
                       </SwiperSlide>
                       <SwiperSlide>
                         <div className="box-6-bottom">
                           <h4>POST-GO-LIVE SUPPORT</h4>
-                          <p>
-                          The final step is to go live wherein we ensure final implementation enriched as per your anticipated modules along with end-user training and their quick acceptance for the newly configured system features, functionalities, and navigation to impact your entire business flow.
-                          </p>
+                          <p>In this decisive step, our experts provide end-user training and technical support when required and ensure that your system works as desired.</p>
                         </div>
                       </SwiperSlide>
                     </Swiper>
@@ -449,8 +413,9 @@ Innovate and scale with confidence, drive an efficient approach, implement stand
           <div className="col-lg-8 col-md-8">
           <header className="section-header">
             <h2>
-            Why Choose Us As A Microsoft Dynamics Implementation Partner
+            Why Should You Choose Dynamics Square As Your Dynamics 365 Partner?
             </h2>
+            <p>An experienced <b>Dynamics 365 implementation partner</b> like us has core knowledge, expertise, and understands your business environment, and has the capabilities to provide you with continuous services and support.</p>
           </header>
           </div></div>
           <div className="row pad15x">
@@ -467,9 +432,7 @@ Innovate and scale with confidence, drive an efficient approach, implement stand
                   </h3>
                 </div>
                 <div className="commen-boc-3-info">
-                  <p>
-                  Being an authorized Gold Microsoft Partner, we ensure and deliver business-specific solutions comprising agile approach, standard practices, and modern-embedded strategies.
-                  </p>
+                  <p>Dynamics Square is Canada's trusted Microsoft Gold Dynamics 365 implementation Partner. Move your business to the <b>cloud with Dynamics 365</b> and leverage its powerful capabilities to unify your business and make a real impact.</p>
                 </div>
               </div>
             </div>
@@ -478,14 +441,12 @@ Innovate and scale with confidence, drive an efficient approach, implement stand
                 <div className="icons">
                   <img src="/img/Group997.svg" alt="Group997.svg" />
                   <h3>
-                  Proficient <br />
-                    Team
+                  Data Security <br />
+                  Concerns
                   </h3>
                 </div>
                 <div className="commen-boc-3-info">
-                  <p>
-                  Comprises a team of highly skilled, Microsoft-certified, and industry expert enthusiasts who have years of proficiency in Dynamics 365 implementation.
-                  </p>
+                  <p>Microsoft is second to none when it comes to data security. Our experts follow Microsoft's guidance to enable all advanced security features while implementing any desired module from the <b>Dynamics 365 suite of business apps</b>.</p>
                 </div>
               </div>
             </div>
@@ -494,14 +455,12 @@ Innovate and scale with confidence, drive an efficient approach, implement stand
                 <div className="icons">
                   <img src="/img/Group772.svg" alt="Group772" />
                   <h3>
-                    Dedicated <br />
-                    Support
+                  Collaborative <br />
+                  and Supportive
                   </h3>
                 </div>
                 <div className="commen-boc-3-info">
-                  <p>
-                  We have a dedicated <a href="/our-services/dynamics-365-support-services/">support</a> model that helps our clients to maintain continuity across their processes from the planning & analysis phase to end-user training to post-implementation.
-                  </p>
+                  <p>We listen carefully when it is about our clients. Our customers are our hearts, and our experts understand it. As your friendly <b>Dynamics 365 implementation partner</b>, we adhere to ensure you enjoy Dynamics 365's full potential.</p>
                 </div>
               </div>
             </div>
@@ -511,14 +470,12 @@ Innovate and scale with confidence, drive an efficient approach, implement stand
                 <div className="icons">
                   <img src="/img/Group1003.svg" alt="Group1003" />
                   <h3>
-                  Competitive <br />
-                    Pricing
+                  Quality <br />
+                  Assurance
                   </h3>
                 </div>
                 <div className="commen-boc-3-info">
-                  <p>
-                  Our high-end and custom configured implementation can be availed at 40% discounted pricing compared to other Microsoft implementation partners.
-                  </p>
+                  <p>Quality assurance is never compromised at <b>Dynamics Square</b>. Instead, we combine and seamlessly integrate your chosen module with other Microsoft Business Apps such as <b>Business Central and </b> <Link href="/products/microsoft-power-bi/"><a>Power BI</a></Link>.</p>
                 </div>
               </div>
             </div>
@@ -531,14 +488,12 @@ Innovate and scale with confidence, drive an efficient approach, implement stand
                     alt="proffesionalserviceicon"
                   />
                   <h3>
-                  Custom<br />
-                  Configured
+                  Industry <br />
+                  Experience
                   </h3>
                 </div>
                 <div className="commen-boc-3-info">
-                  <p>
-                  Considering your current process flow and supporting your business goals, we can implement domain-specific solutions to support your revenue-generating campaigns.
-                  </p>
+                  <p>Our decade-over experience and arduous work helps us ensure that you fully embrace the digital world's offerings and grow to newer heights through our Dynamics 365 suite of business management apps.</p>
                 </div>
               </div>
             </div>
@@ -548,15 +503,91 @@ Innovate and scale with confidence, drive an efficient approach, implement stand
                 <div className="icons">
                   <img src="/img/Group1000.svg" alt="Group1000" />
                   <h3>
-                    Flexible <br />
-                    Delivery
+                  Very Responsive <br />
+                  & Easy to Work With 
                   </h3>
                 </div>
                 <div className="commen-boc-3-info">
-                  <p>
-                  Keeping your project at high priority and understanding your time constraints, we ensure and deliver your project fulfilling the committed deadlines.
-                  </p>
+                  <p>Our goal is to work with organizations delightfully to quickly catch their problems and provide the right solution right away. We work with you as if you are our team. With <b>Dynamics Square</b>, look no further.</p>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="call-to-action-center hero-4">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-8">
+              <div className="call-to-action-content">
+                <h3>Book A Free Consultation</h3>
+                <p>See How Dynamics Square Can Help Transform Your Business with Microsoft Business Apps.</p>
+                <div className="text-center m-o-t new-btn-nn">
+                  <a
+                    data-bs-toggle="modal"
+                    href="#exampleModal"
+                    className="btn-get-started scrollto"
+                  >
+                    <span>Connect Today!</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="solution-faq faq">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-8 col-md-8">
+              <header className="section-header">
+              <h2>Have You Got Questions About Dynamics 365 Implementation Services?</h2>
+                <p>Explore our FAQs tailored for you!</p>
+              </header>
+            </div>
+          </div>
+          <div className="row justify-content-center mar-top-7">
+            <div className="col-lg-8">
+              <div className="accordion accordion-flush" id="faqlist1">
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-2"
+                    >What is the implementation in Dynamics 365?</button>
+                  </h3>
+                  <div
+                    id="faq-content-2"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                     <p>The implementation/deployment of a software application to solve your problems refer to it. While Dynamics 365 is a suite of intelligent business apps for which you would require help from a Microsoft-certified implementation partner like Dynamics Square to implement it for you so that your business can grow at scale, helping you achieve new heights.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-1"
+                    >How much time does Microsoft Dynamics 365 implementation take?</button>
+                  </h3>
+                  <div
+                    id="faq-content-1"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                     <p>Implementing Enterprise Resource Planning (ERP) is a difficult process that needs proper planning and strategy. It can take anything between six months and two years to fully integrate front and back-end systems and procedures into a single platform.</p>
+                    </div>
+                  </div>
+                </div>
+
               </div>
             </div>
           </div>

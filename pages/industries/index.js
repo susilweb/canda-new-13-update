@@ -1,15 +1,16 @@
 
 import Head from 'next/head'
+import Link from 'next/link';
 const IndustriesList = () => {
   return (
     <>
       <Head>
-        <title>Industries | Dynamics Square</title>
+        <title>Microsoft Dynamics 365 for Industries: Explore Your Solution</title>
         <meta
           name="description"
-          content="Power the growth of your industry by implementing Dynamics 365 Business applications. Our Dynamics 365 experts have the expertise to assist you..."
+          content="Microsoft Dynamics 365 is a suite of intelligent business apps devised to help large and mid-market-sized industries. Contact Dynamics Square for more info."
         />
-        <meta name="robots" content="noindex,nofollow" />
+        <meta name="robots" content="index,follow" />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.ca/industries/"
@@ -21,11 +22,7 @@ const IndustriesList = () => {
           <div className="row">
             <div className="col-lg-6 mobile-1 align-self-center">
               <h1>Industries</h1>
-              <p>
-                Power the growth of your industry by implementing Dynamics 365
-                Business applications. Our Dynamics 365 experts have the
-                expertise to assist you in any capacity you require.
-              </p>
+              <p>Accelerate your growth with the power of <Link href="/products/microsoft-dynamics-crm/"><a>cloud CRM</a></Link> and <Link href="/products/microsoft-dynamics-erp/"><a>ERP apps</a></Link> from <Link href="/products/microsoft-dynamics-365/"><a>Microsoft Dynamics 365</a></Link>, bring agility to business operations and make a real impact.</p>
             </div>
             <div className="col-lg-6 align-self-center">
               <img
@@ -48,7 +45,7 @@ const IndustriesList = () => {
                 <h3>Startup</h3>
                 <div className="text-lg-center">
                   <a
-                    href="/industries/startup/"
+                    href="/industries/startups/"
                     className="btn-get-started btn-sm scrollto"
                   >
                     <span>View More</span>

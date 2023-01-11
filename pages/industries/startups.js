@@ -1,51 +1,43 @@
 import React, { useState } from "react";
 import Head from 'next/head'
-// import ModalVideo from "react-modal-video";
+import ModalVideo from "react-modal-video";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import { Autoplay, FreeMode, Pagination } from "swiper";
+import Link from "next/link";
 const Startup = () => {
   const [isOpen, setOpen] = useState(false);
   const [open, setsOpen] = useState(false);
   return (
     <>
       <Head>
-        <meta charSet="utf-8" />
-        <title>
-          Dynamics 365 For Startups &amp; Small Business | Dynamics Square
-        </title>
+        <title>Microsoft Dynamics 365 for Startups: Ultimate Tool for Startups</title>
         <meta
           name="description"
-          content="Dynamics 365 For Startups is the perfect cloud solution for business of any size. Find out all the features and how you can use it to grow a successful small business."
+          content="Microsoft's Dynamics 365 for startups is an unmatched tool to quickly market your startups & mid-market-sized businesses. Contact Dynamics Square for more."
         />
-        <meta name="robots" content="noindex,nofollow" />
+        <meta name="robots" content="index,follow" />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.ca/industries/startups/"
         />
       </Head>
-      {/* <ModalVideo
+     <ModalVideo
         channel="youtube"
         autoplay
         isOpen={isOpen}
         videoId="qLjfAsQRWaM"
         onClose={() => setOpen(false)}
-      /> */}
+      /> 
       <main>
         <section className="Solution-banner hero-1 hero">
           <div className="container">
             <div className="row">
               <div className="col-lg-6 mobile-1 align-self-center">
-                <h1>
-                  Dynamics 365
-                  <br />
-                  For Startups
-                </h1>
-                <p>
-                Dynamics 365 is a platform that helps startups, small businesses and entrepreneurs with their cloud business management needs.
-                </p>
+                <h1>Dynamics 365 for Startups & Mid-Market Sized Businesses</h1>
+                <p>Dynamics 365 for Startups brings Microsoft's ecosystem to startup founders and business decision-makers to employ low-cost yet highly innovative tools that increase productivity and ease developers' workloads. </p>
                 <div className="text-center text-lg-start">
                   <a
                     data-bs-toggle="modal"
@@ -70,12 +62,18 @@ const Startup = () => {
           <div className="row justify-content-center">
               <div className="col-lg-9 col-md-9">
               <header className="section-header">
-              <h2>
-                kickstart your startup
-                <br />
-                with microsoft dynamics 365
-              </h2>
-              <p><a href="/products/microsoft-dynamics-365/">Dynamics 365</a> for Startups provides small businesses with a comprehensive, cloud-based business solution that helps them streamline operations, improve customer engagement, and drive growth. The solution includes CRM, ERP, and productivity tools, all of which are designed to help businesses save time and money. In addition, Dynamics 365 for Startups offers access to a community of like-minded entrepreneurs, mentors, and investors, which can help small businesses thrive. Drive process automation, leverage AI insights, and transform your startup practices to start driving profitability and discovering scalable opportunities all through Microsoft Dynamics 365 for Startups.</p>
+              <h2>Microsoft's Dynamics 365 for Startups - Cultivate a Culture of Innovation</h2>
+              <p>Bring people, knowledge, and problem-solving ability together to solve tomorrow's challenges today!</p>
+              <p>Startups and mid-market-sized businesses are the hubs of innovation. They work on tight budgets and have complexities to manage. <b>Dynamics 365 for Startups</b> is not merely an idea but a flexible, easy-to-use, customizable, and low-cost yet highly productive business management platform that helps startups and mid-sized businesses (SMEs/SMBs) streamline operations, <Link href="/products/dynamics-365-customer-engagement/"><a>enhance customer engagement</a></Link>, save development time and cost & drive growth at scale. </p>
+              <div className="text-center">
+                  <a
+                    data-bs-toggle="modal"
+                    href="#exampleModal"
+                    className="btn-get-started scrollto"
+                  >
+                    <span>Get Started with Your Transformation Journey! </span>
+                  </a>
+                </div>
             </header>
               </div>
             </div>
@@ -86,15 +84,12 @@ const Startup = () => {
           <div className="container">
             <div className="row gx-5">
               <div className="col-lg-6 align-self-center">
-                <h2>
-                Strategic Reasons Of Choosing Dynamics 365 For Your Startup Business
-                </h2>
-                <p>
-                Start optimizing your processes, support your scalable strategy, and manage your end-to-end flow to enable growth potentials and start working toward achieving outcomes and maximizing the same in your startup by implementing Dynamics 365 for the Startup industry.
-                </p>
+                <h2>Why should I choose Dynamics 365 for my Startup or for my new business?</h2>
+                <p><b>Microsoft Dynamics 365 for Startups</b> is a platform that grows with you. With $150,000 free Azure credits, you can build solutions, productivity & dev tools at your own pace. Also, you get free access to various development and productivity tools, including GitHub and Microsoft 365.</p>
               </div>
               <div className="col-lg-6 align-self-center">
                 <div className="content-icons-modil-1">
+                  <p><b>Access startup-friendly offers & start building</b></p><br />
                   <div className="content-inner-moil-1">
                     <div className="icons-left">
                       <div className="ext-bord">
@@ -102,9 +97,8 @@ const Startup = () => {
                       </div>
                     </div>
                     <div className="cintent-right">
-                      <p>
-                      Support your business strategy, manage all your processes, and bring an efficient flow in your organization from the very beginning of your business.
-                      </p>
+                      <p><b>Ideate</b></p>
+                      <p>Get 1k in Azure credits to refine your startup idea, prototype your product, and increase the credits up to 150k as your usage and business grows to a brand or company.</p>
                     </div>
                   </div>
 
@@ -115,9 +109,8 @@ const Startup = () => {
                       </div>
                     </div>
                     <div className="cintent-right">
-                      <p>
-                      Leverage online sessions, technical help, and online mentorship provided by Microsoft Dynamics 365 to support and improve your operational flow across your organization.
-                      </p>
+                      <p><b>Develop</b></p>
+                      <p>Since you know your idea has the potential to generate value, jump in to develop a minimum viable product (MVP) using $5k Azure credits, and increase this credit to $150k as your company grows.</p>
                     </div>
                   </div>
 
@@ -128,11 +121,23 @@ const Startup = () => {
                       </div>
                     </div>
                     <div className="cintent-right">
-                      <p>
-                      With high-end customization and required system integration addressing your business context, start gaining your customer base to drive scalable growth along with global compliances.
-                      </p>
+                      <p><b>Grow</b></p>
+                      <p>When you have launched your MVP, it is now time to focus on shipping features and start winning customers. Accelerate your company's growth with free $25k Azure credits and raise credits to $150k as your business grows.</p>
                     </div>
                   </div>
+
+                  <div className="content-inner-moil-1">
+                    <div className="icons-left">
+                      <div className="ext-bord">
+                        <i className="bi bi-check2"></i>
+                      </div>
+                    </div>
+                    <div className="cintent-right">
+                      <p><b>Scale</b></p>
+                      <p>Once you have set up a market fit for your product and you are ready to focus on scaling your company, get the advantage of $150k Azure credits.</p>
+                    </div>
+                  </div>
+                 
                 </div>
               </div>
             </div>
@@ -148,19 +153,15 @@ const Startup = () => {
               </div>
               <div className="col-lg-7 align-self-center">
                 <div className="call_to_action-left">
-                  <h3>
-                  Talk to Us for Expert Solution
-                  </h3>
-                  <p>
-                  Let us know your processes involved in your startup business and reveal the best-in-class solution customized and configured as per your specific needs.
-                  </p>
+                  <h3>Run your Startup Business more efficiently with Microsoft Dynamics 365 for Startups</h3>
+                  <p>Speed up your development process and accelerate your business with expert guidance</p>
                   <div className="m-o-t m-o-t-inde">
                     <a
                       data-bs-toggle="modal"
                       href="#exampleModal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Schedule a Demo</span>
+                      <span>Meet Your Expert</span>
                     </a>
                   </div>
                 </div>
@@ -172,14 +173,11 @@ const Startup = () => {
 
     
           <div className="container">
-          <div className="row justify-content-center">
+          <div className="row justify-content-center g-5">
               <div className="col-lg-9 col-md-9">
               <header className="section-header">
-              <h2>
-              Build & Run Your Business With Dynamics
-                <br />
-                365 Startup Solutions
-              </h2>
+              <h2>Build More & Achieve More with Dynamics 365 for Startups</h2>
+              <p>Get the ultimate business management tool that facilitates the success of your every project and inspires you to accomplish more. </p>
             </header>
               </div>
             </div>
@@ -193,10 +191,8 @@ const Startup = () => {
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>High-End Customization</h3>
-                    <p>
-                    Simplify all your startup processes and start driving a productive approach with Dynamics 365 configured and customized as per your startup needs.
-                    </p>
+                    <h3>Tailored Customization</h3>
+                    <p>Simplify your operations and solve startup challenges with an easy-to-customize business management tool that quickly adapts to your needs.</p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
@@ -207,10 +203,8 @@ const Startup = () => {
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Drive Innovation</h3>
-                    <p>
-                    Connect your resources and processes to drive innovation in terms of team collaboration, process efficiency, and streamlined data.
-                    </p>
+                    <h3>Highly Innovative</h3>
+                    <p>Pull all your resources and processes together and proactively connect them with your development and sales team to drive collaboration, innovation, and efficiency.</p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
@@ -221,8 +215,8 @@ const Startup = () => {
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Streamline Analytics</h3>
-                    <p>Monitor and control your processes with real-time key analytics, customer insights, financial visibility, and more all through Dynamics 365 for Startup industry solutions.</p>
+                    <h3>Understands People</h3>
+                    <p>Understand your customer, open doors for engagement, and deliver an omnichannel experience by providing personalized solutions every step of their journey.</p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
@@ -233,8 +227,8 @@ const Startup = () => {
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Data Automation</h3>
-                    <p>Enable your process automation and data centralization with AI efficiency leveraging in-built AI data-driven practices to facilitate an on-cloud environment.</p>
+                    <h3>Robust Analytics</h3>
+                    <p>Make use of real-time key analytics, customer data, and insights for better financial visibility with <b>Dynamics 365 Startups.</b></p>
                   </div>
                 </div>
               </div>
@@ -247,10 +241,8 @@ const Startup = () => {
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Drive Customers</h3>
-                    <p>
-                    Connect and identify potential customer base to engage and drive with a personalized solution and hourly support. With Dynamics 365 for Startups, facilitate your customers with an omnichannel experience.
-                    </p>
+                    <h3>Process Automation</h3>
+                    <p>Enable data and process automation using <Link href="/products/microsoft-dynamics-365-ai/"><a>built-in AI (Artificial Intelligence)</a></Link> practices and in-cloud environments. </p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
@@ -261,10 +253,8 @@ const Startup = () => {
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Enterprise Mobility</h3>
-                    <p>
-                    Leverage centralized data, monitor your processes, and bring transparency across your people and process collaboration through a one-tap solution using mobile devices.
-                    </p>
+                    <h3>Enterprise Maneuverability</h3>
+                    <p>Leverage higher enterprise mobility by centralizing data, processes, and people on a single platform - <b>Dynamics 365 for Startups.</b></p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
@@ -275,10 +265,8 @@ const Startup = () => {
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Informed Decision Making</h3>
-                    <p>
-                    With effective utilization of real-time AI analytics, key metrics, and sales or customer insights, empower everyone in your organization to make informed decisions to drive challenges.
-                    </p>
+                    <h3>Strategic Decision-making</h3>
+                    <p>Built-in real-time analytics, monitoring key metrics & customer data, and customer-journey orchestrating features empower teams to make informed decisions to defeat challenges.</p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
@@ -289,10 +277,8 @@ const Startup = () => {
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Optimization & Forecasting</h3>
-                    <p>
-                    With data automation, connected processes, and AI insights, Dynamics 365 for small businesses or startups helps optimize operations, forecast sales, and predict future potentials.
-                    </p>
+                    <h3>Forecasting & Optimization</h3>
+                    <p>Optimize your operations, forecast sales, and start making an impact by connecting all your employees, data, and AI-driven insights.</p>
                   </div>
                 </div>
               </div>
@@ -304,17 +290,15 @@ const Startup = () => {
             <div className="row justify-content-center">
               <div className="col-lg-9">
                 <div className="call-to-action-content">
-                  <h3>Talk to Us to Reveal Your Actual Requirements</h3>
-                  <p>
-                  A healthy conversation can reveal business values in terms of reliable and business-specific solutions. Talk to us, share your requirement, business challenges, etc. to understand what sort of custom-configured business solution we can offer you to seamlessly drive your ongoing practices as well as support your futuristic potentials. Our experts can diagnose your system requirement and can implement Dynamics 365 Startup Businesses solutions to impact growth rate and drive scalability.
-                  </p>
+                  <h3>Tell Us About Your Start-Up! Both Dynamics Square and Microsoft are ready to help you develop at your own pace.</h3>
+                  <p>Our experts offer strategic help to startup founders who want to achieve more. See how we can help you minimize your inputs and maximize your outputs while boosting process flow automation.</p>
                   <div className="text-center m-o-t m-o-t-hv">
                     <a
                       data-bs-toggle="modal"
                       href="#exampleModal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Get Started Now</span>
+                      <span>Contact Us</span>
                     </a>
                   </div>
                 </div>
@@ -336,7 +320,6 @@ const Startup = () => {
                     <div className="video-ytube video-ytubes">
                       <div className="popup-btn popup-btns">
                         <a
-                          data-bs-toggle="modal"
                           href="#javascript:void(0)"
                           onClick={() => setOpen(true)}
                         >
@@ -388,7 +371,7 @@ const Startup = () => {
           <div className="row justify-content-center">
               <div className="col-lg-9 col-md-9">
                 <header className="section-header">
-                    <h2>Explore Other Industries</h2>
+                    <h2>Explore Other Industries & Discover More Dynamics 365 Solutions</h2>
                 </header>
               </div>
             </div>
@@ -442,11 +425,7 @@ const Startup = () => {
                               </div>
                               <div className="text-wrp-content">
                                 <h3>Food & Beverages</h3>
-                                <p>
-                                  Efficiently manage your inventory and supply
-                                  chain by implementing Dynamics 365 for Food
-                                  and Beverages business.
-                                </p>
+                                <p>Employ an intelligent and <Link href="/products/dynamics-365-supply-chain-management/"><a>adaptive supply chain</a></Link> to help drive growth and fulfill customer expectations with <Link href="/industries/food-and-beverages/"><a>Dynamics 365 for the food & beverage industry</a></Link>. </p>
                                 <span>Explore Now</span>
                               </div>
                             </a>
@@ -466,11 +445,7 @@ const Startup = () => {
                                 </div>
                                 <div className="text-wrp-content">
                                   <h3>Not for Profit</h3>
-                                  <p>
-                                    Bring Transparency And Drive Efficiency In
-                                    Your Non-Profit Organization With Microsoft
-                                    Dynamics 365 For Charities.
-                                  </p>
+                                  <p>Bring automation into your daily operations, help the needy, and drive efficiency in your non-profit mission with <Link href="/industries/microsoft-cloud-for-nonprofit/"><a>Dynamics 365 for Non-Profits</a></Link> Hubs.</p>
                                   <span>Explore Now</span>
                                 </div>
                               </a>
@@ -491,10 +466,7 @@ const Startup = () => {
                                 </div>
                                 <div className="text-wrp-content">
                                   <h3>E-Commerce</h3>
-                                  <p>
-                                    Optimize Your End-To-End Ecommerce Processes
-                                    And Improve Your Customer Experience.
-                                  </p>
+                                  <p>Unify your back office, in-store, call center, and e-commerce experiences and deliver more unified commerce to your customers at scale with <Link href="/products/microsoft-dynamics-365-commerce/"><a>Dynamics 365 Commerce</a></Link>.</p>
                                   <span>Explore Now</span>
                                 </div>
                               </a>
@@ -515,11 +487,7 @@ const Startup = () => {
                                 </div>
                                 <div className="text-wrp-content">
                                   <h3>Professional Services</h3>
-                                  <p>
-                                    Streamline And Efficiently Manage Your
-                                    Professional Services with Microsoft
-                                    Dynamics 365 Business Applications.
-                                  </p>
+                                  <p>Bring data, people, and processes on a chosen unified business management platform in Dynamics 365 to deliver world-class professional services.</p>
                                   <span>Explore Now</span>
                                 </div>
                               </a>
@@ -540,11 +508,7 @@ const Startup = () => {
                                 </div>
                                 <div className="text-wrp-content">
                                   <h3>Manufacturing & Distribution</h3>
-                                  <p>
-                                    Keep track of your production lines and
-                                    bring transparency with Microsoft Dynamics
-                                    365 for Manufacturing and Distribution.
-                                  </p>
+                                  <p>Build more resilient and sustainable growth in manufacturing by driving innovation, optimizing manufacturing processes, & strengthening customer relationships.</p>
                                   <span>Explore Now</span>
                                 </div>
                               </a>
@@ -561,20 +525,7 @@ const Startup = () => {
           </div>
         </section>
 
-        <section className="blogs-extra">
-          <div className="container">
-            <header className="section-header">
-              <h2>Explore Our Recent Blogs & Resources</h2>
-              <p>Whether you are a start-up, an SMB, or an enterprise, the Dynamics Square blog is the best place to get inspired and learn more about Microsoft Business Applications.</p>
-            </header>
-            <div className="row top-2 gx-5">
-              {/* <Blog /> */}
-              <div className="col-lg-6 align-self-center">
-                <img src="/img/industry-startup-banner.png" alt="" />
-              </div>
-            </div>
-          </div>
-        </section>
+        
       </main>
     </>
   );
