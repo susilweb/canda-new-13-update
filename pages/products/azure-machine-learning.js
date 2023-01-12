@@ -5,10 +5,10 @@ const AzureMachineLearning = () => {
     <>
       <Head>
         <meta charSet="utf-8" />
-        <title>Azure Machine Learning | Dynamics Square</title>
+        <title>Azure Machine Learning Platform: Start Creating the Future</title>
         <meta
           name="description"
-          content="Develop and deploy enterprise-level Machine Learning Models accurately and instantly to support your process optimization and critical business practices."
+          content="Microsoft Azure is a place for data scientists and ML experts to quickly build, train and deploy machine learning models. Contact Dynamics Square for more. "
         />
         <link
           rel="canonical"
@@ -25,9 +25,7 @@ const AzureMachineLearning = () => {
                 Azure <br />
                 Machine Learning
               </h1>
-              <p>
-              Deploy Machine Learning Models quickly and effortlessly, faster time to market, streamline Machine Learning models deployment and management practices with Azure Machine Learning.
-              </p>
+              <p>Empower your data scientists and developers to build and deploy business-critical machine learning models at scale with Azure Machine Learning - an end-to-end machine learning-as-a-service (ML-aa-S) from Microsoft to efficiently run your machine learning lifecycle.</p>
               <div>
                 <div className="text-center text-lg-start">
                   <a
@@ -35,7 +33,7 @@ const AzureMachineLearning = () => {
                     href="#exampleModal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Schedule a Demo</span>
+                    <span>Get Started</span>
                   </a>
                 </div>
               </div>
@@ -55,16 +53,16 @@ const AzureMachineLearning = () => {
               <div className="row justify-content-center">
                   <div className="col-lg-9 col-md-9">
                       <header className="section-header">
-                      <h2>What Is Azure Machine Learning?</h2>
-                      <p>Develop and deploy enterprise-level Machine Learning Models accurately and instantly to support your process optimization and critical business practices. Accelerate your model deployment with Azure Machine Learning Services, scale your MLOps (Machine Learning Operations), optimize operational efficiency, and your operational costing while enabling high end-security to ensure uninterrupted and efficient business flow.</p>
+                      <h2>What is Azure Machine Learning?</h2>
+                      <p>Azure Machine Learning (AML) is a cloud-based machine learning service from Microsoft to help you better manage MLOps and accelerate the machine learning project lifecycle. ML professionals, data scientists, and data engineers can use AML in daily workflows to train and deploy models for enhanced production.</p>
                       </header>
                   </div>
               </div>
               <div className="row justify-content-center">
                   <div className="col-lg-9 col-md-9">
                       <header className="section-header">
-                      <h2>Azure Machine Learning Benefits</h2>
-                      <p>With Azure Machine Learning solutions, enable your deployment team to seamlessly prepare data sets, efficiently develop Machine Learning models, bring innovation in your critical business practices wrapped with enterprise-grade security and reliability. Streamline your entire Machine Leaning models deployment whether on-premises, on-cloud, or at <a href="/products/azure-iot-edge/">Azure IoT Edge</a>.</p>
+                      <h2>Benefits of Using Azure Machine Learning</h2>
+                      <p>Accelerate time to value and deliver responsible machine-learning solutions</p>
                       </header>
                   </div>
               </div>
@@ -88,7 +86,7 @@ const AzureMachineLearning = () => {
                             alt="icons-machine-learning_Automated-Machine-Learning"
                           />
                         </div>
-                        <span>Streamlined & Automated ML</span>
+                        <span>Prepare Data & Find Meaning</span>
                       </button>
                     </h3>
                     <div
@@ -98,7 +96,7 @@ const AzureMachineLearning = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                      Develop efficient ML models instantly to ensure effective analysis, predictions, and forecasting. With the help of model interpretability, understand the process flow of models' development.
+                      <p>Label data and prepare it for data exploration using an analytics engine. Access, create, and share data at scale.</p>
                       </div>
                     </div>
                   </div>
@@ -119,7 +117,7 @@ const AzureMachineLearning = () => {
                             alt="icons-machine-learning_Easy-to-Use-Functionality"
                           />
                         </div>
-                        <span>Seamless Functionality</span>
+                        <span>Build & Train ML Models</span>
                       </button>
                     </h3>
                     <div
@@ -129,41 +127,11 @@ const AzureMachineLearning = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                      Leveraging drag-and-drop and seamless features, enable smoother data transformation, streamlined model training, and easy-to-use data or process evaluation.
+                     <p>Utilize collaborative Jupyter notebooks and automatically train and tune accurate machine learning models. Use familiar tools like Visual Studio Code and GitHub to switch easily from local to cloud training.</p>
                       </div>
                     </div>
                   </div>
-                  <hr />
-                  <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#fin7"
-                        aria-expanded="false"
-                        aria-controls="fin7"
-                      >
-                        <div className="wr-in">
-                          <img
-                            src="/img/icons-machine-learning_High-End-Security-.svg"
-                            alt="icons-machine-learning_High-End-Security"
-                          />
-                        </div>
-                        <span>Enterprise-Grade Security</span>
-                      </button>
-                    </h3>
-                    <div
-                      id="fin7"
-                      className="accordion-collapse collapse"
-                      aria-labelledby="headingTwo"
-                      data-bs-parent="#accnew"
-                    >
-                      <div className="accordion-body">
-                      Build and deploy highly secured ML models when you implement Machine Learning on Azure. In terms of security features, it includes network isolation, private IPs, resource control, etc.
-                      </div>
-                    </div>
-                  </div>
+                  
                 </div>
               </div>
             </div>
@@ -188,7 +156,7 @@ const AzureMachineLearning = () => {
                             alt="icons-machine-learning_Seamless-Integration"
                           />
                         </div>
-                        <span>Simplified Integration</span>
+                        <span>Deploy Models to Validate</span>
                       </button>
                     </h3>
                     <div
@@ -198,7 +166,7 @@ const AzureMachineLearning = () => {
                       data-bs-parent="#accneww"
                     >
                       <div className="accordion-body">
-                      By leveraging built-in integration along with other simplified integration such as <a href="/products/microsoft-power-bi/">Power BI</a>, Azure Data Lake, Azure Synapse Analytics, and Azure Cognitive research, etc., boost your production line and impact growth strategy.
+                      <p>Automate ML workflows by creating pipelines and CI/CD. Optimize machine learning models through accelerated training and interface at lower costs with ONNX Runtime.</p>
                       </div>
                     </div>
                   </div>
@@ -219,7 +187,7 @@ const AzureMachineLearning = () => {
                             alt="icons-machine-learning_Hybrid-Multi-Cloud-Support"
                           />
                         </div>
-                        <span>Multi-Network Support</span>
+                        <span>Control and Manage</span>
                       </button>
                     </h3>
                     <div
@@ -229,7 +197,7 @@ const AzureMachineLearning = () => {
                       data-bs-parent="#accneww"
                     >
                       <div className="accordion-body">
-                      Ensure customized workflow by deploying your Machine Learning Models whether on-premises, multi-cloud equipped environment, or Azure IoT Edge.
+                      <p>Detect drift and maintain the ML model's accuracy. Enjoy continuous monitoring with Azure Security Center. Become better at monitoring and analysis by tracking, logging, and analyzing data, models, and resources.</p>
                       </div>
                     </div>
                   </div>
@@ -247,14 +215,8 @@ const AzureMachineLearning = () => {
               
             <div className="wy-sultion-left-head">
             <h2>Azure Machine Learning Features</h2>
-            <h3>
-            How Azure Machine Learning Can Improve Your Operational Efficiency & Production Line
-                          </h3>
-            </div>
-            
-              
-              
-              
+            <h3>Devote more resources to understanding and building methods that 'learn' - leverage data to improve business processes.</h3>
+            </div>         
               {/* <div className="downlad_guid">
                         <a href="#">
                         <span>Download Microsoft Guide</span>
@@ -268,25 +230,21 @@ const AzureMachineLearning = () => {
                   <div className="why-solution-wrapper">
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                      Develop & Train
+                      Rapid Model
                         <br />
-                      ML Models
+                        Development
                       </h3>
                       <div className="overlay">
-                        <p>
-                        Leveraging Studio development enables accessing and utilizing integrated tools along with optimal support for frameworks and libraries.
-                        </p>
+                        <p>Accelerate the development and training of ML models using integrated tools and support for open-source frameworks and libraries.</p>
                       </div>
                     </div>
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                      Operational  <br />
-                      Efficiency
+                      Deploy  <br />
+                      Responsible AI 
                       </h3>
                       <div className="overlay">
-                        <p>
-                        Boost your operational efficiency by leveraging single-click functionality while deploying and managing your ML models. With effective utilization of MLOps, govern, manage, and scale your deployed models.
-                        </p>
+                        <p>Deploy Microsoft's responsible AI. It comes with built-in fairness and explainability for exceeded compliance.</p>
                       </div>
                     </div>
                   </div>
@@ -295,26 +253,22 @@ const AzureMachineLearning = () => {
                   <div className="why-solution-wrapper">
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                      Scalable
+                      Enable Quick
                         <br />
-                        ML Solutions
+                        Collaboration 
                       </h3>
                       <div className="overlay">
-                        <p>
-                        With built-in AI algorithms, monitor & control your data flow, enable operational transparency, track & debug errors in your ML models, drive accuracy while deploying ML models, and more.
-                        </p>
+                        <p>Quickly deploy machine learning models to manage and share information for cross-workspace collaboration and MLOps.</p>
                       </div>
                     </div>
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                      Streamline
+                      High-end Security
                         <br />
-                        Your Workloads
+                        & Compliance
                       </h3>
                       <div className="overlay">
-                        <p>
-                        By leveraging built-in global compliances and governance, run your entire ML workloads anywhere. Ensure implementing your Machine Learning innovations in a highly secured hybrid environment.
-                        </p>
+                        <p>Bring built-in governance, scaled security, and compliance anywhere and efficiently run your machine learning workloads anytime.</p>
                       </div>
                     </div>
                   </div>
@@ -343,6 +297,78 @@ with Azure Machine Learning Solutions.
                   >
                     <span>Book a Callback</span>
                   </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="solution-faq faq">
+        <div className="container">
+          <header className="section-header">
+            <h2>Have You Got Questions <br /> About Azure Machine Learning?</h2>
+            <p>Scroll Through Our FAQs Tailored For You!</p>
+          </header>
+          <div className="row justify-content-center mar-top-7">
+            <div className="col-md-8">
+              <div className="accordion accordion-flush" id="faqlist1">
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-1"
+                    >Is Machine Learning available in my country?</button>
+                  </h3>
+                  <div
+                    id="faq-content-1"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                    <p>Most probably, a big Yes. Because it is a hot topic today and will continue to be. In Canada and the United States, Microsoft's ML services are available for 12 regions. In total, ML enthusiasts and data engineers in more than 40 regions across the world can access Azure Machine Learning. Contact Dynamics Square for more information.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-2"
+                    >How much is the SLA for Azure Machine Learning?</button>
+                  </h3>
+                  <div
+                    id="faq-content-2"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                    <p>The service-level-agreement (SLA) for Microsoft Azure Machine Learning is 99.9 percent.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-3"
+                    >What is AML studio?</button>
+                  </h3>
+                  <div
+                    id="faq-content-3"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                    <p>Azure Machine Learning (AML) studio is a top-notch resource for building machine learning models. It's a unique yet centralized platform for data scientists and developers to show their capabilities in creating the future.</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

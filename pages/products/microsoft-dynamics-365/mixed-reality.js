@@ -8,10 +8,10 @@ const MicrosoftDynamics365MixedReality = () => {
     <>
       <Head>
         <meta charSet="utf-8" />
-        <title>Microsoft Dynamics 365 Remote Assist & Mixed Reality</title>
+        <title>Microsoft Mixed Reality for Business: By Dynamics Square</title>
         <meta
           name="description"
-          content="Empower your workforce and optimize your operations with Dynamics 365 Mixed Reality Applications like remote assist, product visualize and guides."
+          content="Mixed reality solutions from Microsoft are making waves in the business-like ECommerce and Supply Chain. Contact Dynamics square for AR/VR/MR help."
         />
         <link
           rel="canonical"
@@ -36,7 +36,7 @@ const MicrosoftDynamics365MixedReality = () => {
                 Mixed Reality
               </h1>
               <p>
-              Empower Your Workforce And Optimize Your Operations With Dynamics 365 Mixed Reality Apps To Explore New Business Opportunities And Drive Scalable Growth.
+              Explore New Business Opportunities & Drive Scalable Growth By Empowering Your Employees Through Dynamics 365 Mixed Reality Apps; A New Wave in Human-Computer Interaction (HCI).
               </p>
               <div>
                 <div className="text-center text-lg-start">
@@ -45,7 +45,7 @@ const MicrosoftDynamics365MixedReality = () => {
                     href="#exampleModal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Schedule a Demo</span>
+                    <span>Click Here For Demo</span>
                   </a>
                 </div>
               </div>
@@ -66,11 +66,12 @@ const MicrosoftDynamics365MixedReality = () => {
         <div className="col-lg-8 col-md-8">
             <header className="section-header">
               <h2>
-                What is dynamics 365 Mixed Reality
+              What Is Dynamics 365 Mixed Reality? 
               </h2>
               <p>
-              Dynamics 365 Mixed Reality Apps enable your workforce with instant & timely collaboration to improve overall work performance, drive effective growth, and maximize desired revenues. Share & solve problems in real-time and provide instant support to your customers or clients to impact the overall organizational success.
-              </p>
+              Dynamics 365 Mixed Reality Apps enable your people with instant & timely collaboration to improve overall performance, drive effective growth, and maximize outcomes. Share & solve problems by collaborating in real time and providing instant support to your customers or clients. Start positively impacting the overall organizational success.
+             </p>
+             <p><b>The Suite of Dynamics 365 Mixed Reality Apps Include: </b></p>
             </header>
           </div>
           </div>
@@ -91,7 +92,7 @@ const MicrosoftDynamics365MixedReality = () => {
                         <div className="wr-in">
                           <img src="/img/1.jpg" alt="icons" />
                         </div>
-                        <span>Microsoft Dynamics 365 Remote Assist</span>
+                        <span>Microsoft Dynamics 365 Remote Assist </span>
                       </button>
                     </h3>
                     <div
@@ -101,7 +102,7 @@ const MicrosoftDynamics365MixedReality = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                       <p>Optimize operations and transform your business flow while reducing costs and delays by leveraging Microsoft Dynamics 365 Remote Assist solutions. Perform seamless remote inspections across global clients or customers embedded with video interactions, screenshots sharing, annotations, etc. utilizing Dynamics 365 Remote assist Mobile.</p>
+                       <p>Dynamics 365 Mixed Reality has the potential to revolutionize the way we work and collaborate with others. With this technology, you can create realistic 3D images that allow you to communicate and collaborate with others in ways never possible before.</p>
                       </div>
                     </div>
                   </div>
@@ -122,7 +123,7 @@ const MicrosoftDynamics365MixedReality = () => {
                             alt="Mixed-Reality-Layout"
                           />
                         </div>
-                        <span>Microsoft Dynamics 365 Layout</span>
+                        <span>Microsoft Dynamics 365 Layout </span>
                       </button>
                     </h3>
                     <div
@@ -132,7 +133,7 @@ const MicrosoftDynamics365MixedReality = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                       <p>Manage all your complicated tasks instantly and efficiently by simply bridging the gap between real-world and digital world objects with <a href="/products/microsoft-dynamics-365/">Microsoft Dynamics 365</a> Layout. Share your ideas, visions, or concepts with your team or stakeholders and edit the layouts like a real-world experience to support improved decision-making prior to implementation.</p>
+                       <p>You can effortlessly bridge the gap between real-world and digital-world objects by using Microsoft Dynamics 365 Layout. Use the layouts to support improved decision-making before implementation by sharing ideas, visions, or concepts with your team or stakeholders.</p>
                       </div>
                     </div>
                   </div>
@@ -170,7 +171,7 @@ const MicrosoftDynamics365MixedReality = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        <p>Train your staff in real-time with self-created Mix-reality guides embedded with step-by-step instructions followed by necessary images, videos, and 3D holograms. Businesses can bring continuity in their workspace even when complex tasks are performed and improve their entire workflow with the help of Microsoft Dynamics 365 guides.</p>
+                        <p>Create Mix-reality guides containing step-by-step instructions, images, videos, and 3D holograms to train your staff in real-time. By using Microsoft Dynamics 365 guides, businesses can enhance the efficiency of their entire workflow even when complex tasks are performed.</p>
                       </div>
                     </div>
                   </div>
@@ -201,7 +202,7 @@ const MicrosoftDynamics365MixedReality = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                       <p>Accelerate your sales process, build customer trust, and close the deal faster by simply enabling your product visualization during your sales process. With Microsoft Dynamics 365 Product Visualize, empower your salespeople to visualize large, complex, customizable, or highly configurable products in a real-world environment to reduce risk and boost customer satisfaction.</p>
+                       <p>By enabling your product visualization during your sales process, you can accelerate your sales process, build customer trust, and close sales faster. With Microsoft Dynamics 365 Product Visualize, your salespeople will be able to visualize larger, more complex, more customizable, or highly configurable products in a real-world setting to strengthen customer relationships.</p>
                       </div>
                     </div>
                   </div>
@@ -219,7 +220,7 @@ const MicrosoftDynamics365MixedReality = () => {
             <div className="wy-sultion-left-head">
               <h2>Dynamics 365 Mixed Reality Benefits</h2>
               <h3>
-              Scalable Reasons For Implementing Mixed Reality Solutions
+              Why Mixed Reality Is Scalable and Effective for Your Business 
               </h3>
               </div>
             </div>
@@ -235,7 +236,7 @@ const MicrosoftDynamics365MixedReality = () => {
                       </h3>
                       <div className="overlay">
                         <p>
-                        Empower your workforce by bringing a 3D experience to mobile devices, headsets, and more. Allow your people to create, learn, and collaborate seamlessly with the intelligent information to drive clients and customers more effectively.
+                        Mobile devices, headsets, and more can all be used to enhance the 3D experience for your workforce. You can drive clients and customers more effectively by enabling your people to create, learn, and collaborate seamlessly with intelligent information.
                         </p>
                       </div>
                     </div>
@@ -247,7 +248,7 @@ const MicrosoftDynamics365MixedReality = () => {
                       </h3>
                       <div className="overlay">
                         <p>
-                        Optimal hardware of Mixed Reality devices equipped with advanced sensor technology allows people to gain in-depth understanding and gather more relevant data about the physical environment to ensure an immersive user experience.
+                        Users can gain a more in-depth understanding of the physical environment by combining Mixed Reality devices with advanced sensors equipped with advanced sensor technology. 
                         </p>
                       </div>
                     </div>
@@ -262,12 +263,7 @@ const MicrosoftDynamics365MixedReality = () => {
                         Support
                       </h3>
                       <div className="overlay">
-                        <p>
-                          Leverage Mixed Reality for across mobile devices,
-                          headsets, personal desktops, and AR (Augmented
-                          Reality) platforms to boost your user capability.
-                          Mixed Reality apps demonstrate seamless compatibility
-                          with HoloLens, iOS, and Android devices.
+                        <p>Enhance your user's experience by using Mixed Reality on mobile devices, headsets, personal computers, and AR (Augmented Reality) platforms. HoloLens, iOS, and Android devices can seamlessly run Mixed Reality apps.
                         </p>
                       </div>
                     </div>
@@ -279,11 +275,7 @@ const MicrosoftDynamics365MixedReality = () => {
                       </h3>
                       <div className="overlay">
                         <p>
-                          Allow your employees to directly access the Mixed
-                          Reality data over a secured and trusted cloud model
-                          with Azure Active Directory. Businesses can safeguard
-                          their vital data, monitor workloads, fix
-                          vulnerabilities, and ensure <a href="/products/microsoft-azure/">Azure</a> backup.
+                        Utilize Azure Active Directory to provide direct access to Mixed Reality data to your employees. By securing data, monitoring workloads, fixing vulnerabilities, and ensuring Azure backup, businesses can ensure their vital data is protected.
                         </p>
                       </div>
                     </div>
@@ -330,7 +322,7 @@ const MicrosoftDynamics365MixedReality = () => {
             <div className="col-lg-6 align-self-center">
               <div className="side-heading">
                 <h2>Dynamics 365 Mixed Reality Services</h2>
-                <p>Take Your Business One Step Ahead</p>
+                <p>Take your business to the next level</p>
               </div>
               <div className="busine_service_bottom-right">
                 <div className="card_new_img">
@@ -341,12 +333,11 @@ const MicrosoftDynamics365MixedReality = () => {
                 </div>
                 <div className="card_new_content">
                   <h3>Implementation</h3>
-                  <p>
-                    Unlock new business potentials with our highly customized
-                    Mixed Reality implementation.
+                  <p>Embrace Mixed Reality to unlock new business opportunities with our Implementation. 
                   </p>
                   <div className="action-content">
-                    <a href="#">Get Started</a>
+                  <a data-bs-toggle="modal"
+                    href="#exampleModal">Get Started</a>
                   </div>
                 </div>
               </div>
@@ -359,12 +350,11 @@ const MicrosoftDynamics365MixedReality = () => {
                 </div>
                 <div className="card_new_content">
                   <h3>Upgrade</h3>
-                  <p>
-                    Upgrade your existing system capabilities to drive an
-                    effective and scalable Mixed Reality approach.
+                  <p>Upgrade your existing system capabilities to drive an effective and scalable Mixed Reality approach.
                   </p>
                   <div className="action-content">
-                    <a href="#">Get Started</a>
+                  <a data-bs-toggle="modal"
+                    href="#exampleModal">Get Started</a>
                   </div>
                 </div>
               </div>
@@ -378,11 +368,11 @@ const MicrosoftDynamics365MixedReality = () => {
                 <div className="card_new_content">
                   <h3>Support</h3>
                   <p>
-                    Drive continuity and growth in your business with our
-                    dedicated Mixed Reality support system.
+                  Drive continuity and growth in your business with our dedicated Mixed Reality support system. 
                   </p>
                   <div className="action-content">
-                    <a href="#">Get Started</a>
+                  <a data-bs-toggle="modal"
+                    href="#exampleModal">Get Started</a>
                   </div>
                 </div>
               </div>
@@ -395,10 +385,8 @@ const MicrosoftDynamics365MixedReality = () => {
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <div className="call-to-action-content">
-                <h3>Looking to implement mixed reality applications?</h3>
-                <p>
-                  Let's discuss how smarter you can drive with our Mixed Reality
-                  services.
+                <h3>Want Mixed-Reality Apps at Work? </h3>
+                <p>Discuss how smartly you can drive growth with our Mixed Reality services. 
                 </p>
                 <div className="text-center m-o-t new-btn-nn">
                   <a
@@ -406,7 +394,7 @@ const MicrosoftDynamics365MixedReality = () => {
                     href="#exampleModal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Get Started Now</span>
+                    <span>Get In Touch </span>
                   </a>
                 </div>
               </div>
@@ -420,11 +408,9 @@ const MicrosoftDynamics365MixedReality = () => {
         <div className="container">
           <header className="section-header">
             <h2>
-              Have you got
-              <br />
-              questions about Dynamics 365 Mixed Reality?
+            Got Questions About Dynamics 365 Mixed Reality? 
             </h2>
-            <p>Click through to our FAQ for the best answers!</p>
+            <p>Click through FAQs for the best answers!</p>
           </header>
           <div className="row justify-content-center mar-top-7">
             <div className="col-lg-8">
@@ -437,7 +423,7 @@ const MicrosoftDynamics365MixedReality = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-1"
                     >
-                      What is Mixed Reality and how does it work?
+                      What is Mixed Reality or MR, and how does it work? 
                     </button>
                   </h3>
                   <div
@@ -446,23 +432,9 @@ const MicrosoftDynamics365MixedReality = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      Mixed Reality is a next-generation solution that can be
-                      leveraged to empower people in your organization and to
-                      improve your customer experience while reducing risks and
-                      costing. Mix Reality combines physical and digital worlds
-                      to interact in real-time to serve several purposes from
-                      remote services to virtual visualization to preparing
-                      learning guides for the users within your organization.
-                      <br />
-                      <br />
-                      Mixed Reality bridges the gap between people and objects
-                      that are on distance. Here, one does not need to visit
-                      miles just to collaborate with the object, things can be
-                      managed from the distance. For instance, businesses can
-                      showcase their complicated, large, customizable products
-                      to the customers using Mixed Reality concepts or devices.
-                      Microsoft's HoloLens is an example of a Mixed Reality
-                      device.
+                    <p>Mixed Reality is not a new technology, but it is only now starting to be embraced by businesses due to the many benefits it offers. Microsoft HoloLens is one example of an MR device; it allows you to see and interact with objects in a virtual environment.</p>
+                      
+                     <p>Mixed Reality can be used for several purposes, such as for remote services, virtual visualization, and preparing learning guides for the users within your organization.,</p>
                     </div>
                   </div>
                 </div>
@@ -474,7 +446,7 @@ const MicrosoftDynamics365MixedReality = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-2"
                     >
-                      What are Mixed Reality Services?
+                      What are Mixed Reality Services? 
                     </button>
                   </h3>
                   <div
@@ -483,28 +455,20 @@ const MicrosoftDynamics365MixedReality = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      When it comes to Microsoft's Mixed Reality Services, it
-                      helps to improve your workflow, customer trust, and
-                      facilitate your workforce with the self-created Mix
-                      Reality guides to learn the required information in
-                      real-time and implement the same to ensure smoother and
-                      continuous operational flow in your organization.
-                      <br />
-                      <br />
-                      Mixed Reality Services can be availed of in the following
-                      terms:
-                      <br />
-                      <br />
-                      <ul>
+                   <p>Mixed Reality Services are a set of tools that allow businesses to improve their workflow. MR helps you to unlock new business opportunities and can be used for different objectives, such as for remote services, virtual visualization, and preparing learning guides for the users within your organization.</p>
+                  
+                     <p><b>Mixed Reality Modules from Microsoft include:</b></p> 
+                    
+                     <p><ul>
                         <li>Microsoft Dynamics 365 Remote Assist</li>
                         <li>Microsoft Dynamics 365 Layout</li>
-                        <li> Accounts Receivable</li>
+                        <li>Accounts Receivable</li>
                         <li>Cash & Bank Management</li>
                         <li>Microsoft Dynamics 365 Product Visualize</li>
                         <li>Microsoft Dynamics 365 Guides</li>
                       </ul>
-                      To know more about contact <a href="/contact-us/">Dynamics Square Team</a>, we can
-                      help.
+                      </p>
+                      <p>For more, contact Dynamics Square. We can help you with all your Dynamics 365 products, and with how businesses can improve their workflow with MR solutions.</p>
                     </div>
                   </div>
                 </div>
@@ -516,8 +480,7 @@ const MicrosoftDynamics365MixedReality = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-3"
                     >
-                      How businesses can improve their workflow with Mixed
-                      Reality solutions?
+                      How can businesses improve their workflow with Mixed Reality solutions? 
                     </button>
                   </h3>
                   <div
@@ -526,35 +489,26 @@ const MicrosoftDynamics365MixedReality = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      Mixed Reality is a business transforming solution that
-                      enables the organization in various terms. It can help to
-                      simplify your complex processes and ease your day-to-day
-                      tasks by bringing the digital information to demonstrate
-                      like real-world experience. Here are few key benefits that
-                      can be availed with Mixed Reality licensing:
-                      <br />
-                      <br />
-                      <ul>
+                    <p>Mixed Reality can unlock countless opportunities and provide a more efficient workflow for people. If you are looking for a way to improve your business, MR is a solution that should be considered. Contact us if you want to learn more about how MR could benefit your organization.</p>
+                      
+                      <p><ul>
                         <li>
-                          Showcase complicated products or issues from distance
-                          in real-time.
+                        Display complicated products or issues from distance in real time. 
                         </li>
                         <li>
-                          Generate trust and improve customer satisfaction
-                          during the process.{" "}
+                        Generate trust and improve customer satisfaction during the process.{" "}
                         </li>
                         <li>
-                          Reduce downtime and eliminate the traveling need.
+                        Reduce downtime and eliminate the traveling need. 
                         </li>
                         <li>
-                          Collaborate in real-time and proactively solve the
-                          problems.
+                        Collaborate in real-time and proactively solve problems. 
                         </li>
                         <li>
-                          Quickly identify issues and get technical assistance
-                          anywhere.
+                        Quickly identify issues and get technical assistance anywhere.
                         </li>
                       </ul>
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -575,10 +529,7 @@ const MicrosoftDynamics365MixedReality = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      Mixed Reality is also referred to as Hybrid Reality or
-                      Extended Reality. As it combines Augmented Reality and
-                      Virtual Reality, thereby, most commonly known as Mixed
-                      Reality.
+                    <p>A mixed reality environment can also be called a hybrid or extended one. Since it combines Augmented Reality and Virtual Reality, it is referred to as Mixed Reality.</p>
                     </div>
                   </div>
                 </div>
@@ -590,7 +541,7 @@ const MicrosoftDynamics365MixedReality = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-5"
                     >
-                      What are the three components of Mixed Reality?
+                      What are the core components of Mixed Reality? 
                     </button>
                   </h3>
                   <div
@@ -599,20 +550,15 @@ const MicrosoftDynamics365MixedReality = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      Mixed Reality is achieved by seamlessly blending the
-                      physical world with the digital world. Mixed Reality is
-                      based on three components:
-                      <br />
-                      <br />
-                      <ul>
-                        <li>
-                          Mixed Reality is achieved by seamlessly blending the
-                          physical world with the digital world. Mixed Reality
-                          is based on three components:
-                        </li>
-                        <li>Real World</li>
-                        <li>Digital Objects</li>
+                    <p>Mixed Reality is the blend of our physical world and the computer-generated world or the digital world.</p>
+
+                      <p><b>Mixed Reality incorporates three basic components:</b></p>
+                     <p><ul>
+                        <li>A combination of real and virtual worlds </li>
+                        <li>Real-time interaction, and</li>
+                        <li>Accurate 3D registration of digital/virtual and real objects.</li>
                       </ul>
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -624,7 +570,7 @@ const MicrosoftDynamics365MixedReality = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-6"
                     >
-                      What are the benefits of Mixed Reality?
+                      What are the benefits of introducing Mixed Reality to my business?
                     </button>
                   </h3>
                   <div
@@ -633,20 +579,16 @@ const MicrosoftDynamics365MixedReality = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      As the name suggests, it combines the attributes of both
-                      AR (Augmented Reality) and VR (Virtual Reality) that
-                      allows users to create a new environment by leveraging
-                      physical and digital objects in real-time. Mixed Reality
-                      can provide a proven experience to both the consumers and
-                      businesses. Eliminating the wait time and saving the
-                      travel efforts, Mixed Reality can help to solve the
-                      problems in real-time.
-                      <br />
-                      <br />
-                      When integrated with <a href="/products/microsoft-dynamics-365-field-service/">Dynamics 365 Field Service</a>, it can
-                      help businesses to capture the asset information. If there
-                      is a piece of critical or complex information, can be
-                      transformed into easy visualization by integrating with <a href="/products/microsoft-power-bi/">Power BI</a> or any other enterprise-level application.
+                    <p>A new era of computing has begun - the third wave of Human-Computer Interaction (HCI). Across construction sites, factory floors, operating rooms, and classrooms, mixed reality, artificial intelligence, the intelligent edge, and intelligent clouds are transforming how we work, learn, communicate, and collaborate.</p>
+                      <p>Until now, we could only imagine how the three-dimensional world would enable people to achieve more. Hololens 2 makes this possible.</p>
+                      
+                      <p><b>Mixing reality into your business strategy has four benefits:</b></p>
+                      <p><ul>
+                        <li>Empowering and protecting frontline workers </li>
+                        <li>Improved training </li>
+                        <li>Remote servicing and collaboration </li>
+                        <li>Efficiency and quality gains </li>
+                      </ul></p>
                     </div>
                   </div>
                 </div>
@@ -667,83 +609,21 @@ const MicrosoftDynamics365MixedReality = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      When there is a complex, harsh, or risk-enabled task,
-                      Mixed Reality can help with Experiential Training which
-                      allows the workforce to learn things in the process
-                      without indulging in any risk. This enables continuity in
-                      business flow and empowers people in your organization to
-                      resolve the interruptions by self-learning in real-time.{" "}
-                      <br />
-                      <br />
-                      If you are running a kind of business wherein you have
-                      complex, customizable, large-size products that can't be
-                      carried by your workforce while client or customer
-                      visiting, Mixed Reality can help to start improving your
-                      customer experience as well as their trust while being in
-                      the process. <br />
-                      <br />
-                      If you want to solve your business problems or want to
-                      improve your business flow, contact us, we can suggest and
-                      configure the best possible solution for your business.
+                      <p>By leveraging physical and digital objects in real time, you can create a pristine environment by combining both AR (Augmented Reality) and VR (Virtual Reality). A mixed reality experience can provide consumers and businesses with a proven experience. Moreover, real-time problems can be solved through Mixed Reality, without the need for wait times and commutes.</p>
+                      
+                      <p>It can be used to capture asset information when integrated with Dynamics 365 Field Service, Power BI, or any other enterprise-level application that can be integrated with critical or complex data to create easy visualizations.</p>
+                      
+                     <p><b>MR can help you with:</b></p>
+                     <p><ul>
+                      <li>Completing complex, harsh, or risk-enabled tasks.</li>
+                      <li>Experiential Training - learn things without physical injury or damage.</li>
+                      <li>enabling continuity in business flow</li>
+                      <li>Empowering people to resolve interruptions by self-learning in real-time.</li>
+                     </ul></p>
+                     <p>So, if you are running a kind of business wherein you have complex, customizable, large-size products that cannot be carried by your employees while clients or customers visit, Mixed Reality can help to start improving your customer experience and their trust while being in the process. If contact us for the best possible MR or D365 solution to advance your business growth.</p>
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="blogs-extra">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-9">
-            <header className="section-header">
-            <h2>Explore Our Recent Blogs & Resources</h2>
-            <p>Whether you are a start-up, an SMB, or an enterprise, the <a href="/blog/">Dynamics Square blog</a> is the best place to get inspired and learn more about Microsoft Business Applications.</p>
-          </header>
-            </div>
-          </div>
-          <div className="row top-2 gx-5 justify-content-center">
-            {/* <Blog /> */}
-            <div className="col-lg-6">
-              <div className="blogs-extra-title">
-                <h3>Mixed Reality Important as:</h3>
-              </div>
-              <div className="blogs-extra-right">
-                <ul>
-                  <li>
-                    <a
-                      target="_blank"
-                      rel=""
-                      href="https://www.youtube.com/watch?v=00gPg4-sBc8"
-                    >
-                      <i className="bi bi-box-arrow-up-right"></i>How this auto
-                      manufacturing company uses Dynamics 365 mixed reality to
-                      boost operational efficiency.
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      target="_blank"
-                      rel=""
-                      href="https://www.youtube.com/watch?v=0ySQV6gbbUw"
-                    >
-                      <i className="bi bi-box-arrow-up-right"></i>Introduction
-                      to Mixed Reality Business Applications
-                    </a>
-                  </li>
-
-                  <li>
-                    <a
-                      target="_blank"
-                      rel=""
-                      href="https://www.youtube.com/watch?v=2h86OJT9OPo"
-                    >
-                      <i className="bi bi-box-arrow-up-right"></i>Dynamics 365
-                      Guides with HoloLens 2
-                    </a>
-                  </li>
-                </ul>
               </div>
             </div>
           </div>

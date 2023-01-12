@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import Head from 'next/head'
-// import ModalVideo from "react-modal-video";
+import ModalVideo from "react-modal-video";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import { Autoplay, FreeMode, Pagination } from "swiper";
+import Link from "next/link";
 const Startup = () => {
   const [isOpen, setOpen] = useState(false);
   const [open, setsOpen] = useState(false);
@@ -13,24 +14,24 @@ const Startup = () => {
     <>
       <Head>
       <meta charSet="utf-8" />
-        <title>Microsoft Cloud For Manufacturing - Dynamics Square</title>
+        <title>Microsoft Cloud for Manufacturing: Create A Resilient Future</title>
         <meta
           name="description"
-          content="Connect and streamline, people, workflow, and processes to support your production line, bring efficiency, and improve your customer experience with Microsoft Cloud for Manufacturing."
+          content="Microsoft Cloud for Manufacturing is a Microsoft initiative to help SMBs modernize manufacturing businesses. Contact Dynamics Square for more."
         />
-        <meta name="robots" content="noindex,nofollow" />
+        <meta name="robots" content="index,follow" />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.ca/industries/microsoft-cloud-for-manufacturing/"
         />
       </Head>
-      {/* <ModalVideo
+    <ModalVideo
         channel="youtube"
         autoplay
         isOpen={isOpen}
         videoId="qLjfAsQRWaM"
         onClose={() => setOpen(false)}
-      /> */}
+      /> 
        <main>
         <section className="Solution-banner hero-1 hero">
           <div className="container">
@@ -41,9 +42,7 @@ const Startup = () => {
                   <br />
                   For Manufacturing
                 </h1>
-                <p>
-                Connect and streamline, people, workflow, and processes to support your production line, bring efficiency, and improve your customer experience with Microsoft Cloud for Manufacturing.
-                </p>
+                <p>Securely connect people, assets, workflows, and business processes with Microsoft Cloud for Manufacturing to manufacture a more sustainable future.</p>
                 <div className="text-center text-lg-start">
                   <a
                     data-bs-toggle="modal"
@@ -68,16 +67,17 @@ const Startup = () => {
           <div className="row justify-content-center">
             <div className="col-lg-8 col-md-8">
             <header className="section-header">
-              <h2>
-                Manage it all, with <br />
-                Microsoft Cloud for Manufacturing!
-              </h2>
-              <p>
-              Microsoft Cloud for Manufacturing industry solution is designed to maximize your operational capabilities and improve your entire process flow from warehousing, supply, logistics to distribution and fulfillment. This integrated cloud manufacturing industry solution can help manufacturing hubs to uncover new business potential and accelerate their process flow by connecting people, operations, workflow, etc. to start gaining profitable results at scale.
-              </p>
-              <p>With Microsoft Cloud solutions, Manufacturing firms can uplift their operational performance, optimize their resources, enlarge their employees' productivity level, and level up their distribution to ensure customer satisfaction and improve their business returns. Microsoft, with their cloud solution, helps manufacturers to extend and faster their operational efficiency, supply chain capacity, digital expansion to impact the futuristic growth and agility ahead.</p><p>Empower your workforce to quickly adapt to system changes or dynamic processes, enable resilient supply chain, and boost agility across your operational space. With cloud manufacturing, enterprises can seamlessly roll out transparency, reduce ownership cost, drive agile approach, and unwrap the digital transformation while expanding their caliber to deliver new services.
-
-</p>
+              <h2>Build a More Resilient and Sustainable Future</h2>
+              <p><b>Microsoft Cloud for Manufacturing</b> is designed and developed to support the manufacturing industry's core processes and delivers capabilities that fit the industry's business needs. These end-to-end cloud solutions powered by <Link href="/products/microsoft-azure/"><a>Microsoft Azure</a></Link>, <b>Dynamics 365 & Power Platform, Microsoft 365,</b> <Link href="/products/microsoft-power-bi/"><a>Power BI</a></Link>, and Network Security are empowering organizations to be more resilient and sustainable.</p>
+              <div className="text-center">
+                  <a
+                    data-bs-toggle="modal"
+                    href="#exampleModal"
+                    className="btn-get-started scrollto"
+                  >
+                    <span>Start Your Journey Today</span>
+                  </a>
+                </div>
             </header>
             </div>
           </div>
@@ -88,10 +88,8 @@ const Startup = () => {
           <div className="container">
             <div className="row gx-5">
               <div className="col-lg-6 align-self-center">
-                <h2>
-                Why Microsoft Cloud for Manufacturing Solution? 
-                </h2>
-              
+                <h2>How can Choosing Microsoft Cloud for Manufacturing benefit my manufacturing company? </h2>
+                <p>Re-imagine your manufacturing by making new things happen using IoT-enabled AI-integrated devices, <Link href="/products/microsoft-dynamics-365/mixed-reality/"><a>Mixed Reality</a></Link>, predictive tech, and Microsoft's Azure services. Empower all people close to your manufacturing business to work remotely and transparently.</p>
               </div>
               <div className="col-lg-6 align-self-center">
                 <div className="content-icons-modil-1">
@@ -102,12 +100,10 @@ const Startup = () => {
                       </div>
                     </div>
                     <div className="cintent-right">
-                      <p>
-                      With this advanced cloud-embedded solution for the Manufacturing industry, manufacturers can bring a revolutionary change in their overall operational work infrastructure. They can enhance their employees' skill set, automate their workflow, and drive effective remote efficiency.
-                      </p>
+                      <p><b>Digital Empowerment</b></p>
+                      <p>Digitally empower your workforce by helping them reskill to increase customer satisfaction using newly developed digital experiences.</p>
                     </div>
                   </div>
-
                   <div className="content-inner-moil-1">
                     <div className="icons-left">
                       <div className="ext-bord">
@@ -115,12 +111,10 @@ const Startup = () => {
                       </div>
                     </div>
                     <div className="cintent-right">
-                      <p>
-                      Considering your global outreach, it can help you to seamlessly connect, monitor, and manage your digital channels incorporating <a href="/products/microsoft-dynamics-365/">Microsoft Dynamics 365</a>, <a href="/products/microsoft-power-platform/">Microsoft Power Platforms</a>, Microsoft Teams, HoloLens 2, Microsoft Azure, etc. all through Microsoft Cloud Manufacturing Industry Solution.
-                      </p>
+                      <p><b>Safe and Agile Operations</b></p>
+                      <p>Build and operate safe & smart, agile factories of the future with industrial IoT (IIoT), Microsoft cloud, <Link href="/products/microsoft-dynamics-365-ai/"><a>Artificial Intelligence</a></Link>, and mixed reality.</p>
                     </div>
                   </div>
-
                   <div className="content-inner-moil-1">
                     <div className="icons-left">
                       <div className="ext-bord">
@@ -128,11 +122,22 @@ const Startup = () => {
                       </div>
                     </div>
                     <div className="cintent-right">
-                      <p>
-                      It also enables you effortlessly and effectively manage your regulatory compliances, secure your privacy part, and leverage transparency across their operational space, supply chain flow, logistics & distribution to ensure satisfactory customer fulfillment. Cloud Manufacturing solution can help to upskill your workforce with the right capability, ensure smart factory modernization, and to enable business intelligence to support the right manufacturing flow and ensure gaining desired business results.
-                      </p>
+                      <p><b>Build Resilient Supply Chains</b></p>
+                      <p>Implement tomorrow's tech today and create adaptive supply chains that have improved visibility, agility, and profitability via intelligent planning, demand sensing, & trace ability.</p>
                     </div>
                   </div>
+                  <div className="content-inner-moil-1">
+                    <div className="icons-left">
+                      <div className="ext-bord">
+                        <i className="bi bi-check2"></i>
+                      </div>
+                    </div>
+                    <div className="cintent-right">
+                      <p><b>Invest in Innovation</b></p>
+                      <p>Discover new ways of accelerating the engineering of business values with digital feedback, loops, and Microsoft's digital twin technology.</p>
+                    </div>
+                  </div>
+
                 </div>
               </div>
             </div>
@@ -148,20 +153,15 @@ const Startup = () => {
               </div>
               <div className="col-lg-7 align-self-center">
                 <div className="call_to_action-left">
-                  <h3>
-                    Talk to <br />
-                    Our Expert Team
-                  </h3>
-                  <p>
-                  A healthy conversation with us can lead you toward a growth-hacking solution for your Manufacturing unit
-                  </p>
+                  <h3>Want to increase customer engagement?</h3>
+                  <p>Get in touch with Dynamics Square's Dynamics 365 Experts and discuss your requirements for your business-centric solution.</p>
                   <div className="m-o-t m-o-t-inde">
                     <a
                       data-bs-toggle="modal"
                       href="#exampleModal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Schedule a Demo</span>
+                      <span>Connect Now!</span>
                     </a>
                   </div>
                 </div>
@@ -188,10 +188,8 @@ const Startup = () => {
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Workforce Management</h3>
-                    <p>
-                    Empower your employees by allowing them to seamlessly connect and collaborate at anytime and anywhere with no more hassles even in the case of remote working.
-                    </p>
+                    <h3>Employee Empowerment</h3>
+                    <p>Redefine training, engagement, and knowledge transfer by quickly onboarding employees and helping them build role-based skills and learning paths. </p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
@@ -202,10 +200,8 @@ const Startup = () => {
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Drive Agility</h3>
-                    <p>
-                    Enable agility in your end-to-end manufacturing operations with Microsoft's cloud solution designed for the Manufacturing industry. Enable everyone to seamlessly drive challenges.
-                    </p>
+                    <h3>Factory Transformation</h3>
+                    <p>Create factories of the future that use safe, innovative, and highly productive methods for agile manufacturing such as IoT, cloud computing, AI, and mixed reality.</p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
@@ -216,10 +212,8 @@ const Startup = () => {
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Resilient Supply Chain</h3>
-                    <p>
-                    Integrate both your internal and external Supply Chain along with stakeholders, customers, etc. to minimize disruption, ensure a resilient supply chain, and bring transparency.                                
-                    </p>
+                    <h3>Supply Chain Visibility</h3>
+                    <p>Gain higher visibility into your supply chains by unifying data across your systems, drive agility to respond to quick market changes, and make your supply chains predictive by integrating intelligent business apps and advanced analytics.</p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
@@ -230,10 +224,8 @@ const Startup = () => {
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Digital Transformation</h3>
-                    <p>
-                    Build and deploy digital twins and enable digital thread capability to maximize your product and service level. With Built-in intelligence, gain real-time analytics and drive continuity. 
-                    </p>
+                    <h3>Asset Productivity</h3>
+                    <p>Employ predictive solutions like <b>IoT and mixed reality</b> to increase throughput and improve quality & <b>overall equipment effectiveness (OEE),</b> reducing delivery costs.</p>
                   </div>
                 </div>
               </div>
@@ -246,10 +238,8 @@ const Startup = () => {
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Customer Engagement</h3>
-                    <p>
-                    With cloud extension, strengthen the capability of your sellers, marketers, and service executives. Allow your people to effectively connect and engage customers with maximized outcomes.
-                    </p>
+                    <h3>Operational Visibility</h3>
+                    <p>Get a 360-degree view of overall business ops by connecting people, products, and processes. Analyze problems and enhance the workflow efficiency of your plant systems.</p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
@@ -260,10 +250,8 @@ const Startup = () => {
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Improved Visibility</h3>
-                    <p>
-                    With the help of Microsoft Cloud for Manufacturing, understand your customer issues and proactively solve them with quick and instant efforts even before your customer could know.
-                    </p>
+                    <h3>Digital Transformation</h3>
+                    <p>Replicate real-world things like places, business processes, and people and deliver new products and services built with these capabilities through digital twins and manufacturing cloud solutions.</p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
@@ -274,25 +262,8 @@ const Startup = () => {
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Streamline Operations</h3>
-                    <p>
-                    Securely and seamlessly connect your people, products, and operational practices with real-time effectiveness to instantly track and monitor complex things and ensure improved workflow.
-                    </p>
-                  </div>
-                </div>
-
-                <div className="busine_service_bottom-right-indst">
-                  <div className="card_new_img text-center">
-                    <img
-                      src="/img/icons_Manufacturing-Intelligence.svg"
-                      alt="icons_Manufacturing-Intelligence"
-                    />
-                  </div>
-                  <div className="card_new_content">
-                    <h3>Manufacturing Intelligence</h3>
-                    <p>
-                    Manufacturers can drive integrated business intelligence with automation capability. Further, combining it with IoT, Mixed Reality, etc. can help to optimize processes and enhance device effectiveness.
-                    </p>
+                    <h3>Customer Experience</h3>
+                    <p>Empower sales teams to exceed customer service expectations using Microsoft's predictive technology to predict, detect, & resolve service issues even before customers know them. </p>
                   </div>
                 </div>
               </div>
@@ -314,7 +285,6 @@ const Startup = () => {
                     <div className="video-ytube video-ytubes">
                       <div className="popup-btn popup-btns">
                         <a
-                          data-bs-toggle="modal"
                           href="#javascript:void(0)"
                           onClick={() => setOpen(true)}
                         >
@@ -336,19 +306,15 @@ const Startup = () => {
               </div>
               <div className="col-lg-6 d-flex align-items-center">
                 <div className="side-heading">
-                  <h2>
-                  How to upgrade your manufacturing capabilities with a Cloud Manufacturing solution?
-                  </h2>
-                  <p>
-                  Let's understand how to upgrade your manufacturing capabilities, enable a smarter factory experience, and drive innovation by implementing a Cloud Manufacturing solution.
-                  </p>
+                  <h2>Ready to adopt tomorrow's tech and re-invent your manufacturing?</h2>
+                  <p>Enable real-time maintenance updates and maximize the efficiency of your machines with Microsoft Cloud for Manufacturing.</p>
                   <div className="text-lg-start mm-t">
                     <a
                       data-bs-toggle="modal"
                       href="#exampleModal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Schedule a Demo</span>
+                      <span>Let's Schedule a Friendly Meet</span>
                     </a>
                   </div>
                 </div>
@@ -361,19 +327,15 @@ const Startup = () => {
             <div className="row justify-content-center">
               <div className="col-lg-9">
                 <div className="call-to-action-content">
-                  <h3>
-                  How to Uplift Your Manufacturing Capabilities with Microsoft Cloud Manufacturing Solution?
-                  </h3>
-                  <p>
-                  Let's come together to understand your business context and how cloud manufacturing industry solution can help to support your ongoing as well as futuristic processes to attain growth, drive innovation, and ensure success.
-                  </p>
+                  <h3>Get Started with Microsoft Cloud for Manufacturing and Manufacture Products at Scale</h3>
+                  <p>Implement industrial IoT, AI-powered automation, and manufacturing cloud solutions to improve production efficiency and reduce machine downtime without consulting data scientists.</p>
                   <div className="text-center m-o-t m-o-t-hv">
                     <a
                       data-bs-toggle="modal"
                       href="#exampleModal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Get Started Now</span>
+                      <span>Contact Us</span>
                     </a>
                   </div>
                 </div>
@@ -383,9 +345,13 @@ const Startup = () => {
         </section>
         <section className="industry-more-sec">
           <div className="container">
-            <header className="section-header">
-              <h2>Explore Other Industries</h2>
+            <div className="row justify-content-center">
+              <div className="col-lg-8">
+              <header className="section-header">
+              <h2>Explore Other Industries & Discover More Dynamics 365 Solutions</h2>
             </header>
+              </div>
+            </div>
             <div className="row mobile-margin-01">
               <div className="col-lg-12">
                 <div className="swiper mySwiper">
@@ -436,11 +402,7 @@ const Startup = () => {
                               </div>
                               <div className="text-wrp-content">
                                 <h3>Food & Beverages</h3>
-                                <p>
-                                  Efficiently manage your inventory and supply
-                                  chain by implementing Dynamics 365 for Food
-                                  and Beverages business.
-                                </p>
+                                <p>Deploy <Link href="/products/microsoft-dynamics-365/"><a>Microsoft Dynamics 365</a></Link> for the food, beverages, and processing industry to create an intelligent, adaptive supply chain that auto-reacts to evolution in demand while driving growth and fulfilling customer expectations at scale.</p>
                                 <span>Explore Now</span>
                               </div>
                             </a>
@@ -460,11 +422,7 @@ const Startup = () => {
                                 </div>
                                 <div className="text-wrp-content">
                                   <h3>Not for Profit</h3>
-                                  <p>
-                                    Bring Transparency And Drive Efficiency In
-                                    Your Non-Profit Organization With Microsoft
-                                    Dynamics 365 For Charities.
-                                  </p>
+                                  <p>Drive efficiency of your nonprofit mission by calling automation into your daily operations <Link href="/industries/microsoft-cloud-for-nonprofit/"><a>Dynamics 365 for Non-Profits</a></Link> <b>Hubs</b> and deliver and affect millions of lives positively.</p>
                                   <span>Explore Now</span>
                                 </div>
                               </a>
@@ -485,10 +443,7 @@ const Startup = () => {
                                 </div>
                                 <div className="text-wrp-content">
                                   <h3>E-Commerce</h3>
-                                  <p>
-                                    Optimize Your End-To-End Ecommerce Processes
-                                    And Improve Your Customer Experience.
-                                  </p>
+                                  <p>Integrate back office, in-store, call center, and eCommerce experiences at a single platform with <Link href="/products/microsoft-dynamics-365-commerce/"><a>Dynamics 365 Commerce</a></Link> and deliver more unified buying experiences to your customers at scale.</p>
                                   <span>Explore Now</span>
                                 </div>
                               </a>
@@ -509,11 +464,7 @@ const Startup = () => {
                                 </div>
                                 <div className="text-wrp-content">
                                   <h3>Professional Services</h3>
-                                  <p>
-                                    Streamline And Efficiently Manage Your
-                                    Professional Services with Microsoft
-                                    Dynamics 365 Business Applications.
-                                  </p>
+                                  <p>Unify data, people, and processes to a highly integrated business management platform - <Link href="/industries/professional-services/"><a>Dynamics 365 for Professional Services</a></Link> and deliver professional services that exceed customer expectations.</p>
                                   <span>Explore Now</span>
                                 </div>
                               </a>
@@ -535,11 +486,7 @@ const Startup = () => {
                                 </div>
                                 <div className="text-wrp-content">
                                   <h3>Startups</h3>
-                                  <p>
-                                    Leverage maximum possible resources to
-                                    manage end-to-end business processes for
-                                    your Startup with Microsoft Dynamics 365.
-                                  </p>
+                                  <p>Harnesses the power of Microsoft Dynamics 365, <Link href="/products/microsoft-power-platform/"><a>Microsoft Power Platform</a></Link>, Microsoft 365, and Microsoft Azure to scale business operations. Turn your startup into a company or brand.</p>
                                   <span>Explore Now</span>
                                 </div>
                               </a>
@@ -551,27 +498,6 @@ const Startup = () => {
                   </div>
                   <div className="swiper-pagination"></div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section className="blogs-extra">
-          <div className="container">
-            <header className="section-header">
-              <h2>
-                Check out our Best Resources
-                <br />
-                for Business Central
-              </h2>
-            </header>
-            <div className="row top-2 gx-5">
-              {/* <Blog /> */}
-              <div className="col-lg-6 align-self-center">
-                <img
-                  src="/img/n/Cloud-For-Manufacturing-banner.png"
-                  alt=""
-                />
               </div>
             </div>
           </div>

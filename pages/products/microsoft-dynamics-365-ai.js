@@ -1,19 +1,20 @@
-import Head from 'next/head'
+import Head from 'next/head';
+import Link from 'next/link';
 
 const MicrosoftDynamics365Ai = () => {
   return (
     <>
       <Head>
-        <title>Microsoft Dynamics 365 AI | Dynamics Square</title>
+        <title>Microsoft Dynamics AI for Business: Adaptable innovation</title>
         <meta
           name="description"
-          content="Improve your customer's experience and your organization processes with Microsoft Dynamics 365 AI (Artificial Intelligence). Book a free consultation today."
+          content="Use Microsoft AI in your business operations to scale and enable everyone across every team to make impactful decisions. Contact Dynamics Square for more."
         />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.ca/products/microsoft-dynamics-365-ai/"
         />
-        <meta name="robots" content="noindex,nofollow" />
+         <meta name="robots" content="noindex,nofollow" />
         
       </Head>
       <section className="Solution-banner hero-1 hero">
@@ -25,14 +26,12 @@ const MicrosoftDynamics365Ai = () => {
                 <br />
                 Dynamics 365 AI
               </h1>
-              <p>
-              Improve Your Customer's Experience And Your Organization Processes With Dynamics 365 AI (Artificial Intelligence)
-              </p>
+              <p>Decode the strength of your business and help it emerge as the next big thing in your industry with Dynamics 365 AI - Microsoft AI built to transform all aspects of your business. </p>
               <div>
                 <div className="text-center text-lg-start">
                   <a data-bs-toggle="modal"
                     href="#exampleModal" className="btn-get-started scrollto">
-                    <span>Schedule a Demo</span>
+                    <span>Start Exploring</span>
                   </a>
                 </div>
               </div>
@@ -52,11 +51,8 @@ const MicrosoftDynamics365Ai = () => {
             <div className="row justify-content-center">
                 <div className="col-lg-8 col-md-8">
                     <header className="section-header">
-                    <h2>What Is Dynamics 365 Ai?</h2>
-                    <p>Accelerate processes or promote change in your industry by making Artificial Intelligence accessible to all elements of your company. With Dynamics 365 AI you have the freedom to solve problems and make informed decisions, with the help of intelligent tools</p><br/><br/>
-
-                    <h2>Dynamics 365 Ai Features</h2>
-                    <p>Widen your experience by bringing Microsoft Dynamics AI together with your Virtual Agent's solutions for <a href="/products/microsoft-dynamics-365-customer-service/">Customer Service</a>, Customer Insights and Fraud Protection.</p>
+                    <h2>How capable is Dynamics 365 AI?</h2>
+                    <p>With Microsoft’s embedded AI capabilities in Dynamics 365, you can script a whole new success story for your business while empowering people to do more with less.</p>
                     </header>
                 </div>
             </div>
@@ -77,7 +73,7 @@ const MicrosoftDynamics365Ai = () => {
                         <div className="wr-in">
                           <img src="/img/Budget.svg" alt="icons" />
                         </div>
-                        <span>Customized Transformation</span>
+                        <span>In-depth Insights</span>
                       </button>
                     </h3>
                     <div
@@ -87,7 +83,7 @@ const MicrosoftDynamics365Ai = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        Implementing Artificial Intelligence will help you in streamlining your experiences by simplifying your intuitive interface, and other applications. It offers a detailed guidance about different processes to help you attain an enhanced performance.
+                      Proactively understand your customer and their journey by incorporating data-driven insights to make every customer feel heard and deliver the right solution. 
                       </div>
                     </div>
                   </div>
@@ -105,7 +101,7 @@ const MicrosoftDynamics365Ai = () => {
                         <div className="wr-in">
                           <img src="/img/Financials-3.svg" alt="icons" />
                         </div>
-                        <span>Better Business Model</span>
+                        <span>Business Silos</span>
                       </button>
                     </h3>
                     <div
@@ -115,7 +111,7 @@ const MicrosoftDynamics365Ai = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                      As AI helps you in understanding your processes in a better way, integrating it in all the applications and systems will benefit you in a huge way. This will make your understanding of the business models for your clients even better and will help you in creating a better proposals for them.
+                      Breaking data silos is equivalent to breaking business silos. Integrate all your data from diverse sources to make sense of your business before people in a way it was never possible. 
                       </div>
                     </div>
                   </div>
@@ -140,7 +136,7 @@ const MicrosoftDynamics365Ai = () => {
                         <div className="wr-in">
                           <img src="/img/Project.svg" alt="icons" />
                         </div>
-                        <span>Fruitful Insights</span>
+                        <span>Agile Response</span>
                       </button>
                     </h3>
                     <div
@@ -150,7 +146,7 @@ const MicrosoftDynamics365Ai = () => {
                       data-bs-parent="#accnewadasd"
                     >
                       <div className="accordion-body">
-                      The AI system makes use of the existing data in the system to come up with insights that are extremely beneficial for you to analyse a lot of things. This can be helpful for you in not just making decisions for your organization but also in understanding the behaviours and trends of your client to act accordingly in the future.
+                      Quickly respond with the right solution to your customers’ problems with easily modifiable AI functionality and adapt to evolving market changes.
                       </div>
                     </div>
                   </div>
@@ -171,7 +167,7 @@ const MicrosoftDynamics365Ai = () => {
                             alt="icons"
                           />
                         </div>
-                        <span>Agile Model</span>
+                        <span>User Experience </span>
                       </button>
                     </h3>
                     <div
@@ -181,7 +177,7 @@ const MicrosoftDynamics365Ai = () => {
                       data-bs-parent="#accnewadasd"
                     >
                       <div className="accordion-body">
-                      Today, it is extremely important to stay agile so that you can adapt to the changing market trends at the earliest. The AI systems helps you in alerting about the changing market trends at an initial stage so that you can make the necessary changes in your model and can come up with a new upgrade whenever required.
+                      Dynamics 365 AI integrations come with user-friendly interfaces that assist your teams in smoothly adopting AI.
                       </div>
                     </div>
                   </div>
@@ -197,11 +193,12 @@ const MicrosoftDynamics365Ai = () => {
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <div className="call-to-action-content">
-                <h3>Maximize your business potentials</h3>
-                <p>Microsoft Dynamics 365Artificial Intelligence (AI)​</p>
+                <h3>Bring transformative Dynamics 365 AI to all your business 
+                   processes and build an intelligent enterprise​</h3>
                 <div className="text-center m-o-t new-btn-nn">
-                  <a href="#about" className="btn-get-started scrollto">
-                    <span>Schedule a Demo</span>
+                  <a data-bs-toggle="modal"
+                    href="#exampleModal" className="btn-get-started scrollto">
+                    <span>Request a Demo </span>
                   </a>
                 </div>
               </div>
@@ -213,11 +210,8 @@ const MicrosoftDynamics365Ai = () => {
       <section className="solution-faq faq">
         <div className="container">
           <header className="section-header">
-            <h2>
-              Microsoft Dynamics 365 <br />
-              AI Insights
-            </h2>
-            <p>Improve customer experience with AI and Microsoft solutions</p>
+            <h2>Discover Microsoft Dynamics 365 AI Benefits</h2>
+            <p>Realize the potential of your business with the power of Microsoft AI</p>
           </header>
           <div className="row justify-content-center mar-top-7">
             <div className="col-lg-8">
@@ -239,24 +233,19 @@ const MicrosoftDynamics365Ai = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      The tool ensures to offer insights on sales to help boost
-                      up sales and grow in profitability.
-                      <br />
-                      <br />
                       <ul>
                         <li>
-                          Offers a detail on the type of effiective
-                          communication methods with the customers
+                        Boost your sales 
                         </li>
                         <li>
-                          Priorotizes the leads that are more likely to convert
-                          into potential customers
+                        Improve profitability
+                        </li>
+                        <li>Assists in engaging more with your customers</li>
+                        <li>
+                        Leads prioritization and helps them to turn into loyal customers
                         </li>
                         <li>Real-time notifications</li>
-                        <li>
-                          Provides a customer relationship health score to
-                          understand your customer service better
-                        </li>
+                        <li>Provides you with customer relationship health scores so that you can further improve your relationships with your customers.</li>
                       </ul>
                     </div>
                   </div>
@@ -269,7 +258,7 @@ const MicrosoftDynamics365Ai = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-2"
                     >
-                      Customer Service Insights
+                      Customer Service Insights 
                     </button>
                   </h3>
                   <div
@@ -279,23 +268,16 @@ const MicrosoftDynamics365Ai = () => {
                   >
                     <div className="accordion-body">
                       <ul>
-                        <li>Helps you understand the customer suport score</li>
-                        <li>
-                          Points out the problems areas and shows options to
-                          resolve them
+                        <li>Customer support score</li>
+                        <li>Reveals problem areas and suggests options for resolution  
                         </li>
                         <li>
-                          Ensures a boost in customer satisacion by highlighting
-                          areas of improvement
+                         Highlighting the areas of improvement  
                         </li>
                         <li>
-                          Analyzes dashboards of customer satisfaction,
-                          resolutions, and cases
+                        Visualizing customer interaction patterns sales and marketing team
                         </li>
-                        <li>
-                          Offers a visual of the interaction pattern of the
-                          customers and the agents
-                        </li>
+                       
                       </ul>
                     </div>
                   </div>
@@ -308,7 +290,7 @@ const MicrosoftDynamics365Ai = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-3"
                     >
-                      Customer Insights
+                      Customer Insights 
                     </button>
                   </h3>
                   <div
@@ -319,23 +301,18 @@ const MicrosoftDynamics365Ai = () => {
                     <div className="accordion-body">
                       <ul>
                         <li>
-                          Maintains customer data in a secured way to boost up
-                          the reliability of the customers
+                        Increases customer loyalty by securely maintaining customer data
                         </li>
                         <li>
-                          Integrates the <a href="/products/microsoft-dynamics-365/">Microsoft Dynamics 365</a> AI apps with
-                          other applications too to offer a detailed insight on
-                          the dashboard
+                        Offers a 360 view of your customers’ journey 
                         </li>
                         <li>
-                          Enables responding to the customers with a proper flow
-                          yet faster
+                        Creates new customer segments and insights
                         </li>
                         <li>
-                          Coming up with new customer segments and creating
-                          insights about them
+                        Displays pre-built templates 
                         </li>
-                        <li>Offering already existing templates</li>
+                        
                       </ul>
                     </div>
                   </div>
@@ -348,7 +325,7 @@ const MicrosoftDynamics365Ai = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-4"
                     >
-                      Product Insights
+                      Product Insights 
                     </button>
                   </h3>
                   <div
@@ -359,22 +336,15 @@ const MicrosoftDynamics365Ai = () => {
                     <div className="accordion-body">
                       <ul>
                         <li>
-                          Apart from the insights related to customer support,
-                          the tool also offers insights related to products
+                        Assistance for continuous improvement
                         </li>
                         <li>
-                          Identifying problem areas and suggesting proactive
-                          repairs for the same
+                        Suggestions in product planning and analysis
                         </li>
                         <li>
-                          Maintains quality by offering regular scope for
-                          continuous improvement
+                        Gathering and providing insights prevailing among customers
                         </li>
-                        <li>Helps in product planning and analysis</li>
-                        <li>
-                          Insights about the products that are more famous among
-                          customers and what are not
-                        </li>
+                        
                       </ul>
                     </div>
                   </div>
@@ -387,7 +357,7 @@ const MicrosoftDynamics365Ai = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-5"
                     >
-                      Market Insights
+                      Market Insights 
                     </button>
                   </h3>
                   <div
@@ -397,22 +367,17 @@ const MicrosoftDynamics365Ai = () => {
                   >
                     <div className="accordion-body">
                       <ul>
-                        <li>The need and demand among the customers</li>
+                        <li>Competitor analysis</li>
                         <li>
-                          Detailed knowledge about the actions taken by the
-                          competitors
+                        Helping you understand what is happening in your industry
                         </li>
                         <li>
-                          Track activities that are happening within the
-                          industry
+                        Prompting for major events 
                         </li>
-                        <li>Check out major events that are taking place</li>
                       </ul>
                       <br />
                       <br />
-                      Once you check out the tool in detail, you can come across
-                      many other insights such as that of commerce, supply
-                      chain, human resources, and many others.
+                      Microsoft AI tools offer a wide range of additional insights related to your niche, supply chains, human resources, and other topics. 
                     </div>
                   </div>
                 </div>
@@ -435,15 +400,97 @@ const MicrosoftDynamics365Ai = () => {
             </div>
             <div className="col-md-5 align-self-center">
               <div className="commen-rit-info">
-                <h2>Get Dynamics 365 AI</h2>
+                <h2>Get Started with Dynamics 365 AI </h2>
                 <p>
-                  Once convinced how much benefits the tool can offer you, you
-                  will definitely wish to get it and integrate it in your
-                  system.
+                Improve marketing, sales, and decision-making with Dynamics 365 AI 
                 </p>
                 <div className="cltt-actt">
-                  <a href="#">Get Started</a>
+                <a data-bs-toggle="modal"
+                    href="#exampleModal">Request a Call Back!</a>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section className="solution-faq faq">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-9 col-md-9">
+            <header className="section-header">
+            <h2>
+            Have You Got Questions About <br/> Dynamics 365 AI?   
+            </h2>
+            <p>Scroll Through the Best Answers Tailored for You!</p>
+          </header>
+            </div>
+          </div>
+          <div className="row justify-content-center mar-top-7">
+            <div className="col-lg-8">
+              <div className="accordion accordion-flush" id="faqlist1">
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-2"
+                    >
+                     What is Dynamics 365 AI? 
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-2"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>Dynamics 365 AI enables you to transform your complex data sets into actionable insights. Allowing AI in your business processes helps you achieve your goals - like automating your entire manufacturing and accelerating your product distribution. Microsoft AI lets your employees enjoy innovatively solving issues and thrive.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-3"
+                    >Do business apps in Microsoft Dynamics 365 use AI?</button>
+                  </h3>
+                  <div
+                    id="faq-content-3"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>Yes! Dynamics 365 uses Artificial Intelligence (AI) to help employees automate tasks and gather information to complement your business idea, not extinct humans.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-4"
+                    >
+                     How does AI work in Dynamics 365 CRM (Customer Relationship Management) apps? 
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-4"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>A major benefit of AI in CRM is its capability to make calls correctly knowing who and when to contact. Process-specific built AI automation can also automatically send appropriate notifications when needed. In addition, AI can also help in reducing staff workloads, or increase their productivity and efficiency.</p>
+                    </div>
+                  </div>
+                </div>
+               
               </div>
             </div>
           </div>

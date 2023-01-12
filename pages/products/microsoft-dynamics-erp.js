@@ -1,13 +1,13 @@
 import Head from 'next/head'
-
+import Link from 'next/link';
 const Erp = () => {
   return (
     <>
       <Head>
-        <title>Microsoft Dynamics ERP Solutions | Dynamics Square</title>
+        <title>Microsoft Dynamics ERP: Modern ERP Tool for Enterprises</title>
         <meta
           name="description"
-          content="Accelerate Your Business Efficiency with Microsoft Dynamics ERP Solutions. Streamline your process and automate your data with Microsoft Dynamics ERP."
+          content="Microsoft Dynamics ERP is a powerful ERP tool to help your mid-market-sized businesses thrive in all domains. Contact Dynamics Square for more."
         />
         <link
           rel="canonical"
@@ -20,10 +20,10 @@ const Erp = () => {
           <div className="row">
             <div className="col-lg-6 mobile-332 align-self-center">
               <h1>
-                Microsoft Dynamics ERP
+              Microsoft Dynamics ERP 
               </h1>
               <p>
-              Streamline your Process Optimization and Automate Your Enterprise Data with Microsoft Dynamics ERP
+              Simplify managing your multi-site or multi-country operations and help your business with strong functional and financial management support with Dynamics ERP.
               </p>
               <div>
                 <div className="text-center text-lg-start">
@@ -32,7 +32,7 @@ const Erp = () => {
                     href="#exampleModal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Schedule a Demo</span>
+                    <span>Get Started</span>
                   </a>
                 </div>
               </div>
@@ -51,13 +51,13 @@ const Erp = () => {
             <div className="row justify-content-center">
                 <div className="col-lg-7 col-md-6">
                       <header className="section-header">
-                          <h2> Accelerate Your Business Efficiency with Microsoft ERP Solutions</h2>
+                          <h2>Microsoft Dynamics ERP</h2>
                           
                         </header>
                  </div>
                  <div className="col-lg-10 col-md-9 section-header">
-                 <p><b>Connect your workforce and processes across your workspace and gain real-time efficiency to drive process optimization and plan smoother production flow with improved scalability and growth.</b></p>
-                          <p>With Microsoft Dynamics ERP, take advantage of actionable reports and key analytics and enable your workforce to stay independent when it comes to making decisions to support the growth hacking process flow across your organization. Being an authorized Microsoft ERP implementation partner, we can help you to develop highly specific ERP solutions to impact and level up your regular processes as well as support your growing practices. Since Microsoft ERP comes with a vast scope of configuration to be customized supporting your specific practices and to work parallel leveraging your existing system too while facilitating your user to understand and adapt the newly configured system faster. </p>
+                 <p><b>Move to Dynamic 365 ERP, Get Better at Planning, & Drive Result Faster</b></p>
+                <p>Dynamics ERP is an enterprise resource planning (ERP) software that helps businesses, manufacturers, and process industry leaders intelligently plan demand, supply, order fulfillment, and production while fostering smartness in the supply chain, collaboration among employees, and end-to-end business processes to increase service, reduce disruptions, and minimize inputs/costs.</p>
                  </div>
             </div>
 
@@ -65,15 +65,22 @@ const Erp = () => {
           </div>
         </div>
       </section>
-
+     
       <section className="call-to-action-center hero-4">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-8 ">
+            <div className="col-lg-8">
               <div className="call-to-action-content">
-                <p>
-                Control and manage your end-to-end e-commerce flow with process automation and real-time data intelligence to improve production lines and support growth strategy.
-                </p>
+                <h3>Get ready. Effectively manage and track your business operations and make your supply chain intelligent to accelerate growth and make an impact. </h3>
+                <div className="text-center m-o-t new-btn-nn">
+                  <a
+                    data-bs-toggle="modal"
+                    href="#exampleModal"
+                    className="btn-get-started scrollto"
+                  >
+                    <span>Click to Meet our Dynamics Experts</span>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -85,12 +92,12 @@ const Erp = () => {
         <div className="row justify-content-center">
               <div className="col-lg-8 col-md-6">
                     <header className="section-header">
-                        <h2> How Enterprises can Rollout Their Efficiency with Microsoft Dynamics ERP?</h2>
-                        
+                        <h2>Bridge the gap between your data, people, and business processes with Microsoft's Intelligent Dynamics 365 ERP Software Applications</h2>
                       </header>
               </div>
               <div className="col-lg-10 col-md-9 section-header">
-              <p>Microsoft Dynamics ERP is a high-end enterprise-level ERP that can be implemented either with a standard version or can be customized considering your specific business agenda and ongoing process behavior while supporting your futuristic process addons. By effectively using the Microsoft ERP system, enterprises can seamlessly connect across their departments including sales, manufacturing, customers, finance, supply chain, warehousing, human resource, and more.</p>
+              <p>Seamlessly connect all your business pillars and empower your teams to quickly adapt to prevailing changes to support business continuity and advance growth.</p>
+              <p><b>Here is how you can support your business:</b></p>
               </div>
             </div>
           <div className="row p-lg-6">
@@ -113,7 +120,7 @@ const Erp = () => {
                             alt="icons-commerce"
                           />
                         </div>
-                        <span>Commerce</span>
+                        <span>ECommerce</span>
                       </button>
                     </h3>
                     <div
@@ -123,7 +130,7 @@ const Erp = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                      Establish omnichannel efficiency wherein combine all your process channels including back-office system, in-store platform, and digital base. This omnichannel configuration allows your workforce to drive a collaborative experience and enable your customers to enjoy seamless communication ways. With built-in data intelligence, enterprises can make instant decisions to impact the productivity level.
+                      <p>Deliver omnichannel experiences to your buyers by unifying data, customer journeys, and in-store digital happenings. Use built-in AI (Artificial Intelligence) capabilities in Dynamics 365 apps like <b>Sales</b>, <b>Marketing</b>, <b>Commerce</b>, or <b>Customer Engagement</b> to drive your business efficiently.</p>  
                       </div>
                     </div>
                   </div>
@@ -154,7 +161,7 @@ const Erp = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                      With the advanced Finance module in Microsoft ERP, enterprises can improve their real-time visibility into their entire financial practices. It allows enterprises to effectively impact their production line, scalability, and strategic growth. With single-view key analytics and reporting insights, enterprises can allow their workforce to make instant financial decisions to improve their overall operational flow.
+                     <p>Incorporate AI-based and data-driven approaches, key reporting insights (KRIs), and unified dashboards to manage your finances in real time and advance toward a more resilient and sustainable future.</p>
                       </div>
                     </div>
                   </div>
@@ -185,14 +192,7 @@ const Erp = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        Manage end-to-end employees' data while streamlining
-                        related tasks including onboarding, payroll, and other
-                        internal happenings. With simplified data-driven
-                        practices, ERP solution helps organizations retain their
-                        talent, track their performance, and identify issues in
-                        advance to prevent them from taking place. Moreover,
-                        data automation eliminates manual data processing that
-                        drives efficiency.
+                      <p>Simplify your recruiting, payroll, and employee onboarding with modern ERP solutions. Retain your talent, help them improve their performance, and drive your business efficiently.</p>
                       </div>
                     </div>
                   </div>
@@ -220,7 +220,7 @@ const Erp = () => {
                             alt="icons_manufacturing-1"
                           />
                         </div>
-                        <span>Manufacturing</span>
+                        <span>Manufacturing </span>
                       </button>
                     </h3>
                     <div
@@ -230,7 +230,7 @@ const Erp = () => {
                       data-bs-parent="#accnewas"
                     >
                       <div className="accordion-body">
-                      Microsoft ERP solutions can help manufacturers to automate their operational data and streamline the entire processes involved. By utilizing robotic process automation, it empowers the manufacturing hubs to ensure seamless customer fulfillment, resource management, service optimization, optimizing costs & capacity planning, smoother distribution, and more.
+                      <p>Unlock Microsoft's innovation and new services like <b>Azure</b> and <b>Microsoft Cloud</b>. Invest in manufacturing a sustainable future now by digitally empowering your workforce, operating safely, and following agile methods to manufacture and process goods.</p>
                       </div>
                     </div>
                   </div>
@@ -261,7 +261,7 @@ const Erp = () => {
                       data-bs-parent="#accnewas"
                     >
                       <div className="accordion-body">
-                      Dynamics 365 ERP is designed to manage the right stock level and ensure real-time warehousing. Enterprises can simplify data processing and automate their entire supply chain flow to ensure strategic growth. Leveraging IoT-connected devices and built-in advanced data analytics, organizations can manage and control the right inventory level and drive overall strategic operational flow.
+                      <p>Build an intelligent supply chain with <b>Dynamics 365 Supply Chain Management</b>. Stay in the know and make informed decisions quickly using <b>IoT-enabled devices</b> and analytics-driven reporting.</p>
                       </div>
                     </div>
                   </div>
@@ -277,10 +277,9 @@ const Erp = () => {
           <div className="row justify-content-center">
             <div className="col-lg-8 ">
               <div className="call-to-action-content">
-                <h3>Connect & Share with Experts</h3>
+                <h3>Ready to implement Dynamics 365 ERP? </h3>
                 <p>
-                  Simplify and Manage Your Enterprise Practices by an Integrated
-                  Microsoft Dynamics ERP
+                Employ a highly integrated and more unified Dynamics ERP solution to simplify and become better at managing your business practices.
                 </p>
                 <div className="text-center m-o-t new-btn-nn">
                   <a
@@ -288,7 +287,7 @@ const Erp = () => {
                     href="#exampleModal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Schedule demo</span>
+                    <span>Schedule a Meet</span>
                   </a>
                 </div>
               </div>
@@ -307,19 +306,16 @@ const Erp = () => {
             </div>
             <div className="col-lg-5 align-self-center">
               <div className="commen-rit-info">
-                <h2>Dynamics NAV</h2>
+                <h2>Dynamics NAV </h2>
                 <p>
-                  Designed for small to mid-sized organizations embedded with
-                  proven domain-specific functionality and seamless navigation
-                  to effectively drive finance, supply chain, manufacturing, and
-                  operations. Microsoft Dynamics NAV (Navision) enables brands
-                  to make early and productive decisions based on recent
-                  AI-enabled historical data, events, or business flow.
+                For small to mid-sized businesses, integrating proven domain-specific functionality and seamless navigation to effectively manage finance, supply chain, manufacturing, and operations is not a need but a necessity. With <b>Microsoft Dynamics NAV</b> (Navision), brands can make early and productive decisions using AI-enabled historic data, events, and business flows.
                 </p>
                 <div className="cltt-actt">
-                  <a href="/products/microsoft-dynamics-nav/">
+                  <Link href="/products/microsoft-dynamics-nav/">
+                  <a>
                     Learn More
                   </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -330,18 +326,14 @@ const Erp = () => {
               <div className="commen-rit-info">
                 <h2>Dynamics AX</h2>
                 <p>
-                  Optimize your finance & operations with Microsoft Dynamics AX
-                  (Axapta) to bring transparency across your financial flow. It
-                  helps enterprises to globally manage, automate, and roll out
-                  processes whether on-premises or on-cloud embedded with
-                  AI-based data-driven insights that help to accelerate
-                  processes and support to make informed and productive
-                  decisions.
+                Integrate Microsoft <b>Dynamics AX</b> (Axapta) with your finance and operations to increase transparency. Embedded with AI-based data-driven insights, this platform enables you to manage, automate, and roll out processes globally, whether on-premises or in the cloud.
                 </p>
                 <div className="cltt-actt">
-                  <a href="/products/microsoft-dynamics-ax/">
+                  <Link href="/products/microsoft-dynamics-ax/">
+                  <a>
                     Learn More
                   </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -362,19 +354,188 @@ const Erp = () => {
               <div className="commen-rit-info">
                 <h2>Dynamics GP</h2>
                 <p>
-                  Microsoft Dynamics GP (Great Plains) is an efficient
-                  accounting and ERP package wrapped with artificial
-                  intelligence techniques to gain depth financial insights
-                  leveraging the recent historical data combined with the
-                  current financial flow and involved strategies. Designed for
-                  small to mid-sized organizations, Dynamics GP helps
-                  enterprises to streamline their finance and accounting to
-                  impact overall business growth.
+                With <b>Microsoft Dynamics GP</b> (Great Plains), you can gain deep financial insights by using recent historical data combined with the current financial flow and involved strategies. Designed for small to mid-sized businesses, Dynamics GP streamlines accounting and financials to improve growth.
                 </p>
                 <div className="cltt-actt">
-                  <a href="/products/microsoft-dynamics-gp/">
+                  <Link href="/products/microsoft-dynamics-gp/">
+                  <a>
                     Learn More
                   </a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="solution-faq faq">
+        <div className="container">
+          <header className="section-header">
+            <h2>
+            Have You Got Questions About Microsoft Dynamics ERP? 
+            </h2>
+            <p>Click through FAQs Tailored for you!</p>
+          </header>
+          <div className="row justify-content-center mar-top-7">
+            <div className="col-lg-8">
+              <div className="accordion accordion-flush" id="faqlist1">
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-1"
+                    >
+                      What is the difference between ERP and CRM? 
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-1"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                    <p>ERP stands for "Enterprise Resource Planning." ERP refers to operations that help an organization manage and streamline internal business operations to boost overall business efficiency and productivity. Whereas CRM is "Customer Relationship Management." CRM assists you in understanding your interactions and the strength of your relationships with customers and helps you in providing a superior customer experience.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-2"
+                    >
+                      What is Microsoft Dynamics 365 ERP? 
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-2"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                   <p>Microsoft Dynamics ERP is an ERP software app. With its help, you can connect almost all departments of your business and streamline to increase efficiency and productivity. For a more robust transformation in your organization, you can migrate your business operations to Microsoft Dynamics 365, where you can manage, interact, communicate, and share data in real time without restrictions.</p>
+                  <p>Business management modules in Dynamics 365 such as Dynamics 365 Business Central, Dynamics 365 Supply Chain Management, or Dynamics 365 Finance ERP can successfully connect the supply chain, finance, operations, commerce, manufacturing, human resources, and reporting for better outcomes. </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-3"
+                    >
+                      What are the popular ERP solutions from Microsoft?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-3"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                    <p>Mixed Reality can unlock countless opportunities and provide a more efficient workflow for people. If you are looking for a way to improve your business, MR is a solution that should be considered. Contact us if you want to learn more about how MR could benefit your organization.</p>
+                      <p>Microsoft Dynamics ERP proposes various solutions for your ERP needs.</p>
+                      <p><b>Here are the ERP solutions you can employ to accelerate your growth:</b></p>
+                      <p><ul>
+                        <li>
+                        Microsoft Dynamics GP for Accounting. 
+                        </li>
+                        <li>
+                        Microsoft Dynamics NAV for SMBs/SMEs to become better at ERP.
+                        </li>
+                        <li>
+                        Microsoft Dynamics SL for business management. 
+                        </li>
+                        <li>
+                        Microsoft Dynamics AX for finance management. 
+                        </li>
+                        <li>
+                        Microsoft Dynamics 365 Finance - an advanced and updated version of Microsoft Dynamics AX 
+                        </li>
+                        <li>Microsoft Dynamics 365 Business Central - Cloud-based all-in-one ERP app.</li>
+                      </ul>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-4"
+                    >
+                      Why should I Choose Microsoft Dynamics 365? 
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-4"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                    <p><b>MSFT Dynamics ERP offers many benefits, including:</b></p>
+                   <p><ul>
+                      <li>Better insights </li>
+                      <li>Scalability </li>
+                      <li>Adaptability </li>
+                      <li>Seamless data reporting</li>
+                      <li>Improved efficiency</li>
+                      <li>High revenue, and</li>
+                      <li>Ease of customization based on evolving market needs.</li>
+                    </ul>
+                    </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-5"
+                    >
+                      Where can I use Microsoft Dynamics ERP apps?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-5"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                    <p>Industries ranging from manufacturing, processing, food, and beverages to professional services use ERP solutions to smooth their business operations. Almost all industries use ERP/CRM solutions, but some are dependent, such as wholesale, construction, healthcare, transport, and logistics.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-6"
+                    >
+                      How long does it take to implement Dynamics ERP?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-6"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                    <p>There is no straight answer to this question since many factors like the complexity of the system, server deployment, amount of data to be transferred, number of integrations, and type of customization. Hence, contact our experts to discuss your requirements, time, and cost of <b>Dynamics 365 implementation.</b></p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import Head from "next/head";
-// import ModalVideo from "react-modal-video";
+import ModalVideo from "react-modal-video";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import { Autoplay, FreeMode, Pagination } from "swiper";
+import Link from "next/link";
 const Startup = () => {
   const [isOpen, setOpen] = useState(false);
   const [open, setsOpen] = useState(false);
@@ -13,45 +14,40 @@ const Startup = () => {
     <>
       <Head>
         <meta charSet="utf-8" />
-        <title>Dynamics 365 For Professional Services | Dynamics Square</title>
+        <title>Dynamics 365 for Professional Services: Practice the Best</title>
         <meta
           name="description"
-          content="Implement Dynamics 365 For Professional Services to centralize, control, &amp; manage your services, drive innovation &amp; maximize delivery."
+          content="Dynamics 365 for Professional Services is a cloud-based business management module designed & developed by Microsoft to modernize SMEs/SMBs."
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.cam/industries/professional-services/"
+          href="https://www.dynamicssquare.ca/industries/professional-services/"
         />
-    <meta name="robots" content="noindex,nofollow" />
+        <meta name="robots" content="index,follow" />
       </Head>
-      {/* <ModalVideo
+      <ModalVideo
         channel="youtube"
         autoplay
         isOpen={isOpen}
         videoId="qLjfAsQRWaM"
         onClose={() => setOpen(false)}
-      /> */}
+      /> 
       <main>
         <section className="Solution-banner hero-1 hero">
           <div className="container">
             <div className="row">
               <div className="col-lg-6 mobile-1 align-self-center">
                 <h1>
-                  Dynamics 365 <br />
-                  For Professional Services
+                Microsoft Dynamics 365 for Professional Services
                 </h1>
-                <p>
-                  Centralize, Control, & Manage Your Professional Services To
-                  Drive Innovation & Maximize Your Delivery By Implementing
-                  Microsoft Dynamics 365 For Professional Services.
-                </p>
+                <p>Get real-time access and visibility into every project's cost and margin to remain profitable and deliver the highest quality projects on time and budget with <b>Dynamics 365 for Professional Services</b>.</p>
                 <div className="text-center text-lg-start">
                   <a
                     data-bs-toggle="modal"
                     href="#exampleModal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Schedule a Demo</span>
+                    <span>Get Started</span>
                   </a>
                 </div>
               </div>
@@ -69,26 +65,18 @@ const Startup = () => {
             <div className="row justify-content-center">
               <div className="col-lg-8 col-md-8">
                 <header className="section-header">
-                  <h2>
-                    Boost Your Professional Services <br />
-                    with Dynamics 365
-                  </h2>
-                  <p>
-                    Bring automation in your project & services, control &
-                    manage your budget, and enable transparency in time &
-                    expenses management with Microsoft Dynamics 365 for
-                    Professional Services - an all-in-one solution for your
-                    specific industry.
-                  </p>{" "}
-                  <p>
-                    Industry experts at Dynamics Square can help to accelerate
-                    process flow, improve efficiency level, and gain accuracy &
-                    seamlessness across your industrial space. By configuring
-                    your system with advanced Professional service capabilities,
-                    we can strengthen your operational environment to level up
-                    your professional service practices and start maximizing the
-                    potential growth and scalability.
-                  </p>
+                  <h2>Choose Dynamics 365 for Professional Services</h2>
+                  <p>Say goodbye to the complicated disparate time and expense entry systems. Start keeping track of your projects, and customers happy!</p>
+                  <p>Previously known as <Link href="/products/microsoft-dynamics-ax/"><a>Dynamics AX</a></Link> or <Link href="/products/microsoft-dynamics-365-finance-operations/"><a> Dynamics 365 Finance and Operations</a></Link>, <b>Dynamics 365 for Professional Services</b> is a fully featured <b>enterprise resource planning (ERP) software</b> that enables organizations to monitor the execution of projects and allocate and distribute resources efficiently while increasing the efficiency of project teams.</p>
+                  <div className="text-center">
+                  <a
+                    data-bs-toggle="modal"
+                    href="#exampleModal"
+                    className="btn-get-started scrollto"
+                  >
+                    <span>Get Started with Dynamics 365</span>
+                  </a>
+                </div>
                 </header>
               </div>
             </div>
@@ -98,19 +86,8 @@ const Startup = () => {
           <div className="container">
             <div className="row gx-5">
               <div className="col-lg-6 align-self-center">
-                <h2>
-                  How Dynamics 365 for Professional Services
-                  <br />
-                  Can Help to Level-Up Your Industrial Practices <br />
-                </h2>
-                <p>
-                  To drive a strategic approach and roll-out efficiency across
-                  your organization while optimizing process flow and ensuring
-                  on-time delivery, implementing Microsoft Dynamics 365
-                  solutions for Professional Services could be a
-                  profitability-driven, highly efficient, and cost-effective
-                  deal for your business.
-                </p>
+                <h2>Take your industrial and professional services to the next level with Dynamics 365 for Professional Services.</h2>
+                <p>Drive your organization's efficiency by strategically optimizing process flows, ensuring on-time delivery with business-centric <b>Dynamics 365 cloud solutions.</b></p>
               </div>
               <div className="col-lg-6 align-self-center">
                 <div className="content-icons-modil-1">
@@ -121,13 +98,7 @@ const Startup = () => {
                       </div>
                     </div>
                     <div className="cintent-right">
-                      <p>
-                        With Professional Service industry solutions,
-                        enterprises can track, manage, and control their entire
-                        processes while optimizing resource utilization,
-                        ensuring real-time reporting & invoicing, and enabling
-                        automation throughout their practices.
-                      </p>
+                      <p>Track, manage, and control your entire business organization and its processes at your fingertip by accessing Dynamics 365 on your mobile devices anytime, anywhere.</p>
                     </div>
                   </div>
 
@@ -138,13 +109,7 @@ const Startup = () => {
                       </div>
                     </div>
                     <div className="cintent-right">
-                      <p>
-                        Leveraging highly integrated and custom-configured
-                        solutions implemented for the Professional Service
-                        industry, the Management team can ensure their focus
-                        more on project completion instead of sparing time in
-                        controlling, managing, assigning, and administration.
-                      </p>
+                      <p>Ensure real-time reporting and invoicing and enable automation for repeated tasks to boost productivity and empower employees to do more with less using <Link href="/products/dynamics-365-business-central/"><a>Dynamics 365 Business Central</a></Link>.</p>
                     </div>
                   </div>
 
@@ -155,14 +120,7 @@ const Startup = () => {
                       </div>
                     </div>
                     <div className="cintent-right">
-                      <p>
-                        Professional Service industry solution is designed to
-                        empower everyone in your organization to deliver with
-                        maximum potential capability. With project automation,
-                        everyone in your organization can stay updated with
-                        actual project status along with involved and assigned
-                        activities with real-time efficiency.
-                      </p>
+                      <p>Intelligently optimize your resources, not your IT practices. Boost your professional services now with <Link href="/products/microsoft-dynamics-365/"><a>Microsoft's Dynamics 365</a></Link> - an intelligent suite of business apps.</p>
                     </div>
                   </div>
                 </div>
@@ -180,19 +138,15 @@ const Startup = () => {
               </div>
               <div className="col-lg-7 align-self-center">
                 <div className="call_to_action-left">
-                  <h3>Talk to Our Expert Team</h3>
-                  <p>
-                    Discover and drive new business capabilities for your
-                    professional service industry. Let's discuss and come up
-                    with a highly relevant solution for your industry.
-                  </p>
+                  <h3>Empower your employees to maximize your professional capabilities</h3>
+                  <p>Talk to our experts for expert advice and discover a suitable <b>Dynamics 365 solution</b> for your professional services ranging from financial, accounting, and human resources to reporting, sales, or optimizing other business tasks.</p>
                   <div className="m-o-t m-o-t-inde">
                     <a
                       data-bs-toggle="modal"
                       href="#exampleModal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Schedule a Demo</span>
+                      <span>Meet an Expert today!</span>
                     </a>
                   </div>
                 </div>
@@ -202,17 +156,16 @@ const Startup = () => {
         </section>
         <section className="industry_service_bottoms">
           <div className="container">
+           <div className="row justify-content-center">
+            <div className="col-lg-9">
             <header className="section-header">
-              <h2>
-                Dynamics 365 Solutions <br />
-                For Your Professional Services{" "}
-              </h2>
-              <p>
-                How professional services firms can use Microsoft Dynamics 365
-                to transform their business
-              </p>
+              <h2>Microsoft cloud solutions for you!</h2>
+              <p><b>Boost your Professional Services with Dynamics 365 apps</b></p>
+              <p>Explore how <b>Dynamics 365 solutions</b> help you drive the successful execution of your projects and other professional services </p>
               <br /> <br />
             </header>
+            </div>
+           </div>
             <div className="row position-relative">
               <div className="col-lg-6">
                 <div className="busine_service_bottom-right-indst">
@@ -223,12 +176,8 @@ const Startup = () => {
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Custom CRM Solution</h3>
-                    <p>
-                      With real-time access into your customers' data, boost
-                      your customer engagement in real-time, accelerate lead
-                      generation, and ensure opportunity management, and more.
-                    </p>
+                    <h3>Real-time access to data</h3>
+                    <p>With access to real-time data & actionable insights, improve your customer experience and maximize customer engagement to increase profitability and growth.</p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
@@ -239,13 +188,8 @@ const Startup = () => {
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>HR & Payroll</h3>
-                    <p>
-                      Engage &amp; onboard the right people, optimize &amp;
-                      improve your resource utilization, instantly resolve
-                      issues, and increase your user adaption to impact your HRM
-                      facilitation and improve your efficiency level.
-                    </p>
+                    <h3>Customized Solutions</h3>
+                    <p>Improve your process optimization, speed up service flows to accelerate growth, and maximize ROIs with our highly customized business-centric <b>Cloud ERP</b> and <b>Relationship Management Solutions</b>.</p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
@@ -256,13 +200,8 @@ const Startup = () => {
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Employee Collaboration Portal</h3>
-                    <p>
-                      Allow your workforce to carry out effective communication
-                      and engagement in real-time across your organization with
-                      the help of streamlined data to stimulate growth and
-                      scalability.
-                    </p>
+                    <h3>Intelligent Planning & Budgeting</h3>
+                    <p>Take the help of <b>Microsoft's AI-driven</b> actionable insights, forecast, and prepare reports and plans to drive maximized results.</p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
@@ -273,13 +212,8 @@ const Startup = () => {
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Business Intelligence Analytics</h3>
-                    <p>
-                      Leveraging built-in intelligence configured with IoT
-                      experience, enterprises can predict data, create high-end
-                      reports 7 key analytics to strengthen their workforce and
-                      make instant informed decisions.
-                    </p>
+                    <h3>Optimized HR & Payroll</h3>
+                    <p>Engage, recruit, and onboard the right talent. Optimize your human & financial resources and improve your human efficiency level at scale with <Link href="/products/dynamics-365-human-resources/"><a>Dynamics 365 for HRM (Human Resources Management)</a></Link>.</p>
                   </div>
                 </div>
               </div>
@@ -292,13 +226,8 @@ const Startup = () => {
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Custom Development</h3>
-                    <p>
-                      With highly customized solutions configured to improve
-                      process optimization and accelerate service flow,
-                      enterprises can speed up their operational growth and
-                      maximize their revenue outcomes.
-                    </p>
+                    <h3>Employee Collaboration</h3>
+                    <p>Create opportunities for real-time communication and engagement across your organization to foster innovation, growth, and scalability with <Link href="/products/dynamics-365-business-central/"><a>Business Central</a></Link>.</p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
@@ -309,13 +238,8 @@ const Startup = () => {
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Budgeting & Planning</h3>
-                    <p>
-                      With the help of instant AI insights, enterprises can
-                      forecast their data, prepare financial reports, budget
-                      plans, and more to drive highly elevated results with
-                      maximized scalability.
-                    </p>
+                    <h3>Smart Business Intelligence</h3>
+                    <p>Leverage the combined power of <Link href="/products/microsoft-power-bi/"><a>Power BI</a></Link> and <b>Dynamics 365</b> to achieve higher business intelligence (BI). Strengthen your workforce & start taking informed decisions.</p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
@@ -326,13 +250,8 @@ const Startup = () => {
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Time & Expense Management</h3>
-                    <p>
-                      Your Professional Service industry solution can be
-                      implemented suited to your specific domain to effectively
-                      ensure time &amp; expenses management and to produce
-                      maximized results.
-                    </p>
+                    <h3>Get Accurate Analytics</h3>
+                    <p>Smartly use past business data & gain accurate insights using built-in analytics capabilities in <Link href="/products/microsoft-dynamics-erp/"><a>cloud ERP solutions</a></Link> to achieve project success and maintain business continuity.</p>
                   </div>
                 </div>
 
@@ -344,14 +263,8 @@ const Startup = () => {
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Control & Analysis</h3>
-                    <p>
-                      By effectively leveraging the past business data or
-                      project performance with the help of{" "}
-                      <a href="/products/erp/">ERP solutions</a> for the
-                      Professional Service industry, enterprises can gain
-                      accurate analytics to achieve project success.
-                    </p>
+                    <h3>Better Manage Time and Expenses</h3>
+                    <p>Maximize the overall productivity of your organization by professionally managing your time, expenses, and resources.</p>
                   </div>
                 </div>
               </div>
@@ -363,25 +276,15 @@ const Startup = () => {
             <div className="row justify-content-center">
               <div className="col-lg-9">
                 <div className="call-to-action-content">
-                  <h3>
-                    How Microsoft's Professional Service Solution Can Help Your
-                    Business to Uplift High
-                  </h3>
-                  <p>
-                    If your processes are compromising at some level, nothing
-                    will work out, and making productive decisions in business
-                    can lead your business toward a productive path. Share your
-                    pain business points with us, experts at Dynamics Square can
-                    reveal your business requirement and suggest a productive
-                    solution for your business.
-                  </p>
+                  <h3>Uplift your professional services to Uplift your Business</h3>
+                  <p>Help your business and employees help you make informed and productive decisions. Accelerate your business towards a productive path. Share your business requirements with our <Link href="/contact-us/"><a>Dynamics 365 consultants</a></Link> and find a suitable <b>cloud ERP solution</b>.</p>
                   <div className="text-center m-o-t m-o-t-hv">
                     <a
                       data-bs-toggle="modal"
                       href="#exampleModal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Get Started Now</span>
+                      <span>Get in Touch</span>
                     </a>
                   </div>
                 </div>
@@ -403,7 +306,6 @@ const Startup = () => {
                     <div className="video-ytube video-ytubes">
                       <div className="popup-btn popup-btns">
                         <a
-                          data-bs-toggle="modal"
                           href="#javascript:void(0)"
                           onClick={() => setOpen(true)}
                         >
@@ -425,31 +327,15 @@ const Startup = () => {
               </div>
               <div className="col-lg-6 d-flex align-items-center">
                 <div className="side-heading">
-                  <h2>
-                    Get Expert Consultation to effectively carry out your
-                    Professional Service
-                    <br />
-                  </h2>
-                  <p>
-                    If you won't support your regularly increasing practices in
-                    a timely manner, your productivity will start suffering
-                    soon.{" "}
-                    <a href="/products/microsoft-dynamics-365/">
-                      Dynamics 365 solutions
-                    </a>{" "}
-                    for Professional Services can help your business to
-                    strategically process, monitor, and control your operations.
-                    Connect and share your concern with our experts, we can help
-                    to implement your domain-specific solution for your
-                    business.
-                  </p>
+                  <h2>Get long-term support and partnership with Dynamics Square</h2>
+                  <p>Our expert team has over 11+ years of professionally implementing Dynamics 365 solutions and provides top-notch IT services tailored to your business needs.</p>
                   <div className="text-lg-start mm-t">
                     <a
                       data-bs-toggle="modal"
                       href="#exampleModal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Schedule a Demo</span>
+                      <span>Connect with our team to Learn how!</span>
                     </a>
                   </div>
                 </div>
@@ -460,9 +346,13 @@ const Startup = () => {
 
         <section className="industry-more-sec">
           <div className="container">
-            <header className="section-header">
-              <h2>Explore Other Industries</h2>
+            <div className="row justify-content-center">
+              <div className="col-lg-9">
+              <header className="section-header">
+              <h2>Explore Other Industries & Discover More Dynamics 365 Solutions </h2>
             </header>
+              </div>
+            </div>
             <div className="row mobile-margin-01">
               <div className="col-lg-12">
                 <div className="swiper mySwiper">
@@ -513,11 +403,7 @@ const Startup = () => {
                               </div>
                               <div className="text-wrp-content">
                                 <h3>Food & Beverages</h3>
-                                <p>
-                                  Efficiently manage your inventory and supply
-                                  chain by implementing Dynamics 365 for Food
-                                  and Beverages business.
-                                </p>
+                                <p>Boost growth and exceed customer expectations by successfully building an intelligent supply chain with <b>Dynamics 365</b> for the food, beverage, and processing industry.</p>
                                 <span>Explore Now</span>
                               </div>
                             </a>
@@ -537,11 +423,7 @@ const Startup = () => {
                                 </div>
                                 <div className="text-wrp-content">
                                   <h3>Not for Profit</h3>
-                                  <p>
-                                    Bring Transparency And Drive Efficiency In
-                                    Your Non-Profit Organization With Microsoft
-                                    Dynamics 365 For Charities.
-                                  </p>
+                                  <p>Automate your fundraising by bringing people and data close to your nonprofit mission-related daily operations and drive efficiency with <Link href="/industries/microsoft-cloud-for-nonprofit/"><a>Dynamics 365 for Non-Profits Hubs</a></Link>.</p>
                                   <span>Explore Now</span>
                                 </div>
                               </a>
@@ -562,10 +444,7 @@ const Startup = () => {
                                 </div>
                                 <div className="text-wrp-content">
                                   <h3>E-Commerce</h3>
-                                  <p>
-                                    Optimize Your End-To-End Ecommerce Processes
-                                    And Improve Your Customer Experience.
-                                  </p>
+                                  <p>Provide customers with more unified buying experiences by bringing g your back office, in-store, call center, and eCommerce experiences on an integrated e-commerce platform and grow at scale with <Link href="/products/microsoft-dynamics-365-commerce/"><a>Dynamics 365 Commerce</a></Link>.</p>
                                   <span>Explore Now</span>
                                 </div>
                               </a>
@@ -587,11 +466,7 @@ const Startup = () => {
                                 </div>
                                 <div className="text-wrp-content">
                                   <h3>Manufacturing & Distribution</h3>
-                                  <p>
-                                    Keep track of your production lines and
-                                    bring transparency with Microsoft Dynamics
-                                    365 for Manufacturing and Distribution.
-                                  </p>
+                                  <p>Transform your manufacturing and distribution. Build a more resilient and sustainable future by driving innovation to improve manufacturing processes with <Link href="/industries/microsoft-cloud-for-manufacturing/"><a>Microsoft Cloud for Manufacturing</a></Link>.</p>
                                   <span>Explore Now</span>
                                 </div>
                               </a>
@@ -612,11 +487,7 @@ const Startup = () => {
                                 </div>
                                 <div className="text-wrp-content">
                                   <h3>Startups</h3>
-                                  <p>
-                                    Leverage maximum possible resources to
-                                    manage end-to-end business processes for
-                                    your Startup with Microsoft Dynamics 365.
-                                  </p>
+                                  <p>Create a brand or company from your startup by scaling business operations with <b>Microsoft Dynamics 365</b>, <Link href="/products/microsoft-power-platform/"><a>Microsoft Power Platform</a></Link>, <b>Microsoft 365</b>, and <Link href="/products/microsoft-azure/"><a>Microsoft Azure</a></Link>.</p>
                                   <span>Explore Now</span>
                                 </div>
                               </a>
@@ -627,185 +498,6 @@ const Startup = () => {
                     </Swiper>
                   </div>
                   <div className="swiper-pagination"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section className="blogs-extra">
-          <div className="container">
-            <header className="section-header">
-              <h2>
-                Check out our Best Resources
-                <br />
-                for Business Central
-              </h2>
-            </header>
-            <div className="row top-2 gx-5">
-              {/* <Blog /> */}
-              <div className="col-lg-6 align-self-center">
-                <img
-                  src="/img/n/Dynamics-365-for-professional-services.png"
-                  alt=""
-                />
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section className="solution-faq faq">
-          <div className="container">
-            <header className="section-header">
-              <h3>
-                Have you got
-                <br />
-                questions about Professional Services industry?
-              </h3>
-              <p>Click through to our FAQ for the best answers!</p>
-            </header>
-            <div className="row justify-content-center mar-top-7">
-              <div className="col-lg-8">
-                <div className="accordion accordion-flush" id="faqlist1">
-                  <div className="accordion-item">
-                    <h3 className="accordion-header">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#faq-content-1"
-                      >
-                        What is Microsoft Dynamics 365 for Professional Services
-                        industry?
-                      </button>
-                    </h3>
-                    <div
-                      id="faq-content-1"
-                      className="accordion-collapse collapse"
-                      data-bs-parent="#faqlist1"
-                    >
-                      <div className="accordion-body">
-                        Microsoft Dynamics 365 for Professional Service is a
-                        business solution specially designed and configured for
-                        the Professional service industry to seamlessly manage,
-                        control, and drive end-to-end practices from resource
-                        optimization to process acceleration, instantly
-                        resolving issues, client management to workforce
-                        empowerment.
-                        <br />
-                        <br />
-                        Team of Dynamics Square can enable enterprises to drive
-                        project automation, improve financial visibility, ensure
-                        seamless client or vendor management, and effective
-                        customer engagement. Enterprises can empower their
-                        workforce from top management to the executive level to
-                        stay updated with the recent activity of the project,
-                        event, or task. With built-in intelligence, everyone can
-                        make productive decisions that support and ensure
-                        overall organizational success.
-                        <br />
-                        <br />
-                        For further information or to implement a Professional
-                        Services <a href="/industries/">industry solution</a>,
-                        connect with us today
-                      </div>
-                    </div>
-                  </div>
-                  <div className="accordion-item">
-                    <h3 className="accordion-header">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#faq-content-2"
-                      >
-                        What is included in Dynamics 365 for Professional
-                        Services industry?
-                      </button>
-                    </h3>
-                    <div
-                      id="faq-content-2"
-                      className="accordion-collapse collapse"
-                      data-bs-parent="#faqlist1"
-                    >
-                      <div className="accordion-body">
-                        <a href="/products/microsoft-dynamics-365/">
-                          Dynamics 365
-                        </a>{" "}
-                        offers a range of business solutions considering
-                        industry-specific needs. Depending on your process flow,
-                        these applications can be combined or integrated with
-                        your existing system too to effectively carry out your
-                        business needs. Dynamics Square can implement a highly
-                        customized solution to run your professional services
-                        from operations to human resources, project automation
-                        to financial management, and more
-                        <br />
-                        <br />
-                        Talk to us to know how specific and productive solutions
-                        can be configured for your business.
-                      </div>
-                    </div>
-                  </div>
-                  <div className="accordion-item">
-                    <h3 className="accordion-header">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#faq-content-3"
-                      >
-                        What are the benefits of Microsoft Dynamics 365 for the
-                        Professional Services industry?
-                      </button>
-                    </h3>
-                    <div
-                      id="faq-content-3"
-                      className="accordion-collapse collapse"
-                      data-bs-parent="#faqlist1"
-                    >
-                      <div className="accordion-body">
-                        With Microsoft Dynamics 365, enterprises can simplify,
-                        manage, and drive their processes, people, customer,
-                        clients, and more while maximizing their profitability
-                        and ensuring global scalability. Here are the benefits
-                        that can be availed after upgrading your system with
-                        Dynamics 365 solution:
-                        <br />
-                        <br />
-                        <ul>
-                          <li>
-                            By implementing Dynamics 365 for Professional
-                            Services, enterprises can keep their eyes on
-                            financial flow and estimate their actual revenues.
-                          </li>
-                          <li>
-                            Utilize opportunity management, improve customer
-                            engagement, and faster your client or customer
-                            delivery.
-                          </li>
-                          <li>
-                            With project automation, bring seamless flow across
-                            your project execution environment and simplify
-                            billing, invoicing, etc.
-                          </li>
-                          <li>
-                            Allow and empower people in your organization to
-                            faster their performance, make instant decisions
-                            whenever required to ensure continuous and
-                            productive flow while maximizing the overall
-                            productivity.
-                          </li>
-                          <li>
-                            By leveraging built-in AI intelligence, enterprises
-                            can list their key stakeholders, optimize growth
-                            potentials, prepare decision-making analytics, and
-                            engage profitable deals.
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>

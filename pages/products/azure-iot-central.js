@@ -4,10 +4,10 @@ const AzureIoTCentral = () => {
   return (
     <>
       <Head>
-        <title>Azure IoT Central | Dynamics Square</title>
+        <title>Azure IoT Central: Most Secure IoT Offerings in Canada</title>
         <meta
           name="description"
-          content="Azure IoT Central is configured with SaaS (Software-as-a-Services) environment that enables enterprises to seamlessly register and manage their devices"
+          content="Connect and manage your IoT devices at scale using ready-made UX and API surfaces in Azure IoT Central. Contact Dynamics Square for pricing details."
         />
         <link
           rel="canonical"
@@ -24,9 +24,7 @@ const AzureIoTCentral = () => {
                 Azure IoT 
                 Central
               </h1>
-              <p>
-              Leverage Azure IoT Central -a SaaS-based solution embedded with standard yet industry-specific templates to connect your entire IoT devices over a high-end secured network to transmit your messages or device notifications.
-              </p>
+              <p>Connect, manage, and operate fleets of devices at scale with Azure IoT Central - an application platform as a Service (aPaaS) that gives you ready-to-use UI (User Interface) and API (Application Programming Interface) surface to quickly develop IoT Solutions.</p>
               <div>
                 <div className="text-center text-lg-start">
                   <a
@@ -34,7 +32,7 @@ const AzureIoTCentral = () => {
                     href="#exampleModal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Schedule a Demo</span>
+                    <span>Begin IoT Solutions Development Today!</span>
                   </a>
                 </div>
               </div>
@@ -54,8 +52,8 @@ const AzureIoTCentral = () => {
             <div className="row justify-content-center">
                 <div className="col-lg-9 col-md-8">
                     <header className="section-header">
-                    <h2>What Is Azure IoT Central?</h2>
-                    <p>Azure IoT Central is configured with SaaS (Software-as-a-Services) environment that enables enterprises to seamlessly register and manage their devices utilizing a secure Azure cloud space. Azure Central enables businesses to receive messages, alerts, or notifications with real-time efficiency. Since it comes with pre-configured standard yet industry-specific templates to create your custom IoT apps, centralize connected devices, and manage the same at scale.</p>
+                    <h2>What is IoT Central?</h2>
+                    <p>IoT Central is your ready-made IoT Solutions development platform, which helps you go from proof of concepts to proof of value. With the power of Azure and PaaS services in your developers' hands, you can go from zero to live within five minutes. Get started with Microsoft's Azure Certified Devices that serve you the telemetry you need to build, model, and manage your custom IoT devices.</p>
                     
                     </header>
                 </div>
@@ -63,8 +61,8 @@ const AzureIoTCentral = () => {
                     <div className="row justify-content-center">
                         <div className="col-lg-9 col-md-9">
                         <header className="section-header">
-                        <h2> Azure IoT Central Benefits</h2>
-                        <p>Develop and deploy enterprise-grade IoT applications with Azure IoT Central while ensuring security, reliability, and scalability. Utilize the predefined standard templates to build your customized or domain-specific apps suited to your specific business needs. Leverage IoT Central to register, connect, and drive seamless communication between your devices and IoT applications.</p>
+                        <h2>See How Azure IoT Central Benefits You</h2>
+                        <p>Deploy enterprise-grade IoT solutions to reduce the burden and cost of developing, managing, and maintaining IoT solutions.</p>
                         </header>
                         </div>
                       </div>
@@ -89,7 +87,7 @@ const AzureIoTCentral = () => {
                             alt="icons-IoTcentral_Faster-Connectivity"
                           />
                         </div>
-                        <span>Seamless Connectivity</span>
+                        <span>Connect Devices</span>
                       </button>
                     </h3>
                     <div
@@ -99,7 +97,7 @@ const AzureIoTCentral = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                      Smoothly connect your IoT equipment and high-end configured apps developed leveraging standard yet easy-to-use templates for the specific industry.
+                      <p>Use device templates to connect every device to IoT Central. Create device models using Visual Studio code and publish the model to a repository and use it to build a simple device template for you to add any cloud properties, customizations, and more.</p>
                       </div>
                     </div>
                   </div>
@@ -120,7 +118,7 @@ const AzureIoTCentral = () => {
                             alt="icons-IoTcentral_Real-Time-Insights"
                           />
                         </div>
-                        <span>Instant Messaging & Analytics</span>
+                        <span>Customize UI</span>
                       </button>
                     </h3>
                     <div
@@ -130,7 +128,7 @@ const AzureIoTCentral = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                      Get notified about device performance, process flow, or related data in real-time to support your process continuation and to prevent device failure.
+                      <p>Ease out the day-to-day interactions of your employees with the apps by configuring and customizing their user interfaces (UI) and help them discover insights to resolve issues faster.</p>
                       </div>
                     </div>
                   </div>
@@ -158,7 +156,7 @@ const AzureIoTCentral = () => {
                             alt="icons-IoTcentral_Highly-Secure-Scalable"
                           />
                         </div>
-                        <span>High-End Security</span>
+                        <span>Manage Devices</span>
                       </button>
                     </h3>
                     <div
@@ -168,7 +166,7 @@ const AzureIoTCentral = () => {
                       data-bs-parent="#accneww"
                     >
                       <div className="accordion-body">
-                      Deploy highly scalable and security-equipped IoT solutions to bring seamless device interactions with reduced time and effort.
+                    <p>Monitor and troubleshoot your devices using IoT Central to manage the existing devices, or provision new IoT devices. Redefine the custom rules and actions that work on data streaming to remediate device issues.</p>
                       </div>
                     </div>
                   </div>
@@ -189,7 +187,7 @@ const AzureIoTCentral = () => {
                             alt="icons-IoTcentral_industry-focused"
                           />
                         </div>
-                        <span>Industry-Oriented </span>
+                        <span>Create User Roles</span>
                       </button>
                     </h3>
                     <div
@@ -199,7 +197,7 @@ const AzureIoTCentral = () => {
                       data-bs-parent="#accneww"
                     >
                       <div className="accordion-body">
-                      Azure IoT Central enables to easily deploy industry-specific approach with highly process connected experience, for instance, seamless logistics, decision-making in-store analytics, and simplified warehousing.
+                      <p>Build custom IoT solutions and integrations with REST APIs to create goal-specific user roles that interact with an IoT Central application. And empower your administrator to better manage user roles and permissions within the built app.</p>
                       </div>
                     </div>
                   </div>
@@ -215,10 +213,8 @@ const AzureIoTCentral = () => {
           <div className="row">
             <div className="col-lg-5 align-self-center">
             <div className="wy-sultion-left-head">
-              <h2>Azure Iot Central Features</h2>
-              <p>
-              Build Highly Secure and Scalable Enterprise-Specific IoT Applications with IoT Central
-              </p>
+              <h2>Azure IoT Central Features</h2>
+              <p>Evaluate your IoT scenarios and assess the opportunities to seamlessly create and build continually evolving IoT infrastructure with Dynamics Square. Call our experts today!</p>
               </div>
             </div>
             <div className="col-lg-7">
@@ -227,25 +223,21 @@ const AzureIoTCentral = () => {
                   <div className="why-solution-wrapper">
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                        Quick & Seamless
+                      Seamless Device
                         <br />
                         Connectivity
                       </h3>
                       <div className="overlay">
-                        <p>
-                        Build and ensure a seamless connection between your IoT connected devices and Microsoft Azure cloud to bring smoother messaging, instant notifications, and reliable data distribution.
-                        </p>
+                        <p>Connect your IoT devices to the Microsoft Azure cloud for smoother messaging, instant notifications, and reliable data distribution.</p>
                       </div>
                     </div>
                     <div className="why-solution-wrapper-inner justify-self-center">
                       <h3>
-                      Integrated Device  <br />
-                      Connectivity
+                      Secure & Scalable  <br />
+                      IoT Solutions
                       </h3>
                       <div className="overlay">
-                        <p>
-                        Enjoy centralized and managed device experience at scale with Azure IoT cloud solution. You can also reconfigure your IoT devices in real-time with centralized management.
-                        </p>
+                        <p>Maintain a 360-degree view of your device performance, failure, or reconfiguration requirements with a highly secure, reliable, and scalable device interaction system.</p>
                       </div>
                     </div>
                   </div>
@@ -254,28 +246,21 @@ const AzureIoTCentral = () => {
                   <div className="why-solution-wrapper">
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                        Secure & Scalable
+                      Centralized Management
                         <br />
-                        Device Interaction
+                        of Devices
                       </h3>
                       <div className="overlay">
-                        <p>
-                          Establish highly secure, reliable, and scalable device
-                          interaction to manage data flow, stay updated with a
-                          360-degree view of your device performance, failure,
-                          or reconfiguration requirement.
-                        </p>
+                        <p>With Azure IoT cloud solution, you can manage and centralize your devices at scale. Additionally, centralized management allows you to reconfigure IoT devices in real-time.</p>
                       </div>
                     </div>
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                      Plug & Play<br />
-                      App Solution
+                      Azure IoT Plug<br /> 
+                      and Play 
                       </h3>
                       <div className="overlay">
-                        <p>
-                        Deploy highly scalable IoT apps with less coding efforts by leveraging 'plug & play app' to deploy cloud IoT solutions faster along with simplified device-to-device integration.
-                        </p>
+                        <p>Incorporate highly scalable IoT apps with less coding efforts using Azure IoT plug & play services to deploy IoT solutions faster by leveraging Azure Cloud and a simplified device-to-device integration facility.</p>
                       </div>
                     </div>
                   </div>
@@ -289,19 +274,17 @@ const AzureIoTCentral = () => {
       <section className="call-to-action-center hero-4">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-7">
+            <div className="col-lg-9">
               <div className="call-to-action-content">
-                <h3>Consult with Industry Experts</h3>
-                <p>
-                Let's sit together and come up with your specific IoT app platform deployment requirement to implement a smarter IoT experience for your organization.
-                </p>
+                <h3>Want to automate device updates for your devices, or look for a solution that can provide you with a big picture by analyzing every little detail?</h3>
+                <p>Use IoT Central's built-in scheduling engine to configure and update devices on your schedule and at scale and drill into your data to find data anomalies and view the big picture using Data Explorer.</p>
                 <div className="text-center m-o-t new-btn-nn">
                   <a
                     data-bs-toggle="modal"
                     href="#exampleModal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Book a Callback</span>
+                    <span>Get In Touch!</span>
                   </a>
                 </div>
               </div>
@@ -313,12 +296,8 @@ const AzureIoTCentral = () => {
       <section className="solution-faq faq">
         <div className="container">
           <header className="section-header">
-            <h2>
-              Have you got
-              <br />
-              questions about Azure IoT Central?
-            </h2>
-            <p>Click through to our FAQ for the best answers!</p>
+            <h2>Have you got questions about Azure IoT Central?</h2>
+            <p>Scroll down through the FAQs tailored for You!</p>
           </header>
           <div className="row justify-content-center mar-top-7">
             <div className="col-md-8">
@@ -331,7 +310,7 @@ const AzureIoTCentral = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-1"
                     >
-                      What is Azure IoT Central?
+                     How can I find information about my IoT Central application? 
                     </button>
                   </h3>
                   <div
@@ -340,7 +319,11 @@ const AzureIoTCentral = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                    Azure IoT Central is designed as an IoT app development platform. Leveraging this platform, users can deploy highly secure and reliable enterprise-level of IoT applications with reduced coding efforts, app investment, etc. It enables enterprises to register all their devices and quickly develop secure device connections. Further, these devices can be monitored and controlled as per the hourly need to ensure seamless and smoother operational flow.
+                    <p>To get information about your IoT app, you can follow the following steps:</p>
+                    <p><b>Step 1: </b>Click the Help link on the top menu.</p>
+                    <p><b>Step 2:</b>Choose About your app</p>
+                    <p><b>Step 3:</b> The Step-2 will show the information about your Azure IoT application, as shown below:</p>
+                    <p>Finally, click on the Copy info button to copy. This info gets stored on your clipboard so that you can paste it on your destined text editor or wherever you want to save it for future reference.</p>
                     </div>
                   </div>
                 </div>
@@ -351,9 +334,7 @@ const AzureIoTCentral = () => {
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-2"
-                    >
-                      What is SLA for Azure IoT Central?
-                    </button>
+                    >Using my selected subscription plan, how many IoT Central apps can I deploy?</button>
                   </h3>
                   <div
                     id="faq-content-2"
@@ -361,7 +342,7 @@ const AzureIoTCentral = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                    SLA is referred to as Service Level Agreement used for Microsoft’s online services which is again a part of Microsoft volume licensing agreement. There are several terms included in the SLA agreement for Microsoft Azure Central. To know such SLA terms or have a query about IoT enterprise solutions, avail of our expert consultation, we are here to serve you the best potential solution for your business.
+                    <p>Each subscription for an IoT solution has a default quota which could affect your Azure IoT solution. You can deploy up to 100 IoT Central Applications in one subscription, Dynamics Square for IoT solutions support, and Dynamics 365 suite of business apps.</p>
                     </div>
                   </div>
                 </div>
@@ -372,9 +353,7 @@ const AzureIoTCentral = () => {
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-3"
-                    >
-                      How can I access Azure IoT Central?
-                    </button>
+                    >How and where to learn more about Azure IoT Hub?</button>
                   </h3>
                   <div
                     id="faq-content-3"
@@ -382,7 +361,13 @@ const AzureIoTCentral = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                    Azure IoT is an easy-to-access platform designed with cross-device compatibility as you can run it whether using desktops, mobiles, or tablet devices. If you want to know your system or device compatibility and how implementing Azure IoT Central can impact or improve your IoT workflow, connect with us, we are here to serve the best.
+                    <p>IoT Central uses the Azure IoT hub as a cloud gateway. The IoT hub from Microsoft is a powerful enabler that enables device connectivity, including: </p>
+                    <ul>
+                      <li>Ingestion of Data in the cloud at scale.</li>
+                      <li>Device management.</li>
+                      <li>Secure device connectivity.</li>
+                    </ul>
+                    <p>Learning is easy and healthy when you also bring information or knowledge into practice. Want to learn more about Azure IoT Hub? Click here.</p>
                     </div>
                   </div>
                 </div>

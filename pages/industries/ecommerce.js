@@ -267,7 +267,7 @@ const Ecommerce = () => {
         <section className="call-to-action-center hero-4">
           <div className="container">
             <div className="row justify-content-center">
-              <div className="col-lg-9">
+              <div className="col-lg-8">
                 <div className="call-to-action-content">
                   <h3>Want to Build a simple, agile, and reliable eCommerce experience?</h3>
                   <p>Discuss your requirements with our Microsoft consultants and reveal a game-changing highly relevant e-Commerce solution for your business or idea.</p>
@@ -406,7 +406,7 @@ const Ecommerce = () => {
                               </div>
                               <div className="text-wrp-content">
                                 <h3>Food & Beverages</h3>
-                                <p>Create and deploy an adaptive and intelligent supply chain that automatically responds to evolving demands with Dynamics 365 Supply Chain Management for your food, beverage, and processing industry.</p>
+                                <p>Create and deploy an adaptive and intelligent supply chain that automatically responds to evolving demands with <Link href="/products/dynamics-365-supply-chain-management/"><a>Dynamics 365 Supply Chain Management</a></Link> for your food, beverage, and processing industry.</p>
                                 <span>Explore Now</span>
                               </div>
                             </a>
@@ -426,7 +426,7 @@ const Ecommerce = () => {
                                 </div>
                                 <div className="text-wrp-content">
                                   <h3>Not for Profit</h3>
-                                  <p>Drive your mission of helping people in need at scale and provide quick assistance by automating your daily operations with Dynamics 365 for Non-Profits Hubs.</p>
+                                  <p>Drive your mission of helping people in need at scale and provide quick assistance by automating your daily operations with <Link href="/industries/microsoft-cloud-for-nonprofit/"><a>Dynamics 365 for Non-Profits</a></Link> <b>Hubs</b>.</p>
                                   <span>Explore Now</span>
                                 </div>
                               </a>
@@ -448,7 +448,7 @@ const Ecommerce = () => {
                                 </div>
                                 <div className="text-wrp-content">
                                   <h3>Professional Services</h3>
-                                  <p>Bring people, data, and processes close to your business on a more unified business management platform with Dynamics 365 for Professional Services and deliver top-notch professional services.</p>
+                                  <p>Bring people, data, and processes close to your business on a more unified business management platform with <Link href="/industries/professional-services/"><a>Dynamics 365 for Professional Services</a></Link> and deliver top-notch professional services.</p>
                                   <span>Explore Now</span>
                                 </div>
                               </a>
@@ -469,7 +469,7 @@ const Ecommerce = () => {
                                 </div>
                                 <div className="text-wrp-content">
                                   <h3>Manufacturing & Distribution</h3>
-                                  <p>Manufacture a more resilient and sustainable manufacturing environment by driving innovation, optimizing processes, and strengthening customer relationships with Microsoft Cloud for Manufacturing. </p>
+                                  <p>Manufacture a more resilient and sustainable manufacturing environment by driving innovation, optimizing processes, and strengthening customer relationships with <Link href="/industries/microsoft-cloud-for-manufacturing/"><a>Microsoft Cloud for Manufacturing</a></Link>. </p>
                                   <span>Explore Now</span>
                                 </div>
                               </a>
@@ -490,7 +490,7 @@ const Ecommerce = () => {
                                 </div>
                                 <div className="text-wrp-content">
                                   <h3>Startups</h3>
-                                  <p>Utilize Dynamics 365 for Startups to manage all end-to-end processes and build a culture of innovation for your startup and gradually turn it into a growing company.</p>
+                                  <p>Utilize <Link href="/industries/startups/"><a>Dynamics 365 for Startups</a></Link> to manage all end-to-end processes and build a culture of innovation for your startup and gradually turn it into a growing company.</p>
                                   <span>Explore Now</span>
                                 </div>
                               </a>

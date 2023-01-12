@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import Head from 'next/head'
-// import ModalVideo from "react-modal-video";
+import ModalVideo from "react-modal-video";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import { Autoplay, FreeMode, Pagination } from "swiper";
+import Link from "next/link";
 const Startup = () => {
   const [isOpen, setOpen] = useState(false);
   // const [open, setsOpen] = useState(false);
@@ -13,43 +14,38 @@ const Startup = () => {
     <>
       <Head>
       <meta charSet="utf-8" />
-        <title>Microsoft Dynamics 365 for Food and Beverages Industry</title>
+        <title>Dynamics 365 for Food & Beverages Industry: Invent Future</title>
         <meta
           name="description"
-          content="Enable quick adaption, simplify processes, and drive continuity throughout your organization with Dynamics 365 for Food and Beverages Industry Solutions."
+          content="Microsoft Dynamics 365 is a suite of intelligent business apps to modernize the food, beverages, and processing industry. Get in touch with Dynamics Square."
         />
-        <meta name="robots" content="noindex,nofollow" />
+        <meta name="robots" content="index,follow" />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.ca/industries/food-and-beverages/"
         />
       </Head>
-      {/* <ModalVideo
+      <ModalVideo
         channel="youtube"
         autoplay
         isOpen={isOpen}
         videoId="blXvCkDi1NI"
         onClose={() => setOpen(false)}
-      /> */}
+      />
        <main>
         <section className="Solution-banner hero-1 hero">
           <div className="container">
             <div className="row">
               <div className="col-lg-6 mobile-1 align-self-center">
-                <h1>
-                  Dynamics 365 <br />
-                  For Food & Beverages
-                </h1>
-                <p>
-                Manage your inventory levels, have a 360-degree view into your Supply Chain, and drive efficiency with Microsoft Dynamics for Food & Beverages.
-                </p>
+                <h1>Microsoft Dynamics 365 for Food & Beverage Industry</h1>
+                <p>Connect your data sources, people, and distribution system to an integrated platform and build an <b>intelligent supply chain</b> that auto-reacts to challenges and fosters business continuity.</p>
                 <div className="text-center text-lg-start">
                   <a
                     data-bs-toggle="modal"
                     href="#exampleModal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Schedule a Demo</span>
+                    <span>Get Started</span>
                   </a>
                 </div>
               </div>
@@ -67,13 +63,17 @@ const Startup = () => {
             <div className="row justify-content-center">
               <div className="col-lg-9 col-md-9">
               <header className="section-header">
-              <h2>
-                Why Dynamics 365 for your <br />
-                food & beverages industry?
-              </h2>
-              <p>
-              Enable quick adaption, simplify processes, and drive continuity throughout your organization with <a href="/products/microsoft-dynamics-365/">Microsoft Dynamics 365</a> Food & Beverages Industry Solutions. With high-end customized Food & Beverage ERP, enterprises can engage & manage their customers and drive quality control practices while uplifting their revenue generation and enlarging the right production level.
-              </p>
+              <h2>Why Choose Microsoft Dynamics 365 for Food and Beverage operations?</h2>
+              <p>Dynamics 365 is Microsoft's brilliant innovation for food beverage, and process manufacturers. Microsoft has every cloud solution that you need, or your business might need in the future to help you build a resilient and sustainable food and beverage supply chain. From <Link href="/products/dynamics-365-supply-chain-management/"><a>Dynamics 365 Supply Chain</a></Link> for large groups to <Link href="/products/dynamics-365-business-central/"><a>Dynamics 365 Business Central</a></Link> for mid-market-sized businesses like FMCGs, you have everything in the <Link href="/products/microsoft-dynamics-365/"><a>Microsoft Dynamics 365 store</a></Link>  - a suite of intelligent business management apps for your growing business. Harness its power by integrating Power BI, Power Apps, and Power Platform on Azure to drive higher outcomes for your investments.</p>
+              <div className="text-center">
+                  <a
+                    data-bs-toggle="modal"
+                    href="#exampleModal"
+                    className="btn-get-started scrollto"
+                  >
+                    <span>Request a Demo</span>
+                  </a>
+                </div>
             </header>
               </div>
             </div>
@@ -83,12 +83,8 @@ const Startup = () => {
           <div className="container">
             <div className="row gx-5">
               <div className="col-lg-6 align-self-center">
-                <h2>
-                How to Bring Smoother Operational Flow with Microsoft Dynamics 365 for Food & Beverages?
-                </h2>
-                <p>
-                Stimulate your Food & Beverage operations with real-time efficiency and drive optimal growth with Dynamics 365 for Food & Beverages industry solutions. Manage your entire operational flow from warehousing, distribution, finance, supply chain, to customers and human resources.
-                </p>
+                <h2>Bring Smoothness to your operational flows with Dynamics 365</h2>
+                <p>Fuel innovation, boost employee productivity, and attract real-time opportunities to run your business the way you want.</p>
               </div>
               <div className="col-lg-6 align-self-center">
                 <div className="content-icons-modil-1">
@@ -99,9 +95,7 @@ const Startup = () => {
                       </div>
                     </div>
                     <div className="cintent-right">
-                      <p>
-                      Predict demand, analyze capacity, manage stock level, and improve your financial visibility to bring seamless flow in your food & Beverage domain to roll out efficiency and profitability across your organization.
-                      </p>
+                      <p>Effectively manage your <b>warehousing, finance, accounting,</b> and <b>supply chain</b> with <b>Dynamics 365 Business Central</b> or <b>Dynamics 365 Supply Chain</b> if you are growing big.</p>
                     </div>
                   </div>
 
@@ -112,9 +106,7 @@ const Startup = () => {
                       </div>
                     </div>
                     <div className="cintent-right">
-                      <p>
-                      Enable smoother transition and seamless distribution model with Dynamics 365 for Food & Beverages industry solution. Leveraging improved visibility in real-time; manage your end-to-end warehousing, plan capacity, and fulfill the dynamically changing customer demands.
-                      </p>
+                      <p>Leverage <b>Microsoft Dynamics 365</b> in the food processing and dairy industry to provide enhanced customer experience based on AI-driven insights.</p>
                     </div>
                   </div>
 
@@ -125,9 +117,17 @@ const Startup = () => {
                       </div>
                     </div>
                     <div className="cintent-right">
-                      <p>
-                      Plan and drive effective business strategies across your Food & Beverages unit by upgrading your system with Microsoft's Food & Beverage ERP. Modernize your workforce to connect and communicate instantly and accelerate the process flow to accomplish desired growth and revenue.
-                      </p>
+                      <p>Attain visibility into your supply chain and boost margins with a single integrated platform like <b>Dynamics 365 for Supply Chain Management</b>.</p>
+                    </div>
+                  </div>
+                  <div className="content-inner-moil-1">
+                    <div className="icons-left">
+                      <div className="ext-bord">
+                        <i className="bi bi-check2"></i>
+                      </div>
+                    </div>
+                    <div className="cintent-right">
+                      <p>Use Microsoft 365/Office 365 products such as Teams, Exchange, SharePoint, <Link href="/products/microsoft-power-bi/"><a>Power BI</a></Link>, and Office integrated with <b>Dynamics 365</b> to foster strong collaboration among employees.</p>
                     </div>
                   </div>
                 </div>
@@ -145,20 +145,15 @@ const Startup = () => {
               </div>
               <div className="col-lg-7 align-self-center">
                 <div className="call_to_action-left">
-                  <h3>
-                  Connect with Our Experts Today
-                  </h3>
-                  <p>
-                  Let's discuss your business potentials, your desired business goals, and
-how Dynamics 365 for Food & Beverage business could be a profit-maximizing deal for your organization.
-                  </p>
+                  <h3>Want technology experts at your service?</h3>
+                  <p><Link href="/contact-us/"><a>Connect with us</a></Link> and share your business requirements to grow your profitability on a scale with our <b>Dynamics 365 solutions</b>.</p>
                   <div className="m-o-t m-o-t-inde">
                     <a
                       data-bs-toggle="modal"
                       href="#exampleModal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Schedule a Demo</span>
+                      <span>Meet Our Microsoft Experts</span>
                     </a>
                   </div>
                 </div>
@@ -171,9 +166,7 @@ how Dynamics 365 for Food & Beverage business could be a profit-maximizing deal 
           <div className="row justify-content-center">
               <div className="col-lg-9 col-md-9">
               <header className="section-header">
-              <h2>
-                Microsoft Dynamics 365 For Food & Beverage industry Features
-              </h2>
+              <h2>See how you can ripe fruits for your business with Microsoft Dynamics 365 solutions</h2>
             </header>
               </div>
             </div>
@@ -187,8 +180,8 @@ how Dynamics 365 for Food & Beverage business could be a profit-maximizing deal 
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Warehouse & Distribution Management</h3>
-                    <p>Track and control your warehousing & distribution pipeline while enlarging your efficiency level and reducing your transportation cost.</p>
+                    <h3>Intelligent Warehousing</h3>
+                    <p>Produce and procure with Azure ML, automate preventive and corrective maintenance, using embedded Microsoft techs like <b>Power Apps, Azure Data Warehouse,</b> and <b>Azure AI&ML</b>.</p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
@@ -199,10 +192,8 @@ how Dynamics 365 for Food & Beverage business could be a profit-maximizing deal 
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Marketing & Sales</h3>
-                    <p>
-                    Stay updated with your customers' activities in real-time, drive productive sales strategies & marketing campaigns with the help of the Food & Beverage <a href="/products/erp/">ERP solution</a> by Microsoft.
-                    </p>
+                    <h3>Smart Marketing</h3>
+                    <p>Empower your marketing team by skilling them with the latest marketing tools, like <Link href="/products/microsoft-dynamics-365-marketing/"><a>Dynamics 365 Marketing</a></Link>, and customer insights to drive product marketing strategies/campaigns.</p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
@@ -213,10 +204,8 @@ how Dynamics 365 for Food & Beverage business could be a profit-maximizing deal 
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Customer Management</h3>
-                    <p>
-                    Connect &amp; engage your customers as per their preferred communication channel, engage &amp; serve them in real-time to build a long-lasting customer relationship.
-                    </p>
+                    <h3>Accelerated Sales</h3>
+                    <p>Employ Power BI-embedded integrated sales automation tools like Microsoft <Link href="/products/microsoft-dynamics-365-sales/"><a>Dynamics 365 Sales</a></Link> to drive accelerated.</p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
@@ -227,14 +216,26 @@ how Dynamics 365 for Food & Beverage business could be a profit-maximizing deal 
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Manufacturing Management</h3>
-                    <p>
-                    Effectively plan and organize your manufacturing operations. Ensure seamless production flow, predict demand, plan capacity, and more with Food & Beverage solution.
-                    </p>
+                    <h3>Customer Engagement</h3>
+                    <p>Engage more and strengthen your relationships with customers using CRM tools like Customer <Link href="/products/dynamics-365-customer-engagement/"><a>Dynamics 365 Customer Engagement</a></Link> and improve your business to drive higher sales.</p>
+                  </div>
+                </div>
+                <div className="busine_service_bottom-right-indst">
+                  <div className="card_new_img text-center">
+                    <img
+                      src="/img/predict-opportunity.svg"
+                      alt="predict-opportunity"
+                    />
+                  </div>
+                  <div className="card_new_content">
+                    <h3>Manufacturing & Production</h3>
+                    <p>Manufacture an intelligent manufacturing environment to produce quality food and beverage goods to fulfill customer satisfaction and demand using <Link href="/industries/microsoft-cloud-for-manufacturing/"><a>Microsoft Cloud for Manufacturing</a></Link>.</p>
                   </div>
                 </div>
               </div>
               <div className="col-lg-6">
+             
+
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
@@ -244,9 +245,7 @@ how Dynamics 365 for Food & Beverage business could be a profit-maximizing deal 
                   </div>
                   <div className="card_new_content">
                     <h3>Supply Chain Management</h3>
-                    <p>
-                    Maximize your supply chain capability, streamline operational flow, optimize demand, drive smoother distribution, etc. With the help of food & Beverage ERP.
-                    </p>
+                    <p>Take the next step and create an adaptive, resilient supply chain that automatically responds to challenges and helps you with agile planning for business continuity.</p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
@@ -258,9 +257,7 @@ how Dynamics 365 for Food & Beverage business could be a profit-maximizing deal 
                   </div>
                   <div className="card_new_content">
                     <h3>Analytics & Insights</h3>
-                    <p>
-                    By taking advantage of built-in AI capabilities to gain real-time reports & key analytics supporting informed decisions making and ensuring productive operational flow.
-                    </p>
+                    <p>Utilize analytics-driven insights to proactively reduce downtime, enhance inventory accuracy, automating cycle counts to maintain operational excellence and equipment automation.</p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
@@ -271,10 +268,8 @@ how Dynamics 365 for Food & Beverage business could be a profit-maximizing deal 
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Production & Quality Control</h3>
-                    <p>
-                    Maintain the right production flow, ensure quality standards & safety in your food & beverage production firm by <a href="/our-services/dynamics-365-implementation-services/">implementing Dynamics 365</a> for Food & Beverages.
-                    </p>
+                    <h3>Financial Insights</h3>
+                    <p>Have a strategic impact and reduce costs by maximizing financial visibility and profitability with <Link href="/products/microsoft-dynamics-365-finance/"><a>Microsoft Dynamics 365 Finance</a></Link>.</p>
                   </div>
                 </div>
 
@@ -286,10 +281,8 @@ how Dynamics 365 for Food & Beverage business could be a profit-maximizing deal 
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Financial Management</h3>
-                    <p>
-                    Maximize your financial visibility and seamlessly manage your accounting, discount, tax & duty practices, etc. by availing seamless system upgrade for food & beverage operations.
-                    </p>
+                    <h3>Quality Control</h3>
+                    <p>Enhance the quality of your goods and services to improve your reputation in the market by configuring and customizing <b> Dynamics 365 apps</b> based on your business needs.</p>
                   </div>
                 </div>
               </div>
@@ -301,17 +294,15 @@ how Dynamics 365 for Food & Beverage business could be a profit-maximizing deal 
             <div className="row justify-content-center">
               <div className="col-lg-9">
                 <div className="call-to-action-content">
-                  <h3>Connect with Us to Reveal Profitability</h3>
-                  <p>
-                  Since there could be specific practices in your specific Food & Beverages business model, experts with years of industry exposure and expertise can implement a highly customized solution to bring innovation and efficiency across your operational area with Microsoft Dynamics 365 for Food & Beverages solution. To know more and simplify your Food & Beverages domain practices, connect with our experts today.
-                  </p>
+                  <h3>Take tomorrow's decisions today with Dynamics 365 solutions</h3>
+                  <p>Get in touch with our Microsoft products consultants, share your requirements, and find a suitable cloud solution for your food, beverage, and processing business.</p>
                   <div className="text-center m-o-t m-o-t-hv">
                     <a
                       data-bs-toggle="modal"
                       href="#exampleModal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Chat with Us</span>
+                      <span>Contact Now!</span>
                     </a>
                   </div>
                 </div>
@@ -333,7 +324,6 @@ how Dynamics 365 for Food & Beverage business could be a profit-maximizing deal 
                     <div className="video-ytube video-ytubes">
                       <div className="popup-btn popup-btns">
                         <a
-                          data-bs-toggle="modal"
                           href="#javascript:void(0)"
                           onClick={() => setOpen(true)}
                         >
@@ -355,19 +345,15 @@ how Dynamics 365 for Food & Beverage business could be a profit-maximizing deal 
               </div>
               <div className="col-lg-6 d-flex align-items-center">
                 <div className="side-heading">
-                  <h2>
-                  How to level-up your Food & Beverages operational capability with Food & Beverage ERP?
-                  </h2>
-                  <p>
-                  This is how Food & Beverages industry can improve and uplift its operational capability to attain profitable results at scale.
-                  </p>
+                  <h2>Curious to go beyond the next level of manufacturing and distributing food, beverages, & processed goods?</h2>
+                  <p>Uplift the operational capability of your plant and attain a profitable business continuity with <b>Dynamics 365 business apps</b> for the food and beverage industry.</p>
                   <div className="text-lg-start">
                     <a
                       data-bs-toggle="modal"
                       href="#exampleModal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Request a Demo</span>
+                      <span>Schedule a Demo</span>
                     </a>
                   </div>
                 </div>
@@ -436,11 +422,7 @@ how Dynamics 365 for Food & Beverage business could be a profit-maximizing deal 
                                 </div>
                                 <div className="text-wrp-content">
                                   <h3>Not for Profit</h3>
-                                  <p>
-                                    Bring Transparency And Drive Efficiency In
-                                    Your Non-Profit Organization With Microsoft
-                                    Dynamics 365 For Charities.
-                                  </p>
+                                  <p>Accelerate your fundraising by automating your daily nonprofit mission-related operations, assist the needy and drive efficiency at scale with <Link href="/industries/microsoft-cloud-for-nonprofit/"><a>Dynamics 365 for Non-Profits Hubs</a></Link>.</p>
                                   <span>Explore Now</span>
                                 </div>
                               </a>
@@ -461,10 +443,7 @@ how Dynamics 365 for Food & Beverage business could be a profit-maximizing deal 
                                 </div>
                                 <div className="text-wrp-content">
                                   <h3>E-Commerce</h3>
-                                  <p>
-                                    Optimize Your End-To-End Ecommerce Processes
-                                    And Improve Your Customer Experience.
-                                  </p>
+                                  <p>Unite your back office, in-store, call center, and eCommerce experiences to an integrated platform - <Link href="/products/microsoft-dynamics-365-commerce/"><a>Dynamics 365 for Commerce</a></Link> - and deliver a unified buying experience at scale.</p>
                                   <span>Explore Now</span>
                                 </div>
                               </a>
@@ -485,11 +464,7 @@ how Dynamics 365 for Food & Beverage business could be a profit-maximizing deal 
                                 </div>
                                 <div className="text-wrp-content">
                                   <h3>Professional Services</h3>
-                                  <p>
-                                    Streamline And Efficiently Manage Your
-                                    Professional Services with Microsoft
-                                    Dynamics 365 Business Applications.
-                                  </p>
+                                  <p>Exceed the expectations of your customers by bringing data, people, and processes close to your business on a unified business management platform - <Link href="/industries/professional-services/"><a>Dynamics 365 for Professional Services</a></Link>.</p>
                                   <span>Explore Now</span>
                                 </div>
                               </a>
@@ -510,11 +485,7 @@ how Dynamics 365 for Food & Beverage business could be a profit-maximizing deal 
                                 </div>
                                 <div className="text-wrp-content">
                                   <h3>Manufacturing & Distribution</h3>
-                                  <p>
-                                    Keep track of your production lines and
-                                    bring transparency with Microsoft Dynamics
-                                    365 for Manufacturing and Distribution.
-                                  </p>
+                                  <p>Build a more resilient and sustainable manufacturing environment by optimizing your manufacturing processes and strengthening customer relationships with <b>Microsoft Cloud for Manufacturing</b>.</p>
                                   <span>Explore Now</span>
                                 </div>
                               </a>
@@ -535,11 +506,7 @@ how Dynamics 365 for Food & Beverage business could be a profit-maximizing deal 
                                 </div>
                                 <div className="text-wrp-content">
                                   <h3>Startups</h3>
-                                  <p>
-                                    Leverage maximum possible resources to
-                                    manage end-to-end business processes for
-                                    your Startup with Microsoft Dynamics 365.
-                                  </p>
+                                  <p>Turn your growing startup into a brand or company by scaling business operations using Microsoft's numerous productivity and management tools such as Dynamics 365, <Link href="/products/microsoft-power-platform/"><a>Microsoft Power Platform</a></Link>, and <Link href="/products/microsoft-azure/"><a>Microsoft Azure</a></Link>. </p>
                                   <span>Explore Now</span>
                                 </div>
                               </a>
@@ -551,30 +518,6 @@ how Dynamics 365 for Food & Beverage business could be a profit-maximizing deal 
                   </div>
                   <div className="swiper-pagination"></div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section className="blogs-extra">
-          <div className="container">
-          <div className="row justify-content-center">
-              <div className="col-lg-9 col-md-9">
-              <header className="section-header">
-              <h2>
-              Explore Our Recent Blogs & Resources
-              </h2>
-              <p>Whether you are a start-up, an SMB, or an enterprise, the Dynamics Square blog is the best place to get inspired and learn more about Microsoft Business Applications.</p>
-            </header>
-              </div>
-            </div>
-            <div className="row top-2 gx-5">
-              {/* <Blog /> */}
-              <div className="col-lg-6 align-self-center">
-                <img
-                  src="/img/n/Dynamics-food-beverages-Banner.png"
-                  alt=""
-                />
               </div>
             </div>
           </div>
