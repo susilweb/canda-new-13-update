@@ -599,7 +599,7 @@ const Finance = () => {
           </div>
         </div>
       </section>
-      <section className="blogs-extra">
+      {/* <section className="blogs-extra">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-9">
@@ -610,7 +610,7 @@ const Finance = () => {
             </div>
           </div>
           <div className="row top-2 gx-5 justify-content-center">
-            {/* <Blog /> */}
+            <Blog />
             <div className="col-lg-6">
               <div className="blogs-extra-title">
                 <h3>Documents</h3>
@@ -709,7 +709,7 @@ const Finance = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 };

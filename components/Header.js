@@ -35,7 +35,7 @@ return(
             </div>
             <div className="right-nav">
               <ul>
-                {/* <li className="dropdown megamenu">
+                <li className="dropdown megamenu">
                   <a href="#">
                     <span>Solution</span>
                     <i className="bi bi-chevron-down"></i>
@@ -657,7 +657,7 @@ return(
                         </div>
                       </div>
                     </div>
-                    <div className="right-list">
+                    {/* <div className="right-list">
                       <div className="rigt-list-menu">
                         <p>Must Read</p>
                         <ul>
@@ -703,10 +703,10 @@ return(
                           </li>
                         </ul>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
-                </li> */}
-                 <li className="dropdown">
+                </li>
+                 {/* <li className="dropdown">
                   <a href="/industries/">
                     <span>Solution</span>{" "}
                     <i className="bi bi-chevron-down"></i>
@@ -734,7 +734,7 @@ return(
                       </a>
                     </li>
                   </ul>
-                </li>
+                </li> */}
                 <li className="dropdown">
                   <a href="/industries/">
                     <span>Industries</span>{" "}

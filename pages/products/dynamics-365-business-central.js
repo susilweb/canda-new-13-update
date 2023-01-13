@@ -2485,7 +2485,7 @@ const BusinessCentral = () => {
           </div>
         </div>
       </section>
-      <section className="blogs-extra">
+      {/* <section className="blogs-extra">
         <div className="container">
         <div className="row justify-content-center">
 <div className="col-lg-7 col-md-8">
@@ -2615,7 +2615,7 @@ const BusinessCentral = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
      
       </>
     );

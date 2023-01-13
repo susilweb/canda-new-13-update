@@ -122,7 +122,7 @@ const AzureMachineLearning = () => {
                     </h3>
                     <div
                       id="fin2"
-                      className="accordion-collapse collapse"
+                      className="accordion-collapse collapse" 
                       aria-labelledby="headingTwo"
                       data-bs-parent="#accnew"
                     >

@@ -1248,7 +1248,10 @@ parten-more. p,
   position: relative;
   overflow: hidden;
   transition: 0.3s;
-  height: 600px;
+  height: 630px;
+}
+.pricing .box.box-099{
+  height: 445px;
 }
 .pricing .box:hover {
   box-shadow: 0 0 30px rgba(1, 41, 112, 0.1);
@@ -3971,7 +3974,7 @@ parten-more. p,
 }
 .navbar .dropdown:hover > .megamenu-list {
   opacity: 1;
-  top: 100%;
+  top: 95%;
   visibility: visible;
 }
 .navbar .dropdown:hover > .megamenu-list .right-list .rigt-list-menu ul {
@@ -4174,7 +4177,7 @@ parten-more. p,
   width: 40px;
 }
 .power-new-price,
-.pricing .box-22 {
+.pricing .box-22,.pricing .box-099 {
   height: auto !important;
 }
 .pricing .box-11 {

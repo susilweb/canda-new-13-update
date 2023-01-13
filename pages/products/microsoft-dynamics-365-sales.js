@@ -575,7 +575,7 @@ const Sales = () => {
           </div>
         </div>
       </section>
-      <section className="blogs-extra">
+      {/* <section className="blogs-extra">
         <div className="container">
         <div className="row justify-content-center">
         <div className="col-lg-8 col-md-8">
@@ -586,7 +586,7 @@ const Sales = () => {
           </div>
           </div>
           <div className="row top-2 gx-5 justify-content-center">
-            {/* <Blog /> */}
+            <Blog />
             <div className="col-lg-6">
               <div className="blogs-extra-title">
                 <h3>Documents</h3>
@@ -639,7 +639,7 @@ const Sales = () => {
                   </li>
                 </ul>
               </div>
-              {/* <div className="blogs-extra-title">
+              <div className="blogs-extra-title">
                         <h4>Learn More</h4>
                      </div>
                      <div className="blogs-extra-right">
@@ -649,11 +649,11 @@ const Sales = () => {
                            <li><a  href="#"><i className="bi bi-box-arrow-up-right"></i> Why to Upgrade Dynamics NAV to Business Central</a ></li>
                            <li><a  href="#"><i className="bi bi-box-arrow-up-right"></i> Dynamics 365 Finance: Asset leasing</a ></li>
                         </ul>
-                     </div> */}
+                     </div> 
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
      
     </>
   );

@@ -15,7 +15,7 @@ const PowerBI = () => {
         />
         <link
           rel="canonical"
-          href="Implement Microsoft Power BI for data visualization to strengthen your business decisions. Contact Dynamics Square for a free Power BI consultation."
+          href="https://www.dynamicssquare.ca/products/microsoft-power-bi/"
         />     
       </Head>
       <ModalVideo
