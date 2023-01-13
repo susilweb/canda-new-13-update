@@ -3974,7 +3974,7 @@ parten-more. p,
 }
 .navbar .dropdown:hover > .megamenu-list {
   opacity: 1;
-  top: 95%;
+  top: 90%;
   visibility: visible;
 }
 .navbar .dropdown:hover > .megamenu-list .right-list .rigt-list-menu ul {
