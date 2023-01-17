@@ -575,12 +575,12 @@ export default function Home() {
                 <p>
                 Sales are not easy to manage. With D365 Sales' omnichannel facility, you can seamlessly drive innovation, maximize profit, predict, and manage your sales pipeline with real-time AI-driven insights, and close deals with lightning speed.
                 </p>
-                <a
-                  href="/products/microsoft-dynamics-365-sales/"
-                  className="read-more"
+                <Link href="/products/microsoft-dynamics-365-sales/">
+                <a className="read-more"
                 >
                   <span>Learn More...</span>
                 </a>
+                </Link>
               </div>
             </div>
             <div
@@ -601,9 +601,11 @@ export default function Home() {
                   </h3>
                 </div>
                 <p>Visual insights are the key to growth in today's business world. Streamline all your business processes and continuously monitor them with Power BI's real-time visual insights and key analytics to take decisions in advance.</p>
-                <a href="/products/microsoft-power-bi/" className="read-more">
+               <Link href="/products/microsoft-power-bi/" >
+               <a className="read-more">
                   <span>Learn More...</span>
                 </a>
+               </Link>
               </div>
             </div>
             <div
@@ -624,12 +626,11 @@ export default function Home() {
                   </h3>
                 </div>
                 <p>IoT (internet of things) and IIoT (Industrial Internet of Things) are revolutionizing industries and businesses in every sector. Connect all your devices using Azure IoT for smoother data trade and ensure better productivity.</p>
-                <a
-                  href="/products/azure-iot-internet-of-things/"
-                  className="read-more"
-                >
+               <Link  href="/products/azure-iot-internet-of-things/">
+               <a className="read-more">
                   <span>Learn More...</span>
                 </a>
+               </Link>
               </div>
             </div>
           </div>
@@ -661,12 +662,11 @@ export default function Home() {
                 <div className="over-layer-cont">
                   <h3>Startups</h3>
                   <p>Bring people closer, ideate, develop, scale, build quickly, and speed up the overall process to grow your startup without limits with Microsoft Cloud solutions.</p>
-                  <a
-                    href="/industries/startups/"
-                    className="boxshadow kallyas-button kallyas-button-nn"
-                  >
+                  <Link href="/industries/startups/">
+                  <a className="boxshadow kallyas-button kallyas-button-nn">
                     Learn More
                   </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -686,12 +686,8 @@ export default function Home() {
                 <div className="over-layer-cont">
                   <h3>Not for Profit</h3>
                   <p>Implement an efficient and highly configured AI-driven & cloud-based Dynamics 365 solution to support your non-profit goals across your non-profit hub.</p>
-                  <a
-                    href="/industries/microsoft-cloud-for-nonprofit/"
-                    className="boxshadow kallyas-button kallyas-button-nn"
-                  >
-                    Learn More
-                  </a>
+                  <Link href="/industries/microsoft-cloud-for-nonprofit/">
+                  <a className="boxshadow kallyas-button kallyas-button-nn">Learn More</a></Link>
                 </div>
               </div>
             </div>
@@ -711,12 +707,7 @@ export default function Home() {
                 <div className="over-layer-cont">
                   <h3>E-Commerce</h3>
                   <p>Ensure resilience, meet demands, provide customer fulfilment, and secure transactions for seamless growth with efficient Microsoft Cloud for e-Commerce.</p>
-                  <a
-                    href="/industries/ecommerce/"
-                    className="boxshadow kallyas-button kallyas-button-nn"
-                  >
-                    Learn More
-                  </a>
+                  <Link href="/industries/ecommerce/"><a className="boxshadow kallyas-button kallyas-button-nn">Learn More</a></Link>
                 </div>
               </div>
             </div>
@@ -736,12 +727,14 @@ export default function Home() {
                 <div className="over-layer-cont">
                   <h3>Manufacturing & Distribution</h3>
                   <p>Take your planning, sourcing, production, distribution, sales, service, and overall manufacturing to a whole new level with Microsoft Cloud for manufacturing.</p>
+                  <Link href="/industries/microsoft-cloud-for-manufacturing/">
                   <a
-                    href="/industries/microsoft-cloud-for-manufacturing/"
+                  
                     className="boxshadow kallyas-button kallyas-button-nn"
                   >
                     Learn More
                   </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -761,12 +754,11 @@ export default function Home() {
                 <div className="over-layer-cont">
                   <h3>Professional Services</h3>
                   <p>To cope with evolution, businesses need innovation and tailored solutions at the core to help them maximize outcomes. Let's configure specific solutions for your niche with full professionalism.</p>
-                  <a
-                    href="/industries/professional-services/"
-                    className="boxshadow kallyas-button kallyas-button-nn"
-                  >
+                  <Link   href="/industries/professional-services/">
+                  <a className="boxshadow kallyas-button kallyas-button-nn">
                     Learn More
                   </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -786,12 +778,11 @@ export default function Home() {
                 <div className="over-layer-cont">
                   <h3>Food & Beverages</h3>
                   <p>Centrally manage product information, introduce new food products and services quickly, and improve safety, quality, and productivity with D365 for the F&B industry.</p>
-                  <a
-                    href="/industries/food-and-beverages/"
-                    className="boxshadow kallyas-button kallyas-button-nn"
-                  >
+                  <Link   href="/industries/food-and-beverages/">
+                  <a className="boxshadow kallyas-button kallyas-button-nn">
                     Learn More
                   </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -860,8 +851,8 @@ export default function Home() {
                 </div>
               </div>
               <br />
+              <Link href="/free-dynamics-365-system-health-check/">
               <a
-                href="/free-dynamics-365-system-health-check/"
                 className="read-more"
                 data-aos="fade-left"
                 data-aos-delay="500"
@@ -869,6 +860,7 @@ export default function Home() {
                Get Free System Health Check Now!
                 <i className="bi bi-long-arrow-right"></i>
               </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -1249,14 +1241,14 @@ export default function Home() {
                         Streamline Manufacturing & Accounting with D365 Business
                         Central On-Premise
                       </p>
-                      <div className="case-button">
+                      {/* <div className="case-button">
                         <a
                           href="/case-studies/dmic/"
                           className="btn btn-md btn-custom-1"
                         >
                           Read More
                         </a>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </SwiperSlide>
@@ -1273,14 +1265,14 @@ export default function Home() {
                         Methods
                       </p>
                      
-                      <div className="case-button">
+                      {/* <div className="case-button">
                         <a
                           href="/case-studies/spectra/"
                           className="btn btn-md btn-custom-1"
                         >
                           Read More
                         </a>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </SwiperSlide>
@@ -1297,14 +1289,14 @@ export default function Home() {
                         Cloud
                       </p>
                      
-                      <div className="case-button">
+                      {/* <div className="case-button">
                         <a
                           href="/case-studies/shimco/"
                           className="btn btn-md btn-custom-1"
                         >
                           Read More
                         </a>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </SwiperSlide>

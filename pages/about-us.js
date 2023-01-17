@@ -20,33 +20,23 @@ const AboutUs = () => {
     <>
       <Head>
         <meta charSet="utf-8" />
-        <title>
-          About Dynamics Square | Dynamics 365 Business Central Partner
-        </title>
+        <title>About Microsoft Dynamics 365 In Canada: By Dynamics Square</title>
         <meta
           name="description"
-          content="At Dynamics Square, a dedicated team of highly-skilled Microsoft consultants takes care of your ERP &amp; CRM solutions. Learn more about Dynamics Square."
+          content="Dynamics Square is one of Canada's leading Microsoft Dynamics 365 implementation partners. Get in touch with us for low-cost CRM and ERP solutions."
         />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.ca/about-us/"
         />
-        <meta property="og:locale" content="en_US" />
-       
       </Head>
       <main>
         <section className="Solution-banner hero-1 hero about-banner">
           <div className="container">
             <div className="row">
               <div className="col-lg-6  mobile-1 align-self-center">
-                <h1>Transforming Businesses Through Cloud Technology </h1>
-                <p>
-                  Dynamics Square is engaged in mustering energy among people to
-                  create a better world and solve critical business problems
-                  through digital transformation and innovative cloud technology
-                  solutions. We are not only helping businesses become resilient
-                  but also empowering them to stay ahead of the curve.
-                </p>
+                <h1>Empowering Businesses to Lead Future Transformations</h1>
+                <p>We're a leading Microsoft Gold partner, integrating enterprise-grade cloud-based ERP & CRM solutions to help you become smarter, and faster in business decisions.</p>
               </div>
               <div className="col-lg-6 align-self-center">
                 <img src="/img/group-2193.png" alt="About" />
@@ -67,12 +57,7 @@ const AboutUs = () => {
                   </h3>
                 </div>
                 <div className="right-content">
-                  <p>
-                    As a Microsoft Gold Partner and trusted by 250+ clients
-                    worldwide, we're proactively delivering cloud technology
-                    solutions, training, and support from a team of 135+ highly
-                    skilled Microsoft consultants.
-                  </p>
+                  <p>As a Microsoft Gold Partner and trusted by 250+ clients worldwide, we're proactively delivering Microsoft cloud technology solutions, training, and support from a team of 135+ highly skilled Microsoft consultants.</p>
                 </div>
               </div>
             </div>
@@ -125,9 +110,7 @@ const AboutUs = () => {
                   <div className="mission-inner-con">
                     <img src="/img/mission.png" alt="mission" />
                     <h3>Mission</h3>
-                    <p>
-                    To empower every business on the planet to achieve more and cope with the world's next wave through Microsoft Business Apps such as D365 Business Central, Finance, Sales, Supply Chain - hosted under Microsoft Azure Cloud; a highly secure and advanced cloud network. 
-                    </p>
+                    <p>On a mission with a powerful set of Microsoft Business Applications such as Dynamics 365 Business Central, Finance, Sales, and Supply Chain that are hosted on Microsoft Azure Cloud, a highly secure and advanced cloud network to enable every business on the planet to achieve more.</p>
                   </div>
                 </div>
               </div>
@@ -136,9 +119,7 @@ const AboutUs = () => {
                   <div className="mission-inner-con">
                     <img src="/img/vission.png" alt="vission" />
                     <h3>Vision</h3>
-                    <p>
-                    To simplify & automate business processes, improve customer experience, boost sales ROI by breaking data silos into meaningful insights by integrating Power BI, AI, and ML - Powered by Microsoft cloud technology.
-                    </p>
+                    <p>By integrating Power BI, AI, and ML - powered by Microsoft cloud technology - we simplify and automate business processes, improve customer experience, and boost sales ROI.</p>
                   </div>
                 </div>
               </div>
@@ -147,9 +128,7 @@ const AboutUs = () => {
                   <div className="mission-inner-con">
                     <img src="/img/approch-new.png" alt="approch" className="wsd" />
                     <h3>Approach</h3>
-                    <p>
-                    We strive to build long-term relationships by making cloud techology accessible. We nurture fundamental values - "customer centricity" and "value proposition". Our clients are at our "central focus" for all our actions - engaging, informing, and adding value to their Vision.
-                    </p>
+                    <p>By making cloud technology accessible, we aim to build long-term relationships. Our fundamental values are "customer centricity" and "value proposition". All our actions are focused on our clients - engaging, informing, and adding value to their vision.</p>
                   </div>
                 </div>
               </div>
@@ -170,7 +149,7 @@ const AboutUs = () => {
               <div className="col-lg-6 align-self-center">
                 <div className="mission-content-building">
                  <h3>Building Long Term Association</h3>
-                 <p>Backed up by our in-house highly secured ways of delivering IT solutions, we offer Microsoft Cloud Technology for businesses at a reasonable cost; monthly or yearly per-user subscription. It helps us build long-term relationships with our customers.</p>
+                 <p>By making cloud technology accessible, we aim to build long-term relationships. Our fundamental values are "customer centricity" and "value proposition". All our actions are focused on our clients - engaging, informing, and adding value to their vision.</p>
                  <h4>See how our incredible people can help you</h4>
                  <div>
                     <div className="text-center text-lg-start">
@@ -193,10 +172,8 @@ const AboutUs = () => {
           <div className="row justify-content-center">
               <div className="col-lg-8">
                 <header className="section-header">
-                  <h2>Meet Our Passionate Team</h2>
-                  <p>
-                  Dynamics Square is led by a team of experienced professionals who embrace new business opportunities. 
-                  </p>
+                  <h2>Get To Know Our Passionate Team</h2>
+                  <p>Dynamics Square is led by a team of seasoned professionals who are always looking for new business opportunities.</p>
                 </header>
               </div>
             </div>
@@ -209,12 +186,13 @@ const AboutUs = () => {
                   <div className="tem-mem-info">
                     <h4>Gaurav Goyal</h4>
                     <span>Co - Founder</span>
+                    <p>"Nurturing people and investing in their capabilities to build a resilient organization."</p>
                   </div>
-                  <div className="social">
+                  {/* <div className="social">
                     <a href="https://www.linkedin.com/in/gauravg1">
                       <i className="bi bi-linkedin"></i>
                       </a>
-                    </div>
+                    </div> */}
                 </div>
               </div>
               <div className="col-lg-4">
@@ -225,6 +203,7 @@ const AboutUs = () => {
                   <div className="tem-mem-info">
                     <h4>Manish Goyal</h4>
                     <span>Co - Founder</span>
+                    <p>"Helping companies with Digital Transformation using innovative Microsoft cloud technology"</p>
                   </div>
                   <div className="social">
                     <a href="https://www.linkedin.com/in/manish-g-74854a44">
@@ -241,12 +220,13 @@ const AboutUs = () => {
                   <div className="tem-mem-info">
                     <h4>Dr. Felton Lean</h4>
                     <span>The People Person</span>
+                    <p>"Helping employees and organisations to achieve more through learning and development."</p>
                   </div>
-                  <div className="social">
+                  {/* <div className="social">
                     <a href="https://www.linkedin.com/in/dr-felton-lean-5941bb2b/">
                       <i className="bi bi-linkedin"></i>
                       </a>
-                    </div>
+                    </div> */}
                 </div>
               </div>
             </div>
@@ -367,9 +347,9 @@ const AboutUs = () => {
             <div className="row justify-content-center">
               <div className="col-lg-9">
               <header className="section-header">
-              <h2>Our Expertise and Capabilities</h2>
-              <p><b>With us, businesses grow fast, strong, and at full throttle.</b></p>
-              <p>Here at Dynamics Square, our unique ways of consulting businesses with the latest IT technology solutions for over 11+ years are helping SMBs and large enterprises grow and scale through simplified best-in-class Microsoft cloud technology.</p>
+              <h2>Accelerate and Future-proof Your Business with Deep Industry Expertise.</h2>
+              <p><b>With us, your business grows at full throttle.</b></p>
+              <p>Since 2011, Dynamics Square has been helping SMBs and large enterprises grow and scale by providing the latest IT technology solutions.</p>
               </header>
               </div>
             </div>
@@ -391,8 +371,8 @@ const AboutUs = () => {
                   </div>
                   <div className="col-lg-6 align-self-center">
                     <div className="slider-new-com">
-                      <h3>Outpace Your Competition with Microsoft's Cloud-based ERP Solutions</h3>
-                      <p>We streamline your business processes with modern ERP systems powered by cloud technology, AI, and machine learning, ensuring sustainability and continuous growth.</p>
+                      <h3>Bring the Change with Microsoft's SaaS Cloud ERP Solutions</h3>
+                      <p>With modern ERP systems powered by machine learning, artificial intelligence, and cloud technology, we ensure continuous business growth and sustainability.</p>
                       <ul className="new-com-list">
                         <li>
                           <a href="/products/dynamics-365-business-central/">
@@ -446,8 +426,8 @@ const AboutUs = () => {
                   </div>
                   <div className="col-lg-6 align-self-center">
                     <div className="slider-new-com">
-                      <h3>Uncover Deeper Insights to Deliver Extraordinary Customer Experience</h3>
-                      <p>Digital transformation isn't successful without meeting customer expectations. We help you build strong relationships, nurture clients and boost sales through Microsoft CRM solutions.</p>
+                      <h3>Understand Customers, Deliver the Ultimate Customer Experience</h3>
+                      <p>We help you understand your customers, build strong relationships, nurture clients and boost sales through Microsoft CRM solutions.</p>
                       <ul className="new-com-list">
                         <li>
                           <a href="/products/microsoft-dynamics-365-sales/">
@@ -487,8 +467,8 @@ const AboutUs = () => {
                   </div>
                   <div className="col-lg-6 align-self-center">
                     <div className="slider-new-com">
-                      <h3>Integrate Microsoft Business Apps with Power Platform for Impactful Solutions </h3>
-                      <p>Make informed decision by connecting apps with Azure cloud and develop end-to-end business solutions for effectively analyzing data, building solutions, automating processes, and creating virtual agents.</p>
+                      <h3>Integrated Microsoft Solutions to Foster Impactful Decisions </h3>
+                      <p>Get a complete picture of your customers by analyzing data from various sources including social media, interactions, and communications with other Microsoft business apps that can be integrated seamlessly with Microsoft Dynamics 365 modules.</p>
                       <ul className="new-com-list">
                         <li>
                           <a href="/products/microsoft-power-bi/">
@@ -528,8 +508,8 @@ const AboutUs = () => {
                   </div>
                   <div className="col-lg-6 align-self-center">
                     <div className="slider-new-com">
-                      <h3>Leverage Emerging Technologies for Sustainability</h3>
-                      <p>Leverage the power of next-gen technologies like Azure, IoT, IIoT, AI, and ML. Save time and money by connecting your business to intelligent Microsoft Cloud Ecosystem.</p>
+                      <h3>Make Unthinkable Happen with Emerging Technologies</h3>
+                      <p>Save time and money by connecting your business to an intelligent Microsoft Cloud Ecosystem, Mixed Reality, & AI/ML. With Microsoft Dynamics 365, you can gain insights into your customers, optimize business processes, and automate workflows to drive efficiency and growth.</p>
                       <ul className="new-com-list">
                         <li>
                           <a href="/products/microsoft-dynamics-365-mixed-reality/">
@@ -566,7 +546,7 @@ const AboutUs = () => {
               <div className="col-lg-8">
                 <header className="section-header">
                   <h2>Why Choose Dynamics Square?</h2>
-                  <p>We strive to make the latest technology simple to implement, effective, and accessible to all while encouraging innovation. Disrupting traditional ways of serving people is in our veins. We provide IT solutions and technology consulting at a reasonable cost and fixed price along with a specific solution that truly fits the business purpose.</p>
+                  <p>Disrupting traditional ways of serving people is in our veins. We provide IT solutions and technology consulting that is available at reasonable and fixed prices. Our solutions are tailored to fit your business purposes.</p>
                 </header>
               </div>
             </div>

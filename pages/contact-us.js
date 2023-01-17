@@ -65,12 +65,12 @@ const ContactUs = () => {
                           <br />
                           ON. L4J 7L2.
                         </p>
-                        <a
+                        {/* <a
                           href="https://goo.gl/maps/yMFbizQwMpLRkN3w6"
                           target="_blank"
                         >
                           Locate Us on Google
-                        </a>
+                        </a> */}
                       </div>
                     </div>
                     <div className="col-lg-6 col-sm-12">
