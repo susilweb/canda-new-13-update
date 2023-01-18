@@ -2438,7 +2438,7 @@ parten-more. p,
   display: inline-block;
   color: #fff;
   line-height: 0;
-  margin-right: 10px;
+  margin-right: 20px;
   transition: 0.3s;
 }
 .footer .footer-top p {
@@ -4162,7 +4162,7 @@ parten-more. p,
 }
 .finace-acc .accordion-header .accordion-button {
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 600;
   color: var(--color-blue);
   background: 0 0;
 }

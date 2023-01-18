@@ -847,9 +847,9 @@ return(
                   <a
                     target="_self"
                     className="getstarted custtss"
-                    href="tel:+12898072802"
+                    href="tel:+12898070740"
                   >
-                    <i className="bi bi-telephone-fill"></i> +1 289 807 2802
+                    <i className="bi bi-telephone-fill"></i> +1 289 807 0740
                   </a>
                 </li>
               </ul>
