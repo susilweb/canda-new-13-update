@@ -937,6 +937,8 @@ return(
                     <img
                       src="/img/dynamicssqure-logo.svg"
                       alt="Dynamics Square logo"
+                      width="282"
+                  height="19"
                     />
                   </a>
                   <button
