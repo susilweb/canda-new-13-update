@@ -71,11 +71,11 @@ ul li {
   font-size: 1rem;
 }
 body a {
-  color: #ee3442;
+  color: #a8252f;
   text-decoration: none;
 }
 body a:hover {
-  color: #ee3442;
+  color: #a8252f;
 }
 body p>a:hover{
   text-decoration:underline

@@ -431,8 +431,8 @@ const Footer = () =>{
           <div className="copyright">
             &copy; Copyright &nbsp;<span>2022 Dynamics Square.</span>
             <div className="footer-extra-link">
-              <a href="/terms-of-use/">Terms of Use </a>
-              <a href="/cookie-policy/">| Cookie </a>
+              <a href="/terms-of-use/" style={{color:'#ff6f7a'}}>Terms of Use </a>
+              <a href="/cookie-policy/" style={{color:'#ff6f7a'}}>| Cookie </a>
               {/* <a href="/sitemap.xml">| Sitemap</a> */}
             </div>
           </div>
