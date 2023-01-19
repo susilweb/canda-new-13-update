@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import Head from 'next/head'
+import Head from 'next/head';
+import Image from "next/image";
 import ModalVideo from "react-modal-video";
 import Link from "next/link";
 const Sales = () => {
@@ -48,7 +49,7 @@ const Sales = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <img src="/img/Sales-banner.png" alt="Dynamics 365 Sales" />
+              <Image src="/img/Sales-banner.png" alt="Dynamics 365 Sales" width={771} height={478} />
             </div>
           </div>
         </div>
@@ -72,7 +73,7 @@ const Sales = () => {
               <div className="finace-acc">
                 <div className="accordion" id="accnew">
                   <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
+                    <h3 className="accordion-header">
                       <button
                         className="accordion-button collapsed"
                         type="button"
@@ -85,6 +86,8 @@ const Sales = () => {
                           <img
                             src="/img/sales-hub-app.svg"
                             alt="icons"
+                            width="40"
+                            height="40"
                           />
                         </div>
                         <span>Sales Hub App</span>
@@ -111,7 +114,7 @@ const Sales = () => {
               <hr className="mob-disp" />
                 <div className="accordion" id="accnew">
                   <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
+                    <h3 className="accordion-header">
                       <button
                         className="accordion-button collapsed"
                         type="button"
@@ -124,6 +127,8 @@ const Sales = () => {
                           <img
                             src="/img/sales-proffesional-app.svg"
                             alt="icons"
+                            width="40"
+                            height="40"
                           />
                         </div>
                         <span>Sales Professional App</span>
@@ -225,10 +230,12 @@ const Sales = () => {
             <div className="col-lg-6 align-self-center">
               <div className="busine_service_bottom-left">
                 <div className="busine_service_bottom-right">
-                  <img
+                  <Image
                     src="/img/sales-side image.png"
                     className="fix-im"
                     alt="Dynamics 365 Sales Service"
+                    width={561}
+                    height={531}
                   />
                   <div className="video-ytube video-ytubes">
                     <div className="popup-btn popup-btns">
@@ -236,9 +243,11 @@ const Sales = () => {
                         href="#javascript:void(0)"
                         onClick={() => setOpen(true)}
                       >
-                        <img
+                        <Image
                           src="/img/Video-Sales.png"
                           alt="sales-video-Sales"
+                          width={390}
+                          height={259}
                         />
                         <span className="cente-icns">
                           <img
@@ -262,6 +271,8 @@ const Sales = () => {
                   <img
                     src="/img/Business-Central-Implementation-icons.svg"
                     alt="Business-Central-Implementation-icons"
+                    width="64"
+                    height="64"
                   />
                 </div>
                 <div className="card_new_content">
@@ -279,6 +290,8 @@ const Sales = () => {
                   <img
                     src="/img/Business Central Upgrade-icons.svg"
                     alt="Business Central Upgrade-icons"
+                    width="64"
+                    height="64"
                   />
                 </div>
                 <div className="card_new_content">
@@ -296,6 +309,8 @@ const Sales = () => {
                   <img
                     src="/img/Business-Central-Support-icons.svg"
                     alt="Business-Central-Support-icons"
+                    width="64"
+                    height="64"
                   />
                 </div>
                 <div className="card_new_content">

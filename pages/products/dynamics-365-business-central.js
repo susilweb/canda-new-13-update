@@ -1,7 +1,8 @@
 
 import React, { useRef, useEffect, useState } from "react";
 import Link from "next/link"; 
-import Head from 'next/head'
+import Head from 'next/head';
+import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -56,9 +57,11 @@ const BusinessCentral = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <img
+              <Image
                 src="/img/Dynamics-365-Business-Central.png"
                 alt="Dynamics 365 Business Central"
+                width={1024}
+                height={597}
               />
             </div>
           </div>
@@ -2090,10 +2093,12 @@ const BusinessCentral = () => {
             <div className="col-lg-6 align-self-center">
               <div className="busine_service_bottom-left">
                 <div className="busine_service_bottom-right">
-                  <img
+                  <Image
                     src="/img/bisin_leftimg.jpg"
                     className="fix-im"
                     alt="Business Central Services"
+                    width={514}
+                    height={531}
                   />
                   <div className="video-ytube video-ytubes">
                     <div className="popup-btn popup-btns">
@@ -2101,9 +2106,11 @@ const BusinessCentral = () => {
                         href="#javascript:void(0)"
                         onClick={() => setOpen(true)}
                       >
-                        <img
+                        <Image
                           src="/img/Video-Business Central.png"
                           alt="Video Business Central"
+                          width={390}
+                          height={259}
                         />
                         <span className="cente-icns">
                           <img

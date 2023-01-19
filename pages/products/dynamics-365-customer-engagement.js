@@ -62,9 +62,11 @@ const Dynamics365CustomerEngagement = () => {
           <div className="row">
             <div className="col-lg-5 align-self-center">
               <div className="busine_service_bottom-left custom012">
-                <img
+                <Image
                   src="/img/microosoft-partner.png"
                   alt="microosoft-partner.png"
+                  width={625}
+                  height={651}
                 />
               </div>
             </div>
@@ -122,9 +124,11 @@ const Dynamics365CustomerEngagement = () => {
             <div className="col-lg-5 align-self-center">
               <div className="busine_service_bottt">
                 <div className="busine_service_bottom-right">
-                  <img
+                  <Image
                     src="/img/customer-engagement-side-image.png"
                     alt="customer-engagement-side-image"
+                    width={532}
+                    height={513}
                   />
                 </div>
               </div>
@@ -276,9 +280,11 @@ const Dynamics365CustomerEngagement = () => {
           <div className="row pad9x rever-1">
             <div className="col-lg-7 align-self-center">
               <div className="commen-lef-pic">
-                <img
+                <Image
                   src="/img/dynamics-365-sales.png"
                   alt="Dynamics 365 Sales"
+                  width={1025}
+                  height={587}
                 />
               </div>
             </div>
@@ -301,9 +307,11 @@ const Dynamics365CustomerEngagement = () => {
             </div>
             <div className="col-lg-7 align-self-center">
               <div className="commen-lef-pic">
-                <img
+                <Image
                   src="/img/marketing-banner-1.png"
                   alt="Dynamics 365 Marketing"
+                  width={758}
+                  height={432}
                 />
               </div>
             </div>
@@ -312,9 +320,11 @@ const Dynamics365CustomerEngagement = () => {
           <div className="row pad9x rever-1">
             <div className="col-lg-7 align-self-center">
               <div className="commen-lef-pic">
-                <img
+                <Image
                   src="/img/customer-sservice-banner.png"
                   alt="Dynamics 365 Customer Service"
+                  width={1024}
+                  height={586}
                 />
               </div>
             </div>
@@ -335,9 +345,11 @@ const Dynamics365CustomerEngagement = () => {
             </div>
             <div className="col-lg-7 align-self-center">
               <div className="commen-lef-pic">
-                <img
+                <Image
                   src="/img/field-service-banner.png"
                   alt="Dynamics 365 Field Service"
+                  width={1024}
+                  height={586}
                 />
               </div>
             </div>

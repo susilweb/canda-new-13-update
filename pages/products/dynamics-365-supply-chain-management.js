@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import Head from 'next/head'
+import Head from 'next/head';
 import ModalVideo from "react-modal-video";
 import Link from "next/link";
+import Image from "next/image";
 const SupplyChainManagement = () => {
   const [isOpen, setOpen] = useState(false);
   const [open, setsOpen] = useState(false);
@@ -52,9 +53,11 @@ const SupplyChainManagement = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <img
+              <Image
                 src="/img/supply-chain-banner.png"
                 alt="Dynamics 365 Supply Chain Management"
+                width={782}
+                height={473}
               />
             </div>
           </div>
@@ -340,10 +343,12 @@ const SupplyChainManagement = () => {
             <div className="col-lg-6 align-self-center">
               <div className="busine_service_bottom-left">
                 <div className="busine_service_bottom-right">
-                  <img
+                  <Image
                     src="/img/supply-chain-page-side-image.png"
                     className="fix-im"
                     alt="Supply Chain Management Service"
+                    width={579}
+                    height={548}
                   />
                   <div className="video-ytube video-ytubes">
                     <div className="popup-btn popup-btns">
@@ -351,9 +356,11 @@ const SupplyChainManagement = () => {
                         href="#javascript:void(0)"
                         onClick={() => setOpen(true)}
                       >
-                        <img
+                        <Image
                           src="/img/Video-Supply Chain Management.png"
                           alt="Video-Supply Chain Management"
+                          width={390}
+                          height={259}
                         />
                         <span className="cente-icns">
                           <img

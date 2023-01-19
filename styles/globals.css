@@ -77,6 +77,9 @@ body a {
 body a:hover {
   color: #ee3442;
 }
+body p>a:hover{
+  text-decoration:underline
+}
 .about-banner h2,
 .extr-cont span a,
 .nav-to p,
@@ -353,6 +356,7 @@ parten-more. p,
   color: var(--color-grey);
   white-space: nowrap;
   transition: 0.3s;
+  outline:none
 }
 .navbar .dropdown ul,
 .navbar-mobile ul {
@@ -1268,7 +1272,7 @@ parten-more. p,
   padding: 30px 10px;
 }
 .pricing .price {
-  font-size: 36px;
+  font-size: 30px;
   color: #ee3442;
   font-weight: 500;
   margin-bottom: 30px;

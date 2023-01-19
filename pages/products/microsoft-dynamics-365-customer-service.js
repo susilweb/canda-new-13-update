@@ -50,9 +50,11 @@ const CustomerService = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <img
+              <Image
                 src="/img/customer-service-banner.png"
                 alt="Dynamics 365 Customer Service"
+                width={759}
+                height={513}
               />
             </div>
           </div>
@@ -140,10 +142,12 @@ const CustomerService = () => {
             <div className="col-lg-6 align-self-center">
               <div className="busine_service_bottom-left">
                 <div className="busine_service_bottom-right">
-                  <img
+                  <Image
                     src="/img/customer-service-side-image.png"
                     className="fix-im"
                     alt="Dynamics 365 Customer Service"
+                    width={553}
+                    height={591}
                   />
                   <div className="video-ytube video-ytubes">
                     <div className="popup-btn popup-btns">
@@ -152,7 +156,7 @@ const CustomerService = () => {
                         // href="#javascript:void(0)"
                         onClick={() => setOpen(true)}
                       >
-                        <img src="/img/video-Customer Service.png" />
+                        <Image src="/img/video-Customer Service.png" width={390} height={259} />
                         <span className="cente-icns">
                           <img
                             src="/img/play_icons.svg"

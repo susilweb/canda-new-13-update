@@ -111,7 +111,6 @@ const Footer = () =>{
                   <div className="mb-3">
                     <textarea
                       className="form-control"
-                      id="exampleFormControlTextarea1"
                       placeholder="*How Can We Help You?"
                       rows="3"
                       name="message"
@@ -124,7 +123,6 @@ const Footer = () =>{
                       checked
                       readOnly
                       className="form-check-input"
-                      id="exampleCheck1"
                     />
                     <label className="form-check-label">
                       I agree to the
@@ -262,6 +260,8 @@ const Footer = () =>{
                   <img
                     src="/img/dsuk-footer-logo.svg"
                     alt="dsuk-footer-logo"
+                    width="282"
+                    height="19"
                   />
                 </a>
                 <p>
@@ -274,11 +274,13 @@ const Footer = () =>{
                   src="/img/microsoft-partner.svg"
                   alt="microsoft-partner"
                   className="footer-img"
+                  width="210" height="74"
                 />
                 <img
                   src="/img/Tech-For-Socil-Impact.svg"
                   alt="Tech-For-Socil-Impact"
                   className="footer-img"
+                  width="210" height="74"
                 />
               </div>
               <div className="col-lg-2 col-12 footer-links">
@@ -380,6 +382,7 @@ const Footer = () =>{
                       rel=""
                       href="https://twitter.com/dsquare_ca"
                       className="twitter"
+                      aria-label="visit twitter"
                     >
                       <i className="bi bi-twitter"></i>
                     </a>
@@ -388,6 +391,7 @@ const Footer = () =>{
                       rel=""
                       href="https://www.facebook.com/dynamicssquareca"
                       className="facebook"
+                      aria-label="visit facebook"
                     >
                       <i className="bi bi-facebook"></i>
                     </a>
@@ -396,6 +400,7 @@ const Footer = () =>{
                       rel=""
                       href="https://www.youtube.com/c/DynamicsSquare"
                       className="instagram"
+                      aria-label="visit instagram"
                     >
                       <i className="bi bi-youtube"></i>
                     </a>
@@ -404,6 +409,7 @@ const Footer = () =>{
                       rel=""
                       href="https://www.linkedin.com/company/dynamics-square-canada/"
                       className="linkedin"
+                      aria-label="visit linkedin"
                     >
                       <i className="bi bi-linkedin"></i>
                     </a>

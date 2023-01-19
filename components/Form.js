@@ -71,7 +71,6 @@ const Form = () => {
                   <div className="mb-3">
                     <textarea
                       className="form-control"
-                      id="exampleFormControlTextarea1"
                       placeholder="* How Can We Help You?"
                       rows="3"
                       name="message"
@@ -84,7 +83,6 @@ const Form = () => {
                       checked
                       readOnly
                       className="form-check-input"
-                      id="exampleCheck1"
                     />
                     <label className="form-check-label">
                       I agree to the

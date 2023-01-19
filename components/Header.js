@@ -30,6 +30,8 @@ return(
                 <img
                   src="/img/dynamicssqure-logo.svg"
                   alt="Dynamics Square logo"
+                  width="282"
+                  height="19"
                 />
               </a>
             </div>
@@ -861,6 +863,7 @@ return(
                 href="#offcanvasWithBothOptions"
                 data-bs-toggle="offcanvas"
                 aria-controls="offcanvasWithBothOptions"
+                aria-label="explore website list"
               >
                 <i className="bi bi-list mobile-nav-toggle"></i>
               </a>
