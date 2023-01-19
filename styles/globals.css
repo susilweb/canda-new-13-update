@@ -21,14 +21,18 @@ body {
   color: #444;
   font-size: 1.125rem;
   letter-spacing: 0.6px;
+  overflow: visible !important;
+    padding-right: 0px !important; 
 }
 .form-main-model {
   --bs-backdrop-zindex: 1050;
   --bs-backdrop-bg: rgb(0 0 0 / 23%);
   background-color: rgb(0 0 0 / 23%);
+  padding-right: 0px !important; 
 }
 .form-main-model .modal-content {
   border: none;
+
 }
 .modal-backdrop {
   display: none;
