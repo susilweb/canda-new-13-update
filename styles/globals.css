@@ -40,7 +40,7 @@ body {
 .btn-welcome,
 .navbar-mobile .dropdown > .dropdown-active,
 svg {
-  display: block !important;
+  display: block;
 }
 .back-to-top,
 .navbar-mobile ul,
