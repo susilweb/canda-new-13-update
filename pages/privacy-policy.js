@@ -6,6 +6,7 @@ const PrivacyPolicy = () => {
       <title>Privacy Policy | Dynamics Square</title>
 <meta name="description" content="Read here Dynamics Square Privacy Policy. This Privacy Policy belongs to the Terms of Service of Dynamics Square and should be followed as a part of it."/>
 <link rel="canonical" href="https://www.dynamicssquare.ca/privacy-policy/" />
+<meta name="robots" content="index,follow" />
       </Head>
       <section className="Solution-banner hero-1 hero custom-pd-4">
         <div className="container">

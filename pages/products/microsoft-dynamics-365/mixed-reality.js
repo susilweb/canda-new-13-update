@@ -17,7 +17,7 @@ const MicrosoftDynamics365MixedReality = () => {
           rel="canonical"
           href="https://www.dynamicssquare.ca/products/microsoft-dynamics-365/mixed-reality/"
         />
-       <meta name="robots" content="noindex,nofollow" />
+       <meta name="robots" content="index,follow" />
       </Head>
       <ModalVideo
         channel="youtube"

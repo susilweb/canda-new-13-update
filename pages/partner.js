@@ -5,7 +5,7 @@ const Partner = () => {
       <>
         <Head>
           <title>Our Partners | Dynamics Square</title>
-          <meta name="description" content="Learn about the collaborative work we do with our partners. We create limitless impact in collaboration with industry leaders and innovators. " />
+          <meta name="description" content="Learn about the collaborative work we do with our partners. We create limitless impact in collaboration with industry leaders and innovators." />
           <link
             rel="canonical"
             href="https://www.dynamicssquare.ca/partner/"

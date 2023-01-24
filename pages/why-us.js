@@ -18,6 +18,7 @@ const WhyUs = () => {
             content="Why Dynamics Square? Because, we&#039;re Microsoft Gold Partner in the USA helping businesses to scale up their processes through Microsoft ERP &amp; CRM software solutions."
           />
           <link rel="canonical" href="https://www.dynamicssquare.ca/why-us/" />
+          <meta name="robots" content="index,follow" />
         </Head>
         <main>
           <section className="Solution-banner hero-1 hero about-banner">

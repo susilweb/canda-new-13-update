@@ -10,7 +10,7 @@ const Career = () => {
             content="Our effective leaders knows- their company's success depends upon not just a vision or product, but the people who carry out the vision and build the product"
           />
           <link rel="canonical" href="https://www.dynamicssquare.ca/career/" />
-          
+          <meta name="robots" content="index,follow" />
         </Head>
         <main>
           <section className="Solution-banner hero-1 hero about-banner carrer-into">

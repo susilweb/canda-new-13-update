@@ -6,6 +6,7 @@ const TermsOfUse = () => {
       <title>Website Terms of Use | Dynamics Square</title>
 <meta name="description" content="Dynamics Square Terms of Use page is all about the information on our website that you access and make use of."/>
 <link rel="canonical" href="https://www.dynamicssquare.ca/terms-of-use/" />
+<meta name="robots" content="index,follow" />
       </Head>
       <section className="Solution-banner hero-1 hero custom-pd-4">
         <div className="container">

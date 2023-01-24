@@ -15,7 +15,7 @@ const MicrosoftDynamicsGP = () => {
           rel="canonical"
           href="https://www.dynamicssquare.ca/products/microsoft-dynamics-gp/"
         />
-        <meta name="robots" content="noindex,nofollow" />
+        <meta name="robots" content="index,follow" />
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">

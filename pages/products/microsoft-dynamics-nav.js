@@ -19,7 +19,7 @@ const MicrosoftDynamicsNAV = () => {
           name="description"
           content="Microsoft Dynamics NAV is an older version of Dynamics 365 Business Central that seamlessly offers process automation features. Contact Dynamics Square."
         />
-        <meta name="robots" content="noindex,nofollow" />
+        <meta name="robots" content="index,follow" />
       </Head>
       <ModalVideo
         channel="youtube"

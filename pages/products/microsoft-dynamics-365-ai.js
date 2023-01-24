@@ -14,7 +14,7 @@ const MicrosoftDynamics365Ai = () => {
           rel="canonical"
           href="https://www.dynamicssquare.ca/products/microsoft-dynamics-365-ai/"
         />
-         <meta name="robots" content="noindex,nofollow" />
+         <meta name="robots" content="index,follow" />
         
       </Head>
       <section className="Solution-banner hero-1 hero">

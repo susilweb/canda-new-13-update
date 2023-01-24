@@ -16,6 +16,7 @@
     "bootstrap-icons": "^1.9.1",
     "emailjs-com": "^3.2.0",
     "next": "12.2.5",
+    "next-sitemap": "^3.1.47",
     "next-videos": "^1.5.0",
     "react": "^17.0.2",
     "react-bootstrap": "^2.5.0",

@@ -13,7 +13,7 @@ const AzureIoTCentral = () => {
           rel="canonical"
           href="https://www.dynamicssquare.ca/products/azure-iot-central/"
         />
-          <meta name="robots" content="noindex,nofollow" />
+          <meta name="robots" content="index,follow" />
         
       </Head>
       <section className="Solution-banner hero-1 hero">

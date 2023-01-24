@@ -17,6 +17,7 @@ const PowerBI = () => {
           rel="canonical"
           href="https://www.dynamicssquare.ca/products/microsoft-power-bi/"
         />     
+        <meta name="robots" content="index,follow" />
       </Head>
       <ModalVideo
         channel="youtube"

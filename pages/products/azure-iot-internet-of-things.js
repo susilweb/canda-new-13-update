@@ -12,7 +12,7 @@ const AzureIoT = () => {
           name="description"
           content=" Azure IoT helps you build intelligent environments to connect, monitor, automate, and model devices and applications. Contact Dynamics Square."
         />
-           <meta name="robots" content="noindex,nofollow" />
+           <meta name="robots" content="index,follow" />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.ca/products/azure-iot-internet-of-things/"

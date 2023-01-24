@@ -14,6 +14,7 @@ const ContactUs = () => {
             rel="canonical"
             href="https://www.dynamicssquare.ca/contact-us/"
           />
+          <meta name="robots" content="index,follow" />
         </Head>
         <main>
           <section className="Solution-banner hero-1 hero about-banner">

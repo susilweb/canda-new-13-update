@@ -19,7 +19,6 @@ const AboutUs = () => {
   return (
     <>
       <Head>
-        <meta charSet="utf-8" />
         <title>About Microsoft Dynamics 365 In Canada: By Dynamics Square</title>
         <meta
           name="description"
@@ -29,6 +28,7 @@ const AboutUs = () => {
           rel="canonical"
           href="https://www.dynamicssquare.ca/about-us/"
         />
+        <meta name="robots" content="index,follow" />
       </Head>
       <main>
         <section className="Solution-banner hero-1 hero about-banner">
