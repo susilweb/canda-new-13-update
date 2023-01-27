@@ -33,19 +33,11 @@ class MyDocument extends Document {
                 gtag('config', 'UA-243571673-1');
                 `}
             </Script>
-             {/* <Script id="Adoric_Script" strategy="afterInteractive">
+            <Script id="hotjar" strategy="beforeInteractive">
                 {`
-                (function (a, d, o, r, i, c, u, p, w, m) {
-                  m = d.getElementsByTagName(o)[0], a[c] = a[c]
-                  || {}, a[c].trigger = a[c].trigger || function () {
-                  (a[c].trigger.arg = a[c].trigger.arg || []).push(arguments)},
-                  a[c].on = a[c].on || function () {(a[c].on.arg = a[c].on.arg || []).push(arguments)},
-                  a[c].off = a[c].off || function () {(a[c].off.arg = a[c].off.arg || []).push(arguments)
-                  }, w = d.createElement(o), w.id = i, w.src = r, w.async = 1, w.setAttribute(p, u),
-                  m.parentNode.insertBefore(w, m), w = null}
-                  )(window, document, "script", "https://68645155.adoric-om.com/adoric.js", "Adoric_Script", "adoric","5d7b8ed8217b2eb2098e9eaca5386d15", "data-key");
+               (function(h,o,t,j,a,r){ h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)}; h._hjSettings={hjid:3340940,hjsv:6}; a=o.getElementsByTagName('head')[0]; r=o.createElement('script');r.async=1; r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv; a.appendChild(r); })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
                 `}
-            </Script> */}
+            </Script>
             
         </Head>
         <body>
