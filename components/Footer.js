@@ -332,6 +332,7 @@ const Footer = () =>{
                       CRM
                     </a>
                   </li>
+  
                 </ul>
               </div>
               <div className="col-lg-2 col-12 footer-links">
