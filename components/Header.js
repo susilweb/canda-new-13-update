@@ -869,7 +869,7 @@ return(
                     </li>
                   </ul>
                 </li>
-                {/* <li className="dropdown">
+                <li className="dropdown">
                   <a href="#">
                     <span>Resources</span>{" "}
                     <i className="bi bi-chevron-down"></i>
@@ -877,14 +877,14 @@ return(
                   <ul>
                     <li>
                       <a
-                        href="https://www.dynamicssquare.com/blog/"
+                        href="https://blog.dynamicssquare.ca/"
                         rel=""
                         target="_self"
                       >
                         Blog
                       </a>
                     </li> 
-                    <li>
+                    {/* <li>
                       <a href="/ebook/">eBook</a>
                     </li>
 
@@ -893,9 +893,9 @@ return(
                     </li>
                     <li>
                       <a href="/webinars/">Webinars</a>
-                    </li> 
+                    </li>  */}
                   </ul>
-                </li> */}
+                </li>
                 <li>
                   <a className="nav-link" href="/contact-us/">
                     Contact Us
@@ -915,6 +915,15 @@ return(
           </nav>
           <div className="mobile-menu-section-wr">
             <div className="togglr-icon-nav">
+            <div className="cont-m-mobile">
+            <a
+                    target="_self"
+                    className="getstarted custtss"
+                    href="tel:+12898070740"
+                  >
+                    <i className="bi bi-telephone-fill"></i>
+                    </a>
+                  </div>
               <a
                 href="#offcanvasWithBothOptions"
                 data-bs-toggle="offcanvas"
@@ -1322,7 +1331,7 @@ return(
                         </div>
                       </div>
                     </div>
-                    {/* <div className="accordion-item">
+                    <div className="accordion-item">
                       <div className="accordion-header" id="list-5">
                         <button
                           className="accordion-button collapsed"
@@ -1348,14 +1357,14 @@ return(
                             <ul>
                               <li>
                                 <a
-                                  href="https://www.dynamicssquare.com/blog/"
+                                  href="https://blog.dynamicssquare.ca/"
                                   target="_self"
                                   rel=""
                                 >
                                   Blogs
                                 </a>
                               </li> 
-                              <li>
+                              {/* <li>
                                 <a href="/ebook/">eBook</a>
                               </li>
 
@@ -1366,12 +1375,12 @@ return(
                               </li>
                                <li>
                                 <a href="/webinars/">Webinars</a>
-                              </li> 
+                              </li>  */}
                             </ul>
                           </div>
                         </div>
                       </div>
-                    </div> */}
+                    </div>
                     <div className="accordion-item">
                       <a className="nav-link" href="/contact-us/">
                         Contact Us

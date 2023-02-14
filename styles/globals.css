@@ -575,6 +575,24 @@ parten-more. p,
   margin-bottom: 10px;
   display: block;
 }
+.cont-m-mobile{
+  position: absolute;
+    left: -50px;
+    top: 0px;
+    border-radius: 5px;
+    text-align: center;
+}
+.cont-m-mobile a{
+  line-height: 1.8;
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  background: #fff;
+  border-radius: 5px;
+  font-size: 16px;
+  box-shadow: 1px 0px 6px #0000003d;
+}
+
 .accordion-container .article-title:active,
 .accordion-container .article-title:hover,
 .accordion-container .article-title:hover i:active,
@@ -4148,7 +4166,7 @@ parten-more. p,
 .mobile-menu-section-wr .togglr-icon-nav {
   position: absolute;
   right: 13px;
-  top: 13px;
+  top: 18px;
 }
 .busines-accr {
   box-shadow: 0 0 15px 0 rgb(29 53 87 / 22%);
@@ -7383,3 +7401,8 @@ parten-more. p,
   }
   
 }
+@media (min-width: 1181px){
+  .cont-m-mobile{
+   display:none
+  }
+  }
