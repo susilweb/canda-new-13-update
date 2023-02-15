@@ -861,7 +861,7 @@ const ContactUs = () => {
                     <li>
                       <i className="bi bi-chevron-right"></i>
                       <a href="https://blog.dynamicssquare.ca/" rel="">
-                        Blog
+                        Blogs
                       </a>
                     </li>
                     <li>

@@ -862,10 +862,10 @@ return(
                       <a href="/why-us/">Why Us</a>
                     </li>
                     <li>
-                      <a href="/partner/">Partner</a>
+                      <a href="/partner/">Partners</a>
                     </li>
                     <li>
-                      <a href="/career/">Career</a>
+                      <a href="/career/">Careers</a>
                     </li>
                   </ul>
                 </li>
@@ -881,7 +881,7 @@ return(
                         rel=""
                         target="_self"
                       >
-                        Blog
+                        Blogs
                       </a>
                     </li> 
                     {/* <li>
