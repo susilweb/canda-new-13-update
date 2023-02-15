@@ -365,7 +365,7 @@ const Footer = () =>{
                       href="https://blog.dynamicssquare.ca/"
                       rel=""
                     >
-                      Blog
+                      Blogs
                     </a>
                   </li>
                   <li>
