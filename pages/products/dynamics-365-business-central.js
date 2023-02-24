@@ -1984,7 +1984,7 @@ const BusinessCentral = () => {
                       Business Approach
                       </h3>
                       <div className="overlay">
-                        <p>With <Link href="microsoft-power-bi"><a>Power BI</a></Link>, <Link href="microsoft-power-automate"><a>Power Automate</a></Link>, <Link href="microsoft-power-apps"><a>Power Apps</a></Link>, <Link href="microsoft-power-virtual-agents"><a>Power Virtual Agents</a></Link>, and Dataverse, Business Central is a comprehensive business application that helps you make better decisions on time through its intelligence.</p>
+                        <p>Business Central is a comprehensive business application that enables you to integrate, analyze, automate, customize, and streamline your operations, leading to better-informed decisions & increased productivity.</p>
                       </div>
                     </div>
                     <div className="why-solution-wrapper-inner">
@@ -1993,7 +1993,7 @@ const BusinessCentral = () => {
                         <br />Experience
                       </h3>
                       <div className="overlay">
-                        <p>The UI design elements & data-driven approach provides enhanced user experience (UX) across desktop & mobile devices, helping your sales teams to delight their customers, engage and target potential users in real-time from anywhere.</p>
+                        <p>Elevate UX with UI design elements & data-driven approach. From desktop to mobile devices, enjoy a seamless experience that helps your sales teams delight customers, engage with potential leads in real time, & access critical information, anytime, anywhere.</p>
                       </div>
                     </div>
                   </div>
@@ -2007,9 +2007,7 @@ const BusinessCentral = () => {
                         & Simplified Reporting
                       </h3>
                       <div className="overlay">
-                        <p>
-                        Integrate Business Central with Power BI for invoking inbuilt reporting and analytics capabilities, enabling your workforce to make instant yet productive and market-disrupting decisions.
-                        </p>
+                        <p>Combining Business Central with Power BI can drive your business to new heights with integrated reporting and analytics capabilities. Empower your teams to make informed, market-disrupting decisions in real-time from day one.</p>
                       </div>
                     </div>
                     <div className="why-solution-wrapper-inner">
@@ -2018,9 +2016,7 @@ const BusinessCentral = () => {
                         <br />& Customization
                       </h3>
                       <div className="overlay">
-                        <p>
-                        Dynamics 365 Business Central favors easy-to-customize capabilities, helping you address specific business needs. Small or small-to-mid market size  businesses can integrate Business Central with their existing systems and other <Link href="/products/microsoft-dynamics-365/"><a>Microsoft Business Apps</a></Link>.
-                        </p>
+                        <p>Tailor D365 BC to your unique business needs with its user-friendly customization capabilities. Seamlessly integrate Business Central with existing ERP systems & other Microsoft Business Apps for a truly integrated experience.</p>
                       </div>
                     </div>
                   </div>
