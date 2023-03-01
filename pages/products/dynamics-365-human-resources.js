@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Head from 'next/head'
 import ModalVideo from "react-modal-video";
 import Link from "next/link";
+import Image from "next/image";
 const HumanResource = () => {
   const [isOpen, setOpen] = useState(false);
   const [open, setsOpen] = useState(false);
@@ -48,7 +49,7 @@ const HumanResource = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <img src="/img/Human-Resource-banner.png" alt="Human-Resource-banner" />
+              <Image src="/img/Human-Resource-banner.png" alt="Human-Resource-banner" width={778} height={473} />
             </div>
           </div>
         </div>
@@ -70,7 +71,7 @@ const HumanResource = () => {
               <div className="finace-acc">
                 <div className="accordion" id="accnew">
                   <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
+                    <h3 className="accordion-header" >
                       <button
                         className="accordion-button collapsed"
                         type="button"
@@ -83,6 +84,7 @@ const HumanResource = () => {
                           <img
                             src="/img/icons-_Highly-Flexible-Solution.svg"
                             alt="icons"
+                            width="48" height="48"
                           />
                         </div>
                         <span>Reimagine Employee Experiences</span>
@@ -101,7 +103,7 @@ const HumanResource = () => {
                   </div>
                   <hr />
                   <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
+                    <h3 className="accordion-header" >
                       <button
                         className="accordion-button collapsed"
                         type="button"
@@ -114,6 +116,7 @@ const HumanResource = () => {
                           <img
                             src="/img/icons-_Connected-HR-Practices.svg"
                             alt="icons"
+                            width="48" height="48"
                           />
                         </div>
                         <span>Enhance HR Programs</span>
@@ -137,9 +140,9 @@ const HumanResource = () => {
             <div className="col-lg-6">
               <div className="finace-acc">
               <hr className="mob-disp" />
-                <div className="accordion" id="accnew">
+                <div className="accordion" id="accnews">
                   <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
+                    <h3 className="accordion-header" >
                       <button
                         className="accordion-button collapsed"
                         type="button"
@@ -152,6 +155,7 @@ const HumanResource = () => {
                           <img
                             src="/img/icons-_Actionable-Insights.svg"
                             alt="icons"
+                            width="48" height="48"
                           />
                         </div>
                         <span>Accelerate Organizational Agility</span>
@@ -161,7 +165,7 @@ const HumanResource = () => {
                       id="fin3"
                       className="accordion-collapse collapse"
                       aria-labelledby="headingTwo"
-                      data-bs-parent="#accnew"
+                      data-bs-parent="#accnews"
                     >
                       <div className="accordion-body">
                      <p>Integrate Dynamics 365 Human Resources with Dataverse to enable HR to run with the flexibility and agility that the business requires.</p>
@@ -169,10 +173,11 @@ const HumanResource = () => {
                     </div>
                   </div>
                 </div>
-                <hr className="mob-disp" />
-                <div className="accordion" id="accnew">
+                <hr />
+                {/* <hr className="mob-disp" /> */}
+                <div className="accordion" id="accnews">
                   <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
+                    <h3 className="accordion-header" >
                       <button
                         className="accordion-button collapsed"
                         type="button"
@@ -185,6 +190,7 @@ const HumanResource = () => {
                           <img
                             src="/img/icons-_Highly-Flexible-Solution.svg"
                             alt="icons"
+                            width="48" height="48"
                           />
                         </div>
                         <span>Incorporate Workforce Insights</span>
@@ -194,7 +200,7 @@ const HumanResource = () => {
                       id="fin4"
                       className="accordion-collapse collapse"
                       aria-labelledby="headingTwo"
-                      data-bs-parent="#accnew"
+                      data-bs-parent="#accnews"
                     >
                       <div className="accordion-body">
                      <p>Access rich dashboards on any device that allow you to analyze and visualize people's data for data-driven decisions.</p>
@@ -277,10 +283,12 @@ const HumanResource = () => {
             <div className="col-lg-6 align-self-center">
               <div className="busine_service_bottom-left">
                 <div className="busine_service_bottom-right">
-                  <img
+                  <Image
                     src="/img/human-resource side.png"
                     className="fix-im"
                     alt="Dynamics 365 Human Resources Service"
+                    width={561}
+                    height={531}
                   />
                   <div className="video-ytube video-ytubes">
                     <div className="popup-btn popup-btns">
@@ -288,7 +296,7 @@ const HumanResource = () => {
                         href="#javascript:void(0)"
                         onClick={() => setOpen(true)}
                       >
-                        <img src="/img/Video-Human Resource.png" alt="Video-Human-Resource" />
+                        <Image src="/img/Video-Human Resource.png" alt="Video-Human-Resource" width={390} height={259} />
                         <span className="cente-icns">
                           <img
                             src="/img/play_icons.svg"
@@ -311,6 +319,7 @@ const HumanResource = () => {
                   <img
                     src="/img/Business-Central-Implementation-icons.svg"
                     alt="Business-Central-Implementation-icons"
+                    width="64" height="64"
                   />
                 </div>
                 <div className="card_new_content">
@@ -328,6 +337,7 @@ const HumanResource = () => {
                   <img
                     src="/img/Business Central Upgrade-icons.svg"
                     alt="Business Central Upgrade-icons"
+                    width="64" height="64"
                   />
                 </div>
                 <div className="card_new_content">
@@ -345,6 +355,7 @@ const HumanResource = () => {
                   <img
                     src="/img/Business-Central-Support-icons.svg"
                     alt="Business-Central-Support-icons"
+                    width="64" height="64"
                   />
                 </div>
                 <div className="card_new_content">
