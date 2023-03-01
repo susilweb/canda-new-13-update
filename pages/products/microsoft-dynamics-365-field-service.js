@@ -52,9 +52,11 @@ const FieldService = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <img
+              <Image
                 src="/img/FieldServicebanner.png"
                 alt="Dynamics 365 Customer Service"
+                width={771}
+                height={478}
               />
             </div>
           </div>
@@ -77,7 +79,7 @@ const FieldService = () => {
               <div className="finace-acc">
                 <div className="accordion" id="accnew">
                   <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
+                    <h3 className="accordion-header">
                       <button
                         className="accordion-button collapsed"
                         type="button"
@@ -90,6 +92,8 @@ const FieldService = () => {
                           <img
                             src="/img/icons_customer-resolution.svg"
                             alt="icons"
+                            width="48"
+                            height="48"
                           />
                         </div>
                         <span>Deliver Personalized Experiences</span>
@@ -108,7 +112,7 @@ const FieldService = () => {
                   </div>
                   <hr />
                   <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
+                    <h3 className="accordion-header">
                       <button
                         className="accordion-button collapsed"
                         type="button"
@@ -121,6 +125,8 @@ const FieldService = () => {
                           <img
                             src="/img/icons_resource-scheduling.svg"
                             alt="icons"
+                            width="48"
+                            height="48"
                           />
                         </div>
                         <span>Empower Frontline Employees</span>
@@ -159,6 +165,8 @@ const FieldService = () => {
                           <img
                             src="/img/icons_seamless-integration.svg"
                             alt="icons"
+                            width="48"
+                            height="48"
                           />
                         </div>
                         <span>Increase Employee Productivity</span>
@@ -190,6 +198,8 @@ const FieldService = () => {
                           <img
                             src="/img/icons_real-time-insight.svg"
                             alt="icons"
+                            width="48"
+                            height="48"
                           />
                         </div>
                         <span>Optimize Service Operations</span>
@@ -311,10 +321,12 @@ const FieldService = () => {
             <div className="col-lg-6 align-self-center">
               <div className="busine_service_bottom-left">
                 <div className="busine_service_bottom-right">
-                  <img
+                  <Image
                     src="/img/Fieldserviceside banner2.png"
                     className="fix-im"
                     alt="Dynamics 365 Field Service"
+                    width={557}
+                    height={543}
                   />
                   <div className="video-ytube video-ytubes">
                     <div className="popup-btn popup-btns">
@@ -322,9 +334,11 @@ const FieldService = () => {
                         href="#javascript:void(0)"
                         onClick={() => setOpen(true)}
                       >
-                        <img
+                        <Image
                           src="/img/Video-Field-Service.png"
                           alt="Fieldservideo"
+                          width={390}
+                          height={259}
                         />
                         <span className="cente-icns">
                           <img
@@ -345,9 +359,11 @@ const FieldService = () => {
               </div>
               <div className="busine_service_bottom-right">
                 <div className="card_new_img">
-                  <img
+                  <Image
                     src="/img/Business-Central-Implementation-icons.svg"
                     alt="Business-Central-Implementation-icons"
+                    width={64}
+                    height={64}
                   />
                 </div>
                 <div className="card_new_content">
@@ -362,9 +378,11 @@ const FieldService = () => {
               </div>
               <div className="busine_service_bottom-right">
                 <div className="card_new_img">
-                  <img
+                  <Image
                     src="/img/Business Central Upgrade-icons.svg"
                     alt="Business Central Upgrade-icons"
+                    width={64}
+                    height={64}
                   />
                 </div>
                 <div className="card_new_content">
@@ -379,9 +397,11 @@ const FieldService = () => {
               </div>
               <div className="busine_service_bottom-right">
                 <div className="card_new_img">
-                  <img
+                  <Image
                     src="/img/Business-Central-Support-icons.svg"
                     alt="Business-Central-Support-icons"
+                    width={64}
+                    height={64}
                   />
                 </div>
                 <div className="card_new_content">

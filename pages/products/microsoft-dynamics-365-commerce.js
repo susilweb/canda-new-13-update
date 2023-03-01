@@ -128,6 +128,8 @@ const Commerce = () => {
                           <img
                             src="/img/icons-commerce_user-experience.svg"
                             alt="icons-commerce_user-experience"
+                            width="48"
+                            height="48"
                           />
                         </div>
                         <span>Understand Customers</span>
@@ -165,6 +167,8 @@ const Commerce = () => {
                           <img
                             src="/img/icons-commerce_back-office.svg"
                             alt="icons-commerce_back-office"
+                            width="48"
+                            height="48"
                           />
                         </div>
                         <span>Exceed Expectations</span>
@@ -208,6 +212,8 @@ const Commerce = () => {
                           <img
                             src="/img/icons-commerce_ecommerce-platform.svg"
                             alt="icons-commerce_ecommerce-platform"
+                            width="48"
+                            height="48"
                           />
                         </div>
                         <span>Build Loyalty</span>
@@ -245,6 +251,8 @@ const Commerce = () => {
                           <img
                             src="/img/icons-commerce_Commerce-Surround-Services.svg"
                             alt="icons-commerce_Commerce-Surround-Services"
+                            width="48"
+                            height="48"
                           />
                         </div>
                         <span>Modernize Retail</span>
@@ -371,10 +379,12 @@ const Commerce = () => {
             <div className="col-lg-6">
               <div className="busine_service_bottom-left">
                 <div className="busine_service_bottom-right">
-                  <img
+                  <Image
                     src="/img/Ecommerce side.png"
                     className="fix-im"
                     alt="Ecommerce side"
+                    width={553}
+                    height={532}
                   />
                   <div className="video-ytube video-ytubes">
                     <div className="popup-btn popup-btns">
@@ -382,9 +392,11 @@ const Commerce = () => {
                         href="#javascript:void(0)"
                         onClick={() => setOpen(true)}
                       >
-                        <img
+                        <Image
                           src="/img/video-Ecommerce.png"
                           alt="video-banner-commerce"
+                          width={390}
+                          height={259}
                         />
                         {/* <span className="cente-icns">
                           <img
@@ -405,9 +417,11 @@ const Commerce = () => {
               </div>
               <div className="busine_service_bottom-right">
                 <div className="card_new_img">
-                  <img
+                  <Image
                     src="/img/Business-Central-Implementation-icons.svg"
                     alt="Business-Central-Implementation-icons"
+                    width={64}
+                    height={64}
                   />
                 </div>
                 <div className="card_new_content">
@@ -422,9 +436,11 @@ const Commerce = () => {
               </div>
               <div className="busine_service_bottom-right">
                 <div className="card_new_img">
-                  <img
+                  <Image
                     src="/img/Business Central Upgrade-icons.svg"
                     alt="Business Central Upgrade-icons"
+                    width={64}
+                    height={64}
                   />
                 </div>
                 <div className="card_new_content">
@@ -439,9 +455,11 @@ const Commerce = () => {
               </div>
               <div className="busine_service_bottom-right">
                 <div className="card_new_img">
-                  <img
+                  <Image
                     src="/img/Business-Central-Support-icons.svg"
                     alt="Business-Central-Support-icons"
+                    width={64}
+                    height={64}
                   />
                 </div>
                 <div className="card_new_content">

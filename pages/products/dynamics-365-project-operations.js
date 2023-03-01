@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import Head from 'next/head'
 import ModalVideo from "react-modal-video";
 import Link from "next/link";
+import Image from "next/image";
+
 const ProjectOperations = () => {
   const [isOpen, setOpen] = useState(false);
   const [open, setsOpen] = useState(false);
@@ -49,7 +51,7 @@ const ProjectOperations = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <img src="/img/project-operation-banner.png" alt="project-operation-banner" />
+              <Image src="/img/project-operation-banner.png" alt="project-operation-banner" width={778} height={506}/>
             </div>
           </div>
         </div>
@@ -86,6 +88,8 @@ const ProjectOperations = () => {
                           <img
                             src="/img/icon-automation.svg"
                             alt="icons"
+                            width="48"
+                            height="48"
                           />
                         </div>
                         <span>Exceptional Experiences</span>
@@ -117,6 +121,8 @@ const ProjectOperations = () => {
                           <img
                             src="/img/icons_resource-management.svg"
                             alt="icons"
+                            width="48"
+                            height="48"
                           />
                         </div>
                         <span>Simplify Management</span>
@@ -148,6 +154,8 @@ const ProjectOperations = () => {
                           <img
                             src="/img/icons-_manage customer.svg"
                             alt="icons"
+                            width="48"
+                            height="48"
                           />
                         </div>
                         <span>Drive Success</span>
@@ -186,6 +194,8 @@ const ProjectOperations = () => {
                           <img
                             src="/img/icons_finance-management.svg"
                             alt="icons"
+                            width="48"
+                            height="48"
                           />
                         </div>
                         <span>Maximize Profitability</span>
@@ -217,6 +227,8 @@ const ProjectOperations = () => {
                           <img
                             src="/img/icons_data-management.svg"
                             alt="icons"
+                            width="48"
+                            height="48"
                           />
                         </div>
                         <span>Optimize Resources</span>
@@ -248,6 +260,8 @@ const ProjectOperations = () => {
                           <img
                             src="/img/icons_data-management.svg"
                             alt="icons"
+                            width="48"
+                            height="48"
                           />
                         </div>
                         <span>Improve Business</span>
@@ -338,10 +352,12 @@ const ProjectOperations = () => {
             <div className="col-lg-6 align-self-center">
               <div className="busine_service_bottom-left">
                 <div className="busine_service_bottom-right">
-                  <img
+                  <Image
                     src="/img/Project-operation-side image.png"
                     className="fix-im"
                     alt="Project-operation-side"
+                    width={561}
+                    height={557}
                   />
                   <div className="video-ytube video-ytubes">
                     <div className="popup-btn popup-btns">
@@ -349,7 +365,8 @@ const ProjectOperations = () => {
                         href="#javascript:void(0)"
                         onClick={() => setOpen(true)}
                       >
-                        <img src="/img/Video-Video-Project-Operation.png" />
+                        <Image src="/img/Video-Video-Project-Operation.png" alt="Project-Operation-video" width={390}
+                    height={259} />
                         <span className="cente-icns">
                           <img
                             src="/img/play_icons.svg"
@@ -369,9 +386,11 @@ const ProjectOperations = () => {
               </div>
               <div className="busine_service_bottom-right">
                 <div className="card_new_img">
-                  <img
+                  <Image
                     src="/img/Business-Central-Implementation-icons.svg"
                     alt="Business-Central-Implementation-icons"
+                    width={64}
+                    height={64}
                   />
                 </div>
                 <div className="card_new_content">
@@ -386,9 +405,11 @@ const ProjectOperations = () => {
               </div>
               <div className="busine_service_bottom-right">
                 <div className="card_new_img">
-                  <img
+                  <Image
                     src="/img/Business Central Upgrade-icons.svg"
                     alt="Business Central Upgrade-icons"
+                    width={64}
+                    height={64}
                   />
                 </div>
                 <div className="card_new_content">
@@ -403,9 +424,11 @@ const ProjectOperations = () => {
               </div>
               <div className="busine_service_bottom-right">
                 <div className="card_new_img">
-                  <img
+                  <Image
                     src="/img/Business-Central-Support-icons.svg"
                     alt="Business-Central-Support-icons"
+                    width={64}
+                    height={64}
                   />
                 </div>
                 <div className="card_new_content">
