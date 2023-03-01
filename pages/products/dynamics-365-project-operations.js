@@ -75,7 +75,7 @@ const ProjectOperations = () => {
               <div className="finace-acc">
                 <div className="accordion" id="accnew">
                   <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
+                    <h3 className="accordion-header" >
                       <button
                         className="accordion-button collapsed"
                         type="button"
@@ -108,7 +108,7 @@ const ProjectOperations = () => {
                   </div>
                   <hr />
                   <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
+                    <h3 className="accordion-header" >
                       <button
                         className="accordion-button collapsed"
                         type="button"
@@ -141,7 +141,7 @@ const ProjectOperations = () => {
                   </div>
                   <hr />
                   <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
+                    <h3 className="accordion-header" >
                       <button
                         className="accordion-button collapsed"
                         type="button"
@@ -181,7 +181,7 @@ const ProjectOperations = () => {
               <hr className="mob-disp" />
                 <div className="accordion" id="accnews">
                   <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
+                    <h3 className="accordion-header" >
                       <button
                         className="accordion-button collapsed"
                         type="button"
@@ -214,7 +214,7 @@ const ProjectOperations = () => {
                   </div>
                   <hr />
                   <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
+                    <h3 className="accordion-header" >
                       <button
                         className="accordion-button collapsed"
                         type="button"
@@ -247,7 +247,7 @@ const ProjectOperations = () => {
                   </div>
                   <hr />
                   <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
+                    <h3 className="accordion-header" >
                       <button
                         className="accordion-button collapsed"
                         type="button"

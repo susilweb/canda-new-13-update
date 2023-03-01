@@ -115,7 +115,7 @@ const Commerce = () => {
               <div className="finace-acc">
                 <div className="accordion" id="accnew">
                   <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
+                    <h3 className="accordion-header" >
                       <button
                         className="accordion-button collapsed"
                         type="button"
@@ -154,7 +154,7 @@ const Commerce = () => {
                   </div>
                   <hr />
                   <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
+                    <h3 className="accordion-header" >
                       <button
                         className="accordion-button collapsed"
                         type="button"
@@ -199,7 +199,7 @@ const Commerce = () => {
                 <hr className="mob-disp" />
                 <div className="accordion" id="news">
                   <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
+                    <h3 className="accordion-header" >
                       <button
                         className="accordion-button collapsed"
                         type="button"
@@ -238,7 +238,7 @@ const Commerce = () => {
                   </div>
                   <hr />
                   <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
+                    <h3 className="accordion-header" >
                       <button
                         className="accordion-button collapsed"
                         type="button"

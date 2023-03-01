@@ -151,7 +151,7 @@ const FinanceOperations = () => {
               <div className="finace-acc">
                 <div className="accordion" id="accnew">
                   <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
+                    <h3 className="accordion-header" >
                       <button
                         className="accordion-button collapsed"
                         type="button"
@@ -179,7 +179,7 @@ const FinanceOperations = () => {
                   </div>
                   <hr />
                   <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
+                    <h3 className="accordion-header" >
                       <button
                         className="accordion-button collapsed"
                         type="button"
@@ -214,7 +214,7 @@ const FinanceOperations = () => {
                 <hr className="mob-disp" />
                 <div className="accordion" id="accnews">
                   <div className="accordion-item">
-                    <h2 className="accordion-header" id="headingTwo">
+                    <h2 className="accordion-header" >
                       <button
                         className="accordion-button collapsed"
                         type="button"
@@ -242,7 +242,7 @@ const FinanceOperations = () => {
                   </div>
                   <hr />
                   <div className="accordion-item">
-                    <h2 className="accordion-header" id="headingTwo">
+                    <h2 className="accordion-header" >
                       <button
                         className="accordion-button collapsed"
                         type="button"
