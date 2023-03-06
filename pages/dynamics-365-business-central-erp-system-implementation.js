@@ -118,7 +118,7 @@ const BusinessCentralImplementation = () => {
                 <p>
                   You can customize <b>Business Central</b> to fit your unique
                   business needs and integrate it with other Microsoft tools,
-                  such as
+                  such as{" "}
                   <Link href="/products/microsoft-power-bi/">
                     <a>Power BI</a>
                   </Link>{" "}

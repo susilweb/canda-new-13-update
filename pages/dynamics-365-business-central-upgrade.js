@@ -580,7 +580,7 @@ const BusinessCentralUpgrade = () => {
                       </p>
                       <p>
                         Learn more{" "}
-                        <Link href="/dynamics-365-business-central-overview/">
+                        <Link href="https://blog.dynamicssquare.ca/dynamics-365-business-central-overview/">
                           <a>Overview of Business Central</a>
                         </Link>
                       </p>
@@ -750,7 +750,7 @@ const BusinessCentralUpgrade = () => {
                   >
                     <div className="accordion-body">
                       <p>
-                        <Link href="/dynamics-365-business-central-implementation/">
+                        <Link href="/dynamics-365-business-central-erp-system-implementation/">
                           <a>Dynamics 365 Business Central Implementation</a>
                         </Link>{" "}
                         can range from $3,000 to $100,000.

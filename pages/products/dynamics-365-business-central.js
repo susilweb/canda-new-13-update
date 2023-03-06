@@ -2138,9 +2138,11 @@ const BusinessCentral = () => {
                   </h3>
                   <p>Implement Business Central to enhance your business processes and support your business with its continued growth.</p>
                   <div className="action-content">
-                    <a href="/dynamics-365-business-central-implementation/">
+                    <Link href="/dynamics-365-business-central-erp-system-implementation/">
+                    <a>
                       Get Started
                     </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -2157,9 +2159,11 @@ const BusinessCentral = () => {
                   </h3>
                   <p>Upgrade your legacy ERP systems and empower your organization with new capabilities and find out the hidden potential in your business.</p>
                   <div className="action-content">
-                    <a href="/dynamics-365-business-central-upgrade/">
+                    <Link href="/dynamics-365-business-central-upgrade/">
+                    <a>
                       Get Started
                     </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -2176,9 +2180,11 @@ const BusinessCentral = () => {
                   </h3>
                   <p>The 24-hour/7-day, 365-day support system we provide ensures that your business grows at its peak.</p>
                   <div className="action-content">
-                    <a href="/dynamics-365-business-central-support/">
+                    <Link href="/dynamics-365-business-central-erp-support/">
+                    <a>
                       Get Started
                     </a>
+                    </Link>
                   </div>
                 </div>
               </div>

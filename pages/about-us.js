@@ -512,7 +512,7 @@ const AboutUs = () => {
                       <p>Save time and money by connecting your business to an intelligent Microsoft Cloud Ecosystem, Mixed Reality, & AI/ML. With Microsoft Dynamics 365, you can gain insights into your customers, optimize business processes, and automate workflows to drive efficiency and growth.</p>
                       <ul className="new-com-list">
                         <li>
-                          <a href="/products/microsoft-dynamics-365-mixed-reality/">
+                          <a href="/products/microsoft-dynamics-365/mixed-reality/">
                           <img src="/img/group-1998.png" alt="group-2192" />
                           <span>Mixed <br /> Reality</span>
                           </a>
