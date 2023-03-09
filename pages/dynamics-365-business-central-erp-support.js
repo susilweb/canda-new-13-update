@@ -267,7 +267,7 @@ const BusinessCentralSupport = () => {
                         Continuity
                       </h3>
                       <div className="overlay">
-                        <p>Adapt your ERP system to manage complexity and drive strategic growth. <Link href="/products/dynamics-365-business-central/"><a></a></Link> Support Service Packages offer continuous and gradual improvement for smooth scalability and increased profitability.</p>
+                        <p>Adapt your ERP system to manage complexity and drive strategic growth. <Link href="/products/dynamics-365-business-central/"><a>Business Central</a></Link> Support Service Packages offer continuous and gradual improvement for smooth scalability and increased profitability.</p>
                       </div>
                     </div>
                     <div className="why-solution-wrapper-inner">
