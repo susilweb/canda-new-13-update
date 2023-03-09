@@ -812,6 +812,11 @@ const ContactUs = () => {
                     alt="Tech-For-Socil-Impact"
                     className="footer-img"
                   />
+                  <div className="footer-award">
+                  <img src="/img/award-1.png" alt='top micrsoft dynamics crm company' width="100" height="100" />
+                  <img src="/img/award-1.png" alt='top micrsoft dynamics crm company' width="100" height="100" />
+                  <img src="/img/award-1.png" alt='top micrsoft dynamics crm company' width="100" height="100" />
+                </div>
                 </div>
                 <div className="col-lg-2 col-12 footer-links">
                   <p>BUSINESS APPS</p>

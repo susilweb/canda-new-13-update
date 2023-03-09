@@ -6052,6 +6052,20 @@ parten-more. p,
 .pricing .box-999 {
   height: 430px;
 }
+
+.footer-award {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-award img{
+  width: 100px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+.footer-award img:last-child{
+  margin-right:0
+}
+
 @media (min-width: 991px) {
   .mob-disp {
     display: none;
