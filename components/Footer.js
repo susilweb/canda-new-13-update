@@ -444,6 +444,12 @@ const Footer = () =>{
           </div>
         </div>
       </footer>
+      <div className='call-bb-wr'>
+      <button class="fixed-button wobble" type="button">
+      <a href="tel:+12898070740" target="_self"><i class="bi bi-telephone-fill"></i></a>
+</button>
+
+      </div>
     </>
     
     );

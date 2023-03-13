@@ -6065,10 +6065,37 @@ parten-more. p,
 .footer-award img:last-child{
   margin-right:0
 }
+.fixed-button {
+  background-color: #ee3442;
+  color: #FFFFFF;
+  border: none;
+  outline: none;
+  position: fixed;
+  bottom: 85px;
+  right: 25px;
+  height: 60px;
+  width: 60px;
+  margin-bottom: 25px;
+  border-radius: 30px;
+  box-shadow: 1px 3px 5px #888888;
+}
+.fixed-button a{
+  color:#fff;
+  font-size: 20px;
+}
+.fixed-button a:hover{
+  color:#fff
+}
+.fixed-button:hover{
+  background-color: #ee3442;
+}
 
 @media (min-width: 991px) {
   .mob-disp {
     display: none;
+  }
+  .call-bb-wr{
+    display:none
   }
 }
 @media (max-width: 1200px) {
@@ -6259,6 +6286,7 @@ parten-more. p,
     font-size: 15px;
     font-weight: 600;
     color: var(--color-blue);
+    margin-left: 15px;
   }
   .mobile-nav-toggle,
   .navbar-mobile ul {
