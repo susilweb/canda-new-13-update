@@ -613,7 +613,7 @@ const BusinessCentralImplementation = () => {
                       </ul>
                       <p>
                         To learn more and see{" "}
-                        <Link href="/dynamics-365-business-central-benefits-2023/">
+                        <Link href="https://blog.dynamicssquare.ca/dynamics-365-business-central-benefits-2023/">
                           <a>how Business Central can benefit your business</a>
                         </Link>
                         , contact us at +1 289 807 0740.
