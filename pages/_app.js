@@ -20,7 +20,9 @@ import Header from '../components/Header';
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
   if(router.asPath =='/contact-us/' ||
-      router.asPath =='/thank-you/'
+      router.asPath =='/thank-you/' ||
+      router.asPath =='/schedule-a-demo/'  ||
+      router.asPath =='/schedule-a-demo' 
 
   )  {
     return (
