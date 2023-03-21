@@ -186,8 +186,7 @@ const Finance = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        <p>Business Central helps you with its comprehensive <Link href="/products/microsoft-dynamics-365-finance/"><a>financial management capabilities</a></Link>, including accounts payable and receivable, general ledger, fixed assets, and cash management.</p>
-                        <p><b>Benefit:</b> You can automate your financial processes, get real-time insights into your financial performance, and make better decisions. </p>
+                      <p><b>Microsoft Dynamics 365 Business Central</b> is an all-in-one business management solution that helps businesses streamline their operations and make informed decisions. Let's explore its features and their benefits one-by-one.</p>
                       </div>
                     </div>
                   </div>
@@ -202,7 +201,7 @@ const Finance = () => {
                         aria-expanded="false"
                         aria-controls="fin2"
                       >
-                        <span>Business Central Feature: Supply Chain Management</span>
+                        <span>Business Central Feature: Financial Management</span>
                       </button>
                     </h3>
                     <div
@@ -212,8 +211,8 @@ const Finance = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        <p><b>Dynamics 365 Business Central</b> enables businesses to manage their <Link href="/products/dynamics-365-supply-chain-management/"><a>supply chain operations</a></Link> efficiently, from procurement to inventory management and production.</p>
-                        <p><b>Benefit:</b> Help your admins optimize your inventory levels, reduce lead times, and improve your supply chain visibility. </p>
+                      <p>Business Central helps you with its comprehensive <Link href="/products/microsoft-dynamics-365-finance/"><a>financial management capabilities</a></Link>, including accounts payable and receivable, general ledger, fixed assets, and cash management.</p>
+                        <p><b>Benefit:</b> You can automate your financial processes, get real-time insights into your financial performance, and make better decisions.</p>
                       </div>
                     </div>
                   </div>
@@ -228,7 +227,7 @@ const Finance = () => {
                         aria-expanded="false"
                         aria-controls="fin3"
                       >
-                        <span>Business Central Feature: Sales and Service Management</span>
+                        <span>Business Central Feature: Supply Chain Management</span>
                       </button>
                     </h3>
                     <div
@@ -238,8 +237,8 @@ const Finance = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        <p><b>Microsoft Business Central</b> provides you with a complete set of <Link href="/products/microsoft-dynamics-365-sales/"><a>dynamics 365 sales</a></Link> and <b>service management tools</b>, including <b>customer relationship management (CRM)</b>, sales order processing, service order management, and project management.</p>
-                        <p><b>Benefit:</b> Manage your sales and service processes from end to end, deliver exceptional customer experiences, and drive business growth.</p>
+                        <p><b>Dynamics 365 Business Central</b> enables businesses to manage their <Link href="/products/dynamics-365-supply-chain-management/"><a>supply chain operations</a></Link> efficiently, from procurement to inventory management and production.</p>
+                        <p><b>Benefit:</b> Help your admins optimize your inventory levels, reduce lead times, and improve your supply chain visibility.</p>
                       </div>
                     </div>
                   </div>
@@ -262,11 +261,38 @@ const Finance = () => {
                         aria-controls="fin4"
                       >
                         
-                        <span>Business Central Feature: Human Resource Management</span>
+                        <span>Business Central Feature: Sales and Service Management</span>
                       </button>
                     </h3>
                     <div
                       id="fin4"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accnews"
+                    >
+                      <div className="accordion-body">
+                      <p><b>Microsoft Business Central</b> provides you with a complete set of <Link href="/products/microsoft-dynamics-365-sales/"><a>dynamics 365 sales</a></Link> and <b>service management tools</b>, including <b>customer relationship management (CRM)</b>, sales order processing, service order management, and project management.</p>
+                        <p><b>Benefit:</b> Manage your sales and service processes from end to end, deliver exceptional customer experiences, and drive business growth.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <hr />
+                  <div className="accordion-item">
+                    <h3 className="accordion-header" id="headingTwo">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fin5"
+                        aria-expanded="false"
+                        aria-controls="fin5"
+                      >
+                        
+                        <span>Business Central Feature: Human Resource Management</span>
+                      </button>
+                    </h3>
+                    <div
+                      id="fin5"
                       className="accordion-collapse collapse"
                       aria-labelledby="headingTwo"
                       data-bs-parent="#accnews"
@@ -284,16 +310,16 @@ const Finance = () => {
                         className="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
-                        data-bs-target="#fin5"
+                        data-bs-target="#fin6"
                         aria-expanded="false"
-                        aria-controls="fin5"
+                        aria-controls="fin6"
                       >
                         
                         <span>Business Central Feature: Project Management</span>
                       </button>
                     </h3>
                     <div
-                      id="fin5"
+                      id="fin6"
                       className="accordion-collapse collapse"
                       aria-labelledby="headingTwo"
                       data-bs-parent="#accnews"
@@ -319,7 +345,6 @@ const Finance = () => {
             <div className="col-lg-8 col-md-8">
                 <header className="section-header">
                 <h2>Core Benefits of Dynamics 365 Business Central Implementation</h2>
-                <p>Help You Unlock New Levels of Productivity & Customer Engagement with Breeze.</p>
                 <p>Whether you are a <b>small business or a medium-sized enterprise</b>, Business Central can help you achieve your business goals and take your business to the next level better than other <b>cloud enterprise resource planning solutions (ERPs)</b>.</p>
               </header>
             </div>
