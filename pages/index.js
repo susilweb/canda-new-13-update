@@ -1009,16 +1009,9 @@ export default function Home() {
                       <div className="swiper-slide">
                         <div className="testimonial-item">
                           <div className="profile">
-                            <img
-                              src="/img/JVEquip_logo.png"
-                              className="testimonial-img"
-                              alt=""
-                            />
+                            
                             <div className="imginner">
-                              <img
-                                src="/img/Icon metro-quote.png"
-                                alt=""
-                              />
+                              
                             </div>
                             <p>
                               We selected them because their communication is
@@ -1039,16 +1032,9 @@ export default function Home() {
                       <div className="swiper-slide">
                         <div className="testimonial-item">
                           <div className="profile">
-                            <img
-                              src="/img/Spectra-Aluminum-logo-new.png"
-                              className="testimonial-img"
-                              alt="Spectra-Aluminum-logo-new"
-                            />
+                            
                             <div className="imginner">
-                              <img
-                                src="/img/Icon metro-quote.png"
-                                alt=""
-                              />
+                              
                             </div>
                             <p>
                               The team at Dynamics Square are very dedicated,
@@ -1065,16 +1051,9 @@ export default function Home() {
                       <div className="swiper-slide">
                         <div className="testimonial-item">
                           <div className="profile">
-                            <img
-                              src="/img/MexiLand_logos.png"
-                              className="testimonial-img"
-                              alt="MexiLand_logos"
-                            />
+                            
                             <div className="imginner">
-                              <img
-                                src="/img/Icon metro-quote.png"
-                                alt="metro-quote"
-                              />
+                              
                             </div>
                             <p>
                               We probed three MS Dynamic Partners, and one of
@@ -1108,7 +1087,7 @@ export default function Home() {
         </div>
       </section> 
 
-      <section id="clients" className="clients">
+      {/* <section id="clients" className="clients">
         <div className="container" data-aos="fade-up">
           <div className="clients-slider swiper">
             <div className="swiper-wrapper align-items-center">
@@ -1196,7 +1175,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section id="casestudys" className="casestudys ">
         <div className="container" data-aos="fade-up">
@@ -1232,11 +1211,7 @@ export default function Home() {
                 <SwiperSlide>
                   <div className="casestudys-slider-item">
                     <div className="profile mt-auto">
-                      <img
-                        src="/img/cs-DMIC-logo.png"
-                        className="cs-DMIC-logo"
-                        alt=""
-                      />
+                      
                       <p>
                         Streamline Manufacturing & Accounting with D365 Business
                         Central On-Premise
@@ -1255,11 +1230,7 @@ export default function Home() {
                 <SwiperSlide>
                   <div className="casestudys-slider-item">
                     <div className="profile mt-auto">
-                      <img
-                        src="/img/cs-spectra-logo.png"
-                        className="cs-spectra-logo"
-                        alt="crm-trading"
-                      />
+                      
                       <p>
                         Implemented Custom EFT Module to improvise Payment
                         Methods
@@ -1279,11 +1250,7 @@ export default function Home() {
                 <SwiperSlide>
                   <div className="casestudys-slider-item">
                     <div className="profile mt-auto">
-                      <img
-                        src="/img/cs-shimco-logo-csg.png"
-                        className="casestudys-slider-item-img"
-                        alt="cs-shimco-logo-csg"
-                      />
+                      
                       <p>
                         Implementation of Microsoft Dynamics Business Central
                         Cloud
