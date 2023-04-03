@@ -6089,6 +6089,16 @@ parten-more. p,
 .fixed-button:hover{
   background-color: #ee3442;
 }
+.tabls-cloud .table {
+  font-size: 16px;
+  box-shadow: 0 15px 30px 0 rgba(24,109,184,.16);
+  -moz-box-shadow: 0 15px 30px 0 rgba(24,109,184,.16);
+  -webkit-box-shadow: 0 15px 30px 0 rgba(24,109,184,.16);
+}
+.tabls-cloud .table>tbody>tr>td, .tabls-cloud .table>thead>tr>th {
+  padding: 25px 30px;
+  border: 1px solid #cfcfcf;
+}
 
 @media (min-width: 991px) {
   .mob-disp {
