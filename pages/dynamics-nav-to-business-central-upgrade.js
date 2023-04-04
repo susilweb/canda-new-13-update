@@ -684,7 +684,6 @@ const MicrosoftDynamicsNAV = () => {
             <div className="col-lg-8">
               <header className="section-header">
                 <h2>Why Choose Dynamics Square for NAV to Business Central Upgrade?</h2>
-                <p>Investing in NAV might look costly, but it is worth the effort if you see the quick ROIs and profitability. 550K+ businesses are using Microsoft Dynamics NAV to grow and scale. Explore its pricing and licensing.</p>
               </header>
             </div>
           </div>
