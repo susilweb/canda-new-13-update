@@ -202,7 +202,7 @@ const MicrosoftDynamicsNAV = () => {
                       data-bs-parent="#accnews"
                     >
                       <div className="accordion-body">
-                        <p>Business Central is equipped with <Link href="/dynamics-365-business-central-benefits-2023/"><a>features, functionality, and customizations</a></Link> to help users customize or modify the process as per the requirements. It makes your teams highly agile, productive, and efficient.</p>
+                        <p>Business Central is equipped with <Link href="https://blog.dynamicssquare.ca/dynamics-365-business-central-benefits-2023/"><a>features, functionality, and customizations</a></Link> to help users customize or modify the process as per the requirements. It makes your teams highly agile, productive, and efficient.</p>
                       </div>
                     </div>
                   </div>
