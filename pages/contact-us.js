@@ -791,10 +791,10 @@ const ContactUs = () => {
                 <div className="col-lg-5 col-md-12 footer-info">
                   <a href="/" className="logo d-flex align-items-center">
                   <img
-                    src="/img/dynamics_square_tm_logo_footer.svg"
-                    alt="Dynamics Square TM Logo"
-                    width="282"
-                    height="16"
+                   src="/img/dynamics_square_tm_logo_footer.svg"
+                   alt="Dynamics Square TM Logo"
+                   width="301"
+                   height="21"
                     style={{marginBottom:"20px"}}
                   />
                   </a>
@@ -808,16 +808,18 @@ const ContactUs = () => {
                     src="/img/microsoft-partner.svg"
                     alt="microsoft-partner"
                     className="footer-img"
+                    width="210" height="74"
                   />
                   <img
                     src="/img/Tech-For-Socil-Impact.svg"
                     alt="Tech-For-Socil-Impact"
                     className="footer-img"
+                    width="683" height="154"
                   />
                   <div className="footer-award">
-                  <img src="/img/award-1.png" alt='top micrsoft dynamics crm company' width="100" height="100" />
-                  <img src="/img/award-1.png" alt='top micrsoft dynamics crm company' width="100" height="100" />
-                  <img src="/img/award-1.png" alt='top micrsoft dynamics crm company' width="100" height="100" />
+                  <img src="/img/award-1.png" alt='top micrsoft dynamics crm company' width="108" height="108" />
+                  <img src="/img/award-2.png" alt='top micrsoft dynamics crm company' width="108" height="108" />
+                  <img src="/img/award-3.png" alt='top micrsoft dynamics crm company' width="108" height="108" />
                 </div>
                 </div>
                 <div className="col-lg-2 col-12 footer-links">
