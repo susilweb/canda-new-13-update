@@ -30,8 +30,8 @@ return(
               <img
                     src="/img/dynamics_square_tm_logo.svg"
                     alt="Dynamics Square TM Logo"
-                    width="282"
-                    height="19"
+                    width="301"
+                    height="21"
                   />
               </a>
             </div>

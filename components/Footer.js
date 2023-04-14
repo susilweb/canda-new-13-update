@@ -260,8 +260,8 @@ const Footer = () =>{
                   <img
                     src="/img/dynamics_square_tm_logo_footer.svg"
                     alt="Dynamics Square TM Logo"
-                    width="282"
-                    height="16"
+                    width="301"
+                    height="21"
                   />
                 </a>
                 <p>
@@ -280,12 +280,12 @@ const Footer = () =>{
                   src="/img/Tech-For-Socil-Impact.svg"
                   alt="Tech-For-Socil-Impact"
                   className="footer-img"
-                  width="210" height="74"
+                  width="683" height="154"
                 />
                 <div className="footer-award">
-                  <img src="/img/award-1.png" alt='top micrsoft dynamics crm company' width="100" height="100" />
-                  <img src="/img/award-1.png" alt='top micrsoft dynamics crm company' width="100" height="100" />
-                  <img src="/img/award-1.png" alt='top micrsoft dynamics crm company' width="100" height="100" />
+                  <img src="/img/award-1.png" alt='top micrsoft dynamics crm company' width="108" height="108" />
+                  <img src="/img/award-2.png" alt='top micrsoft dynamics crm company' width="108" height="108" />
+                  <img src="/img/award-3.png" alt='top micrsoft dynamics crm company' width="108" height="108" />
                 </div>
               </div>
               <div className="col-lg-2 col-12 footer-links">

@@ -292,18 +292,17 @@ const HumanResource = () => {
                   />
                   <div className="video-ytube video-ytubes">
                     <div className="popup-btn popup-btns">
-                      <a
-                        href="#javascript:void(0)"
+                      <div
                         onClick={() => setOpen(true)}
                       >
-                        <Image src="/img/Video-Human Resource.png" alt="Video-Human-Resource" width={390} height={259} />
+                        <Image src="/img/Video-Human Resource.png" alt="Video-Human-Resource" width={340} height={226} />
                         <span className="cente-icns">
                           <img
                             src="/img/play_icons.svg"
                             alt="play_icons"
                           />
                         </span>
-                      </a>
+                      </div>
                     </div>
                   </div>
                 </div>
