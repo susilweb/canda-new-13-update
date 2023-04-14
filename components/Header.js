@@ -884,13 +884,14 @@ return(
                         Blogs
                       </a>
                     </li> 
+                    <li>
+                      <a href="/case-studies/">Case Studies</a>
+                    </li>
                     {/* <li>
                       <a href="/ebook/">eBook</a>
                     </li>
 
-                    <li>
-                      <a href="/case-studies/">Case Studies</a>
-                    </li>
+                   
                     <li>
                       <a href="/webinars/">Webinars</a>
                     </li>  */}
@@ -1364,15 +1365,16 @@ return(
                                   Blogs
                                 </a>
                               </li> 
-                              {/* <li>
-                                <a href="/ebook/">eBook</a>
-                              </li>
-
                               <li>
                                 <a href="/case-studies/">
                                   Case Studies
                                 </a>
                               </li>
+                              {/* <li>
+                                <a href="/ebook/">eBook</a>
+                              </li>
+
+                              
                                <li>
                                 <a href="/webinars/">Webinars</a>
                               </li>  */}
