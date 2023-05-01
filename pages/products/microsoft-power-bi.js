@@ -18,7 +18,7 @@ const PowerBI = () => {
       <title>Trusted Microsoft Power BI Partner | Power BI Experts & Support</title>
         <meta
           name="description"
-          content="Certified Power BI consultants in Canada: Get Power BI implementation, customization, and support. Call 0289 807 0740 for demo & pricing."
+          content="Certified Power BI consultants in Canada: Get Power BI implementation, customization, and support. Call +1 289 807 0740 for demo and pricing."
         />
         <link
           rel="canonical"
@@ -62,7 +62,7 @@ const PowerBI = () => {
                 height={608}
               /> */}
               <video className="video-screens" autoPlay loop muted poster="/img/video-thumb.png">
-                  <source src="/video/power-b-banner-video.mp4" />
+                  <source src="/video/power-b-banner-videos.mp4" />
                 </video>
             </div>
           </div>
@@ -274,7 +274,7 @@ const PowerBI = () => {
                       <h3 className="card-title power-title">
                       Your personal intelligence assistance
                       </h3>
-                      <p className="card-text">You don't have to learn complex query language or make complicated adjustments to get the reports you need. All you need to do is ask the questions in natural language and Power BI will produce refined visualisations.</p>
+                      <p className="card-text">No need to learn complex query language or make complicated adjustments for reports. Simply ask natural language questi ons and Power BI will produce refined visualizations.</p>
                     </div>
                     <img
                       src="/img/slider-bi-dem-5.png"
@@ -289,9 +289,7 @@ const PowerBI = () => {
                       <h3 className="card-title power-title">
                       Foster a culture of collaboration
                       </h3>
-                      <p className="card-text">
-                      Give your team access to live reports and dashboards so that you implement a data-led approach to business operations and achieve accuracy and excellence. Enthrall your customers with data-rich presentations.
-                      </p>
+                      <p className="card-text">Implement a data-led approach to business operations and achieve accuracy and excellence by giving your team access to live reports and dashboards.</p>
                     </div>
                     <img
                       src="/img/slider-bi-dem-6.png"
@@ -1484,7 +1482,7 @@ const PowerBI = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>Power BI seamlessly integrates with various Microsoft products, such as Excel, Azure, and Dynamics 365. This allows for a more cohesive data analytics experience and helps in streamlining your organization's workflow.</p>
+                      <p>Power BI seamlessly integrates with various Microsoft products, such as Excel, Azure, and <Link href="/products/microsoft-dynamics-365/"><a>Dynamics 365</a></Link>. This allows for a more cohesive data analytics experience and helps in streamlining your organization's workflow.</p>
                     </div>
                   </div>
                 </div>
@@ -1640,6 +1638,7 @@ const PowerBI = () => {
                   >
                     <div className="accordion-body">
                       <p>Power BI offers a variety of pricing options tailored to different needs. Power BI Pro is a per-user subscription for individual users, while Power BI Premium provides dedicated cloud capacity and advanced features for organizations. There's also a free version called Power BI Desktop for individual use.</p>
+                      <p><Link href="/contact-us/"><a>Contact our Power BI Experts now.</a></Link></p>
                     </div>
                   </div>
                 </div>
