@@ -26,6 +26,9 @@ body {
     letter-spacing: 0.12px !important;
     line-height: 1.5 !important;
 }
+b, strong{
+  font-weight:700 !important;
+}
 .form-main-model {
   --bs-backdrop-zindex: 1050;
   --bs-backdrop-bg: rgb(0 0 0 / 23%);
@@ -6570,7 +6573,6 @@ font-weight:400
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 20px;
-  line-height: 1.2;
   color: #000;
   height: 125px;
 }

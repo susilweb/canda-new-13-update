@@ -15,10 +15,10 @@ const PowerBI = () => {
   return (
     <>
       <Head>
-      <title>Microsoft Power BI Expert | Power BI Services in Canada</title>
+      <title>Trusted Microsoft Power BI Partner | Power BI Experts & Support</title>
         <meta
           name="description"
-          content="Power BI Expert: Use Microsoft Power BI data visualization tools to transform your data into actionable insights. Contact us for a free Power BI consultation &amp; services."
+          content="Certified Power BI consultants in Canada: Get Power BI implementation, customization, and support. Call 0289 807 0740 for demo & pricing."
         />
         <link
           rel="canonical"
@@ -38,9 +38,9 @@ const PowerBI = () => {
           <div className="row g-5">
             <div className="col-lg-6 align-self-center">
               <h1 className="new-heding-colo">
-              Microsoft Power BI
+              Microsoft Power BI Partner 
               </h1>
-              <p className="banner-para">Let your data lead the way to business success with our  reliable Power BI consulting services. <br /><br />From designing and implementing to customizing reports and dashboards, our Power BI experts will ensure that your data is leveraged to its fullest potential.</p>
+              <p className="banner-para">Let your data lead the way to business success with our reliable Power BI consulting services. From designing and implementing to customizing reports and dashboards, our certified Power BI experts will ensure that your data is leveraged to its fullest potential.</p>
               <div>
                 <div className="text-center text-lg-start">
                   <Link href="#exampleModal">
@@ -55,12 +55,15 @@ const PowerBI = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <Image
+              {/* <Image
                 src="/img/Power-BI-banner.png"
-                alt="Power-BI-banner"
+                alt="Power-BI-dashboard-banner"
                 width={1165}
                 height={608}
-              />
+              /> */}
+              <video className="video-screen" autoPlay loop muted poster="/img/video-thumb.png">
+                  <source src="/video/power-b-banner-video.mp4" />
+                </video>
             </div>
           </div>
         </div>
@@ -70,30 +73,40 @@ const PowerBI = () => {
           <div className="row justify-content-center">
             <div className="col-lg-9">
               <header className="section-header section-header-new-ct">
-              <h2>Take charge <span> of your data with </span>Power BI
+              <h2>Take charge <span> of your data with </span>MS Power BI
                 </h2>
-                <p>Data is valuable for business when used effectively. However, to produce valuable insights, you need to know how to use it. Power BI can help you make the most of the data you produce daily, providing the tools to extract valuable insights and make informed decisions.</p>
+                <p>Data is valuable for business when used effectively. However, to produce valuable insights, you need to know how to use it. Microsoft Power BI can help you make the most of the data you produce daily, providing the tools to extract valuable insights and make informed decisions.</p>
               </header>
             </div>
           </div>
           <div className="row pps-to">
             <div className="col-lg-5 align-self-center">
               <div className="vide-s">
-                <img src="/img/poerbi-demo-pic.png" alt="pic" />
-                {/* <video className="video-screen" autoPlay loop muted poster="/img/video-thumb.png">
+                {/* <img src="/img/poerbi-demo-pic.png" alt="pic" /> */}
+                <video className="video-screen" autoPlay loop muted poster="/img/video-thumb.png">
                   <source src="/video/powerBI-vid.mp4" />
-                </video> */}
+                </video>
               </div>
             </div>
             <div className="col-lg-1"></div>
             <div className="col-lg-6 align-self-center">
               <div className="new-sol-con-side">
-                <h3 className="custt-hh">Let's understand <span>what Power BI is?</span></h3>
+                <h3 className="custt-hh">What Is <span>Microsoft Power BI?</span></h3>
                 <p>Power BI is a set of Business Intelligence tools that simplify the process of collecting, analyzing, visualizing, and integrating data for making data-driven decisions.</p> 
 
                 <p>It's not just a digitalization move but a business transformation strategy. Power BI offers easy-to-use dashboards, interactive visualizations, and insightful reports.</p>
 
                 <p>Ready to transform your business with data-driven decisions? Try Microsoft Power BI and unlock the full potential of your data.</p>
+                <div className="text-center text-lg-start">
+                  <Link href="#exampleModal">
+                    <a
+                      data-bs-toggle="modal"
+                      className="btn-get-started scrollto"
+                    >
+                      <span>Get Started Now</span>
+                    </a>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
@@ -119,9 +132,9 @@ const PowerBI = () => {
             <div className="col-lg-6 align-self-center">
               <div className="new-sol-con-side">
                 <h3 className="custt-hh">Simple & quick way to <span>unlock data</span></h3>
-                <p>Microsoft Power BI stands out from other business intelligence tools because it can handle the complex process of integrating data from multiplef sources, extracting value from large amounts of information, and producing easy-to-understand reports.</p>
+                <p>Microsoft Power BI stands out from other business intelligence tools because it can handle the complex process of integrating data from multiple sources, extracting value from large amounts of information, and producing easy-to-understand reports.</p>
 
-                <p>With a trusted MS Power BI partner in Canada, you can streamline data analytics, make informed decisions in real-time, and access on-premises or cloud-based dashboards and reports.</p>
+                <p>With a trusted <Link href="/"><a><b>Microsoft Power BI Partner</b></a></Link> in Canada, you can streamline data analytics, make informed decisions in real-time, and access on-premises or cloud-based dashboards and reports.</p>
                 <div className="text-center text-lg-start">
                   <Link href="#exampleModal">
                     <a
@@ -137,7 +150,7 @@ const PowerBI = () => {
             <div className="col-lg-1"></div>
             <div className="col-lg-5 align-self-center">
               <div className="vide-s">
-                <img src="/img/sideshp-1.png" alt="pic" />
+                <img src="/img/sideshp-1.png" alt="Microsoft-Power-BI-Logo" />
                 {/* <video className="video-screen" autoPlay loop muted poster="/img/video-thumb.png">
                   <source src="/video/powerBI-vid.mp4" />
                 </video> */}
@@ -194,13 +207,13 @@ const PowerBI = () => {
                     speed: 20000,
                   }
                 }}
-                loop={true}
+                loop={false}
                 freeMode={true}
-                mousewheel={false}
+                mousewheel={true}
                 pagination={{
-                  clickable: false,
+                  clickable: true,
                 }}
-                modules={[Autoplay, FreeMode, Mousewheel]}
+                modules={[Autoplay, FreeMode, Mousewheel,Pagination]}
                 className="mySwiper busine-swiper"
               >
                 <SwiperSlide>
@@ -212,7 +225,7 @@ const PowerBI = () => {
                     <img
                       src="/img/slider-bi-dem-1.png"
                       className="card-img-bottom"
-                      alt="..."
+                      alt="power bi real time insights"
                     />
                   </div>
                 </SwiperSlide>
@@ -225,7 +238,7 @@ const PowerBI = () => {
                     <img
                       src="/img/slider-bi-dem-2.png"
                       className="card-img-bottom"
-                      alt="..."
+                      alt="Power bi drag and drop"
                     />
                   </div>
                 </SwiperSlide>
@@ -238,7 +251,7 @@ const PowerBI = () => {
                     <img
                       src="/img/slider-bi-dem-3.png"
                       className="card-img-bottom"
-                      alt="..."
+                      alt="access power bi anywhere"
                     />
                   </div>
                 </SwiperSlide>
@@ -251,11 +264,11 @@ const PowerBI = () => {
                     <img
                       src="/img/slider-bi-dem-4.png"
                       className="card-img-bottom"
-                      alt="..."
+                      alt="power bi data protection"
                     />
                   </div>
                 </SwiperSlide>
-                {/* <SwiperSlide>
+                <SwiperSlide>
                   <div className="card card-ds-slide">
                     <div className="card-body">
                       <h3 className="card-title power-title">
@@ -266,7 +279,7 @@ const PowerBI = () => {
                     <img
                       src="/img/slider-bi-dem-5.png"
                       className="card-img-bottom"
-                      alt="..."
+                      alt="Power BI visualisations"
                     />
                   </div>
                 </SwiperSlide>
@@ -283,10 +296,10 @@ const PowerBI = () => {
                     <img
                       src="/img/slider-bi-dem-6.png"
                       className="card-img-bottom"
-                      alt="..."
+                      alt="Power BI data rich reports"
                     />
                   </div>
-                </SwiperSlide> */}
+                </SwiperSlide>
               </Swiper>
             </div>
           </div>
@@ -1026,7 +1039,7 @@ const PowerBI = () => {
             <div className="col-lg-9">
               <header className="section-header section-header-new-ct">
                 <h2>Drive Success with Our Power BI Consulting Services</h2>
-                <p>Tired of making decisions based on incomplete or unreliable information? It's time to take control of your data with Dynamics Square's Power BI consulting services. Say goodbye to guesswork and hello to a data-driven approach that enables you to derive key insights from multiple sources. Let Dynamics Square help you unlock the power of your data today.</p>
+                <p>Tired of making decisions based on incomplete or unreliable information? It's time to take control of your data with Dynamics Square's <Link href="/contact-us/"><a><b>Power BI Consulting Services</b></a></Link>. Say goodbye to guesswork and hello to a data-driven approach that enables you to derive key insights from multiple sources. Let <Link href="/"><a><b>Dynamics Square</b></a></Link> help you unlock the power of your data today.</p>
               </header>
             </div>
           </div>
@@ -1038,7 +1051,7 @@ const PowerBI = () => {
                 </div>
                 <div className="body">
                   <h3>Power BI Implementation</h3>
-                  <p>Supercharge your business strategy with data analysis, pattern modelling, and visual reporting with stress-free Power BI implementation. Kickstart your data-driven growth journey with a Power BI dashboard that includes bespoke functions and capabilities. Our team of Power BI experts makes your business relevant in these competitive times with a solid BI roadmap.</p>
+                  <p>Supercharge your business strategy with data analysis, pattern modelling, and visual reporting with stress-free Power BI implementation. Kickstart your data-driven growth journey with a Power BI dashboard that includes bespoke functions and capabilities. Our team of <Link href="/contact-us/"><a>Power BI Experts</a></Link> makes your business relevant in these competitive times with a solid BI roadmap.</p>
                   <Link href="#exampleModal">
                     <a data-bs-toggle="modal">
                       <span>Implement Now</span>
@@ -1089,13 +1102,13 @@ const PowerBI = () => {
             <div className="col-lg-6"></div>
             <div className="col-lg-6">
               <div className="sidenn-wr">
-                <h2>Dynamics Square - Your Perfect <br /> <span>Power BI partner</span></h2>
+                <h2>Dynamics Square - Your Perfect <br /> <span>Power BI Partner</span></h2>
                 <div className="repet-col">
                   <div className="icon">
                     <i className="bi bi-check-lg"></i>
                   </div>
                   <div className="cont">
-                    <p>We are a Gold Microsoft Partner and our core competent team is fully certified and is regularly updated</p>
+                    <p>We are a <Link href="/"><a ><strong>Microsoft Gold Partner</strong></a></Link> and our core competent team is fully certified and is regularly updated</p>
                   </div>
                 </div>
                 <div className="repet-col">
@@ -1637,7 +1650,7 @@ const PowerBI = () => {
         </div>
       </section>
 
-      <section className="blogs-extra">
+      {/* <section className="blogs-extra">
         <div className="container">
          <div className="row justify-content-center">
           <div className="col-lg-8">
@@ -1652,7 +1665,7 @@ const PowerBI = () => {
           </div>
          </div>
           <div className="row top-2 gx-5 justify-content-center">
-            {/* <Blog /> */}
+   
             <div className="col-lg-6">
               <div className="blogs-extra-title">
                 <h3>Important Power BI Links:</h3>
@@ -1719,7 +1732,7 @@ const PowerBI = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 };
