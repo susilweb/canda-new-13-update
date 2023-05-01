@@ -21,9 +21,10 @@ body {
   font-family: Inter, sans-serif !important;
   color: #444;
   font-size: 1.125rem;
-  letter-spacing: 0.6px;
   overflow: visible !important;
     padding-right: 0px !important; 
+    letter-spacing: 0.12px !important;
+    line-height: 1.5 !important;
 }
 .form-main-model {
   --bs-backdrop-zindex: 1050;
@@ -50,9 +51,6 @@ svg {
   right: 15px;
 }
 .finace-acc .accordion-item span,
-body {
-  letter-spacing: 0.6px;
-}
 .breadcrumbs ol a:hover,
 .extr-cont span a:hover {
   text-decoration: underline;
@@ -170,7 +168,6 @@ section {
 .section-header p {
   padding: 0;
   font-size: 17px;
-  line-height: 26px;
   font-weight: 400;
   color: var(--color-grey);
 }
@@ -184,7 +181,6 @@ section {
 }
 .Solution-business-why h4 {
   font-size: 16px !important;
-  line-height: 32px;
 }
 .why-solution-wrapper .why-solution-wrapper-inner h3 {
   font-size: 18px !important;
@@ -227,9 +223,7 @@ section {
   line-height: 1.6;
   font-weight: 500;
 }
-.faq .accordion-button {
-  line-height: 28px;
-}
+
 .busine_service_bottom
   .busine_service_bottom-left
   .busine_service_bottom-right
@@ -7444,7 +7438,6 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1c2d47",endCo
   margin-top: -65px;
 }
 .section-header p {
-  line-height: 26px !important;
   padding-bottom: 10px;
 }
 .balnde-imge-mode {
@@ -8310,7 +8303,6 @@ ul.checkmark li {
     text-align: center;
 }
 .cont-m-mobile a{
-  line-height: 1.8;
   width: 28px;
   height: 28px;
   display: inline-block;
