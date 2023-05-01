@@ -6410,6 +6410,10 @@ margin-top:-130px !important
   padding: 20px;
   height:180px
 }
+.video-screens{
+  width: 100%;
+  mix-blend-mode: multiply;
+}
 .video-screen{
   width: 500px;
   height: 500px;

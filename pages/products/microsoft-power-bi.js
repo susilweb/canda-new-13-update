@@ -61,7 +61,7 @@ const PowerBI = () => {
                 width={1165}
                 height={608}
               /> */}
-              <video className="video-screen" autoPlay loop muted poster="/img/video-thumb.png">
+              <video className="video-screens" autoPlay loop muted poster="/img/video-thumb.png">
                   <source src="/video/power-b-banner-video.mp4" />
                 </video>
             </div>
