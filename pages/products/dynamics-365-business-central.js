@@ -16,12 +16,10 @@ const BusinessCentral = () => {
     return (
         <>
         <Head>
-        <title>
-        Dynamics 365 Business Central Partner Canada
-        </title>
+        <title>Microsoft Dynamics 365 Business Central ERP Partner</title>
         <meta
           name="description"
-          content="Automate, manage your all business operations seamlessly with Dynamics 365 Business Central. Get in touch with Dynamics Square Canada for implementation help."
+          content="Canada's reliable Microsoft Dynamics 365 Business Central Partner provides implementation, upgrades & support. Call +1 289 807 0740 for demo & pricing."
         />
         <link
           rel="canonical"
@@ -40,10 +38,8 @@ const BusinessCentral = () => {
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-6 align-self-center">
-              <h1>
-              Microsoft Dynamics 365 Business Central
-              </h1>
-              <p>An all-in-one Business App that streamlines and smoothly connects and manages operations across your small or medium-sized business's finances, manufacturing, supply chain, and operational processes.</p>
+              <h1>Microsoft Dynamics 365 Business Central for Businesses of All Sizes Across Canada </h1>
+              <p>Connect and streamline your services, financials, manufacturing, supply chain, and other operational processes with Dynamics 365 Business Central, and adapt faster, work smarter, and perfrom better. <strong>Are you reay of 162% ROI?</strong></p>
               <div>
                 <div className="text-center text-lg-start">
                   <a
@@ -51,7 +47,7 @@ const BusinessCentral = () => {
                     href="#exampleModal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Schedule a Demo</span>
+                    <span>Request a FREE Business Central Trial</span>
                   </a>
                 </div>
               </div>
@@ -72,15 +68,249 @@ const BusinessCentral = () => {
           <div className="row justify-content-center">
             <div className="col-lg-9 ">
             <header className="section-header">
-            <h2>
-              What is Dynamics 365 Business Central?
-            </h2>
-            <p>
-            Dynamics 365 Business Central or simply, Business Central is an all-in-one ERP software. Microsoft developed it to help SMBs and subsidiaries of large international groups to advance their growth, drive sustainability, and improve results.<br /><br />With Business Central, enterprises can effectively manage and optimize their sales, finance, services, operations, human resources, and other departments. Dynamics 365 Business Central is an excellent fit for organizations seeking help in automating, accelerating, and simplifying their business processes to ensure maximized revenue outcomes and scalability.
-            </p>
+            <h2>What is Dynamics 365 Business Central?</h2>
+            <p>Originating from Microsoft's hub of innovation, <strong>Dynamics 365 Business Central</strong> online is designed and developed for small and medium-seizes businesses (SMBs) and subsidiaries of large international groups. By implementing this all-in-one cloud ERP with <Link href="/"><a>Dynamics 365 Partner's</a></Link> help, companies can scale their growth, enhance sustainability, and improve results.</p>
+            <p><b>Microsoft Dynamics Business Central</b> is now available in more than 130 countries and regions. Business can manage sales, finance, services, supply chain operations, HR, Payroll, and other departments to automate, accelerate, and simplify business processes to increase revenue and nurture scalability.</p>
           </header>
             </div>
           </div>
+        </div>
+      </section>
+      <section>
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-9 ">
+            <header className="section-header">
+            <h2>Core Features and Benefits of Rolling Out Business Central</h2>
+            <p>Get Started with <Link href="/dynamics-365-business-central-erp-system-implementation/"><a>Business Central Implementation</a></Link> to save up to <strong>40%</strong>.</p>
+          </header>
+            </div>
+          </div>
+
+          <div className="row p-lg-6">
+            <div className="col-lg-6">
+              <div className="finace-acc">
+                <div className="accordion" id="accnew">
+                  <div className="accordion-item">
+                    <h3 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fin1"
+                        aria-expanded="false"
+                        aria-controls="fin1"
+                      >
+                        <span>Faster & Confident Cloud Deployment</span>
+                      </button>
+                    </h3>
+                    <div
+                      id="fin1"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accnew"
+                    >
+                      <div className="accordion-body">
+                        <p>Business Central offers a flexible and adaptable cloud ERP solution and allows faster adoption. With reliable and secure cloud-based deployment, you can connect all your teams - sales, service, finance, <Link href="/products/dynamics-365-supply-chain-management/"><a>supply chain management</a></Link>, and operations to ensure business continuity, and deliver real results.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <hr />
+                  <div className="accordion-item">
+                    <h3 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fin2"
+                        aria-expanded="false"
+                        aria-controls="fin2"
+                      >
+                        <span>Improved Customer Experience (CX) </span>
+                      </button>
+                    </h3>
+                    <div
+                      id="fin2"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accnew"
+                    >
+                      <div className="accordion-body">
+                        <p>With Microsoft Dynamics Business Central, businesses can manage their entire sales order and procurement cycles within Outlook. Business Central also offers connected service operations that results in better outcomes. </p>
+                      </div>
+                    </div>
+                  </div>
+                  <hr />
+                  <div className="accordion-item">
+                    <h3 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fin3"
+                        aria-expanded="false"
+                        aria-controls="fin3"
+                      >
+                        
+                        <span>Boost In Sales with Azure AI</span>
+                      </button>
+                    </h3>
+                    <div
+                      id="fin3"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accnew"
+                    >
+                      <div className="accordion-body">
+                        <p>Azure AI inside Microsoft Business Central helps business create a cashflow forecast using Flow Analysis. This enhances informed decision-making so that businesses can stay in control of their cash flows.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <hr />
+                  <div className="accordion-item">
+                    <h3 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fin4"
+                        aria-expanded="false"
+                        aria-controls="fin4"
+                      >
+                       
+                        <span>Increase Business Performance</span>
+                      </button>
+                    </h3>
+                    <div
+                      id="fin4"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accnew"
+                    >
+                      <div className="accordion-body">
+                        <p>Microsoft Dynamics Business Central is one unified business management suite that connects people, processes, and insights for better and faster informed decision-making. Its embedded ERP/financials, CRM and ecommerce functionality enable businesses to achieve better outcomes and attain greater operational excellence - and reduce finance and operations hiring by <strong>10%</strong>. </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-6">
+              <div className="finace-acc">
+                <hr className="mob-disp" />
+                <div className="accordion" id="accnewss">
+                  <div className="accordion-item">
+                    <h3 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fin5"
+                        aria-expanded="false"
+                        aria-controls="fin5"
+                      >
+                        <span>Cost & Time-Efficient Project Management </span>
+                      </button>
+                    </h3>
+                    <div
+                      id="fin5"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accnewss"
+                    >
+                      <div className="accordion-body">
+                       <p>Business Central helps ensure successful project execution and profitability by offering planning, resourcing, tracking, costing, billing, accounting, and real-time intelligence. </p>
+                      </div>
+                    </div>
+                  </div>
+                  <hr />
+                  <div className="accordion-item">
+                    <h3 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fin6"
+                        aria-expanded="false"
+                        aria-controls="fin6"
+                      >
+
+                        <span>Deep Financial Visibility </span>
+                      </button>
+                    </h3>
+                    <div
+                      id="fin6"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accnewss"
+                    >
+                      <div className="accordion-body">
+                        <p>Dynamics 365 Business Central accelerates financial closure, forecasting, and provides real-time performance metrics and reporting. It also fosters compliance across subsidiaries. </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr />
+                <div className="accordion" id="accnewss">
+                  <div className="accordion-item">
+                    <h3 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fin7"
+                        aria-expanded="false"
+                        aria-controls="fin7"
+                      >
+                        <span>Optimized Inventory  </span>
+                      </button>
+                    </h3>
+                    <div
+                      id="fin7"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accnewss"
+                    >
+                      <div className="accordion-body">
+                       <p>Microsoft Dynamics 365 Business Central provides visibility across purchasing, manufacturing, inventory, and warehouses, enabling businesses to deliver products on time and adapt to evolving business needs in no time. </p>
+                      </div>
+                    </div>
+                  </div>
+                  <hr />
+                  <div className="accordion-item">
+                    <h3 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fin8"
+                        aria-expanded="false"
+                        aria-controls="fin8"
+                      >
+                        <span>Intelligent Supply Chain Management </span>
+                      </button>
+                    </h3>
+                    <div
+                      id="fin8"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accnewss"
+                    >
+                      <div className="accordion-body">
+                        <p>Real-time visibility into the supply chain enables businesses to optimize inventory levels, streamline procurement processes, and improve efficiency. Business Central helps you automate and digitize your supply chain and reduces manual intervention, resulting in significant reduction in operational costs.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                
+              </div>
+            </div>
+          </div>
+
+
+
         </div>
       </section>
       <section>
@@ -89,7 +319,7 @@ const BusinessCentral = () => {
         <div className="col-lg-6 col-md-8">
         <header className="section-header">
             <h2>
-            Capabilities of  <br /> Dynamics 365 Business Central 
+            Capabilities of  D365 Business Central  
             </h2>
           </header>
           </div></div>
@@ -98,7 +328,7 @@ const BusinessCentral = () => {
            <div className="finace-acc">
                 <div className="accordion" id="accnew">
                   <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
+                    <h3 className="accordion-header">
                       <button
                         className="accordion-button collapsed"
                         type="button"
@@ -125,7 +355,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Internal Transactions</h4>
-                            <p>Streamline and customize internal company transactions with restricted access.</p>
+                            <p>Streamline and customize internal company transactions with restricted access. </p>
                         </div>
                       </div>
                     </div>
@@ -135,8 +365,8 @@ const BusinessCentral = () => {
                           <i className="bi bi-check-lg"></i>
                         </div>
                         <div className="content">
-                        <h4>Cash flow Forecasting</h4>
-                        <p>Forecast future sales and expenses based on cash balances and account schedules.</p>
+                        <h4>Forecast Cash flows</h4>
+                        <p>Forecast future sales and expenses based on cash balances and account schedules. </p>
                             </div>
                       </div>
                     </div>
@@ -147,7 +377,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Budgeting</h4>
-                        <p>In addition to budgeting, monitor and manage the company's overall financial activities.</p>
+                        <p>In addition to budgeting, monitor and manage the company's overall financial activities. </p>
                             </div>
                       </div>
                     </div>
@@ -158,7 +388,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Inventory Costing</h4>
-                        <p>The general ledger serves as the means of managing inventory and manufacturing costs and reconciling them.</p>
+                        <p>The general ledger serves as the means of managing inventory and manufacturing costs and reconciling them. </p>
                             </div>
                       </div>
                     </div>
@@ -169,7 +399,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Consolidation and Multi-Companies</h4>
-                        <p>It is possible to perform a financial analysis of the company using a combination of multiple general ledgers.</p>
+                        <p>It is possible to perform a financial analysis of the company using a combination of multiple general ledgers.  </p>
                             </div>
                       </div>
                     </div>
@@ -180,7 +410,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Costs and Income Allocation</h4>
-                        <p>Organize the entries from one general journal into different accounts.</p>
+                        <p>Organize the entries from one general journal into different accounts. Implement Business Central with the help of your Microsoft Dynamics 365 Business central partner like <Link href="/"><a>Dynamics Square</a></Link>, and start reaping the benefits.</p>
                             </div>
                       </div>
                     </div>
@@ -202,7 +432,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Cost Accounting</h4>
-                        <p>To analyze results, divide the budget between actual and planned costs for operations and projects.</p>
+                        <p>To analyze results, divide the budget between actual and planned costs for operations and projects.  </p>
                             </div>
                       </div>
                     </div>
@@ -256,7 +486,7 @@ const BusinessCentral = () => {
                   </div>
                   <hr />
                   <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
+                    <h3 className="accordion-header">
                       <button
                         className="accordion-button collapsed"
                         type="button"
@@ -403,7 +633,7 @@ const BusinessCentral = () => {
                   </div>
                   <hr />
                   <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
+                    <h3 className="accordion-header">
                       <button
                         className="accordion-button collapsed"
                         type="button"
@@ -540,7 +770,7 @@ const BusinessCentral = () => {
                   </div>
                   <hr />
                   <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
+                    <h3 className="accordion-header">
                       <button
                         className="accordion-button collapsed"
                         type="button"
@@ -687,7 +917,7 @@ const BusinessCentral = () => {
                   </div>
                   <hr />
                   <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
+                    <h3 className="accordion-header">
                       <button
                         className="accordion-button collapsed"
                         type="button"
@@ -790,7 +1020,7 @@ const BusinessCentral = () => {
                   </div>
                   <hr />
                   <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
+                    <h3 className="accordion-header">
                       <button
                         className="accordion-button collapsed"
                         type="button"
@@ -926,7 +1156,7 @@ const BusinessCentral = () => {
                   </div>
                   <hr />
                   <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
+                    <h3 className="accordion-header">
                       <button
                         className="accordion-button collapsed"
                         type="button"
@@ -1113,7 +1343,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Internal Transactions</h4>
-                            <p>Streamline and customize internal company transactions with restricted access.</p>
+                            <p>Streamline and customize internal company transactions with restricted access. </p>
                         </div>
                       </div>
                     </div>
@@ -1123,8 +1353,8 @@ const BusinessCentral = () => {
                           <i className="bi bi-check-lg"></i>
                         </div>
                         <div className="content">
-                        <h4>Cash flow Forecasting</h4>
-                        <p>Forecast future sales and expenses based on cash balances and account schedules.</p>
+                        <h4>Forecast Cash flows</h4>
+                        <p>Forecast future sales and expenses based on cash balances and account schedules. </p>
                             </div>
                       </div>
                     </div>
@@ -1135,7 +1365,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Budgeting</h4>
-                        <p>In addition to budgeting, monitor and manage the company's overall financial activities.</p>
+                        <p>In addition to budgeting, monitor and manage the company's overall financial activities. </p>
                             </div>
                       </div>
                     </div>
@@ -1146,7 +1376,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Inventory Costing</h4>
-                        <p>The general ledger serves as the means of managing inventory and manufacturing costs and reconciling them.</p>
+                        <p>The general ledger serves as the means of managing inventory and manufacturing costs and reconciling them. </p>
                             </div>
                       </div>
                     </div>
@@ -1157,7 +1387,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Consolidation and Multi-Companies</h4>
-                        <p>It is possible to perform a financial analysis of the company using a combination of multiple general ledgers.</p>
+                        <p>It is possible to perform a financial analysis of the company using a combination of multiple general ledgers.  </p>
                             </div>
                       </div>
                     </div>
@@ -1168,7 +1398,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Costs and Income Allocation</h4>
-                        <p>Organize the entries from one general journal into different accounts.</p>
+                        <p>Organize the entries from one general journal into different accounts. Implement Business Central with the help of your Microsoft Dynamics 365 Business central partner like <Link href="/"><a>Dynamics Square</a></Link>, and start reaping the benefits. </p>
                             </div>
                       </div>
                     </div>
@@ -1190,7 +1420,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Cost Accounting</h4>
-                        <p>To analyze results, divide the budget between actual and planned costs for operations and projects.</p>
+                        <p>To analyze results, divide the budget between actual and planned costs for operations and projects.  </p>
                             </div>
                       </div>
                     </div>
@@ -1957,20 +2187,15 @@ const BusinessCentral = () => {
           <div className="row g-5">
             <div className="col-lg-5 align-self-center">
               <div className="wy-sultion-left-head">
-                <h2>
-                  Microsoft Dynamics 365 <br />
-                  Business Central Features
-                </h2>
-                <h3>
-                Explore Why Moving to Business Central is Profitable for Your Business.
-                </h3>
+                <h2>Microsoft Dynamics 365 Business Central Features</h2>
+                <h3>Explore Why Moving to Business Central is Profitable for Your Business. </h3>
               </div>
               <div className="m-o-t m-o-t-b">
                 <a
                   href="/dynamics-365-business-central-features/"
                   className="btn-get-started scrollto"
                 >
-                  <span>Read More Features </span>
+                  <span>Explore More</span>
                 </a>
               </div>
             </div>
@@ -1984,7 +2209,7 @@ const BusinessCentral = () => {
                       Business Approach
                       </h3>
                       <div className="overlay">
-                        <p>Business Central is a comprehensive business application that enables you to integrate, analyze, automate, customize, and streamline your operations, leading to better-informed decisions & increased productivity.</p>
+                        <p>With <Link href="/products/microsoft-power-bi/"><a>Power BI</a></Link>, <Link href="/products/microsoft-power-apps/"><a>Power Automate</a></Link>, <Link href="/products/microsoft-power-apps/"><a>Power Apps</a></Link>, <Link href="https://www.dynamicssquare.ca/products/microsoft-power-virtual-agents/"><a>Power Virtual Agents</a></Link>, and Dataverse, Business Central is a comprehensive business application that helps you make better decisions on time through its intelligence.</p>
                       </div>
                     </div>
                     <div className="why-solution-wrapper-inner">
@@ -1993,7 +2218,7 @@ const BusinessCentral = () => {
                         <br />Experience
                       </h3>
                       <div className="overlay">
-                        <p>Elevate UX with UI design elements & data-driven approach. From desktop to mobile devices, enjoy a seamless experience that helps your sales teams delight customers, engage with potential leads in real time, & access critical information, anytime, anywhere.</p>
+                        <p>The UI design elements & data-driven approach provides enhanced user experience (UX) across desktop & mobile devices, helping your sales teams to delight their customers, engage and target potential users in real-time from anywhere. </p>
                       </div>
                     </div>
                   </div>
@@ -2007,7 +2232,7 @@ const BusinessCentral = () => {
                         & Simplified Reporting
                       </h3>
                       <div className="overlay">
-                        <p>Combining Business Central with Power BI can drive your business to new heights with integrated reporting and analytics capabilities. Empower your teams to make informed, market-disrupting decisions in real-time from day one.</p>
+                        <p>Integrate Business Central with Power BI for invoking inbuilt reporting and analytics capabilities, enabling your workforce to make instant yet productive and market-disrupting decisions.   </p>
                       </div>
                     </div>
                     <div className="why-solution-wrapper-inner">
@@ -2016,7 +2241,7 @@ const BusinessCentral = () => {
                         <br />& Customization
                       </h3>
                       <div className="overlay">
-                        <p>Tailor D365 BC to your unique business needs with its user-friendly customization capabilities. Seamlessly integrate Business Central with existing ERP systems & other Microsoft Business Apps for a truly integrated experience.</p>
+                        <p>Microsoft Dynamics 365 Business Central has easy-to-customize capabilities, helping you address specific business needs. Small or small-to-mid market size  businesses can integrate Business Central with their existing systems, third-party apps, and other <Link href="/products/microsoft-dynamics-365/"><a>Microsoft Business Apps.</a></Link></p>
                       </div>
                     </div>
                   </div>
@@ -2050,9 +2275,7 @@ const BusinessCentral = () => {
                       <div className="col-lg-8 align-self-center">
                         <div className="call_to_action-left">
                           <h3>Switch to Business Central From Dynamics NAV</h3>
-                          <p>
-                          Are you dissatisfied with your current Dynamics NAV ERP system? Try Business Central and make an upgrade today. Dynamics Square will make sure you look no further.
-                          </p>
+                          <p>Is your NAV partner not listening to you? Are you dissatisfied with your current Dynamics NAV ERP system? Or you have plans to try Business Central and make an upgrade today. We will make sure you look no further.</p>
                           <div className="new-btn new-btn-nn">
                             <a
                               href="/dynamics-nav-to-business-central/"
@@ -2083,6 +2306,85 @@ const BusinessCentral = () => {
           </div>
         </div>
       </section>
+
+
+      <section className="new-style-bg">
+        <div className="container">
+        <div className="row justify-content-center">
+            <div className="col-lg-9 col-md-8">
+          <header className="section-header">
+            <h2>What's New in Business Central 21? </h2>
+            <p>Dynamics 365 Business Central online is highly adaptable and feature rich. This popular cloud ERP will have a range of exciting new functionality and enhancements as per the 2023 Wave 1 release plan. Look at the updates:</p>
+          </header>
+          </div></div>
+          <div className="row g-5 pad2xyr">
+            <div className="col-lg-6">
+              <div className="style-grid-1">
+                <div className="style-grid-content">
+                  <h3>Inclusion of GPT4-based Copilot </h3>
+                  <p>Microsoft has released the power of mighty AI - based Copilot for almost all its products, including Dynamics 365 Business Central from <Link href="/products/microsoft-dynamics-erp/"><a>Dynamics 365 ERP</a></Link>, Power BI from Power Platform, Office 365, Azure, Microsoft Security, and for <Link href="/products/microsoft-dynamics-crm/"><a>Dynamics 365 CRM</a></Link> like Customer Insights, Viva Sales, and more. This will make it easy for your teams to quickly solve problems.</p>
+                </div>
+              </div>
+
+              <div className="style-grid-1">
+                <div className="style-grid-content">
+                  <h3>Responsive User Interface: </h3>
+                  <p>The 2023 Wave 1 release plan features an improved user interface with a new look and feels that it is more modern and intuitive. For user productivity and reducing the learning curve for new users, this seems to be an exciting time for Business Central users.</p>
+                </div>
+              </div>
+              <div className="style-grid-1">
+                <div className="style-grid-content">
+                  <h3>Improved Integration: </h3>
+                  <p>Microsoft is investing heavily to make it easier for SMBs to integrate productivity apps like Microsoft Teams, Power BI, and Outlook to Dynamics 365 Business Central. This will enable you to get more out of your investment in Microsoft's CRM and ERP technology stack.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="style-grid-1">
+                <div className="style-grid-content">
+                  <h3>Boosted Workflow Automation: </h3>
+                  <p>New workflow automation capabilities include the ability to automate approvals and notifications, as well as improved integration with Microsoft Power Automate. </p>
+                </div>
+              </div>
+
+              <div className="style-grid-1">
+                <div className="style-grid-content">
+                  <h3>Enhanced Financial Management: </h3>
+                  <p>The financial management capabilities include - advanced cash flow forecasting, enhanced bank reconciliation capabilities, and improved support for tax compliance. </p>
+                </div>
+              </div>
+              <div className="style-grid-1">
+                <div className="style-grid-content">
+                  <h3>Upgraded Inventory Management: </h3>
+                  <p>For SMBs that rely on inventory management, the new features in Business Central include - the ability to manage inventory across multiple locations and increased support for consignment inventory. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+
+
+<section style={{background:'#f7f7f7'}}>
+  <div className="container">
+  <div className="row justify-content-center">
+    <div className="col-lg-9">
+    <header className="section-header">
+            <h2>
+            The Crux of 2023 Release Wave 1 Plan for Business Central  
+            </h2>
+            <p>The crux includes the enhancements for managing multiple companies and intercompany features. It will reduce your onboarding time with quality content and seamless experiences. This development in Business Central also helps you automate your regulatory tasks for compliance. And improvements to usability include personalized columns, bulk actions, and more comprehensive views for increased efficiency.</p>
+            <p><strong>Take Your Sip Here:</strong> <a href="https://learn.microsoft.com/en-us/dynamics365/release-plan/2023wave1/smb/dynamics365-business-central/" rel="nofollow" target="_blank">The 2023 Release Wave 1 Plan for Dynamics 365 Business Central</a></p>
+          </header>
+    </div>
+  </div>
+  </div>
+</section>
+
+
+
+
       <section className="busine_service_bottom">
         <div className="container">
           <div className="row">
@@ -2122,8 +2424,8 @@ const BusinessCentral = () => {
             </div>
             <div className="col-lg-6 align-self-center">
               <div className="side-heading">
-                <h2>Business Central Services</h2>
-                <p>Any device, anywhere - deployment of Microsoft Dynamics 365 Business Central is possible.</p>
+                <h2>Dynamics Square Business Central Services </h2>
+                <p>Get adevice, anywhere - deployment of Microsoft Dynamics 365 Business Central is now made easy! </p>
               </div>
               <div className="busine_service_bottom-right">
                 <div className="card_new_img">
@@ -2136,7 +2438,7 @@ const BusinessCentral = () => {
                   <h3>
                     Business Central Implementation
                   </h3>
-                  <p>Implement Business Central to enhance your business processes and support your business with its continued growth.</p>
+                  <p>Implement Business Central to enhance your business processes and support your business with its continued growth. </p>
                   <div className="action-content">
                     <Link href="/dynamics-365-business-central-erp-system-implementation/">
                     <a>
@@ -2323,8 +2625,8 @@ const BusinessCentral = () => {
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <div className="call-to-action-content">
-                <h3>Dynamics 365 Business Central Implementation</h3>
-                <p>Translate data into meaningful insights, maximize your business potential, and overcome business challenges with Dynamics 365 Business Central implementation.</p>
+                <h3>Dynamics 365 Business Central Implementation </h3>
+                <p>Translate data into meaningful insights, maximize your business potential, and overcome business challenges with  <strong>Microsoft Dynamics 365 Business Central Implementation</strong>. Contact your Dynamics 365 <strong>Business Central Partner</strong> today!</p>
                 <div className="text-center m-o-t new-btn-nn">
                   <a
                     data-bs-toggle="modal"
@@ -2342,12 +2644,8 @@ const BusinessCentral = () => {
       <section className="solution-faq faq">
         <div className="container">
           <header className="section-header">
-            <h2>
-              Have you got
-              <br />
-              questions about Business Central?
-            </h2>
-            <p>Click through to our FAQ for the best answers!</p>
+            <h2>Looking to explore more about Business Central? </h2>
+            <p>Find it through FAQs tailored for you! </p>
           </header>
           <div className="row justify-content-center mar-top-7">
             <div className="col-lg-8">
@@ -2360,9 +2658,7 @@ const BusinessCentral = () => {
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-2"
-                    >
-                      How is Business Central related to Dynamics NAV?
-                    </button>
+                    >Why should small businesses use Microsoft Dynamics Business Central?</button>
                   </h3>
                   <div
                     id="faq-content-2"
@@ -2370,8 +2666,14 @@ const BusinessCentral = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                   <p>Dynamics 365 Business Central is an enhanced version of Dynamics NAV (better known as Navision). The Core functionalities of Business Central are like NAV. The difference lies in advanced features and navigations available with Business Central. Dynamics 365 Business Central is designed to support today's and tomorrow's enterprises from various industries. Existing Dynamics NAV users can avail of support services but not mainstream support from Microsoft. ft.</p>
-                   <p>We, at <a href="/">Dynamics Square</a>, offer reliable, cost-efficient NAV and Business Central Support Services. Let's discuss your business requirements.</p>
+                   <p>Business Central is one of the best cloud-based ERP available today, which has the following features that can help small businesses stop guessing and start making the most out of their existing operations:</p>
+                   <ul>
+                    <li>Simple and flexible to use.  </li>
+                    <li>Integration with other online Microsoft services, business and productivity apps for increased productivity and better performance </li>
+                    <li>Available in more than <strong>130</strong> countries and regions, and in multiple languages and currency modes.  </li>
+                    <li>Business Central is now powered by Dynamics 365 Copilot (Chat GPT4-based, AI-powered language tool) to help users start leveraging its capabilities for more connected and collaborated experiences. </li>
+                    <li>Ability to manage end-to-end process flows, from finance and supply chain to warehousing, sales, reporting & analytics, HR and payrolls. </li>
+                   </ul>
                     </div>
                   </div>
                 </div>
@@ -2382,9 +2684,7 @@ const BusinessCentral = () => {
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-3"
-                    >
-                      How do I upgrade to Dynamics 365 Business Central?
-                    </button>
+                    >How Business Central and Dynamics NAV are related? </button>
                   </h3>
                   <div
                     id="faq-content-3"
@@ -2392,8 +2692,9 @@ const BusinessCentral = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>If you are ready to upgrade your legacy systems like NAV to a cloud-based intelligent business application - Dynamics 365 Business Central, we're always a call away. Our team of Dynamics 365 experts and proficient consultants can help implement a highly configured solution for your business and fulfilling all your customized business needs.</p>
-                      <p>For more details or availing of our free system health check, <Link href="/contact-us/">get in touch with us today</Link>. We're always ready and happy to help!</p>
+                      <p>Dynamics 365 Business Central is the upgraded version of <Link href="/products/microsoft-dynamics-nav/"><a>Dynamics NAV</a></Link> (better known as Navision). The difference lies in advanced features and navigations in Business Central than in NAV. Microsoft Dynamics Business Central is designed to help businesses of today and tomorrow across various industries.</p>
+                      <p><strong>Important:</strong> Existing Dynamics NAV users can get support services but not the mainstream support from Microsoft.</p>
+                      <p>We, at <strong>Dynamics Square</strong>, offer reliable, cost-efficient NAV and <Link href="/dynamics-365-business-central-erp-support/"><a>Business Central Support Services</a></Link>. Get in touch for Business Central implementation to discuss your business problems in <strong>1:1</strong> meet-ups. </p>
                     </div>
                   </div>
                 </div>
@@ -2404,9 +2705,7 @@ const BusinessCentral = () => {
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-4"
-                    >
-                      What industries can Dynamics 365 Business Central Support?
-                    </button>
+                    >What is the ROI of Dynamics 365 Business Central Implementation?</button>
                   </h3>
                   <div
                     id="faq-content-4"
@@ -2414,8 +2713,9 @@ const BusinessCentral = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>The size and niche don't matter with Business Central. This business application can help all industries from e-Commerce, food & beverages, Manufacturing & Distribution, and Professional Services to Non-Profit hubs in meeting customer demands proactively. Microsoft Dynamics Business Central is a pro and an effective app for Startups that are ready to jumpstart their business at full throttle and start simplifying development processes and enabling automation practices right from the very initial.</p>
-                      <p>Curious to know how Business Central can get implemented for your niche? Connect with our professionals now. </p>
+                      <p>Implementing Dynamics 365 Business Central is expected to yield a Return on Investment (ROI) of <strong>162%</strong> over three years. The benefits of using Microsoft Dynamics Business Central are expected to outweigh the costs of implementing and maintaining the software.</p>
+                      <p>Plus, it can lead to a <strong>10%</strong> reduction in finance and operations hiring needs, which could translate to cost savings for the organization. <strong><a href="https://download.microsoft.com/download/f/8/b/f8b3d4db-d2b6-4357-bfc4-a1fdafd8b993/TEI_of_Microsoft_Business%20Central_FINAL.pdf" target="_blank" rel="nofollow">Download the study by Gartner</a></strong> to explore the whole report.</p>
+                      <p><Link href="/contact-us/"><a>Get in touch</a></Link> with your canadian <strong>business central partner</strong> like <strong>Dynamics Square</strong> for effortless, successful Business Central ERP implementation.</p>
                     </div>
                   </div>
                 </div>
@@ -2426,9 +2726,7 @@ const BusinessCentral = () => {
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-5"
-                    >
-                      How much does Dynamics 365 Business Central cost?
-                    </button>
+                    >How to upgrade your NAV to Dynamics 365 Business Central?</button>
                   </h3>
                   <div
                     id="faq-content-5"
@@ -2436,13 +2734,8 @@ const BusinessCentral = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>Business Central is a full-fledged ERP system. It takes significant time and cost for its implementation. Thus, pricing may vary depending on your requirements and the complexity of your business process flows. Below are the standard plans available for your business needs:</p>
-                      <ul>
-                        <li>Essential - You will be charged $70 per user/per month for the Business Central essential plan.</li>
-                        <li>Premium - The premium plan asks you to pay $100 per user/per month.</li>
-                        <li>Team Member - This plan is available at $8 per user/month.</li>
-                      </ul>
-                      <p>Still not sure which plan would best suit your business, <Link href="/contact-us/"><a>call our experts</a></Link>. They are always eager to extend help.</p>
+                      <p>If you are ready to upgrade your legacy systems like NAV to a cloud-based intelligent business application - Dynamics 365 Business Central, we're always a call away. Our team of <Link href="/our-services/dynamics-365-implementation-services/"><a>Dynamics 365 experts</a></Link> and proficient consultants can help implement a highly configured solution for your business and fulfilling all your customized business needs.</p>
+                      <p>For more details or to avail our <strong>free system health check</strong>, <Link href="/contact-us/"><a>get in touch with us today</a></Link>.</p>
                     </div>
                   </div>
                 </div>
@@ -2453,9 +2746,7 @@ const BusinessCentral = () => {
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-6"
-                    >
-                      How to get quick support for Dynamics 365 Business Central?
-                    </button>
+                    >Who can use Dynamics 365 Business Central Support?</button>
                   </h3>
                   <div
                     id="faq-content-6"
@@ -2463,8 +2754,9 @@ const BusinessCentral = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>We have a highly embedded and dedicated support system to provide timely, efficient, and flexible support to our clients. Whether your requirement goes for end-user training, prepaid hour support, or ad-hoc support, we believe in a flexible support model suited to all your specific requirements and budget.</p>
-                      <p>Get in touch with our consultants to know how our support model works and which of our offered solutions could be a vital one for your business. </p>
+                      <p>The size and niche don't matter with Business Central. This business application can help businesses of all sizes across industries: from e-Commerce, food & beverages, Manufacturing & Distribution, Healthhcare and Professional Services to Non-Profit hubs.  </p>
+                      <p>Also, if you are just starting out, Microsoft Dynamics Business Central is a pro app for Startups and Microsoft is supporting new small businesses by giving FREE Azure CREDITS to make an impact.  </p>
+                      <p>Curious to know how Business Central can get implemented for your growing business? We're your best Business Central Implementation partners across Canada. <Link href="/contact-us/"><a>Contact us</a></Link> today!</p>
                     </div>
                   </div>
                 </div>
@@ -2475,9 +2767,7 @@ const BusinessCentral = () => {
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-7"
-                    >
-                      Can Power BI be integrated with Dynamics 365 Business Central?
-                    </button>
+                    >What is the Dynamics 365 Business Central implementation cost? </button>
                   </h3>
                   <div
                     id="faq-content-7"
@@ -2485,7 +2775,52 @@ const BusinessCentral = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>Business Central is an all-in-one solution and is quite flexible if there comes a need to integrate business analytics software like Power BI or any other Microsoft Business Application for deriving advanced reporting strategies and strengthening decision-making.</p>
+                      <p>Business Central is a cloud-based ERP system. It takes about <strong>6</strong> to <strong>8</strong> months for its implementation. This is why Dynamics 365 Business Central Implementation cost varies. Thus, pricing may vary depending on your requirements and the complexity of your business process flows. Below are the standard plans available for your business:</p>
+                      <p><b>Essential</b> - Starts at CAD <strong> 89.60</strong> per user/month  </p>
+                      <p><b>Premium </b>- From CAD <strong>128</strong> per user/month </p>
+                      <p><strong>Team Member</strong> - It's available at CAD <strong>10.20</strong> per user/month </p>
+                      <p>Still not sure which business central implementation cost plan would best suit your business, <Link href="/contact-us/"><a>call our experts</a></Link> today. We're are always eager to extend help.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-8"
+                    >How to get quick support for Dynamics 365 Business Central? </button>
+                  </h3>
+                  <div
+                    id="faq-content-8"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>Reach out to your canadian Business Central partner for quick support. If your current partner is not listening to your problems, contact Dynamics Square. We have a dedicated support system and an expert team you provide timely, efficient, and flexible <Link href="/our-services/dynamics-365-support-services/"><a>Dynamics 365 Support</a></Link> to our clients.</p>
+                      <p><b>Get in touch</b> with us now to discover the power of Business Central Online ERP</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-9"
+                    >Can I integrate Power BI with Dynamics 365 Business Central? </button>
+                  </h3>
+                  <div
+                    id="faq-content-9"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>Microsoft Dynamics 365 Business Central is an all-in-one solution, which is flexible in all business management aspects. Data analytics and data visualization software like <Link href="/products/microsoft-power-bi/"><a>Microsoft Power BI</a></Link> are already included in Business Central. </p>
+                      <p>However, if you want to add the functionality of any other Microsoft Business Application or third-party service like Salesforce, you can do so.</p>
+                      <p><b>Contact</b> your <b>Business Central Partner in Canada</b> to help you get started.</p>
                     </div>
                   </div>
                 </div>
