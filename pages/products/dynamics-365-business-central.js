@@ -38,8 +38,9 @@ const BusinessCentral = () => {
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-6 align-self-center">
-              <h1>Microsoft Dynamics 365 Business Central for Businesses of All Sizes Across Canada </h1>
-              <p>Connect and streamline your services, financials, manufacturing, supply chain, and other operational processes with Dynamics 365 Business Central, and adapt faster, work smarter, and perfrom better. <strong>Are you reay of 162% ROI?</strong></p>
+              <h1 className="new-heding-colo">Microsoft Dynamics 365 Business Central ERP for  Canadian Businesses of All Sizes</h1>
+              <h2 className="heading-h2">Your Dynamics 365 Business Central Partner in Canada. Get the Consultancy You Deserve! </h2>
+              <p>Connect and streamline your services, financials, manufacturing, supply chain, and other operational processes with Dynamics 365 Business Central, and adapt faster, work smarter, and perfrom better. <strong>Are you ready for 162% ROI?</strong></p>
               <div>
                 <div className="text-center text-lg-start">
                   <a
@@ -2314,7 +2315,7 @@ const BusinessCentral = () => {
             <div className="col-lg-9 col-md-8">
           <header className="section-header">
             <h2>What's New in Business Central 21? </h2>
-            <p>Dynamics 365 Business Central online is highly adaptable and feature rich. This popular cloud ERP will have a range of exciting new functionality and enhancements as per the 2023 Wave 1 release plan. Look at the updates:</p>
+            <p>Dynamics 365 Business Central online is highly adaptable and feature rich. This popular cloud ERP will have a range of exciting new functionality and enhancements as per the <a href="https://learn.microsoft.com/en-us/dynamics365-release-plan/2022wave2/smb/dynamics365-business-central/planned-features" target="_blank" rel="nofollow">2023 Wave 1 release plan</a>. Look at the updates:</p>
           </header>
           </div></div>
           <div className="row g-5 pad2xyr">
@@ -2328,13 +2329,13 @@ const BusinessCentral = () => {
 
               <div className="style-grid-1">
                 <div className="style-grid-content">
-                  <h3>Responsive User Interface: </h3>
+                  <h3>Responsive User Interface</h3>
                   <p>The 2023 Wave 1 release plan features an improved user interface with a new look and feels that it is more modern and intuitive. For user productivity and reducing the learning curve for new users, this seems to be an exciting time for Business Central users.</p>
                 </div>
               </div>
               <div className="style-grid-1">
                 <div className="style-grid-content">
-                  <h3>Improved Integration: </h3>
+                  <h3>Improved Integration</h3>
                   <p>Microsoft is investing heavily to make it easier for SMBs to integrate productivity apps like Microsoft Teams, Power BI, and Outlook to Dynamics 365 Business Central. This will enable you to get more out of your investment in Microsoft's CRM and ERP technology stack.</p>
                 </div>
               </div>
@@ -2342,20 +2343,20 @@ const BusinessCentral = () => {
             <div className="col-lg-6">
               <div className="style-grid-1">
                 <div className="style-grid-content">
-                  <h3>Boosted Workflow Automation: </h3>
+                  <h3>Boosted Workflow Automation</h3>
                   <p>New workflow automation capabilities include the ability to automate approvals and notifications, as well as improved integration with Microsoft Power Automate. </p>
                 </div>
               </div>
 
               <div className="style-grid-1">
                 <div className="style-grid-content">
-                  <h3>Enhanced Financial Management: </h3>
+                  <h3>Enhanced Financial Management</h3>
                   <p>The financial management capabilities include - advanced cash flow forecasting, enhanced bank reconciliation capabilities, and improved support for tax compliance. </p>
                 </div>
               </div>
               <div className="style-grid-1">
                 <div className="style-grid-content">
-                  <h3>Upgraded Inventory Management: </h3>
+                  <h3>Upgraded Inventory Management</h3>
                   <p>For SMBs that rely on inventory management, the new features in Business Central include - the ability to manage inventory across multiple locations and increased support for consignment inventory. </p>
                 </div>
               </div>
@@ -2645,7 +2646,7 @@ const BusinessCentral = () => {
         <div className="container">
           <header className="section-header">
             <h2>Looking to explore more about Business Central? </h2>
-            <p>Find it through FAQs tailored for you! </p>
+            <p>Scroll through FAQs tailored for you! </p>
           </header>
           <div className="row justify-content-center mar-top-7">
             <div className="col-lg-8">
