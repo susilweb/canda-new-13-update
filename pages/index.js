@@ -287,7 +287,7 @@ export default function Home() {
                   <ul>
                     <li>
                       <img
-                        src="/img/Microsoft Partner black.png"
+                        src="/img/Microsoft-Partner-black.png"
                         alt="Microsoft Partner black.png"
                       />
                     </li>

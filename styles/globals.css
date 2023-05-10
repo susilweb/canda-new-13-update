@@ -727,7 +727,10 @@ section {
 }
 .bbts,
 .bnner_inline_images {
-  padding-top: 80px;
+  padding-top: 40px;
+}
+.bnner_inline_images img{
+  width:240px
 }
 .bnner_inline_images ul {
   display: flex;
