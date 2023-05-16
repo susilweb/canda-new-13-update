@@ -37,25 +37,23 @@ export default function Home() {
   return (
    <>
    <Head>
-   <title>
-   Microsoft Gold Partner Canada | Dynamics Square 
-        </title>
+   <title>Microsoft Solutions Partner | D365 Partner Canada - Dynamics Square</title>
         <meta
           name="description"
-          content="We simplify your business processes by implementing innovative Microsoft cloud solutions to make your business thrive. Book a free consultation today."
+          content="Dynamics Square, Canada's trusted Microsoft Solutions & D365 Partner. Elevate business operations with our expertise in Microsoft cloud technology."
         />
         <link rel="canonical" href="https://www.dynamicssquare.ca/" />
 
         <meta property="og:title" content="Microsoft Gold Partner Canada | Dynamics Square" />
 <meta property="og:site_name" content="Dynamics Square" />
 <meta property="og:url" content="https://www.dynamicssquare.ca/" />
-<meta property="og:description" content="We simplify your business processes by implementing innovative Microsoft cloud solutions to make your business thrive. Book a free consultation today." />
+<meta property="og:description" content="Dynamics Square, Canada's trusted Microsoft Solutions & D365 Partner. Elevate business operations with our expertise in Microsoft cloud technology." />
 <meta property="og:type" content="website" />
 <meta property="og:image" content="https://www.dynamicssquare.ca/img/banner-head-image.png" />
 <meta property="twitter:card" content="summary_large_image" />
 <meta property="twitter:url" content="https://www.dynamicssquare.ca/" />
 <meta property="twitter:title" content="Microsoft Gold Partner Canada | Dynamics Square" />
-<meta property="twitter:description" content="We simplify your business processes by implementing innovative Microsoft cloud solutions to make your business thrive. Book a free consultation today." />
+<meta property="twitter:description" content="Dynamics Square, Canada's trusted Microsoft Solutions & D365 Partner. Elevate business operations with our expertise in Microsoft cloud technology." />
 <meta property="twitter:image" content="https://www.dynamicssquare.ca/img/banner-head-image.png" />
 
  <script
