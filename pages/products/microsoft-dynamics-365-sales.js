@@ -63,7 +63,7 @@ const Sales = () => {
             <h2>
               What is dynamics 365 Sales?
             </h2>
-            <p>Microsoft's Dynamics 365 Sales is an AI-driven sales management application that helps you win new customers through teamwork and manage your day-to-day business operations through its modern customer relationship management (CRM) capabilities. Integrating preferred communication channels like Microsoft Teams to Dynamics 365 Sales, you can better connect sellers to customers, accelerate your revenue generation, and close sales faster.</p>
+            <p>Microsoft's Dynamics 365 Sales (formerly, Dynamics CRM) is an AI-driven sales management application that helps you win new customers through teamwork and manage your day-to-day business operations through its modern customer relationship management (CRM) capabilities. Integrating preferred communication channels like Microsoft Teams to Dynamics 365 Sales, you can better connect sellers to customers, accelerate your revenue generation, and close sales faster.</p>
           </header>
           </div>
         </div>

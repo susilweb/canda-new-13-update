@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import ScrollPopupModal from "./ScrollPopupModal";
 
 class Header extends Component {
 
@@ -1395,6 +1396,7 @@ return(
           </div>
         </div>
       </header>
+      <ScrollPopupModal />
     </>
     
     );
