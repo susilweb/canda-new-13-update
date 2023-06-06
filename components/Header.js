@@ -641,6 +641,42 @@ return(
                                     </a>
                                   </div>
                                 </div>
+                                <div className="col-md-4">
+                                  <div className="list-itmes-maga-menu">
+                                    <a href="/products/microsoft-dynamics-365-finance-operations/">
+                                      <div className="pic">
+                                        <img
+                                          src="/img/menu-icons/F&Q.png"
+                                          alt="F&Q"
+                                          width="48"
+                                          height="48"
+                                        />
+                                      </div>
+                                      <div className="content">
+                                        <span>Dynamics F&O</span>
+                                        <p>An intelligent ERP for finances & supply chain </p>
+                                      </div>
+                                    </a>
+                                  </div>
+                                </div>
+                                <div className="col-md-4">
+                                  <div className="list-itmes-maga-menu">
+                                    <a href="/products/microsoft-dynamics-erp/">
+                                      <div className="pic">
+                                        <img
+                                          src="/img/menu-icons/ERP.png"
+                                          alt="ERP"
+                                          width="48"
+                                          height="48"
+                                        />
+                                      </div>
+                                      <div className="content">
+                                        <span>Dynamics ERP</span>
+                                        <p>A unified ERP solution to streamline processes</p>
+                                      </div>
+                                    </a>
+                                  </div>
+                                </div>
                               </div>
                             </div>
                           </div>

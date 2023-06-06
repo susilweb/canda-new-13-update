@@ -265,7 +265,7 @@ const Footer = () =>{
                   />
                 </a>
                 <p>
-                  Dynamics Square is Canada leading Microsoft Gold Certified Partner
+                  Dynamics Square is Canada's leading Microsoft Gold Certified Partner
                   that caters to the needs of orgnizations who can source
                   next-gen Microsoft Business Apps from our highly skilled
                   Microsoft consultants.

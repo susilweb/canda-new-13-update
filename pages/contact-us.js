@@ -798,12 +798,10 @@ const ContactUs = () => {
                     style={{marginBottom:"20px"}}
                   />
                   </a>
-                  <p>
-                    Dynamics Square is US leading Microsoft Gold Certified Partner
-                    that caters to the needs of orgnizations who can source
-                    next-gen Microsoft Business Apps from our highly skilled
-                    Microsoft consultants.
-                  </p>
+                  <p>Dynamics Square is Canada's leading Microsoft Gold Certified Partner
+                  that caters to the needs of orgnizations who can source
+                  next-gen Microsoft Business Apps from our highly skilled
+                  Microsoft consultants.</p>
                   <img
                     src="/img/microsoft-partner-footer.png"
                     alt="microsoft-partner"

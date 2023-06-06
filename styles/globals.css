@@ -113,6 +113,7 @@ h6 {
 .rigt-conte-vs1 ul li,
 p {
   color: var(--color-grey);
+  line-height:1.7 !important
 }
 .custom-p-003 {margin-bottom: 25px;}
 .custom-p-003 h3{
@@ -6368,7 +6369,7 @@ margin-top:-130px !important
 
 /*businecentermew*/
 .new-sol-con-side p{
-  color:#000;
+  color: var(--color-grey);
   font-size:16px
 }
 .Solution-banner h1.new-heding-colo{
@@ -7537,7 +7538,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1c2d47",endCo
   display:none
 }
   .busines-bg {
-    display: none;
+    display: none !important;
   }
   .mobile-4 {
     padding-bottom: 40px;
@@ -8401,6 +8402,29 @@ ul.checkmark li {
   font-size: 16px;
   box-shadow: 1px 0px 6px #0000003d;
 }
+.table-cc thead tr{
+
+}
+.table-cc thead tr th {
+  text-align: center;
+  font-size: 18px;
+  padding: 15px !important;
+  background: var(--color-blue);
+  color: #fff;
+  font-weight: 700;
+}
+.table-cc tbody tr td{text-align: center;
+  padding: 15px 30px;
+  font-size: 16px;
+  color: #000;
+  font-weight: 500;}
+  .table-cc tbody tr td:first-child{
+    text-align:left
+  }
+  .table-cc tbody tr td i{
+    color: var(--color-blue);
+    font-size: 14px;
+  }
 
 @media (max-width: 992px){
   .repet-col .cont h3 {
