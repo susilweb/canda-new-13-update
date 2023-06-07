@@ -41,13 +41,21 @@ function Blogshome({ blogs, businesscentral, categoryblogs, blograndomblogs }) {
   return (
     <div>
       <Head>
-        <title>Blog System</title>
+        <title>Best Microsoft Dynamics 365 Blogs | Dynamics Square - Dynamics 365 Blogs</title>
         <meta
           name="description"
-          content="All Modern Stylish Product Men|Female"
+          content="Dynamics 365 Blogs"
         />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="canonical" href="https://www.dynamicssquare.ca/blog/" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Best Microsoft Dynamics 365 Blogs | Dynamics Square - Dynamics 365 Blogs" />
+        <meta property="og:description" content="Dynamics 365 Blogs" />
+        <meta property="og:url" content="https://www.dynamicssquare.ca/blog/" />
+        <meta property="og:site_name" content="Best Microsoft Dynamics 365 Blogs | Dynamics Square" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Best Microsoft Dynamics 365 Blogs | Dynamics Square - Dynamics 365 Blogs" />
+        <meta name="twitter:description" content="Dynamics 365 Blogs" />
       </Head>
 
       {blogs &&
