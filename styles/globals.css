@@ -9242,6 +9242,7 @@ ul.checkmark li {
   
 }
 @media (min-width: 0px) and (max-width: 767px){
+  
   .blogs-lates h1 a, .blogs-lates h2 a, .blogs-lates h3 a {
     font-size: 24px!important;
   }
@@ -9254,4 +9255,37 @@ ul.checkmark li {
   .blogs-side {
     padding-left: 0px;
 }
+.blogs-info-list .left-list{
+  flex: 100% 1;
+    width: 100%;
+}
+
+  .blogs-info-list .sociallist {
+    flex: 100% 1;
+    width: 100%;
+    text-align: left;
+    margin-top:20px
+}
+.blogs-single-post-sec .blogs-info-list {
+  margin-bottom: 20px;
+}
+.author-side-head .left {
+  margin-right: 5px;
+  flex: 30% 1;
+  width: 30%;
+}
+.author-side-head .left .link-din {
+  left: 45%;
+}
+.blogs-main {
+  padding-top: 30px;
+}
+}
+@media (min-width: 0px) and (max-width: 580px){
+  .popup-cust{
+    width:90%
+  }
+  .popup-cust .content {
+    padding: 0px;
+  }
 }
