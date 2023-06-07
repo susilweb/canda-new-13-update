@@ -4,7 +4,8 @@ import 'bootstrap-icons/font/bootstrap-icons.css'
 import Layouts from '../components/Layouts'
 import {useRouter} from 'next/router';
 import Header from '../components/Header';
-
+import {useState, useEffect} from 'react'
+import LoadingBar from 'react-top-loading-bar'
 // function MyApp({ Component, pageProps }) {
 
 //   return 
@@ -18,6 +19,18 @@ import Header from '../components/Header';
 
 
 function MyApp({ Component, pageProps }) {
+  const [progress, setProgress] = useState(0);
+  useEffect(() =>{
+    router.events.on('routeChangeStart',()=>{
+setProgress(40)
+ })
+      
+router.events.on('routeChangeComplete',()=>{
+setProgress(600)
+ })
+    
+  })
+
   const router = useRouter();
   if(router.asPath =='/contact-us/' ||
       router.asPath =='/thank-you/' ||
