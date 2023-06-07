@@ -7,7 +7,7 @@ const nextConfig = {
     formats: ['image/avif', 'image/webp']
    },
    env:{
-    BACKEND_URL:'https://blognew.dynamicssquare.com'
+    BACKEND_URL:'https://blognew.dynamicssquare.ca'
   }
 }
 
