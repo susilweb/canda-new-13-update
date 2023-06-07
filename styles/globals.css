@@ -9242,5 +9242,16 @@ ul.checkmark li {
   
 }
 @media (min-width: 0px) and (max-width: 767px){
-  
+  .blogs-lates h1 a, .blogs-lates h2 a, .blogs-lates h3 a {
+    font-size: 24px!important;
+  }
+  .blogs-lates.blogs-lates-top-head h1 {
+    font-size: 32px!important;
+  }
+  .blogs-single-post-sec{
+    margin-top: -30px;
+  }
+  .blogs-side {
+    padding-left: 0px;
+}
 }
