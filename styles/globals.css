@@ -9231,6 +9231,15 @@ ul.checkmark li {
 .blogs-ex-side-cate-home ul li {
 margin:0px 10px 10px 0px
 }
+.wp-block-table{
+  overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.blogs-content-inner table{
+  overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    width:100%
+}
 .blogs-content-inner table tbody tr,.blogs-content-inner table tbody tr td{
   border: 1px solid #ddd;
   padding:10px
