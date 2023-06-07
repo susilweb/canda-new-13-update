@@ -309,7 +309,7 @@ export async function getServerSideProps(context) {
   if(bloglength >=1)
   {
     const category = blogs[0]["category_slug"];
-    const res1 = await fetch(`${process.env.BACKEND_URL}`+'/api/blog/category/'+category);
+    const res1 = await fetch(`${process.env.BACKEND_URL}`+'/api/blog/related/'+category);
     const blogcat = await res1.json();
   
     const author = blogs[0]["author_email"];

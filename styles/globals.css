@@ -27,7 +27,7 @@ body {
     line-height: 1.5 !important;
 }
 b, strong{
-  font-weight:700 !important;
+  font-weight:600 !important;
 }
 .form-main-model {
   --bs-backdrop-zindex: 1050;
@@ -9007,7 +9007,7 @@ ul.checkmark li {
 .blogs-content ul li a:hover{}
 .blogs-content img{
   display:block;
-  margin-bottom:25px
+  /* margin-bottom:25px */
 }
 .blog-tagged{
   padding:10px;
@@ -9218,11 +9218,18 @@ ul.checkmark li {
 .author-list-card:hover a{
 
 }
-.blogs-content p b{
+.blogs-content-inner p b{
   font-weight: 600 !important;
 }
-.blogs-content p b a{
+.blogs-content-inner p b a, .blogs-content-inner ul li b a{
   font-weight: 400 !important;
+}
+.blogs-ex-side-cate-home ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.blogs-ex-side-cate-home ul li {
+margin:0px 10px 10px 0px
 }
 
 @media (min-width: 1201px) and (max-width: 1400px){
@@ -9238,13 +9245,17 @@ ul.checkmark li {
 }
 }
 @media (min-width: 993px) and (max-width: 1199px){
-  
+  .blogs-breadcromb {
+    margin-bottom: 30px;
+  }
 }
-@media (min-width: 992px) {
-  
+@media (max-width: 992px) {
+  .blogs-breadcromb {
+    margin-bottom: 30px;
+  }
 }
 @media (min-width: 768px) and (max-width: 991px){
-  
+
 }
 @media (min-width: 0px) and (max-width: 767px){
   
@@ -9256,7 +9267,7 @@ ul.checkmark li {
     line-height: 1.4;
   }
   .blogs-single-post-sec{
-    margin-top: -30px;
+
   }
   .blogs-side {
     padding-left: 0px;
@@ -9286,6 +9297,7 @@ ul.checkmark li {
 .blogs-main {
   padding-top: 30px;
 }
+
 }
 @media (min-width: 0px) and (max-width: 580px){
   .popup-cust{

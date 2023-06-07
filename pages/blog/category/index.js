@@ -52,9 +52,9 @@ function CategoryBlogs({ blogs, categoryblogs }) {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-3">
-              <div className="blogs-ex-side-cate">
-                <h3>Explore by Topic</h3>
+            <div className="col-lg-12">
+              <div className="blogs-ex-side-cate blogs-ex-side-cate-home">
+                <h3>Explore by Category</h3>
                 <ul>
                   {categoryblogs &&
                     categoryblogs.map((cateitem, i) => (
@@ -67,114 +67,12 @@ function CategoryBlogs({ blogs, categoryblogs }) {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-9">
-              {blogs &&
-                blogs.map((item, i) => (
-                  <div className="blogs-lates blogs-lates-rept">
-                    <h3>
-                      <Link href={`/blog/${item.title_slug}`}>
-                        <a>{item.title}</a>
-                      </Link>
-                    </h3>
-                    <div className="blogs-info-list">
-                      <span className="user">
-                        <a href={`/blog/author/${item.author_email}`}>
-                          <i className="bi bi-person-circle"></i>
-                          {item.author}
-                        </a>
-                      </span>
-                      <span className="date">
-                        <a>
-                          <i className="bi bi-calendar"></i>
-                          {item.publish_date}
-                        </a>
-                      </span>
-                      <span className="time">
-                        <a>
-                          <i className="bi bi-clock"></i>
-                          {item.read_time}
-                        </a>
-                      </span>
-                      <span className="cate">
-                        <a href={`/blog/category/${item.category_slug}`}>
-                          <i className="bi bi-app"></i>
-                          {item.category}
-                        </a>
-                      </span>
-                    </div>
-                    <div className="b-card-info">
-                    <p>{item.short_description}</p>
-                      <div className="page-link-read">
-                        <Link href={`/blog/${item.title_slug}`}>
-                          <a>
-                            Read More <span>{">"}</span>
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-
-              {/* <div className="pagination-main">
-                <nav aria-label="Page navigation example">
-                  <ul className="pagination">
-                    <li className="page-item">
-                      <a className="page-link" href="#">
-                        {"<"}
-                      </a>
-                    </li>
-                    <li className="page-item">
-                      <a className="page-link" href="#">
-                        1
-                      </a>
-                    </li>
-                    <li className="page-item">
-                      <a className="page-link" href="#">
-                        2
-                      </a>
-                    </li>
-                    <li className="page-item">
-                      <a className="page-link" href="#">
-                        3
-                      </a>
-                    </li>
-                    <li className="page-item">
-                      <a className="page-link" href="#">
-                        ...
-                      </a>
-                    </li>
-                    <li className="page-item">
-                      <a className="page-link" href="#">
-                        {">"}
-                      </a>
-                    </li>
-                  </ul>
-                </nav>
-              </div> */}
-            </div>
+           
           </div>
         </div>
       </div>
 
-      <div className="bootom-blogs-sub">
-        <div className="container">
-          <div className="row justify-content-center row-bg">
-            <div className="col-lg-6">
-              <div className="form-subscriber-card">
-                <div className="sub-head">
-                  <h3>Join our newsletter</h3>
-                  <p>
-                    Engaging stories and exclusive data, designed for our best
-                    customers. We only send one issue each month, so we try to
-                    make it useful.
-                  </p>
-                </div>
-                <BlogSubscriberForm />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+     
     </div>
   );
 }
