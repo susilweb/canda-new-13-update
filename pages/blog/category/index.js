@@ -6,13 +6,10 @@ import BlogSubscriberForm from "../../../components/BlogSubscriberForm";
 export async function getServerSideProps(context) {
   let slug = context.query.slug;
   const res = await fetch(
-    process.env.BACKEND_URL + "/api/blog/category/" + slug
-  );
+    process.env.BACKEND_URL+"/api/blog/category/"+slug);
   const blogs = await res.json();
 
-  const categoryblog = await fetch(
-    "https://blognew.dynamicssquare.com/api/blog/category"
-  );
+  const categoryblog = await fetch(`${process.env.BACKEND_URL}`+"/api/blog/category");
   const categoryblogs = await categoryblog.json();
 
   return { props: { blogs, categoryblogs } };

@@ -11,14 +11,10 @@ export async function getServerSideProps(context) {
   );
 
   const blogs = await res.json();
-  const authors = await fetch(
-    "https://blognew.dynamicssquare.com/api/allauthor"
-  );
+  const authors = await fetch(`${process.env.BACKEND_URL}`+"/api/allauthor");
   const authorslist = await authors.json();
 
-  const blgsbyauthors = await fetch(
-    "https://blognew.dynamicssquare.com/api/blog/author/"+slug
-  );
+  const blgsbyauthors = await fetch(`${process.env.BACKEND_URL}`+"/api/blog/author/"+slug);
   const blgsbyauthorslist = await blgsbyauthors.json();
 
   return { props: { blogs, authorslist, blgsbyauthorslist } };

@@ -19,8 +19,7 @@ export async function getServerSideProps() {
   );
   const categoryblogs = await categoryblog.json();
 
-  const blograndom = await fetch("https://blognew.dynamicssquare.com/api/random/allblog?page=1&per_page=2"
-  );
+  const blograndom = await fetch(`${process.env.BACKEND_URL}`+"/api/random/allblog");
   const blograndomblogs = await blograndom.json();
 
   // const blogauthor = await fetch(

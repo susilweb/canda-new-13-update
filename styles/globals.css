@@ -6745,7 +6745,7 @@ font-weight:400
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 9999;
+  z-index: 99999999999;
   background-color: rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: center;
@@ -9218,7 +9218,12 @@ ul.checkmark li {
 .author-list-card:hover a{
 
 }
-
+.blogs-content p b{
+  font-weight: 600 !important;
+}
+.blogs-content p b a{
+  font-weight: 400 !important;
+}
 
 @media (min-width: 1201px) and (max-width: 1400px){
   .blogs-lates h1 a, .blogs-lates.blogs-lates-top-head h1{
@@ -9247,7 +9252,8 @@ ul.checkmark li {
     font-size: 24px!important;
   }
   .blogs-lates.blogs-lates-top-head h1 {
-    font-size: 32px!important;
+    font-size: 36px!important;
+    line-height: 1.4;
   }
   .blogs-single-post-sec{
     margin-top: -30px;

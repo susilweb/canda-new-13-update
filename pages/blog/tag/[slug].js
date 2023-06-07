@@ -9,7 +9,7 @@ import { useState } from "react";
 export async function getServerSideProps(context) {
   let slug = context.query.slug;
   console.log(slug)
-  const alltag = await fetch("https://blognew.dynamicssquare.com/api/all/blogs/tag");
+  const alltag = await fetch(`${process.env.BACKEND_URL}`+"/api/all/blogs/tag");
   const alltags = await alltag.json();
   const res = await fetch(process.env.BACKEND_URL + "/api/blog/tagged/" + slug.split("-").join(" ")
   );
