@@ -41,7 +41,7 @@ setProgress(600)
     return (
       <>
         <LoadingBar
-      color='#1d3557'
+      color='#bb2b36'
       progress={progress}
       waitingTime={400}
       height={2}
@@ -56,7 +56,7 @@ setProgress(600)
 
   return <>
     <LoadingBar
-      color='#1d3557'
+      color='#bb2b36'
       progress={progress}
       waitingTime={400}
       height={2}
