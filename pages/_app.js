@@ -40,6 +40,13 @@ setProgress(600)
   )  {
     return (
       <>
+        <LoadingBar
+      color='#1d3557'
+      progress={progress}
+      waitingTime={400}
+      height={2}
+      onLoaderFinished={() => setProgress(0)}
+      />
       <Header />
       <Component {...pageProps} />
       </>
@@ -48,6 +55,13 @@ setProgress(600)
  };
 
   return <>
+    <LoadingBar
+      color='#1d3557'
+      progress={progress}
+      waitingTime={400}
+      height={2}
+      onLoaderFinished={() => setProgress(0)}
+      />
   <Layouts>
   <Component {...pageProps} />
   </Layouts>
