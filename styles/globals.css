@@ -8592,60 +8592,10 @@ ul.checkmark li {
   }
 }
 
-/*ds blogs*/
+/*new blogs*/
 
-.backdrop-mod {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 999999999999;
-  background-color: rgba(0, 0, 0, 0.5);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.popup-cust {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 100;
-  background-color: white;
-  padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
-  width: 500px;
-}
 
-.popup-cust .content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding:20px
-}
-.popup-cust .content h3{
-  text-align:center;
-  margin-bottom:30px
-}
-
-.popup-cust .bbt {
-  position: absolute;
-  right: 0;
-  top: -10px;
-  font-size: 0px;
-  background: transparent;
-  border: none;
-}
-.popup-cust .bbt span{
-  font-size: 40px;
-}
-.popup-cust .bbt:hover span{
-  color:red;
-  opacity:.7
-}
 
 .blogs-main{
   padding-top: 60px;
@@ -8736,7 +8686,7 @@ ul.checkmark li {
   margin-bottom: 30px;
 }
 .blogs-ex-side-cate ul{
-  padding:0;
+  padding:15px;
   list-style:none
 }
 .blogs-ex-side-cate ul li.active a
@@ -9002,8 +8952,10 @@ ul.checkmark li {
     color: #273266;
     margin-bottom: 30px;
 }
-.blogs-content ul li{}
+.blogs-content ul li,.blogs-content ul li p,.blogs-content ul li a,.blogs-content ul li p a{font-size: 18px;    letter-spacing: 0.02px;}
+.blogs-content ul li p{}
 .blogs-content ul li a{}
+.blogs-content ul li p a{}
 .blogs-content ul li a:hover{}
 .blogs-content img{
   display:block;
@@ -9247,6 +9199,39 @@ margin:0px 10px 10px 0px
   color: #273266;
 }
 
+.blogs-ex-side-cate ul {
+  padding: 15px 15px 15px 0px;
+  list-style: none;
+  height: 400px;
+  overflow-y: scroll;
+}
+/* width */
+.blogs-ex-side-cate ul::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.blogs-ex-side-cate ul::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+.blogs-ex-side-cate ul::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+.blogs-ex-side-cate ul::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+.blogs-ex-side-cate.blogs-ex-side-cate-home ul{
+  height: auto;
+  overflow:auto
+}
+.blogs-ex-side-cate ul li:hover a{ 
+  text-decoration:none
+}
+
 
 @media (min-width: 1201px) and (max-width: 1400px){
   .blogs-lates h1 a, .blogs-lates.blogs-lates-top-head h1{
@@ -9303,7 +9288,7 @@ margin:0px 10px 10px 0px
     padding: 40px 30px 40px
 }
 .blogs-ex-side-cate ul,.auter-cate ul{
-  display: flex;
+  /* display: flex; */
     align-items: center;
     /* flex-wrap: wrap; */
     overflow-x: scroll;
@@ -9313,6 +9298,10 @@ margin:0px 10px 10px 0px
 }
 .blogs-ex-side-cate ul li,.auter-cate ul li{
   margin: 0px 10px 0px 0px;
+  display:inline-block
+}
+.auter-cate,.blogs-ex-side-cate {
+  margin-bottom: 30px;
 }
 .bootom-blogs-sub .row-bg{
   background:transparent

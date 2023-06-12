@@ -19,13 +19,7 @@ function CategoryBlogs({ blogs, categoryblogs }) {
   return (
     <div>
       <Head>
-        <title>Blog System</title>
-        <meta
-          name="description"
-          content="All Modern Stylish Product Men|Female"
-        />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <title>Blog Category Home</title>
       </Head>
 
       <div className="blogs-extra-new">
