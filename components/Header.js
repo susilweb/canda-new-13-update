@@ -914,7 +914,7 @@ return(
                   <ul>
                     <li>
                       <a
-                        href="https://blog.dynamicssquare.ca/"
+                        href="/blog/"
                         rel=""
                         target="_self"
                       >
@@ -1395,7 +1395,7 @@ return(
                             <ul>
                               <li>
                                 <a
-                                  href="https://blog.dynamicssquare.ca/"
+                                  href="/blog/"
                                   target="_self"
                                   rel=""
                                 >
