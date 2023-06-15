@@ -1210,18 +1210,15 @@ export default function Home() {
                   <div className="casestudys-slider-item">
                     <div className="profile mt-auto">
                       
-                      <p>
-                        Streamline Manufacturing & Accounting with D365 Business
-                        Central On-Premise
-                      </p>
-                      {/* <div className="case-button">
+                      <p>Implemented Custom EFT Module to improvise Payment Methods</p>
+                      <div className="case-button">
                         <a
-                          href="/case-studies/dmic/"
+                          href="/case-studies/dynamics-nav13-eft-implementation/"
                           className="btn btn-md btn-custom-1"
                         >
                           Read More
                         </a>
-                      </div> */}
+                      </div>
                     </div>
                   </div>
                 </SwiperSlide>
@@ -1229,39 +1226,16 @@ export default function Home() {
                   <div className="casestudys-slider-item">
                     <div className="profile mt-auto">
                       
-                      <p>
-                        Implemented Custom EFT Module to improvise Payment
-                        Methods
-                      </p>
+                      <p>Implementation of Microsoft Dynamics Business Central Cloud</p>
                      
-                      {/* <div className="case-button">
+                      <div className="case-button">
                         <a
-                          href="/case-studies/spectra/"
+                          href="/case-studies/nav13-to-d365-business-central-upgrade/"
                           className="btn btn-md btn-custom-1"
                         >
                           Read More
                         </a>
-                      </div> */}
-                    </div>
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="casestudys-slider-item">
-                    <div className="profile mt-auto">
-                      
-                      <p>
-                        Implementation of Microsoft Dynamics Business Central
-                        Cloud
-                      </p>
-                     
-                      {/* <div className="case-button">
-                        <a
-                          href="/case-studies/shimco/"
-                          className="btn btn-md btn-custom-1"
-                        >
-                          Read More
-                        </a>
-                      </div> */}
+                      </div>
                     </div>
                   </div>
                 </SwiperSlide>
