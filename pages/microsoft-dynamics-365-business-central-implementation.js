@@ -12,7 +12,7 @@ const BusinessCentralImplementation = () => {
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.ca/dynamics-365-business-central-erp-system-implementation/"
+          href="https://www.dynamicssquare.ca/microsoft-dynamics-365-business-central-implementation/"
         />
       </Head>
       <section className="Solution-banner hero-1 hero">

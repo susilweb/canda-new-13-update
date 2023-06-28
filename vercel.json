@@ -6,6 +6,7 @@
     { "source": "/products/field-service/", "destination": "/products/microsoft-dynamics-365-field-service/", "statusCode": 301 },
     { "source": "/products/erp/", "destination": "/products/microsoft-dynamics-erp/", "statusCode": 301 },
     { "source": "/industries/startup/", "destination": "/industries/startups/", "statusCode": 301 },
-    { "source": "/dynamics-nav-to-business-central/", "destination": "/dynamics-nav-to-business-central-upgrade/  ", "statusCode": 301 }
+    { "source": "/dynamics-nav-to-business-central/", "destination": "/dynamics-nav-to-business-central-upgrade/  ", "statusCode": 301 },
+    { "source": "/dynamics-365-business-central-erp-system-implementation/", "destination": "/microsoft-dynamics-365-business-central-implementation/", "statusCode": 301 }
   ]
 }
