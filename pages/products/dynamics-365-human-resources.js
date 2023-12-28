@@ -38,13 +38,13 @@ const HumanResource = () => {
               <p>Increase employee engagement with best practices, smart strategies, and creative tactics and successfully adapt recognition programs in uncertain times using Microsoft Dynamics 365 Human Resource. </p>
               <div>
                 <div className="text-center text-lg-start">
-                  <a
+                  <Link
                     data-bs-toggle="modal"
                     href="#exampleModal"
                     className="btn-get-started scrollto"
                   >
                     <span>Get a Demo</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -325,9 +325,9 @@ const HumanResource = () => {
                   <h3>Implementation</h3>
                   <p>Integrate Dynamics 365 Human Resources to accelerate and improve your human resource processes.</p>
                   <div className="action-content">
-                    <a data-bs-toggle="modal" href="#exampleModal">
+                    <Link data-bs-toggle="modal" href="#exampleModal">
                     Get Started 
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -343,9 +343,9 @@ const HumanResource = () => {
                   <h3>Upgrade</h3>
                   <p>Set up your HR System with advanced human resources capabilities to optimize your human resources.</p>
                   <div className="action-content">
-                    <a data-bs-toggle="modal" href="#exampleModal">
+                    <Link data-bs-toggle="modal" href="#exampleModal">
                     Get Started 
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -361,9 +361,9 @@ const HumanResource = () => {
                   <h3>Support</h3>
                   <p>We can help you optimize your Dynamics 365 resources and ensure smoother operations in your organization.</p>
                   <div className="action-content">
-                    <a data-bs-toggle="modal" href="#exampleModal">
+                    <Link data-bs-toggle="modal" href="#exampleModal">
                     Get Started 
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -380,9 +380,9 @@ const HumanResource = () => {
                 <h3>Align Your HR Activities To The Organization's Goals & Create HR Magic!</h3>
                 <p>Scale company culture, employee engagement, and recognition in the digital world with Dynamics 365 Human Resources</p>
                 <div className="text-center m-o-t new-btn-nn">
-                  <a href="#about" className="btn-get-started scrollto">
+                  <Link href="#about" className="btn-get-started scrollto">
                     <span>Get Started Today</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -430,13 +430,13 @@ const HumanResource = () => {
 
             <div className="col-lg-12 col-md-12">
               <div className="price-btn price-btnasd d-flex justify-content-center">
-                <a
+                <Link
                   data-bs-toggle="modal"
                   href="#exampleModal"
                   className="btn-get-red"
                 >
                   <span>Request a demo</span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

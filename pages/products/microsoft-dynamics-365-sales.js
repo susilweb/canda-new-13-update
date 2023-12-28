@@ -141,7 +141,7 @@ const Sales = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                      <p>The sales professional app is a modular app designed by Microsoft to empower your sales professionals and sales manager to seamlessly perform administration-related tasks by easily customizing tables, dashboards, forms, views, charts, and <Link href="/products/microsoft-power-platform/"><a>manage business processes without writing any code.</a></Link></p>
+                      <p>The sales professional app is a modular app designed by Microsoft to empower your sales professionals and sales manager to seamlessly perform administration-related tasks by easily customizing tables, dashboards, forms, views, charts, and <Link href="/products/microsoft-power-platform/">manage business processes without writing any code.</Link></p>
                      <p><b>Remember:</b> To take advantage of this app, you must have any of three licenses - Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional.</p>
                       </div>
                     </div>
@@ -183,7 +183,7 @@ const Sales = () => {
                       Customer Experience
                       </h3>
                       <div className="overlay">
-                        <p>Using in-the-moment insights from this <Link href="/products/microsoft-dynamics-365-marketing/"><a>cloud-based sales management solution</a></Link>, you can establish strong relationships with your customers and create new opportunities in the times of disruptive market changes. </p>
+                        <p>Using in-the-moment insights from this <Link href="/products/microsoft-dynamics-365-marketing/">cloud-based sales management solution</Link>, you can establish strong relationships with your customers and create new opportunities in the times of disruptive market changes. </p>
                       </div>
                     </div>
                     <div className="why-solution-wrapper-inner">
@@ -214,7 +214,7 @@ const Sales = () => {
                       Decision-Making
                       </h3>
                       <div className="overlay">
-                        <p><Link href="/products/microsoft-power-automate/"><a>Automate your sales practices</a></Link>, empower your sales workforce with Dynamics 365 Sales' data intelligence, and access in-depth sales analytics in real-time to maximize your growth potential. </p>
+                        <p><Link href="/products/microsoft-power-automate/">Automate your sales practices</Link>, empower your sales workforce with Dynamics 365 Sales' data intelligence, and access in-depth sales analytics in real-time to maximize your growth potential. </p>
                       </div>
                     </div>
                   </div>
@@ -264,7 +264,7 @@ const Sales = () => {
             <div className="col-lg-6 align-self-center">
               <div className="side-heading">
                 <h2>Dynamics 365 Sales Service</h2>
-                <p>You can rely on us for complete implementation, upgrade, and <Link href="/our-services/dynamics-365-support-services/"><a> support services for Dynamics 365 Sales</a></Link>.</p>
+                <p>You can rely on us for complete implementation, upgrade, and <Link href="/our-services/dynamics-365-support-services/">support services for Dynamics 365 Sales</Link>.</p>
               </div>
               <div className="busine_service_bottom-right">
                 <div className="card_new_img">
@@ -485,7 +485,7 @@ const Sales = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>Enterprises can use <Link href="/products/microsoft-dynamics-365/"><a>Microsoft Dynamics 365</a></Link> to manage their end-to-end sales processes, automate their data, improve client experience, and eventually boost revenue generation. This sales management tool assists businesses in streamlining their sales and customer data, engaging clients when they are in need, and serving them a customized but high-quality offer.</p>
+                      <p>Enterprises can use <Link href="/products/microsoft-dynamics-365/">Microsoft Dynamics 365</Link> to manage their end-to-end sales processes, automate their data, improve client experience, and eventually boost revenue generation. This sales management tool assists businesses in streamlining their sales and customer data, engaging clients when they are in need, and serving them a customized but high-quality offer.</p>
                       <p>Dynamics 365 sales include pre-configured sales analytics that enables everyone involved in your sales campaigns to make effective decisions and drive productivity. Let us know if you want to see how Dynamics 365 can help you boost your sales, win new customers, and quickly complete transactions. Our experts can reveal to you an ideal sales management solution for your organization.</p>
                     </div>
                   </div>
@@ -507,7 +507,7 @@ const Sales = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                     <p>For the Dynamics Sales Enterprise plan, Dynamics 365 Sales is set to be executed both on-premises and in the <Link href="/products/azure-iot-internet-of-things/"><a>Azure cloud</a></Link>. When it comes to implementing a Sales Professional plan, only on-cloud facilitation is available.</p>
+                     <p>For the Dynamics Sales Enterprise plan, Dynamics 365 Sales is set to be executed both on-premises and in the <Link href="/products/azure-iot-internet-of-things/">Azure cloud</Link>. When it comes to implementing a Sales Professional plan, only on-cloud facilitation is available.</p>
                     </div>
                   </div>
                 </div>

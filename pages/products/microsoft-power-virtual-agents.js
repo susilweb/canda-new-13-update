@@ -126,7 +126,7 @@ const PowerVirtualAgents = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        <p>The <Link href="/products/microsoft-dynamics-365-ai/"><a>Microsoft AI for Power Virtual Agents</a></Link> is so powerful that it recommends the most-used topics for creating a chatbot so that you can simplify your existing complex processes. You can personalize these chatbots to offer a natural level of communication to the end user, making it a smart move for building credibility among potential clients.</p>
+                        <p>The <Link href="/products/microsoft-dynamics-365-ai/">Microsoft AI for Power Virtual Agents</Link> is so powerful that it recommends the most-used topics for creating a chatbot so that you can simplify your existing complex processes. You can personalize these chatbots to offer a natural level of communication to the end user, making it a smart move for building credibility among potential clients.</p>
                         <p>This tool offers data-driven insights to help you build the perfect app to enhance overall performance, resulting in a productive and efficient workforce.</p>
                       </div>
                     </div>
@@ -166,7 +166,7 @@ const PowerVirtualAgents = () => {
                     >
                       <div className="accordion-body">
                         <p>Chatbots let you automate most of the recurring tasks and enable you to take decisions based on fixed parameters. Once the chatbot is ready, you can deploy it or integrate it with the desired services.</p>
-                        <p>Even so, you can integrate other tools to enhance the performance of your bots. You can <Link href="/products/microsoft-power-automate/"><a>integrate Power Automate</a></Link> to create, edit, and manage automated workflows.</p>
+                        <p>Even so, you can integrate other tools to enhance the performance of your bots. You can <Link href="/products/microsoft-power-automate/">integrate Power Automate</Link> to create, edit, and manage automated workflows.</p>
                       </div>
                     </div>
                   </div>

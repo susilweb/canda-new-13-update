@@ -440,7 +440,7 @@ const MicrosoftDynamicsNAV = () => {
                   <p>Migrate your data & business processes to a modern ERP solution or upgrade your legacy/old Dynamics versions to their latest versions.</p>
                   <div className="action-content">
                     <Link href="/dynamics-nav-to-business-central/">
-                      <a>Get Started</a>
+                      Get Started
                     </Link>
                   </div>
                 </div>

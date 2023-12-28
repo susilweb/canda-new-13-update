@@ -312,9 +312,9 @@ const Erp = () => {
                 </p>
                 <div className="cltt-actt">
                   <Link href="/products/microsoft-dynamics-nav/">
-                  <a>
+                  
                     Learn More
-                  </a>
+                  
                   </Link>
                 </div>
               </div>
@@ -329,11 +329,7 @@ const Erp = () => {
                 Integrate Microsoft <b>Dynamics AX</b> (Axapta) with your finance and operations to increase transparency. Embedded with AI-based data-driven insights, this platform enables you to manage, automate, and roll out processes globally, whether on-premises or in the cloud.
                 </p>
                 <div className="cltt-actt">
-                  <Link href="/products/microsoft-dynamics-ax/">
-                  <a>
-                    Learn More
-                  </a>
-                  </Link>
+                  <Link href="/products/microsoft-dynamics-ax/">Learn More</Link>
                 </div>
               </div>
             </div>
@@ -357,11 +353,7 @@ const Erp = () => {
                 With <b>Microsoft Dynamics GP</b> (Great Plains), you can gain deep financial insights by using recent historical data combined with the current financial flow and involved strategies. Designed for small to mid-sized businesses, Dynamics GP streamlines accounting and financials to improve growth.
                 </p>
                 <div className="cltt-actt">
-                  <Link href="/products/microsoft-dynamics-gp/">
-                  <a>
-                    Learn More
-                  </a>
-                  </Link>
+                  <Link href="/products/microsoft-dynamics-gp/">Learn More</Link>
                 </div>
               </div>
             </div>

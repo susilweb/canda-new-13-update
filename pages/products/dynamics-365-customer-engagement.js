@@ -23,13 +23,13 @@ const Dynamics365CustomerEngagement = () => {
               </p>
               <div>
                 <div className="text-center text-lg-start">
-                 <Link href="#exampleModal">
-                 <a
+                 <Link href="#exampleModal"
+                 
                     data-bs-toggle="modal"
                     className="btn-get-started scrollto"
                   >
                     <span>Click For Demo</span>
-                  </a>
+                  
                  </Link>
                 </div>
               </div>
@@ -142,7 +142,7 @@ const Dynamics365CustomerEngagement = () => {
           <div className="col-lg-8 col-md-8">
           <header className="section-header">
             <h2>Why pick Dynamics Square as your partner for implementing Dynamics 365 Customer Engagement?</h2>
-            <p><Link href="/"><a>Dynamics Square in Canada</a></Link> - a trusted and certified <b>Microsoft Dynamics 365 Gold Partner</b> with 11+ years of industry experience & professionals at your service for simplified, stress-free, and exceptionally customized <Link href="/our-services/dynamics-365-support-services/">Dynamics 365 solutions and support</Link>.</p>
+            <p><Link href="/">Dynamics Square in Canada</Link> - a trusted and certified <b>Microsoft Dynamics 365 Gold Partner</b> with 11+ years of industry experience & professionals at your service for simplified, stress-free, and exceptionally customized <Link href="/our-services/dynamics-365-support-services/">Dynamics 365 solutions and support</Link>.</p>
           </header>
           </div></div>
           <div className="row pad15x">
@@ -173,7 +173,7 @@ const Dynamics365CustomerEngagement = () => {
                   </h3>
                 </div>
                 <div className="commen-boc-3-info">
-                  <p>With our 11+ years of experience implementing different <Link href="/products/microsoft-dynamics-365/"><a>Dynamics 365 modules</a></Link>, you get skilled and Microsoft-certified consultants you can trust.</p>
+                  <p>With our 11+ years of experience implementing different <Link href="/products/microsoft-dynamics-365/">Dynamics 365 modules</Link>, you get skilled and Microsoft-certified consultants you can trust.</p>
                 </div>
               </div>
             </div>
@@ -250,13 +250,13 @@ const Dynamics365CustomerEngagement = () => {
                 <h3>Ready to implement Dynamics 365 CE or is your current CRM partner not responding?</h3>
                 <p>Let our experts help you implement a modern CRM system based on the needs of your customers.</p>
                 <div className="text-center m-o-t new-btn-nn">
-                  <a
+                  <Link
                     data-bs-toggle="modal"
                     href="#exampleModal"
                     className="btn-get-started scrollto"
                   >
                     <span>Get In Touch</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -291,7 +291,7 @@ const Dynamics365CustomerEngagement = () => {
             <div className="col-lg-5 align-self-center">
               <div className="commen-rit-info">
                 <h3>Dynamics 365 Sales</h3>
-                <p>Maximize your revenue by understanding your customers using in-depth AI-based sales analytics in <Link href="/products/microsoft-dynamics-365-sales/"><a>Dynamics 365 Sales</a></Link>. </p>
+                <p>Maximize your revenue by understanding your customers using in-depth AI-based sales analytics in <Link href="/products/microsoft-dynamics-365-sales/">Dynamics 365 Sales</Link>. </p>
               </div>
             </div>
           </div>
@@ -301,7 +301,7 @@ const Dynamics365CustomerEngagement = () => {
               <div className="commen-rit-info">
                 <h3>Dynamics 365 Marketing</h3>
                 <p>
-                Engage and serve your customers in real-time through personalized experience using the intuitive interface of Dynamics 365 Customer Engagement - a unified and quickly adaptable user platform under the <Link href="/products/microsoft-dynamics-365-marketing/"><a>Dynamics 365 Marketing Module.</a>
+                Engage and serve your customers in real-time through personalized experience using the intuitive interface of Dynamics 365 Customer Engagement - a unified and quickly adaptable user platform under the <Link href="/products/microsoft-dynamics-365-marketing/">Dynamics 365 Marketing Module.
                 </Link></p>
               </div>
             </div>
@@ -331,7 +331,7 @@ const Dynamics365CustomerEngagement = () => {
             <div className="col-lg-5 align-self-center">
               <div className="commen-rit-info">
                 <h3>Dynamics 365 Customer Service</h3>
-                <p>Empower customers with self-service choices, help support agents swiftly answer customer concerns using <Link href="/products/microsoft-dynamics-365-ai/"><a>AI-powered insights</a></Link> and <Link href="/products/azure-iot-internet-of-things/"><a>optimize service operations with IoT solutions</a></Link>.</p>
+                <p>Empower customers with self-service choices, help support agents swiftly answer customer concerns using <Link href="/products/microsoft-dynamics-365-ai/">AI-powered insights</Link> and <Link href="/products/azure-iot-internet-of-things/">optimize service operations with IoT solutions</Link>.</p>
               </div>
             </div>
           </div>
@@ -340,7 +340,7 @@ const Dynamics365CustomerEngagement = () => {
             <div className="col-lg-5 align-self-center">
               <div className="commen-rit-info">
                 <h3>Dynamics 365 Field Service</h3>
-                <p>Provide a highly connected service experience with <Link href="/products/microsoft-dynamics-365-field-service/"><a>Dynamics 365 Field Service</a></Link> module and increase your staff's performance for enhanced service operations efficiency.</p>
+                <p>Provide a highly connected service experience with <Link href="/products/microsoft-dynamics-365-field-service/">Dynamics 365 Field Service</Link> module and increase your staff's performance for enhanced service operations efficiency.</p>
               </div>
             </div>
             <div className="col-lg-7 align-self-center">
@@ -389,7 +389,7 @@ const Dynamics365CustomerEngagement = () => {
                 </div>
                 <div className="style-grid-content">
                   <h3>Use Predictive Approach & Remain Productive</h3>
-                  <p>Harness predictive sales & marketing insights from <Link href="/products/microsoft-dynamics-365/"><a>Microsoft business apps</a></Link> to predict how to serve your customers better. </p>
+                  <p>Harness predictive sales & marketing insights from <Link href="/products/microsoft-dynamics-365/">Microsoft business apps</Link> to predict how to serve your customers better. </p>
                 </div>
               </div>
             </div>

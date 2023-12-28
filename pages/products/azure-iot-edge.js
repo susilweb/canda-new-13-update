@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link';
 
 const AzureIoTEdge = () => {
   return (
@@ -26,13 +27,13 @@ const AzureIoTEdge = () => {
               <p>Develop and deploy an enterprise-grade solution in any language to build an intelligent edge with Azure IoT Edge - a cloud intelligence to break up data silos and combine operational data sets at scale - all within the <b>Microsoft Cloud</b>.</p>
               <div>
                 <div className="text-center text-lg-start">
-                  <a
+                  <Link
                     data-bs-toggle="modal"
                     href="#exampleModal"
                     className="btn-get-started scrollto"
                   >
                     <span>Enable the intelligent edge today!</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -271,13 +272,13 @@ const AzureIoTEdge = () => {
                 <h3>Build the most advanced and secure ecosystem with Azure IoT</h3>
                 <p>Develop industry-specific Azure IoT solutions and secure your environment with our Azure IoT Edge solutions.</p>
                 <div className="text-center m-o-t new-btn-nn">
-                  <a
+                  <Link
                     data-bs-toggle="modal"
                     href="#exampleModal"
                     className="btn-get-started scrollto"
                   >
                     <span>Talk to our Experts today!</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

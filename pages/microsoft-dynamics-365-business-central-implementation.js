@@ -28,13 +28,12 @@ const BusinessCentralImplementation = () => {
               </p>
               <div>
                 <div className="text-center text-lg-start">
-                  <Link href="#exampleModal">
-                    <a
+                  <Link href="#exampleModal" 
                       data-bs-toggle="modal"
                       className="btn-get-started scrollto"
                     >
                       <span>Talk to Expert</span>
-                    </a>
+         
                   </Link>
                 </div>
               </div>
@@ -68,7 +67,7 @@ const BusinessCentralImplementation = () => {
                 <p>
                   <b>Microsoft Dynamics 365 Business Central</b> (earlier,{" "}
                   <Link href="/products/microsoft-dynamics-nav/">
-                    <a>Dynamics NAV</a>
+                  Dynamics NAV
                   </Link>{" "}
                   or Navision) is a cloud ERP system that offers you a range of
                   features to help small and medium-sized businesses (SMBs) like
@@ -76,7 +75,7 @@ const BusinessCentralImplementation = () => {
                   business while improving productivity. These features include{" "}
                   <b>financial, supply chain,</b> project, and{" "}
                   <Link href="/products/microsoft-dynamics-365-sales/">
-                    <a>sales & service management</a>
+                    sales & service management
                   </Link>
                   . With <b>Business Central</b>, you can easily automate
                   routine tasks, reduce manual data entry, and get a 360-degree
@@ -107,7 +106,7 @@ const BusinessCentralImplementation = () => {
               <div className="custom-p-001 custom-p-003">
                 <p>
                   <Link href="https://www.dynamicssquare.ca/products/dynamics-365-business-central/">
-                    <a>Business Central ERP</a>
+                    Business Central ERP
                   </Link>{" "}
                   is Fully Integrable and Customizable, an ideal choice for SMBs
                   looking for a comprehensive ERP system.
@@ -120,7 +119,7 @@ const BusinessCentralImplementation = () => {
                   business needs and integrate it with other Microsoft tools,
                   such as{" "}
                   <Link href="/products/microsoft-power-bi/">
-                    <a>Power BI</a>
+                  Power BI
                   </Link>{" "}
                   and Office 365, to provide you with a complete business
                   solution. With the latest release wave 1 for 2023, Business
@@ -158,13 +157,11 @@ const BusinessCentralImplementation = () => {
                   Customization.
                 </p>
                 <div className="text-center m-o-t new-btn-nn">
-                  <Link href="#exampleModal">
-                    <a
+                  <Link href="#exampleModal" 
                       data-bs-toggle="modal"
                       className="btn-get-started scrollto"
                     >
                       <span>Get In Touch</span>
-                    </a>
                   </Link>
                 </div>
               </div>
@@ -184,7 +181,7 @@ const BusinessCentralImplementation = () => {
                 </h2>
                 <p>
                   <Link href="/">
-                    <a>Dynamics Square</a>
+                  Dynamics Square
                   </Link>{" "}
                   is a Trusted Silver and{" "}
                   <b>
@@ -214,7 +211,7 @@ const BusinessCentralImplementation = () => {
                     <p>
                       Get a complete view of your{" "}
                       <Link href="/products/microsoft-dynamics-365-finance-operations/">
-                        <a>financial operations</a>
+                      financial operations
                       </Link>
                       , including customer insights, inventory management,
                       accounting, purchasing, budget analysis, and reporting &
@@ -272,7 +269,7 @@ const BusinessCentralImplementation = () => {
                   <div className="overlay">
                     <p>
                       <Link href="/products/dynamics-365-supply-chain-management/">
-                        <a>Optimize your supply chain</a>
+                        Optimize your supply chain
                       </Link>{" "}
                       with <b> Business Central's</b> real-time monitoring &
                       AI-powered insights. Get a clear view of your entire
@@ -296,7 +293,7 @@ const BusinessCentralImplementation = () => {
                       leverage real-time AI insights displayed on your
                       dashboards. Customize your{" "}
                       <Link href="/products/dynamics-365-business-central/">
-                        <a>Dynamics 365 Business Central with Microsoft</a>
+                        Dynamics 365 Business Central with Microsoft
                       </Link>{" "}
                       tools & business applications for quick query response
                       within Microsoft Teams & Outlook.
@@ -469,13 +466,13 @@ const BusinessCentralImplementation = () => {
 
             <div className="col-lg-12 col-md-12">
               <div className="price-btn d-flex justify-content-center">
-                <a
+                <Link
                   data-bs-toggle="modal"
                   href="#exampleModal"
                   className="btn-get-red"
                 >
                   <span>Get Started Now</span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -532,7 +529,7 @@ const BusinessCentralImplementation = () => {
                       </p>
                       <p>
                         <Link href="/contact-us/">
-                          <a>Contact us for more information.</a>
+                          Contact us for more information.
                         </Link>
                       </p>
                     </div>
@@ -572,7 +569,7 @@ const BusinessCentralImplementation = () => {
                       <p>
                         To learn more,{" "}
                         <Link href="/schedule-a-demo/">
-                          <a>book a free Business Central demo</a>
+                        book a free Business Central demo
                         </Link>{" "}
                         by calling +1 289 807 0740.
                       </p>
@@ -614,7 +611,7 @@ const BusinessCentralImplementation = () => {
                       <p>
                         To learn more and see{" "}
                         <Link href="https://blog.dynamicssquare.ca/dynamics-365-business-central-benefits-2023/">
-                          <a>how Business Central can benefit your business</a>
+                        how Business Central can benefit your business
                         </Link>
                         , contact us at +1 289 807 0740.
                       </p>
@@ -650,7 +647,7 @@ const BusinessCentralImplementation = () => {
                         Contact our experts to learn more about the timeline for
                         your business-centric project. Take an{" "}
                         <Link href="https://blog.dynamicssquare.ca/dynamics-365-business-central-overview/">
-                          <a>Overview of Dynamics 365 Business Central</a>
+                        Overview of Dynamics 365 Business Central
                         </Link>
                         .
                       </p>
@@ -678,7 +675,7 @@ const BusinessCentralImplementation = () => {
                       <p>
                         Implementing{" "}
                         <Link href="/products/microsoft-dynamics-365/">
-                          <a>Microsoft Dynamics 365</a>
+                          Microsoft Dynamics 365
                         </Link>{" "}
                         is a seamless process that can be performed via the
                         following phases:
@@ -694,7 +691,7 @@ const BusinessCentralImplementation = () => {
                         To ensure a successful implementation, it's important to
                         connect with an authorized{" "}
                         <Link href="/">
-                          <a>Microsoft Gold Partner</a>
+                        Microsoft Gold Partner
                         </Link>{" "}
                         like <b>Dynamics Square</b>. We offer seamless Business
                         Central implementation at competitive costs, with expert
@@ -703,7 +700,7 @@ const BusinessCentralImplementation = () => {
                       <p>
                         If you need{" "}
                         <Link href="/our-services/dynamics-365-implementation-services/">
-                          <a>Dynamics 365 Implementation Services</a>
+                          Dynamics 365 Implementation Services
                         </Link>
                         , discuss your requirements with{" "}
                         <b>Dynamics 365 experts at Dynamics Square</b> - your

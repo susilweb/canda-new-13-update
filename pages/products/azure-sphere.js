@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link';
 
 const AzureSphere = () => {
   return (
@@ -26,13 +27,13 @@ const AzureSphere = () => {
               <p>Securely build, connect, manage, and protect new and existing smart devices with the most secured IoT app-building platform - Azure Sphere.</p>
               <div>
                 <div className="text-center text-lg-start">
-                  <a
+                  <Link
                     data-bs-toggle="modal"
                     href="#exampleModal"
                     className="btn-get-started scrollto"
                   >
                     <span>Start Building IoT Apps Today!</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -266,13 +267,13 @@ const AzureSphere = () => {
                 <h3>Want to See Microsoft's 360-Degree Industrial Internet Security In Action?</h3>
                 <p>Get in touch with our Azure IoT solutions to simplify your IoT at scale and build critical infrastructure services of the future with us</p>
                 <div className="text-center m-o-t new-btn-nn">
-                  <a
+                  <Link
                     data-bs-toggle="modal"
                     href="#exampleModal"
                     className="btn-get-started scrollto"
                   >
                     <span>Book a Callback</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

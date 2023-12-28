@@ -69,7 +69,7 @@ const FieldService = () => {
             <div className="col-lg-9 col-md-9">
             <header className="section-header">
             <h2>What is Dynamics 365 Field Service?</h2>
-            <p><b>Field Service</b> employees strive for better response time, accurate data, effective communication, and less hectic collaboration. <b>Microsoft's Dynamics 365 for field Service</b> does the same by helping you become more proactive than reactive. It uses real-time data insights for highly connected field service experience. As a <Link href="/"><a>Microsoft Dynamics 365 Gold Partner</a></Link>, we help you implement this next-gen field service app to seamlessly:</p>
+            <p><b>Field Service</b> employees strive for better response time, accurate data, effective communication, and less hectic collaboration. <b>Microsoft's Dynamics 365 for field Service</b> does the same by helping you become more proactive than reactive. It uses real-time data insights for highly connected field service experience. As a <Link href="/">Microsoft Dynamics 365 Gold Partner</Link>, we help you implement this next-gen field service app to seamlessly:</p>
           </header>
             </div>
           </div>
@@ -282,7 +282,7 @@ const FieldService = () => {
                       View 
                       </h3>
                       <div className="overlay">
-                        <p>Enhance customer service with <b>Dynamics 365's</b> combined capabilities in <Link href="/products/dynamics-365-supply-chain-management/"><a>Supply Chain Management</a></Link> and <b>Field Service</b>.</p>
+                        <p>Enhance customer service with <b>Dynamics 365's</b> combined capabilities in <Link href="/products/dynamics-365-supply-chain-management/">Supply Chain Management</Link> and <b>Field Service</b>.</p>
                       </div>
                     </div>
                   </div>
@@ -512,8 +512,8 @@ const FieldService = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                     <p>Dynamics 365 suite of business apps is a pack of <Link href="/products/microsoft-dynamics-erp/"><a>powerful ERP (Enterprise Resource Planning)</a></Link>, <Link href="/products/microsoft-dynamics-crm/"><a>CRM (Customer Relationship Management)</a></Link>, and data visualization tools like <Link href="/products/microsoft-power-bi/"><a>Power BI (Business Intelligence)</a></Link>.</p>
-                     <p>Like SAP (System Analysis Program), Microsoft has been investing in advanced technologies like AI/ML, IoT, AR/VR, MR (Mixed Reality), and other intelligent technologies. The goal is to provide users with robust data security, 99% or above uptime SLAs (Service level agreements), and all-time phone/web support. You can <Link href="/contact-us/"><a>contact Dynamics Square for a free demo</a></Link> or discuss your requirements with our Microsoft consultants.</p>
+                     <p>Dynamics 365 suite of business apps is a pack of <Link href="/products/microsoft-dynamics-erp/">powerful ERP (Enterprise Resource Planning)</Link>, <Link href="/products/microsoft-dynamics-crm/">CRM (Customer Relationship Management)</Link>, and data visualization tools like <Link href="/products/microsoft-power-bi/">Power BI (Business Intelligence)</Link>.</p>
+                     <p>Like SAP (System Analysis Program), Microsoft has been investing in advanced technologies like AI/ML, IoT, AR/VR, MR (Mixed Reality), and other intelligent technologies. The goal is to provide users with robust data security, 99% or above uptime SLAs (Service level agreements), and all-time phone/web support. You can <Link href="/contact-us/">contact Dynamics Square for a free demo</Link> or discuss your requirements with our Microsoft consultants.</p>
                     </div>
                   </div>
                 </div>
@@ -540,7 +540,7 @@ const FieldService = () => {
                      <p><b>Step-4</b> Click on 'Purchase Services'</p>
                      <p><b>Step-5</b> Select 'Dynamics 365 Field Service'</p>
                      <p><b>Step-6</b> Click on 'buy your plan'</p>
-                     <p>When your installation process is completed, all apps will appear on your screen - 'Field Service' and 'Field Service Mobile.' You will be prompted for further instructions via your registered email. In case you find yourself in doubt, let Dynamics Square consultants know. <Link href="/contact-us/"><a>Click here</a></Link> to contact us.</p>
+                     <p>When your installation process is completed, all apps will appear on your screen - 'Field Service' and 'Field Service Mobile.' You will be prompted for further instructions via your registered email. In case you find yourself in doubt, let Dynamics Square consultants know. <Link href="/contact-us/">Click here</Link> to contact us.</p>
                      <p>Finally, begin configuring/setting up your apps for your frontline employees, and enable and help them to create schedules, access, and complete work requests proactively when they are in the field.</p>
                     </div>
                   </div>

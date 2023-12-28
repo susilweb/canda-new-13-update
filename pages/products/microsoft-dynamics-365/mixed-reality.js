@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Head from 'next/head'
 import ModalVideo from "react-modal-video";
+import Link from "next/link";
 const MicrosoftDynamics365MixedReality = () => {
   const [isOpen, setOpen] = useState(false);
   const [open, setsOpen] = useState(false);
@@ -40,13 +41,13 @@ const MicrosoftDynamics365MixedReality = () => {
               </p>
               <div>
                 <div className="text-center text-lg-start">
-                  <a
+                  <Link
                     data-bs-toggle="modal"
                     href="#exampleModal"
                     className="btn-get-started scrollto"
                   >
                     <span>Click Here For Demo</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -299,7 +300,7 @@ const MicrosoftDynamics365MixedReality = () => {
                   />
                   <div className="video-ytube video-ytubes">
                     <div className="popup-btn popup-btns">
-                      <a
+                      <Link
                         href="#javascript:void(0)"
                         onClick={() => setOpen(true)}
                       >
@@ -313,7 +314,7 @@ const MicrosoftDynamics365MixedReality = () => {
                             alt="play_icons"
                           />
                         </span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -336,8 +337,8 @@ const MicrosoftDynamics365MixedReality = () => {
                   <p>Embrace Mixed Reality to unlock new business opportunities with our Implementation. 
                   </p>
                   <div className="action-content">
-                  <a data-bs-toggle="modal"
-                    href="#exampleModal">Get Started</a>
+                  <Link data-bs-toggle="modal"
+                    href="#exampleModal">Get Started</Link>
                   </div>
                 </div>
               </div>
@@ -353,8 +354,8 @@ const MicrosoftDynamics365MixedReality = () => {
                   <p>Upgrade your existing system capabilities to drive an effective and scalable Mixed Reality approach.
                   </p>
                   <div className="action-content">
-                  <a data-bs-toggle="modal"
-                    href="#exampleModal">Get Started</a>
+                  <Link data-bs-toggle="modal"
+                    href="#exampleModal">Get Started</Link>
                   </div>
                 </div>
               </div>
@@ -371,8 +372,8 @@ const MicrosoftDynamics365MixedReality = () => {
                   Drive continuity and growth in your business with our dedicated Mixed Reality support system. 
                   </p>
                   <div className="action-content">
-                  <a data-bs-toggle="modal"
-                    href="#exampleModal">Get Started</a>
+                  <Link data-bs-toggle="modal"
+                    href="#exampleModal">Get Started</Link>
                   </div>
                 </div>
               </div>
@@ -389,13 +390,13 @@ const MicrosoftDynamics365MixedReality = () => {
                 <p>Discuss how smartly you can drive growth with our Mixed Reality services. 
                 </p>
                 <div className="text-center m-o-t new-btn-nn">
-                  <a
+                  <Link
                     data-bs-toggle="modal"
                     href="#exampleModal"
                     className="btn-get-started scrollto"
                   >
                     <span>Get In Touch </span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

@@ -51,7 +51,7 @@ const SystemHealth = () => {
             <h2>
             Strategic Need of  Dynamics ERP/CRM Health Check</h2>
             <p>
-            Availing of advanced <Link  href="/products/microsoft-dynamics-erp/"><a>ERP/CRM implementation</a></Link> or functional configuration may not always help enterprises to support their ongoing workflow. Defining your customized business processes and current operational flow, you require your domain-specific solution to strategically operate, drive, and grow high.<br /><br />At Dynamics Square, we provide free system health check wherein we understand your actual process flow and reveal not just your current system upgrading needs even supporting your continuously changing operational flow. Here is what we serve in terms of System Health Check.</p>
+            Availing of advanced <Link  href="/products/microsoft-dynamics-erp/">ERP/CRM implementation</Link> or functional configuration may not always help enterprises to support their ongoing workflow. Defining your customized business processes and current operational flow, you require your domain-specific solution to strategically operate, drive, and grow high.<br /><br />At Dynamics Square, we provide free system health check wherein we understand your actual process flow and reveal not just your current system upgrading needs even supporting your continuously changing operational flow. Here is what we serve in terms of System Health Check.</p>
           </header>
             </div>
           </div>

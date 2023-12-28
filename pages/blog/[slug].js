@@ -2,6 +2,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import Script from "next/script";
+import Image from "next/image";
 import parse from "html-react-parser";
 import { useRouter } from 'next/router';
 import BlogSubscriberForm from "../../components/BlogSubscriberForm";
@@ -68,12 +69,12 @@ type="application/ld+json"
                         <ol className="breadcrumb">
                           <li className="breadcrumb-item">
                             <Link href="/">
-                              <a>Home</a>
+                              Home
                             </Link>
                           </li>
                           <li className="breadcrumb-item">
                             <Link href="/blog/">
-                              <a>Blog</a>
+                              Blog
                             </Link>
                           </li>
                           <li className="breadcrumb-item active">
@@ -107,9 +108,9 @@ type="application/ld+json"
                               </a>
                             </span>
                             <span className="cate">
-                            <Link href={`/blog/category/${item.category_slug}`}><a>
+                            <Link href={`/blog/category/${item.category_slug}`}>
                             <i className="bi bi-app"></i> {item.category}
-                          </a></Link>
+                          </Link>
                             </span>
                           </div>
 
@@ -155,7 +156,7 @@ type="application/ld+json"
                         <div><em>Tags</em>:
                         <>
                           {item.meta_tags?.split(',').map((item2,i) => (
-                          <Link href={`/blog/tag/${item2.split(" ").join("-")}`} key={i}><a><span className="blog-tagged">{item2.charAt(0).toUpperCase() + item2.slice(1)}</span></a></Link>
+                          <Link href={`/blog/tag/${item2.split(" ").join("-")}`} key={i}><span className="blog-tagged">{item2.charAt(0).toUpperCase() + item2.slice(1)}</span></Link>
 
                           ))}
                           
@@ -197,14 +198,15 @@ type="application/ld+json"
                           authordetials.map((author, i) => (
                             <div className="author-side-head" key={i}>
                               <div className="left">
-                                <img
+                                <Image
                                   src={author.profile_photo_path}
                                   alt="bg-pic"
+                                  width={74} height={74}
                                 />
                                 <span className="link-din"><a href={author.linkedin_url} target="_blank"> <i className="bi bi-linkedin"></i></a></span>
                               </div>
                               <div className="right">
-                               <Link href={`/blog/author/${author.name.split(" ").join("-")}`}><a><span>{author.name}</span></a></Link>
+                               <Link href={`/blog/author/${author.name.split(" ").join("-")}`}><span>{author.name}</span></Link>
                                <p>{author.about}</p>
                               </div>
                             </div>
@@ -216,8 +218,8 @@ type="application/ld+json"
                   </div>
                   <div className="col-lg-4">
                     <div className="prom-bann">
-                      <Link href="https://www.dynamicssquare.ca/schedule-a-demo/"><a style={{display:'block',marginBottom:'20px'}}><img src="/img/blog-side-pic-1.png" alt="blog-side-pic-1" /></a></Link>
-                      <Link href="https://www.dynamicssquare.ca/case-studies/nav13-to-d365-business-central-upgrade/"><a><img src="/img/blog-side-pic-2.png" alt="blog-side-pic-2" /></a></Link>
+                      <Link href="https://www.dynamicssquare.ca/schedule-a-demo/" style={{display:'block',marginBottom:'20px'}}><img src="/img/blog-side-pic-1.png" alt="blog-side-pic-1" /></Link>
+                      <Link href="https://www.dynamicssquare.ca/case-studies/nav13-to-d365-business-central-upgrade/"><img src="/img/blog-side-pic-2.png" alt="blog-side-pic-2" /></Link>
                     </div>
                   </div>
                 </div>
@@ -233,15 +235,15 @@ type="application/ld+json"
                         <div className="blogs-lates blogs-lates-repet">
                           <h3>
                             <Link href={`/blog/${item1.title_slug}`}>
-                              <a>{item1.title}</a>
+                              {item1.title}
                             </Link>
                           </h3>
                           <div className="blogs-info-list">
                             <span className="user">
-                            <Link href={`/blog/author/${item1.author.split(" ").join("-")}`}><a>
+                            <Link href={`/blog/author/${item1.author.split(" ").join("-")}`}>
                             <i className="bi bi-person-circle"></i>{" "}
                             {item1.author}
-                          </a></Link>
+                          </Link>
                             </span>
                             <span className="date">
                               <a>
@@ -256,9 +258,9 @@ type="application/ld+json"
                               </a>
                             </span>
                             <span className="cate">
-                            <Link href={`/blog/category/${item.category_slug}`}><a>
+                            <Link href={`/blog/category/${item.category_slug}`}>
                             <i className="bi bi-app"></i> {item.category}
-                          </a></Link>
+                          </Link>
                             </span>
                           </div>
                           <div className="b-card-info">

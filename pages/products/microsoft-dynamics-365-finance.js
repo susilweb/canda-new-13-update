@@ -237,7 +237,7 @@ const Finance = () => {
                       </h3>
                       <div className="overlay">
                         <p>
-                        Integrating Microsoft's Dynamics 365 Finance helps you streamline your business ops is a decisive move. This cloud <Link href="/products/microsoft-dynamics-erp/"><a>ERP Solution</a></Link> assists you monitor cash flows, forecast profit margins, report generating, and lot more.  capabilities. 
+                        Integrating Microsoft's Dynamics 365 Finance helps you streamline your business ops is a decisive move. This cloud <Link href="/products/microsoft-dynamics-erp/">ERP Solution</Link> assists you monitor cash flows, forecast profit margins, report generating, and lot more.  capabilities. 
                         </p>
                       </div>
                     </div>
@@ -536,7 +536,7 @@ const Finance = () => {
                       <p>Though this cloud-based enterprise resource planning ERP software is known as Finance & Operations or F&O, Microsoft technically disintegrated D365 F&O into two different apps:</p>
                       <p><b>Dynamics 365 Finance:</b> With the license for this app, you can manage budgeting, project management, financials, and accounting.</p>
                       <p><b>Dynamics 365 Supply Chain Management:</b> Purchasing a license for this application will assist you in engineering, manufacturing, warehousing, and distribution.</p>
-                      <p><b>Note-1:</b> Dynamics 365 Finance and <Link href="/products/dynamics-365-supply-chain-management/"><a>Dynamics 365 Supply Chain Management</a></Link> are implemented simultaneously. It is up to the companies to choose whether they want individual users to access one or both apps. Your <Link href="/dynamics-365-business-central-erp-system-implementation/"><a>Dynamics 365 Implementation partner</a></Link> can help you choose the right arrangement of licenses for you. </p>
+                      <p><b>Note-1:</b> Dynamics 365 Finance and <Link href="/products/dynamics-365-supply-chain-management/">Dynamics 365 Supply Chain Management</Link> are implemented simultaneously. It is up to the companies to choose whether they want individual users to access one or both apps. Your <Link href="/dynamics-365-business-central-erp-system-implementation/">Dynamics 365 Implementation partner</Link> can help you choose the right arrangement of licenses for you. </p>
                       <p><b>Note-2:</b> Earlier, Dynamics 365 F&O was known as Dynamics AX. It was mainly deployed on-premises, while D365 F&O was mostly on the cloud. Because of no continuous support from Microsoft, many Dynamics AX users are migrating to Finance & Operations/Dynamics 365 Finance. </p>
                     </div>
                   </div>
@@ -558,7 +558,7 @@ const Finance = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>Microsoft made significant updates and transformed Microsoft Dynamics 365 Finance and Operations into "Dynamics 365 Finance" and "<Link href="dynamics-365-supply-chain-management"><a>Dynamics 365 Supply Chain</a></Link>", respectively. Enterprises can provide their financial procedures with a smooth yet expedited flow via the Dynamics 365 Finance model.</p>
+                      <p>Microsoft made significant updates and transformed Microsoft Dynamics 365 Finance and Operations into "Dynamics 365 Finance" and "<Link href="dynamics-365-supply-chain-management">Dynamics 365 Supply Chain</Link>", respectively. Enterprises can provide their financial procedures with a smooth yet expedited flow via the Dynamics 365 Finance model.</p>
                       <p>Dynamics 365 Finance can be customized in accordance with your unique processes and can help improve the company's process flows and manage your end-to-end procedures. Besides that, it can also be coupled with any other third-party apps or your current system to effectively assist your financial practices and promote easier operations throughout your finance department and beyond.</p>
                     </div>
                   </div>
@@ -577,7 +577,7 @@ const Finance = () => {
                     className="accordion-collapse collapse"
                     data-bs-parent="#faqlist1"
                   >
-                    <div className="accordion-body"><p><Link href="/products/microsoft-dynamics-365/"><a>Microsoft Dynamics 365</a></Link> is a comprehensive solution created to assist contemporary financial practices in today's well-equipped businesses that operate internationally while contending with intense industry rivalry. Hence, businesses may incur setup fees of $180 per user per month for the first Dynamics 365 app and $30 for each additional eligible Dynamics 365 app. To find out more about the license for Dynamics 365 Finance, <Link href="/contact-us/"><a>get in touch with our experts</a></Link>.</p></div>
+                    <div className="accordion-body"><p><Link href="/products/microsoft-dynamics-365/">Microsoft Dynamics 365</Link> is a comprehensive solution created to assist contemporary financial practices in today's well-equipped businesses that operate internationally while contending with intense industry rivalry. Hence, businesses may incur setup fees of $180 per user per month for the first Dynamics 365 app and $30 for each additional eligible Dynamics 365 app. To find out more about the license for Dynamics 365 Finance, <Link href="/contact-us/">get in touch with our experts</Link>.</p></div>
                   </div>
                 </div>
                 <div className="accordion-item">

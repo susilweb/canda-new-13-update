@@ -97,7 +97,7 @@ const Marketing = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                       <p>Integrate different Microsoft apps like Teams, <Link href="/products/microsoft-power-bi/"><a>Power BI</a></Link>, Outlook, Excel, and <Link href="/products/microsoft-dynamics-365-ai/"><a>Artificial Intelligence</a></Link> to understand more about your employees, customers, and partners while delivering out-of-the-box experiences.</p>
+                       <p>Integrate different Microsoft apps like Teams, <Link href="/products/microsoft-power-bi/">Power BI</Link>, Outlook, Excel, and <Link href="/products/microsoft-dynamics-365-ai/">Artificial Intelligence</Link> to understand more about your employees, customers, and partners while delivering out-of-the-box experiences.</p>
                       </div>
                     </div>
                   </div>
@@ -593,7 +593,7 @@ const Marketing = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                     <p><Link href="/products/microsoft-dynamics-365/"><a>Microsoft Dynamics 365</a></Link> is a suite of cloud-based next-gen business apps that include various CRM, ERP modules and different productivity tools or add-ons.</p>
+                     <p><Link href="/products/microsoft-dynamics-365/">Microsoft Dynamics 365</Link> is a suite of cloud-based next-gen business apps that include various CRM, ERP modules and different productivity tools or add-ons.</p>
                     </div>
                   </div>
                 </div>

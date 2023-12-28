@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link';
 
 const AzureIoTCentral = () => {
   return (
@@ -27,13 +28,13 @@ const AzureIoTCentral = () => {
               <p>Connect, manage, and operate fleets of devices at scale with Azure IoT Central - an application platform as a Service (aPaaS) that gives you ready-to-use UI (User Interface) and API (Application Programming Interface) surface to quickly develop IoT Solutions.</p>
               <div>
                 <div className="text-center text-lg-start">
-                  <a
+                  <Link
                     data-bs-toggle="modal"
                     href="#exampleModal"
                     className="btn-get-started scrollto"
                   >
                     <span>Begin IoT Solutions Development Today!</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -279,13 +280,13 @@ const AzureIoTCentral = () => {
                 <h3>Want to automate device updates for your devices, or look for a solution that can provide you with a big picture by analyzing every little detail?</h3>
                 <p>Use IoT Central's built-in scheduling engine to configure and update devices on your schedule and at scale and drill into your data to find data anomalies and view the big picture using Data Explorer.</p>
                 <div className="text-center m-o-t new-btn-nn">
-                  <a
+                  <Link
                     data-bs-toggle="modal"
                     href="#exampleModal"
                     className="btn-get-started scrollto"
                   >
                     <span>Get In Touch!</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -411,7 +412,7 @@ const AzureIoTCentral = () => {
                     <div className="accordion-body">
                     If are willing to use the Azure IoT central for the very first time, you can enjoy 7-days of free trial that comes with the standard messaging size of 4KB. Later, you can continue using it by subscribing to its standard plans and that could be requirement specific. Out of the three available plans, you can continue your services either with Standard Tier 0, Standard Tier 1, or Standard Tier 2. Consult with our experts for plans and pricing suited to your exact IoT environmental needs.
 
-                    See Also - <a href="/products/azure-iot-edge/">Azure IoT Edge</a>
+                    See Also - <Link href="/products/azure-iot-edge/">Azure IoT Edge</Link>
                     </div>
                   </div>
                 </div>

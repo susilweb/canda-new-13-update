@@ -43,7 +43,7 @@ setProgress(600)
         <LoadingBar
       color='#bb2b36'
       progress={progress}
-      waitingTime={400}
+      waitingTime={600}
       height={2}
       onLoaderFinished={() => setProgress(0)}
       />
@@ -58,7 +58,7 @@ setProgress(600)
     <LoadingBar
       color='#bb2b36'
       progress={progress}
-      waitingTime={400}
+      waitingTime={600}
       height={2}
       onLoaderFinished={() => setProgress(0)}
       />

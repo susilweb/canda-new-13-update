@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Head from 'next/head'
 import ModalVideo from "react-modal-video";
+import Link from "next/link";
 const AzureIoT = () => {
   const [isOpen, setOpen] = useState(false);
   const [open, setsOpen] = useState(false);
@@ -36,13 +37,13 @@ const AzureIoT = () => {
               <p>Enable secure, scalable, and open edge-to-cloud solutions for your business and turn your vision into reality with Azure IoT and Microsoft Cloud.</p>
               <div>
                 <div className="text-center text-lg-start">
-                  <a
+                  <Link
                     data-bs-toggle="modal"
                     href="#exampleModal"
                     className="btn-get-started scrollto"
                   >
                     <span>Get Started</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -411,7 +412,7 @@ const AzureIoT = () => {
                   />
                   <div className="video-ytube video-ytubes">
                     <div className="popup-btn popup-btns">
-                      <a
+                      <Link
                         href="#javascript:void(0)"
                         onClick={() => setOpen(true)}
                       >
@@ -422,7 +423,7 @@ const AzureIoT = () => {
                             alt="play_icons"
                           />
                         </span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -444,9 +445,9 @@ const AzureIoT = () => {
                   <h3>Implementation</h3>
                   <p>Implement the latest tech ecosystem in the industry and take advantage by automating operations with Microsoft's edge AI.</p>
                   <div className="action-content">
-                    <a data-bs-toggle="modal" href="#exampleModal">
+                    <Link data-bs-toggle="modal" href="#exampleModal">
                       Get Started
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -461,9 +462,9 @@ const AzureIoT = () => {
                   <h3>Upgrade</h3>
                   <p>Get your IoT devices upgraded to their newest best-in-class software and secure your business operations environment.</p>
                   <div className="action-content">
-                    <a data-bs-toggle="modal" href="#exampleModal">
+                    <Link data-bs-toggle="modal" href="#exampleModal">
                       Get Started
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -478,9 +479,9 @@ const AzureIoT = () => {
                   <h3>Support</h3>
                   <p>Businesses are already benefiting from our digital twins, mixed reality, & autonomous systems support services. Start yours today.</p>
                   <div className="action-content">
-                    <a data-bs-toggle="modal" href="#exampleModal">
+                    <Link data-bs-toggle="modal" href="#exampleModal">
                       Get Started
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -496,13 +497,13 @@ const AzureIoT = () => {
                 <h3>Discover the Right IoT & IIoT Approach for Your Business</h3>
                 <p>Fine-tune your services with Dynamics Square's help and control your overall costs.</p>
                 <div className="text-center m-o-t new-btn-nn">
-                  <a
+                  <Link
                     data-bs-toggle="modal"
                     href="#exampleModal"
                     className="btn-get-started scrollto"
                   >
                     <span>Get In Touch</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

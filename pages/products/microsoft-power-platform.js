@@ -50,7 +50,7 @@ const PowerPlatform = () => {
             <div className='col-lg-8'>
             <header className="section-header">
             <h2>What Is a Power Platform?</h2>
-            <p>The Microsoft Power Platform is a group of five powerful applications to help you build a sustainable business by simplifying complex processes using different applications. <Link href="/products/microsoft-power-bi/"><a>Power BI</a></Link>, <b>Power Apps, Power Pages,</b> <Link href="/products/microsoft-power-automate/"><a>Power Automate</a></Link>, and <Link href="/products/microsoft-power-virtual-agents/"><a>Power Virtual Agents</a></Link> are all part of it. These applications let the user harness the full potential of processes and data to run the business efficiently.</p>
+            <p>The Microsoft Power Platform is a group of five powerful applications to help you build a sustainable business by simplifying complex processes using different applications. <Link href="/products/microsoft-power-bi/">Power BI</Link>, <b>Power Apps, Power Pages,</b> <Link href="/products/microsoft-power-automate/">Power Automate</Link>, and <Link href="/products/microsoft-power-virtual-agents/">Power Virtual Agents</Link> are all part of it. These applications let the user harness the full potential of processes and data to run the business efficiently.</p>
           </header>
             </div>
           </div>
@@ -90,7 +90,7 @@ const PowerPlatform = () => {
                   <strong>Create business apps with no codes</strong>
                 </p>
                 <p>
-                If you want to build a complex business application but don't want to code for it, <Link href="/products/microsoft-power-apps/"><a>Microsoft Power Apps</a></Link> would be a life-saving solution for you. You can create applications without any coding knowledge in a fast and agile way. Also, you can easily develop applications from scratch using predefined templates or formats. 
+                If you want to build a complex business application but don't want to code for it, <Link href="/products/microsoft-power-apps/">Microsoft Power Apps</Link> would be a life-saving solution for you. You can create applications without any coding knowledge in a fast and agile way. Also, you can easily develop applications from scratch using predefined templates or formats. 
                 </p>
                 <div className="cltt-actt">
                   <a href="/products/microsoft-power-apps/">Get Started</a>
@@ -211,7 +211,7 @@ const PowerPlatform = () => {
                   >
                     <div className="accordion-body">
                       <p>Power Platform is a highly productive tool for companies that encourage digital skills throughout their organization to build solutions through intuitive low-code or no-code services.</p>
-                      <p>By integrating Power Platform apps built by your team with <Link href="/products/microsoft-dynamics-365/"><a>Microsoft Dynamics 365</a></Link>, or <Link href="/products/microsoft-azure/"><a>Azure</a></Link>, organizations can break down traditional data silos and move toward digital success.</p>
+                      <p>By integrating Power Platform apps built by your team with <Link href="/products/microsoft-dynamics-365/">Microsoft Dynamics 365</Link>, or <Link href="/products/microsoft-azure/">Azure</Link>, organizations can break down traditional data silos and move toward digital success.</p>
                     </div>
                   </div>
                 </div>
@@ -230,7 +230,7 @@ const PowerPlatform = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>Power Apps is a platform for creating applications that is a part of <b>Microsoft Power Platform</b> and utilizes <b>Azure cloud services</b>. All <b>Dynamics 365 applications</b> — <Link href="/products/microsoft-dynamics-365-sales/"><a></a></Link>, <Link href="/products/microsoft-dynamics-365-customer-service/"><a>Customer Service</a></Link>, <Link href="/products/microsoft-dynamics-365-field-service/"><a>Field Service</a></Link>, <Link href="/products/microsoft-dynamics-365-marketing/"><a>Marketing</a></Link>, and <b>Talent Acquisition</b> — are built natively on the platform.</p>
+                      <p>Power Apps is a platform for creating applications that is a part of <b>Microsoft Power Platform</b> and utilizes <b>Azure cloud services</b>. All <b>Dynamics 365 applications</b> — <Link href="/products/microsoft-dynamics-365-sales/">Microsoft Dynamics 365 Sales</Link>, <Link href="/products/microsoft-dynamics-365-customer-service/">Customer Service</Link>, <Link href="/products/microsoft-dynamics-365-field-service/">Field Service</Link>, <Link href="/products/microsoft-dynamics-365-marketing/">Marketing</Link>, and <b>Talent Acquisition</b> — are built natively on the platform.</p>
                     </div>
                   </div>
                 </div>

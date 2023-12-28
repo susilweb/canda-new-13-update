@@ -43,14 +43,11 @@ const PowerBI = () => {
               <p className="banner-para">Let your data lead the way to business success with our reliable Power BI consulting services. From designing and implementing to customizing reports and dashboards, our certified Power BI experts will ensure that your data is leveraged to its fullest potential.</p>
               <div>
                 <div className="text-center text-lg-start">
-                  <Link href="#exampleModal">
-                    <a
-                      data-bs-toggle="modal"
-                      className="btn-get-started scrollto"
-                    >
+                  <a href="#exampleModal"   data-bs-toggle="modal"
+                      className="btn-get-started scrollto">
+                   
                       <span>Get Free Consultation</span>
-                    </a>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
@@ -98,13 +95,10 @@ const PowerBI = () => {
 
                 <p>Ready to transform your business with data-driven decisions? Try Microsoft Power BI and unlock the full potential of your data.</p>
                 <div className="text-center text-lg-start">
-                  <Link href="#exampleModal">
-                    <a
-                      data-bs-toggle="modal"
-                      className="btn-get-started scrollto"
-                    >
+                  <Link href="#exampleModal"   data-bs-toggle="modal"
+                      className="btn-get-started scrollto">
+                
                       <span>Get Started Now</span>
-                    </a>
                   </Link>
                 </div>
               </div>
@@ -134,16 +128,10 @@ const PowerBI = () => {
                 <h3 className="custt-hh">Simple & quick way to <span>unlock data</span></h3>
                 <p>Microsoft Power BI stands out from other business intelligence tools because it can handle the complex process of integrating data from multiple sources, extracting value from large amounts of information, and producing easy-to-understand reports.</p>
 
-                <p>With a trusted <Link href="/"><a><b>Microsoft Power BI Partner</b></a></Link> in Canada, you can streamline data analytics, make informed decisions in real-time, and access on-premises or cloud-based dashboards and reports.</p>
+                <p>With a trusted <Link href="/"><b>Microsoft Power BI Partner</b></Link> in Canada, you can streamline data analytics, make informed decisions in real-time, and access on-premises or cloud-based dashboards and reports.</p>
                 <div className="text-center text-lg-start">
-                  <Link href="#exampleModal">
-                    <a
-                      data-bs-toggle="modal"
-                      className="btn-get-started scrollto"
-                    >
-                      <span>Get Started Now</span>
-                    </a>
-                  </Link>
+                  <Link href="#exampleModal" data-bs-toggle="modal"
+                      className="btn-get-started scrollto"><span>Get Started Now</span></Link>
                 </div>
               </div>
             </div>
@@ -303,13 +291,9 @@ const PowerBI = () => {
           </div>
           <div>
                 <div className="text-center">
-                  <Link href="#exampleModal">
-                    <a
-                      data-bs-toggle="modal"
-                      className="btn-get-started scrollto"
-                    >
+                  <Link href="#exampleModal" data-bs-toggle="modal"
+                      className="btn-get-started scrollto">
                       <span>Schedule a call</span>
-                    </a>
                   </Link>
                 </div>
               </div>
@@ -379,14 +363,14 @@ const PowerBI = () => {
                         <li>Impress your board with compelling reports featuring multiple pages, Power BI visuals, buttons, and filters</li>
                       </ul>
                       <div className="call-butt">
-                        <Link href="#exampleModal">
+                      
                           <a
                             data-bs-toggle="modal"
-                            className="btn-get-started scrollto"
+                            className="btn-get-started scrollto"  href="#exampleModal"
                           >
                             <span>Feel Free to Contact Us to Get a Demo</span>
                           </a>
-                        </Link>
+                   
                       </div>
                     </div>
                       </div>
@@ -420,14 +404,14 @@ const PowerBI = () => {
                         <li>Annotate reports & set alerts and push notifications via Power BI mobile app</li>
                       </ul>
                       <div className="call-butt">
-                        <Link href="#exampleModal">
-                          <a
+                 
+                          <a href="#exampleModal"
                             data-bs-toggle="modal"
                             className="btn-get-started scrollto"
                           >
                             <span>Contact us to get a quote</span>
                           </a>
-                        </Link>
+                 
                       </div>
                     </div>
                       </div>
@@ -461,14 +445,14 @@ const PowerBI = () => {
                         <li>Streamline collaboration by enabling your team to create reports using your data</li>
                       </ul>
                       <div className="call-butt">
-                        <Link href="#exampleModal">
-                          <a
+               
+                          <a href="#exampleModal"
                             data-bs-toggle="modal"
                             className="btn-get-started scrollto"
                           >
                             <span>Feel Free to Contact Us to Get a Demo</span>
                           </a>
-                        </Link>
+                      
                       </div>
                     </div>
                       </div>
@@ -502,14 +486,14 @@ const PowerBI = () => {
                         <li>Adjust permissions to share data visualizations and report to individuals outside the office</li>
                       </ul>
                       <div className="call-butt">
-                        <Link href="#exampleModal">
-                          <a
+               
+                          <a href="#exampleModal"
                             data-bs-toggle="modal"
                             className="btn-get-started scrollto"
                           >
                             <span>Feel free to contact us to get a demo</span>
                           </a>
-                        </Link>
+                    
                       </div>
                     </div>
                       </div>
@@ -543,14 +527,14 @@ const PowerBI = () => {
                         <li>Access and share Power BI dashboard from mobile with Power BI mobile and also share reports on the go</li>
                       </ul>
                       <div className="call-butt">
-                        <Link href="#exampleModal">
-                          <a
+               
+                          <a href="#exampleModal"
                             data-bs-toggle="modal"
                             className="btn-get-started scrollto"
                           >
                             <span>Contact us to get a quote</span>
                           </a>
-                        </Link>
+               
                       </div>
                     </div>
                       </div>
@@ -584,14 +568,14 @@ const PowerBI = () => {
                         <li>Take complete control of access and authorization to make changes in reports</li>
                       </ul>
                       <div className="call-butt">
-                        <Link href="#exampleModal">
-                          <a
+             
+                          <a href="#exampleModal"
                             data-bs-toggle="modal"
                             className="btn-get-started scrollto"
                           >
                             <span>Streamline your projects today</span>
                           </a>
-                        </Link>
+            
                       </div>
                     </div>
                       </div>
@@ -625,14 +609,14 @@ const PowerBI = () => {
                         <li>Customise reports at scale with freeform drag-and-drop capabilities</li>
                       </ul>
                       <div className="call-butt">
-                        <Link href="#exampleModal">
-                          <a
+           
+                          <a href="#exampleModal"
                             data-bs-toggle="modal"
                             className="btn-get-started scrollto"
                           >
                             <span>Book Free Consultation</span>
                           </a>
-                        </Link>
+         
                       </div>
                     </div>
                       </div>
@@ -753,14 +737,14 @@ const PowerBI = () => {
                         <li>Impress your board with compelling reports featuring multiple pages, Power BI visuals, buttons, and filters</li>
                       </ul>
                       <div className="call-butt">
-                        <Link href="#exampleModal">
-                          <a
+               
+                          <a href="#exampleModal"
                             data-bs-toggle="modal"
                             className="btn-get-started scrollto"
                           >
                             <span>Feel Free to Contact Us to Get a Demo</span>
                           </a>
-                        </Link>
+        
                       </div>
                     </div>
                   </div>
@@ -777,14 +761,14 @@ const PowerBI = () => {
                           <li>Annotate reports & set alerts and push notifications via Power BI mobile app</li>
                         </ul>
                       <div className="call-butt">
-                        <Link href="#exampleModal">
-                          <a
+              
+                          <a href="#exampleModal"
                             data-bs-toggle="modal"
                             className="btn-get-started scrollto"
                           >
                             <span>Contact us to get a quote</span>
                           </a>
-                        </Link>
+                  
                       </div>
                     </div>
                   </div>
@@ -801,14 +785,14 @@ const PowerBI = () => {
                           <li>Streamline collaboration by enabling your team to create reports using your data</li>
                         </ul>
                       <div className="call-butt">
-                        <Link href="#exampleModal">
-                          <a
+           
+                          <a href="#exampleModal"
                             data-bs-toggle="modal"
                             className="btn-get-started scrollto"
                           >
                             <span>Feel Free to Contact Us to Get a Demo</span>
                           </a>
-                        </Link>
+              
                       </div>
                     </div>
                   </div>
@@ -825,14 +809,14 @@ const PowerBI = () => {
                           <li>Adjust permissions to share data visualizations and report to individuals outside the office</li>
                         </ul>
                       <div className="call-butt">
-                        <Link href="#exampleModal">
-                          <a
+                
+                          <a href="#exampleModal"
                             data-bs-toggle="modal"
                             className="btn-get-started scrollto"
                           >
                             <span>Feel free to contact us to get a demo</span>
                           </a>
-                        </Link>
+                    
                       </div>
                     </div>
                   </div>
@@ -849,14 +833,14 @@ const PowerBI = () => {
                           <li>Access and share Power BI dashboard from mobile with Power BI mobile and also share reports on the go</li>
                         </ul>
                       <div className="call-butt">
-                        <Link href="#exampleModal">
-                          <a
+              
+                          <a href="#exampleModal"
                             data-bs-toggle="modal"
                             className="btn-get-started scrollto"
                           >
                             <span>Contact us to get a quote</span>
                           </a>
-                        </Link>
+  
                       </div>
                     </div>
                   </div>
@@ -874,14 +858,12 @@ const PowerBI = () => {
                           <li>Take complete control of access and authorization to make changes in reports</li>
                         </ul>
                       <div className="call-butt">
-                        <Link href="#exampleModal">
-                          <a
+                          <a href="#exampleModal"
                             data-bs-toggle="modal"
                             className="btn-get-started scrollto"
                           >
                             <span>Streamline your projects today</span>
                           </a>
-                        </Link>
                       </div>
                     </div>
                   </div>
@@ -898,14 +880,14 @@ const PowerBI = () => {
                           <li>Customise reports at scale with freeform drag-and-drop capabilities</li>
                         </ul>
                       <div className="call-butt">
-                        <Link href="#exampleModal">
-                          <a
+             
+                          <a href="#exampleModal"
                             data-bs-toggle="modal"
                             className="btn-get-started scrollto"
                           >
                             <span>Book Free Consultation</span>
                           </a>
-                        </Link>
+         
                       </div>
                     </div>
                   </div>
@@ -1018,12 +1000,9 @@ const PowerBI = () => {
                 <h3>Do you want to watch Power BI in Action?</h3>
                 <p>Discuss your business problems with our Power BI experts, we can reveal the best-in-class Power BI solution customized to your business.</p>
                 <div className="text-center m-o-t new-btn-nn">
-                  <Link href="#exampleModal"><a
-                    data-bs-toggle="modal"
+                  <Link href="#exampleModal"   data-bs-toggle="modal"
                     
-                    className="btn-get-started scrollto"
-                  >
-                    <span>Get Started Now</span></a>
+                    className="btn-get-started scrollto"><span>Get Started Now</span>
                   </Link>
                 </div>
               </div>
@@ -1037,7 +1016,7 @@ const PowerBI = () => {
             <div className="col-lg-9">
               <header className="section-header section-header-new-ct">
                 <h2>Drive Success with Our Power BI Consulting Services</h2>
-                <p>Tired of making decisions based on incomplete or unreliable information? It's time to take control of your data with Dynamics Square's <Link href="/contact-us/"><a><b>Power BI Consulting Services</b></a></Link>. Say goodbye to guesswork and hello to a data-driven approach that enables you to derive key insights from multiple sources. Let <Link href="/"><a><b>Dynamics Square</b></a></Link> help you unlock the power of your data today.</p>
+                <p>Tired of making decisions based on incomplete or unreliable information? It's time to take control of your data with Dynamics Square's <Link href="/contact-us/"><b>Power BI Consulting Services</b></Link>. Say goodbye to guesswork and hello to a data-driven approach that enables you to derive key insights from multiple sources. Let <Link href="/"><b>Dynamics Square</b></Link> help you unlock the power of your data today.</p>
               </header>
             </div>
           </div>
@@ -1049,11 +1028,9 @@ const PowerBI = () => {
                 </div>
                 <div className="body">
                   <h3>Power BI Implementation</h3>
-                  <p>Supercharge your business strategy with data analysis, pattern modelling, and visual reporting with stress-free Power BI implementation. Kickstart your data-driven growth journey with a Power BI dashboard that includes bespoke functions and capabilities. Our team of <Link href="/contact-us/"><a>Power BI Experts</a></Link> makes your business relevant in these competitive times with a solid BI roadmap.</p>
-                  <Link href="#exampleModal">
-                    <a data-bs-toggle="modal">
+                  <p>Supercharge your business strategy with data analysis, pattern modelling, and visual reporting with stress-free Power BI implementation. Kickstart your data-driven growth journey with a Power BI dashboard that includes bespoke functions and capabilities. Our team of <Link href="/contact-us/">Power BI Experts</Link> makes your business relevant in these competitive times with a solid BI roadmap.</p>
+                  <Link href="#exampleModal" data-bs-toggle="modal">
                       <span>Implement Now</span>
-                    </a>
                   </Link>
                 </div>
               </div>
@@ -1066,10 +1043,10 @@ const PowerBI = () => {
                 <div className="body">
                   <h3>Power BI Migration</h3>
                   <p>Microsoft Power BI makes data mining, analytics, and visualization easier than ever before. Maximize the value of your data with our expert migration services. We provide end-to-end support, from establishing a BI architecture to migrating from a legacy tool.</p>
-                  <Link href="#exampleModal">
-                    <a data-bs-toggle="modal">
+                  <Link href="#exampleModal" data-bs-toggle="modal">
+           
                       <span>Migrate Today</span>
-                    </a>
+        
                   </Link>
                 </div>
               </div>
@@ -1082,11 +1059,11 @@ const PowerBI = () => {
                 <div className="body">
                   <h3>Power BI Support</h3>
                   <p>Our dedicated Power BI support team offers absolute support and maintenance around the clock at every stage of BI implementation and deployment. Our end-to-end training and support will ensure that your team is fully capable of data integration, modeling, analysing, and building stunning visuals.</p>
-                  <Link href="#exampleModal">
-                    <a data-bs-toggle="modal">
+
+                    <a data-bs-toggle="modal" href="#exampleModal">
                       <span>Call For Support</span>
                     </a>
-                  </Link>
+     
                 </div>
               </div>
             </div>
@@ -1106,7 +1083,7 @@ const PowerBI = () => {
                     <i className="bi bi-check-lg"></i>
                   </div>
                   <div className="cont">
-                    <p>We are a <Link href="/"><a ><strong>Microsoft Gold Partner</strong></a></Link> and our core competent team is fully certified and is regularly updated</p>
+                    <p>We are a <Link href="/"><strong>Microsoft Gold Partner</strong></Link> and our core competent team is fully certified and is regularly updated</p>
                   </div>
                 </div>
                 <div className="repet-col">
@@ -1126,14 +1103,14 @@ const PowerBI = () => {
                   </div>
                 </div>
                 <div className="cll-bt">
-                  <Link href="#exampleModal">
-                    <a
+             
+                    <a href="#exampleModal"
                       data-bs-toggle="modal"
                       className="btn-get-started scrollto"
                     >
                       <span>Talk to expert</span>
                     </a>
-                  </Link>
+
                 </div>
               </div>
             </div>
@@ -1482,7 +1459,7 @@ const PowerBI = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>Power BI seamlessly integrates with various Microsoft products, such as Excel, Azure, and <Link href="/products/microsoft-dynamics-365/"><a>Dynamics 365</a></Link>. This allows for a more cohesive data analytics experience and helps in streamlining your organization's workflow.</p>
+                      <p>Power BI seamlessly integrates with various Microsoft products, such as Excel, Azure, and <Link href="/products/microsoft-dynamics-365/">Dynamics 365</Link>. This allows for a more cohesive data analytics experience and helps in streamlining your organization's workflow.</p>
                     </div>
                   </div>
                 </div>
@@ -1638,7 +1615,7 @@ const PowerBI = () => {
                   >
                     <div className="accordion-body">
                       <p>Power BI offers a variety of pricing options tailored to different needs. Power BI Pro is a per-user subscription for individual users, while Power BI Premium provides dedicated cloud capacity and advanced features for organizations. There's also a free version called Power BI Desktop for individual use.</p>
-                      <p><Link href="/contact-us/"><a>Contact our Power BI Experts now.</a></Link></p>
+                      <p><Link href="/contact-us/">Contact our Power BI Experts now.</Link></p>
                     </div>
                   </div>
                 </div>

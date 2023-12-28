@@ -25,13 +25,12 @@ const MicrosoftDynamicsNAV = () => {
               <p>Uncertain about how to upgrade your Dynamics NAV to D365 Business Central without facing errors? We, at Dynamics Square, are ready to assist you at every step in upgrading your Navision/NAV journey with a seamless and hassle-free software upgrade process.</p>
               <div>
                 <div className="text-center text-lg-start">
-                  <Link href="#exampleModal">
-                    <a
+                  <Link href="#exampleModal"
                       data-bs-toggle="modal"
                       className="btn-get-started scrollto"
                     >
                       <span>Get Started</span>
-                    </a>
+                
                   </Link>
                 </div>
               </div>
@@ -75,7 +74,7 @@ const MicrosoftDynamicsNAV = () => {
                       data-bs-parent="#accnewas"
                     >
                       <div className="accordion-body">
-                        <p><Link href="/products/dynamics-365-business-central/"><a>Upgrading to Business Central</a></Link> will simplify and automate your current business processes, making them adaptable for growth and scalability.</p>
+                        <p><Link href="/products/dynamics-365-business-central/">Upgrading to Business Central</Link> will simplify and automate your current business processes, making them adaptable for growth and scalability.</p>
                       </div>
                     </div>
                   </div>
@@ -154,7 +153,7 @@ const MicrosoftDynamicsNAV = () => {
                       data-bs-parent="#accnews"
                     >
                       <div className="accordion-body">
-                        <p>Business Intelligence (BI) powered by <Link href="/products/microsoft-power-bi/"><a>Microsoft Power BI</a></Link> helps you make real-time informed decisions for any process or operation whenever needed.</p>
+                        <p>Business Intelligence (BI) powered by <Link href="/products/microsoft-power-bi/">Microsoft Power BI</Link> helps you make real-time informed decisions for any process or operation whenever needed.</p>
                       </div>
                     </div>
                   </div>
@@ -202,7 +201,7 @@ const MicrosoftDynamicsNAV = () => {
                       data-bs-parent="#accnews"
                     >
                       <div className="accordion-body">
-                        <p>Business Central is equipped with <Link href="https://blog.dynamicssquare.ca/dynamics-365-business-central-benefits-2023/"><a>features, functionality, and customizations</a></Link> to help users customize or modify the process as per the requirements. It makes your teams highly agile, productive, and efficient.</p>
+                        <p>Business Central is equipped with <Link href="https://blog.dynamicssquare.ca/dynamics-365-business-central-benefits-2023/">features, functionality, and customizations</Link> to help users customize or modify the process as per the requirements. It makes your teams highly agile, productive, and efficient.</p>
                       </div>
                     </div>
                   </div>
@@ -230,7 +229,7 @@ const MicrosoftDynamicsNAV = () => {
                 <div class="wr-in"><span class="number-st">1</span></div>
                 </div>
                 <div className="style-grid-content">
-                  <p>The <b>outdated <Link href="/products/microsoft-dynamics-nav/"><a>Dynamics NAV</a></Link> version</b> serves you no purpose and there are no updates from Microsoft.</p>
+                  <p>The <b>outdated <Link href="/products/microsoft-dynamics-nav/">Dynamics NAV</Link> version</b> serves you no purpose and there are no updates from Microsoft.</p>
                 </div>
               </div>
               <div className="style-grid-1">
@@ -296,13 +295,9 @@ const MicrosoftDynamicsNAV = () => {
             </div>
             <div className="col-lg-12">
             <div className="text-center">
-                  <Link href="#exampleModal">
-                    <a
-                      data-bs-toggle="modal"
-                      className="btn-get-started scrollto"
-                    >
+                  <Link href="#exampleModal"  data-bs-toggle="modal"
+                      className="btn-get-started scrollto">
                       <span>Get a Call Back</span>
-                    </a>
                   </Link>
                 </div>
             </div>
@@ -316,7 +311,7 @@ const MicrosoftDynamicsNAV = () => {
             <div className="col-lg-8">
               <header className="section-header">
                 <h2>NAV to Business Central Upgrade Benefits </h2>
-                <p><b>Upgrade from Dynamics NAV to Business Central</b> for streamlined business processes. <Link href="/products/dynamics-365-business-central/"><a>Microsoft Dynamics Business Central</a></Link> offers you integrated management and customization across industries with a simple yet intuitive user interface (UI), advanced features, and rich functionalities to enhance efficiency and growth.</p>
+                <p><b>Upgrade from Dynamics NAV to Business Central</b> for streamlined business processes. <Link href="/products/dynamics-365-business-central/">Microsoft Dynamics Business Central</Link> offers you integrated management and customization across industries with a simple yet intuitive user interface (UI), advanced features, and rich functionalities to enhance efficiency and growth.</p>
               </header>
             </div>
           </div>
@@ -490,17 +485,13 @@ const MicrosoftDynamicsNAV = () => {
                 <h2>How can you Upgrade Your NAV to Dynamics 365 Business Central?</h2>
               </div>
               <div className="custom002">
-                <p>If you're out to <b>upgrade your Dynamics NAV to Business Central</b>, <Link href="/contact-us/"><a>book a call</a></Link> with <b>Dynamics Square experts</b> for a hassle-free <b>Dynamics 365 vendor partnership in Canada</b>.</p>
+                <p>If you're out to <b>upgrade your Dynamics NAV to Business Central</b>, <Link href="/contact-us/">book a call</Link> with <b>Dynamics Square experts</b> for a hassle-free <b>Dynamics 365 vendor partnership in Canada</b>.</p>
                 <p>We will help you smoothly upgrade your existing NAV ERP (Enterprise Resource Planning) system, and at low upgrade costs. Allow the team from <b>Dynamics Square</b> to assess your current Dynamics NAV version, business requirements, industry type, and operations before providing you with a customized quote.</p>
-                <p>And choose between transferring your entire data for seamless performance or only a portion of it based on your requirements. With years of real industry experience, Dynamics Square guarantees a smooth upgrade and <Link href="/dynamics-365-business-central-erp-system-implementation/"><a>Dynamics 365 Business Central Implementation</a></Link> process provides you with a detailed quote for time and cost.</p>
+                <p>And choose between transferring your entire data for seamless performance or only a portion of it based on your requirements. With years of real industry experience, Dynamics Square guarantees a smooth upgrade and <Link href="/dynamics-365-business-central-erp-system-implementation/">Dynamics 365 Business Central Implementation</Link> process provides you with a detailed quote for time and cost.</p>
                 <div className="text-lg-start">
-                  <Link href="#exampleModal">
-                    <a
-                      data-bs-toggle="modal"
-                      className="btn-get-started scrollto"
-                    >
+                  <Link href="#exampleModal"  data-bs-toggle="modal"
+                      className="btn-get-started scrollto">
                       <span>Evaluate Upgrade Options</span>
-                    </a>
                   </Link>
                 </div>
               </div>
@@ -660,15 +651,13 @@ const MicrosoftDynamicsNAV = () => {
             <div className="col-lg-8">
               <div className="call-to-action-content">
                 <h3>Upgrade just the features you need with ease!</h3>
-                <p>We, at Dynamics Square, can help you upgrade any feature of your current NAV version, from financial capabilities to integrations. <Link href="/contact-us/"><a><b>Contact us</b></a></Link> for a trusted <Link href="/dynamics-365-business-central-erp-system-implementation/"><a>Business Central Implementation Partner</a></Link> and upgrade services in Canada for the features you need.</p>
+                <p>We, at Dynamics Square, can help you upgrade any feature of your current NAV version, from financial capabilities to integrations. <Link href="/contact-us/"><b>Contact us</b></Link> for a trusted <Link href="/dynamics-365-business-central-erp-system-implementation/">Business Central Implementation Partner</Link> and upgrade services in Canada for the features you need.</p>
                 <div className="text-center m-o-t new-btn-nn">
-                  <Link href="#exampleModal">
-                    <a
-                      data-bs-toggle="modal"
+                  <Link href="#exampleModal" data-bs-toggle="modal"
                       className="btn-get-started scrollto"
                     >
                       <span>Get In Touch!</span>
-                    </a>
+       
                   </Link>
                 </div>
               </div>
@@ -691,7 +680,7 @@ const MicrosoftDynamicsNAV = () => {
             <div className="col-lg-7">
               <div className="parten-more parten-more-ss">
                 <h3>Trusted Microsoft Gold Partner</h3>
-                <p>At Dynamics Square, we're proud to be recognized as a <Link href="/"><a>Microsoft Gold Partner</a></Link>. With over 70 successful implementation projects completed, we've served more than 300 clients worldwide. Our teams' expertise and experience make <b>Dynamics Square</b> a trusted <b>Dynamics 365 Partner</b> for businesses looking to streamline their operations with <b>Business Central</b>.</p>
+                <p>At Dynamics Square, we're proud to be recognized as a <Link href="/">Microsoft Gold Partner</Link>. With over 70 successful implementation projects completed, we've served more than 300 clients worldwide. Our teams' expertise and experience make <b>Dynamics Square</b> a trusted <b>Dynamics 365 Partner</b> for businesses looking to streamline their operations with <b>Business Central</b>.</p>
               </div>
             </div>
             <div className="col-lg-7">

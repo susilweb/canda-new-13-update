@@ -40,13 +40,13 @@ const ProjectOperations = () => {
               <p>Connect more with your people, bring all your projects to a unified project management application and drive profitability with Dynamics 365 Project Operations.</p>
               <div>
                 <div className="text-center text-lg-start">
-                  <a
+                  <Link
                     data-bs-toggle="modal"
                     href="#exampleModal"
                     className="btn-get-started scrollto"
                   >
                     <span>Get a Free Demo</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -168,7 +168,7 @@ const ProjectOperations = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                       <p>In <Link href="/products/dynamics-365-project-operations/"><a>Microsoft Dynamics Project Operations</a></Link>, you can manage projects flexibly with easy-to-use Microsoft Project features such as Kanban boards and Gantt charts.</p>
+                       <p>In <Link href="/products/dynamics-365-project-operations/">Microsoft Dynamics Project Operations</Link>, you can manage projects flexibly with easy-to-use Microsoft Project features such as Kanban boards and Gantt charts.</p>
                       </div>
                     </div>
                   </div>
@@ -361,7 +361,7 @@ const ProjectOperations = () => {
                   />
                   <div className="video-ytube video-ytubes">
                     <div className="popup-btn popup-btns">
-                      <a
+                      <Link
                         href="#javascript:void(0)"
                         onClick={() => setOpen(true)}
                       >
@@ -373,7 +373,7 @@ const ProjectOperations = () => {
                             alt="play_icons"
                           />
                         </span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -382,7 +382,7 @@ const ProjectOperations = () => {
             <div className="col-lg-6 align-self-center">
               <div className="side-heading">
                 <h2>Dynamics 365 Project Operations services we offer</h2>
-                <p>Get hassle-free implementation, upgrade, and support services from <Link href="/"><a>Dynamics Square</a></Link>. Give your project operations a boost with our Services.</p>
+                <p>Get hassle-free implementation, upgrade, and support services from <Link href="/">Dynamics Square</Link>. Give your project operations a boost with our Services.</p>
               </div>
               <div className="busine_service_bottom-right">
                 <div className="card_new_img">
@@ -397,9 +397,9 @@ const ProjectOperations = () => {
                   <h3>Implementation</h3>
                   <p>Integrate Dynamics 365 Project Service seamlessly into your project.</p>
                   <div className="action-content">
-                    <a data-bs-toggle="modal" href="#exampleModal">
+                    <Link data-bs-toggle="modal" href="#exampleModal">
                       Get Started
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -416,9 +416,9 @@ const ProjectOperations = () => {
                   <h3>Upgrade</h3>
                   <p>Upgrade your existing system with a highly recommended support system that can bring agility while making your project-centric business fruitful.</p>
                   <div className="action-content">
-                    <a data-bs-toggle="modal" href="#exampleModal">
+                    <Link data-bs-toggle="modal" href="#exampleModal">
                       Get Started
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -435,9 +435,9 @@ const ProjectOperations = () => {
                   <h3>Support</h3>
                   <p>Leverage quick and in-demand Dynamics 365 Project Operations Support Services from Dynamics Square and ensure your business operations are project centric.</p>
                   <div className="action-content">
-                    <a data-bs-toggle="modal" href="#exampleModal">
+                    <Link data-bs-toggle="modal" href="#exampleModal">
                       Get Started
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -473,13 +473,13 @@ const ProjectOperations = () => {
 
             <div className="col-lg-12 col-md-12">
               <div className="price-btn price-btnasd d-flex justify-content-center">
-                <a
+                <Link
                   data-bs-toggle="modal"
                   href="#exampleModal"
                   className="btn-get-red"
                 >
                   <span>Get Started Now</span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -492,13 +492,13 @@ const ProjectOperations = () => {
               <div className="call-to-action-content">
                 <h3>To find out what our Dynamics 365 experts can do for you, contact us now.</h3>
                 <div className="text-center m-o-t new-btn-nn">
-                  <a
+                  <Link
                     data-bs-toggle="modal"
                     href="#exampleModal"
                     className="btn-get-started scrollto"
                   >
                     <span>Click to Get In Touch!</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -554,7 +554,7 @@ const ProjectOperations = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                     <p>Yes! You can integrate <Link href="/products/dynamics-365-business-central/"><a>Dynamics 365 Business Central</a></Link> and other add-ons to Dynamics 365 Project Operations to enhance its features. That is because all such business apps and third-party apps are part of <Link href="/products/microsoft-power-platform/"><a>Microsoft Power Platform</a></Link>, hence integrable. Some modules that you can integrate are - <b>Dynamics 365 Human Resources, Sales, Marketing, Customer Service, Power BI, and other data sources.</b></p>
+                     <p>Yes! You can integrate <Link href="/products/dynamics-365-business-central/">Dynamics 365 Business Central</Link> and other add-ons to Dynamics 365 Project Operations to enhance its features. That is because all such business apps and third-party apps are part of <Link href="/products/microsoft-power-platform/">Microsoft Power Platform</Link>, hence integrable. Some modules that you can integrate are - <b>Dynamics 365 Human Resources, Sales, Marketing, Customer Service, Power BI, and other data sources.</b></p>
                     </div>
                   </div>
                 </div>
@@ -579,7 +579,7 @@ const ProjectOperations = () => {
                         <li>With the existing CDS environment</li>
                         <li>By creating a new CDS environment</li>
                       </ul>
-                      <p>The installation of project operations in a new environment requires a Power Platform Administrator license and a Project Operations license. So, if you choose the latter option, you will be required to create a new CDS environment using the Power Platform admin. While for the first case, you must have access to the Microsoft Power Platform. For more information, you can <Link href="/contact-us/"><a>contact our Dynamics 365 consultants</a></Link>.</p>
+                      <p>The installation of project operations in a new environment requires a Power Platform Administrator license and a Project Operations license. So, if you choose the latter option, you will be required to create a new CDS environment using the Power Platform admin. While for the first case, you must have access to the Microsoft Power Platform. For more information, you can <Link href="/contact-us/">contact our Dynamics 365 consultants</Link>.</p>
                     </div>
                   </div>
                 </div>

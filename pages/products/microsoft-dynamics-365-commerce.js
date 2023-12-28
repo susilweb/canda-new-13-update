@@ -73,15 +73,15 @@ const Commerce = () => {
                   possible to achieve this by integrating innovative
                   technologies such as big data,{" "}
                   <Link href="/products/microsoft-dynamics-365-ai/">
-                    <a>AI (Artificial Intelligence)</a>
+                    AI (Artificial Intelligence)
                   </Link>
                   ,{" "}
                   <Link href="/products/microsoft-dynamics-365/mixed-reality/">
-                    <a>Mixed Reality</a>
+                    Mixed Reality
                   </Link>
                   ,{" "}
                   <Link href="/products/azure-machine-learning/">
-                    <a>Machine Learning</a>
+                    Machine Learning
                   </Link>
                   , and data analytics.
                 </p>
@@ -326,7 +326,7 @@ const Commerce = () => {
                           with personalized recommendations both online and in
                           stores and{" "}
                           <Link href="/products/dynamics-365-customer-engagement/">
-                            <a>increase customer engagement across channels</a>
+                            increase customer engagement across channels
                           </Link>
                           .
                         </p>
@@ -348,7 +348,7 @@ const Commerce = () => {
                           workforce to centralize the management of e-Commerce
                           operations using{" "}
                           <Link href="/products/microsoft-dynamics-365/">
-                            <a>Microsoft's Dynamics 365</a>
+                            Microsoft's Dynamics 365
                           </Link>{" "}
                           for Commerce, a unique SaaS (Software as a Service)
                           platform to flex and adapt to constantly evolving
@@ -596,7 +596,7 @@ const Commerce = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>Recently, Microsoft upgraded Dynamics 365 Retail to Dynamics 365 Commerce. This business app offers a comprehensive omnichannel experience to your e-commerce, in-store, and emerging commerce channels. The system can do everything for your organization's commerce needs. Also, See - <Link href="/products/microsoft-dynamics-365-sales/"><a>Dynamics 365 Sales Professional</a></Link> | <Link href="/products/dynamics-365-project-operations/"><a>Dynamics 365 Project and Operations</a></Link></p>
+                      <p>Recently, Microsoft upgraded Dynamics 365 Retail to Dynamics 365 Commerce. This business app offers a comprehensive omnichannel experience to your e-commerce, in-store, and emerging commerce channels. The system can do everything for your organization's commerce needs. Also, See - <Link href="/products/microsoft-dynamics-365-sales/">Dynamics 365 Sales Professional</Link> | <Link href="/products/dynamics-365-project-operations/">Dynamics 365 Project and Operations</Link></p>
                     </div>
                   </div>
                 </div>
@@ -641,7 +641,7 @@ const Commerce = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>Yes! Absolutely. Dynamics 365 Commerce, like other business apps in the Dynamics 365 suite of business apps, allows integration of needed apps, whether native or third-party. <Link href="/contact-us/"><a>Contact your Dynamics 365 support partner like Dynamics Square</a></Link> to help you build the required application that understands your specific needs and works accordingly.</p>
+                      <p>Yes! Absolutely. Dynamics 365 Commerce, like other business apps in the Dynamics 365 suite of business apps, allows integration of needed apps, whether native or third-party. <Link href="/contact-us/">Contact your Dynamics 365 support partner like Dynamics Square</Link> to help you build the required application that understands your specific needs and works accordingly.</p>
                     </div>
                   </div>
                 </div>
@@ -665,7 +665,7 @@ const Commerce = () => {
                         <li>Business requirements</li>
                         <li>The complexity of your business operations.</li>
                       </ul>
-                      <p>For an accurate estimate, <Link href="/contact-us/"><a>contact us now.</a></Link></p>
+                      <p>For an accurate estimate, <Link href="/contact-us/">contact us now.</Link></p>
                     </div>
                   </div>
                 </div>

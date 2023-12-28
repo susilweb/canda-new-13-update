@@ -24,13 +24,9 @@ const BusinessCentralSupport = () => {
               <p>Empower Your Teams and Enhance Your Operational Efficiency with Seamless Connectivity through Business Central Support Partner Collaboration.</p>
               <div>
                 <div className="text-center text-lg-start">
-                  <Link href="#exampleModal">
-                    <a
-                      data-bs-toggle="modal"
-                      className="btn-get-started scrollto"
-                    >
+                  <Link href="#exampleModal"  data-bs-toggle="modal"
+                      className="btn-get-started scrollto">
                       <span>Book a FREE Demo</span>
-                    </a>
                   </Link>
                 </div>
               </div>
@@ -54,7 +50,7 @@ const BusinessCentralSupport = () => {
               <header className="section-header">
                 <h2>Drive a Seamless and Connected Experience</h2>
                 <p>Connect People, Data, and Processes to Make an Impact</p>
-                <p>Maximize the potential of your business with <Link href="/products/dynamics-365-business-central/"><a>Dynamics 365 Business Central</a></Link> <b>Support Services</b> from <b>Dynamics Square</b> in Canada. <b>Dynamics 365 Expert Support</b> services help you improve process optimization, demand planning, and analysis while enabling a seamless approach to your business operations. Experience the <Link href="https://blog.dynamicssquare.ca/dynamics-365-business-central-benefits-2023/"><a>benefits of Dynamics 365 Business Central</a></Link> Support Services and take your business to the next level today.</p>
+                <p>Maximize the potential of your business with <Link href="/products/dynamics-365-business-central/">Dynamics 365 Business Central</Link> <b>Support Services</b> from <b>Dynamics Square</b> in Canada. <b>Dynamics 365 Expert Support</b> services help you improve process optimization, demand planning, and analysis while enabling a seamless approach to your business operations. Experience the <Link href="https://blog.dynamicssquare.ca/dynamics-365-business-central-benefits-2023/">benefits of Dynamics 365 Business Central</Link> Support Services and take your business to the next level today.</p>
               </header>
             </div>
           </div>
@@ -81,7 +77,7 @@ const BusinessCentralSupport = () => {
               </div>
 
               <div className="custom-p-001">
-                <p>Accelerate your cloud migration with confidence and streamline critical business practices to boost sales, improve customer service, and unlock productivity and business insights. As a <Link href="/"><a>Microsoft Gold Partner</a></Link>, we, at Dynamics Square, help complete your projects on time and on budget while increasing financial and business performance.</p>
+                <p>Accelerate your cloud migration with confidence and streamline critical business practices to boost sales, improve customer service, and unlock productivity and business insights. As a <Link href="/">Microsoft Gold Partner</Link>, we, at Dynamics Square, help complete your projects on time and on budget while increasing financial and business performance.</p>
               </div>
             </div>
           </div>
@@ -97,13 +93,9 @@ const BusinessCentralSupport = () => {
                 <p><b>Dynamics Square</b>, a Microsoft-authorized <b>Dynamics 365 Business Central Support Partner</b>, offers high-end support services for process continuation and continuous growth across your organizational practices. The proactive support team diagnoses and promptly resolves your system issues to improve the production pipeline and positively impact your growth strategy.</p>
                 <div>
                   <div className="text-center text-lg-start">
-                    <Link href="#exampleModal">
-                      <a
-                        data-bs-toggle="modal"
-                        className="btn-get-started scrollto"
-                      >
+                    <Link href="#exampleModal"  data-bs-toggle="modal"
+                        className="btn-get-started scrollto">
                         <span>Get Instant Support</span>
-                      </a>
                     </Link>
                   </div>
                 </div>
@@ -139,7 +131,7 @@ const BusinessCentralSupport = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                      Ad-Hoc Support for <b>One-Time Assistance</b> - Get budget-friendly, flexible support from <Link href="/products/microsoft-dynamics-365/"><a>Microsoft Dynamics 365</a></Link> team without any long-term commitment. The team assess your system's health and provide personalized quotes for your one-time or short-term needs. 
+                      Ad-Hoc Support for <b>One-Time Assistance</b> - Get budget-friendly, flexible support from <Link href="/products/microsoft-dynamics-365/">Microsoft Dynamics 365</Link> team without any long-term commitment. The team assess your system's health and provide personalized quotes for your one-time or short-term needs. 
                       </div>
                     </div>
                   </div>
@@ -218,14 +210,13 @@ const BusinessCentralSupport = () => {
                 <h3>Is Your Partner Not Paying Attention? Get Exclusive and Out-of-the-Box Dynamic 365 Business Central Support.</h3>
                 <p>Connect with Your Business Central Support Team Now!</p>
                 <div className="text-center m-o-t new-btn-nn">
-                  <Link href="#exampleModal">
-                    <a
+                    <Link
+                     href="#exampleModal"
                       data-bs-toggle="modal"
                       className="btn-get-started scrollto"
                     >
                       <span>Schedule a FREE Meeting</span>
-                    </a>
-                  </Link>
+                    </Link>
                 </div>
               </div>
             </div>
@@ -242,13 +233,9 @@ const BusinessCentralSupport = () => {
                 <h3>What Makes Dynamics Square the Right Support Partner for You?</h3>
               </div>
               <div className=" m-o-t new-btn-nn">
-                <Link href="#exampleModal">
-                  <a
-                    data-bs-toggle="modal"
-                    className="btn-get-started scrollto"
-                  >
+                <Link href="#exampleModal"  data-bs-toggle="modal"
+                    className="btn-get-started scrollto">
                     <span>Tap For Support</span>
-                  </a>
                 </Link>
               </div>
               {/* <div className="downlad_guid">
@@ -267,7 +254,7 @@ const BusinessCentralSupport = () => {
                         Continuity
                       </h3>
                       <div className="overlay">
-                        <p>Adapt your ERP system to manage complexity and drive strategic growth. <Link href="/products/dynamics-365-business-central/"><a>Business Central</a></Link> Support Service Packages offer continuous and gradual improvement for smooth scalability and increased profitability.</p>
+                        <p>Adapt your ERP system to manage complexity and drive strategic growth. <Link href="/products/dynamics-365-business-central/">Business Central</Link> Support Service Packages offer continuous and gradual improvement for smooth scalability and increased profitability.</p>
                       </div>
                     </div>
                     <div className="why-solution-wrapper-inner">
@@ -300,7 +287,7 @@ const BusinessCentralSupport = () => {
                       The Know  
                       </h3>
                       <div className="overlay">
-                        <p>Stay up-to-date with regular <b>Business Central updates</b> to maximize its potential. At <Link href="/"><a>Dynamics Square</a></Link>, we help you assess the productivity of new releases to ensure informed adoption.</p>
+                        <p>Stay up-to-date with regular <b>Business Central updates</b> to maximize its potential. At <Link href="/">Dynamics Square</Link>, we help you assess the productivity of new releases to ensure informed adoption.</p>
                       </div>
                     </div>
                   </div>

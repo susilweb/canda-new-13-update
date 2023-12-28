@@ -28,13 +28,9 @@ const BusinessCentralUpgrade = () => {
               </p>
               <div>
                 <div className="text-center text-lg-start">
-                  <Link href="#exampleModal">
-                    <a
-                      data-bs-toggle="modal"
-                      className="btn-get-started scrollto"
-                    >
+                  <Link href="#exampleModal"  data-bs-toggle="modal"
+                      className="btn-get-started scrollto">
                       <span>Book a Free Meeting</span>
-                    </a>
                   </Link>
                 </div>
               </div>
@@ -69,12 +65,12 @@ const BusinessCentralUpgrade = () => {
                 <h2>Benefits of Dynamics 365 Business Central Upgrade </h2>
                 <p>
                   <Link href="/products/dynamics-365-business-central/">
-                    <a>Dynamics 365 Business Central</a>
+                    Dynamics 365 Business Central
                   </Link>{" "}
                   is now available in 100+ countries & regions, providing a
                   cloud solution to connect sales, service,{" "}
                   <Link href="/products/microsoft-dynamics-365-finance-operations/">
-                    <a>finance and operations</a>
+                    finance and operations
                   </Link>{" "}
                   teams for faster adaptation and results.{" "}
                 </p>
@@ -126,7 +122,7 @@ const BusinessCentralUpgrade = () => {
                       <div className="accordion-body">
                         <p>
                           <Link href="/dynamics-nav-to-business-central/">
-                            <a>Upgrade to Business Central</a>
+                            Upgrade to Business Central
                           </Link>{" "}
                           to streamline your business operations and automate
                           key processes. This can help you increase efficiency
@@ -252,7 +248,7 @@ const BusinessCentralUpgrade = () => {
                         Business Central is an all-in-one integrated solution
                         that can help you manage your <b>sales</b>, finance,{" "}
                         <Link href="/products/dynamics-365-supply-chain-management/">
-                          <a>dynamics 365 supply chain</a>
+                        dynamics 365 supply chain
                         </Link>
                         , operations, and warehousing. This can help you
                         streamline your processes and improve your overall
@@ -339,13 +335,10 @@ const BusinessCentralUpgrade = () => {
                   experts, today!{" "}
                 </p>
                 <div className="text-center m-o-t new-btn-nn">
-                  <Link href="#exampleModal">
-                    <a
-                      data-bs-toggle="modal"
-                      className="btn-get-started scrollto"
-                    >
+                  <Link href="#exampleModal"  data-bs-toggle="modal"
+                      className="btn-get-started scrollto">
                       <span>Get Started</span>
-                    </a>
+               
                   </Link>
                 </div>
               </div>
@@ -399,7 +392,7 @@ const BusinessCentralUpgrade = () => {
                         Business Central from Business Central on-premises' any
                         version anytime. And you can also{" "}
                         <Link href="https://blog.dynamicssquare.ca/dynamics-nav-vs-business-central-are-they-different/">
-                          <a>migrate to Business Central from Dynamics NAV</a>
+                          migrate to Business Central from Dynamics NAV
                         </Link>{" "}
                         or <b>Navision</b> anytime.
                       </p>
@@ -427,7 +420,7 @@ const BusinessCentralUpgrade = () => {
                         <b>"Run Data Upgrade Now"</b> operation. It is crucial
                         to seek help from reputable{" "}
                         <Link href="/">
-                          <a>Microsoft Gold Partners</a>
+                          Microsoft Gold Partners
                         </Link>
                         , such as <b>Dynamics Square</b>, to securely execute
                         data migration processes within the Business Central
@@ -441,7 +434,7 @@ const BusinessCentralUpgrade = () => {
                       </p>
                       <p>
                         <Link href="/contact-us/">
-                          <a>Contact us today to learn more.</a>
+                          Contact us today to learn more.
                         </Link>
                       </p>
                     </div>
@@ -468,7 +461,7 @@ const BusinessCentralUpgrade = () => {
                       <p>
                         Dynamics 365 Business Central is part of the{" "}
                         <Link href="/products/microsoft-dynamics-365/">
-                          <a>Dynamics 365 family of business applications</a>
+                          Dynamics 365 family of business applications
                         </Link>{" "}
                         that Microsoft offers for small to medium-sized
                         businesses (SMBs).
@@ -476,7 +469,7 @@ const BusinessCentralUpgrade = () => {
                       <p>
                         <b>Business Central</b> (formerly{" "}
                         <Link href="/products/microsoft-dynamics-nav/">
-                          <a>Dynamics NAV</a>
+                          Dynamics NAV
                         </Link>{" "}
                         up to Oct. 2018) is a cloud-based enterprise resource
                         planning (ERP) system that provides enterprises with a
@@ -542,7 +535,7 @@ const BusinessCentralUpgrade = () => {
                         As a <b>Microsoft Gold Partner</b>, we offer customized
                         upgrade quotes for{" "}
                         <Link href="/products/dynamics-365-business-central/">
-                          <a>Microsoft Dynamics 365 Business Central</a>
+                          Microsoft Dynamics 365 Business Central
                         </Link>{" "}
                         based on factors like version, customization, and
                         complexity. <b>Contact us at +1 289 807 0740</b> to get
@@ -581,7 +574,7 @@ const BusinessCentralUpgrade = () => {
                       <p>
                         Learn more{" "}
                         <Link href="https://blog.dynamicssquare.ca/dynamics-365-business-central-overview/">
-                          <a>Overview of Business Central</a>
+                          Overview of Business Central
                         </Link>
                       </p>
                     </div>
@@ -637,10 +630,10 @@ const BusinessCentralUpgrade = () => {
                       <p>
                         To know more about SMBs, go through this blog{" "}
                         <Link href="https://blog.dynamicssquare.ca/dynamics-365-business-central-benefits-2023/">
-                          <a>
+                          
                             Top 7 Dynamics 365 Business Central Functionalities
                             & Benefits
-                          </a>
+                          
                         </Link>
                       </p>
                     </div>
@@ -670,7 +663,7 @@ const BusinessCentralUpgrade = () => {
                       <p>
                         To learn more,{" "}
                         <Link href="/schedule-a-demo/">
-                          <a>book a free Business Central demo</a>
+                          book a free Business Central demo
                         </Link>
                       </p>
                     </div>
@@ -722,7 +715,7 @@ const BusinessCentralUpgrade = () => {
                     <div className="accordion-body">
                       <p>
                         <Link href="/products/microsoft-dynamics-365/">
-                          <a>Microsoft Dynamics 365</a>
+                          Microsoft Dynamics 365
                         </Link>{" "}
                         is a combined CRM and ERP product that helps you avoid
                         the traditional silos between external (CRM) and
@@ -751,7 +744,7 @@ const BusinessCentralUpgrade = () => {
                     <div className="accordion-body">
                       <p>
                         <Link href="/dynamics-365-business-central-erp-system-implementation/">
-                          <a>Dynamics 365 Business Central Implementation</a>
+                          Dynamics 365 Business Central Implementation
                         </Link>{" "}
                         can range from $3,000 to $100,000.
                       </p>
@@ -855,13 +848,13 @@ const BusinessCentralUpgrade = () => {
                     <div className="accordion-body">
                       <p>
                         <Link href="/products/microsoft-dynamics-crm/">
-                          <a>Dynamics CRM</a>
+                          Dynamics CRM
                         </Link>{" "}
                         is now called <b>Microsoft Dynamics 365</b>, which
                         combines <b>CRM</b> and <b>ERP</b> products, with the
                         on-premises application called{" "}
                         <Link href="/products/microsoft-dynamics-365-sales/">
-                          <a>Dynamics 365 for Sales</a>
+                        Dynamics 365 for Sales
                         </Link>
                         .
                       </p>

@@ -58,17 +58,17 @@ function Authors({authorslist, blgsbyauthorslist }) {
                   <ol className="breadcrumb">
                     <li className="breadcrumb-item">
                       <Link href="/">
-                        <a>Home</a>
+                        Home
                       </Link>
                     </li>
                     <li className="breadcrumb-item">
                       <Link href="/blog/">
-                        <a>Blog</a>
+                        Blog
                       </Link>
                     </li>
                     <li className="breadcrumb-item">
                       <Link href="/blog/author">
-                        <a>Author</a>
+                        Author
                       </Link>
                     </li>
                     <li className="breadcrumb-item active">{blgsbyauthorslist[0]['author']}</li>
@@ -86,7 +86,7 @@ function Authors({authorslist, blgsbyauthorslist }) {
                     authorslist.map((authorsitem, i) => (
                       <li className={router.query.slug ==`${authorsitem.name.split(" ").join("-")}`? "active" :"Hello"}>
                         <Link href={`/blog/author/${authorsitem.name.split(" ").join("-")}`}>
-                          <a><img src={authorsitem.profile_photo_path} alt={authorsitem.name} /> <span>{authorsitem.name}</span></a>
+                        <img src={authorsitem.profile_photo_path} alt={authorsitem.name} /> <span>{authorsitem.name}</span>
                         </Link>
                       </li>
                     ))}
@@ -99,7 +99,7 @@ function Authors({authorslist, blgsbyauthorslist }) {
                   <div className="blogs-lates blogs-lates-rept">
                     <h3>
                       <Link href={`/blog/${item.title_slug}`}>
-                        <a>{item.title}</a>
+                        {item.title}
                       </Link>
                     </h3>
                     <div className="blogs-info-list">
@@ -122,18 +122,18 @@ function Authors({authorslist, blgsbyauthorslist }) {
                         </a>
                       </span>
                       <span className="cate">
-                      <Link href={`/blog/category/${item.category_slug}`}><a>
+                      <Link href={`/blog/category/${item.category_slug}`}>
                             <i className="bi bi-app"></i> {item.category}
-                          </a></Link>
+                          </Link>
                       </span>
                     </div>
                     <div className="b-card-info">
                       <p>{item.short_description}</p>
                       <div className="page-link-read">
                         <Link href={`/blog/${item.title_slug}`}>
-                          <a>
+                        
                             Read More <span>{">"}</span>
-                          </a>
+                          
                         </Link>
                       </div>
                     </div>

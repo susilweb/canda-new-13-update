@@ -42,13 +42,13 @@ const SupplyChainManagement = () => {
               <p>Quickly adapt to the market and build a resilient, sustainable supply chain for your business with Dynamics 365 for Supply Chain Management - a cloud-based predictive supply chain management solution.</p>
               <div>
                 <div className="text-center text-lg-start">
-                  <a
+                  <Link
                     data-bs-toggle="modal"
                     href="#exampleModal"
                     className="btn-get-started scrollto"
                   >
                     <span>Request a Demo</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -129,7 +129,7 @@ const SupplyChainManagement = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        <p>Automate your demand planning & <Link href="/products/microsoft-dynamics-365-ai/"><a>distribution practices using AI</a></Link> and make inventory decisions through the real-time and data-driven forecasting abilities of Dynamics 365 Supply Chain Management. This cloud-based ERP software helps you proactively derive resource allocation, streamline sales, and bring agility to your production line while eliminating stock-outs and overstocking.</p>
+                        <p>Automate your demand planning & <Link href="/products/microsoft-dynamics-365-ai/">distribution practices using AI</Link> and make inventory decisions through the real-time and data-driven forecasting abilities of Dynamics 365 Supply Chain Management. This cloud-based ERP software helps you proactively derive resource allocation, streamline sales, and bring agility to your production line while eliminating stock-outs and overstocking.</p>
                       </div>
                     </div>
                   </div>
@@ -192,7 +192,7 @@ const SupplyChainManagement = () => {
                       data-bs-parent="#accnews"
                     >
                       <div className="accordion-body">
-                        <p>Create an agile manufacturing process highly configured with AI, <Link href="/products/azure-iot-internet-of-things/"><a>Azure IoT</a></Link>, and <Link href="/products/microsoft-dynamics-365/mixed-reality/"><a>Mixed reality capabilities</a></Link>  streamline existing manufacturing & distribution systems and reduce error potentials.</p>
+                        <p>Create an agile manufacturing process highly configured with AI, <Link href="/products/azure-iot-internet-of-things/">Azure IoT</Link>, and <Link href="/products/microsoft-dynamics-365/mixed-reality/">Mixed reality capabilities</Link>  streamline existing manufacturing & distribution systems and reduce error potentials.</p>
                       </div>
                     </div>
                   </div>
@@ -271,16 +271,16 @@ const SupplyChainManagement = () => {
             <div className="col-lg-5 align-self-center">
             <div className="wy-sultion-left-head">
             <h2>Dynamics 365 Supply Chain Management Features</h2>
-            <h3>Build an intelligent and adaptable supply chain with a <Link href="/products/microsoft-dynamics-365/"><a>Microsoft ecosystem that empowers your business</a></Link> with real-time visibility, agile planning, and business continuity to face any challenge that comes your way.</h3>
+            <h3>Build an intelligent and adaptable supply chain with a <Link href="/products/microsoft-dynamics-365/">Microsoft ecosystem that empowers your business</Link> with real-time visibility, agile planning, and business continuity to face any challenge that comes your way.</h3>
             </div>
               <div className="m-o-t m-o-t-b">
-                <a
+                <Link
                   data-bs-toggle="modal"
                   href="#exampleModal"
                   className="btn-get-started scrollto"
                 >
                   <span>Learn More</span>
-                </a>
+                </Link>
               </div>
               {/* <div className="downlad_guid">
                         <a href="#">
@@ -352,7 +352,7 @@ const SupplyChainManagement = () => {
                   />
                   <div className="video-ytube video-ytubes">
                     <div className="popup-btn popup-btns">
-                      <a
+                      <Link
                         href="#javascript:void(0)"
                         onClick={() => setOpen(true)}
                       >
@@ -368,7 +368,7 @@ const SupplyChainManagement = () => {
                             alt="play_icons"
                           />
                         </span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -390,9 +390,9 @@ const SupplyChainManagement = () => {
                   <h3>Implementation</h3>
                   <p>Dynamics 365 Supply Chain Management can help your business achieve new milestones.</p>
                   <div className="action-content">
-                    <a data-bs-toggle="modal" href="#exampleModal">
+                    <Link data-bs-toggle="modal" href="#exampleModal">
                       Get Started
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -407,9 +407,9 @@ const SupplyChainManagement = () => {
                   <h3>Upgrade</h3>
                   <p>Continuously support your supply chain practices with our upgrade solutions and boost productivity.</p>
                   <div className="action-content">
-                    <a data-bs-toggle="modal" href="#exampleModal">
+                    <Link data-bs-toggle="modal" href="#exampleModal">
                       Get Started
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -424,9 +424,9 @@ const SupplyChainManagement = () => {
                   <h3>Support</h3>
                   <p>Drive agile flow and support your business continuity with our top-notch services.</p>
                   <div className="action-content">
-                    <a data-bs-toggle="modal" href="#exampleModal">
+                    <Link data-bs-toggle="modal" href="#exampleModal">
                       Get Started
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -492,13 +492,13 @@ const SupplyChainManagement = () => {
           <div className="row">
           <div className="col-lg-12 col-md-12">
               <div className="price-btn d-flex justify-content-center">
-                <a
+                <Link
                   data-bs-toggle="modal"
                   href="#exampleModal"
                   className="btn-get-red"
                 >
                   <span>Get Started Now</span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -512,13 +512,13 @@ const SupplyChainManagement = () => {
                 <h3>Create a connected, resilient, and adaptable supply chain</h3>
                 <p>Dynamics Square can suggest a highly customized solution for your business needs.</p>
                 <div className="text-center m-o-t new-btn-nn">
-                  <a
+                  <Link
                     data-bs-toggle="modal"
                     href="#exampleModal"
                     className="btn-get-started scrollto"
                   >
                     <span>Let's Discuss</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -617,7 +617,7 @@ const SupplyChainManagement = () => {
                         <li>Transportation Management</li>
                         <li>Warehouse Management</li>
                       </ul>
-                      <p><b>Note:</b> Each of the above features can be configured fully or customized to meet your specific business needs. At <a href="/">Dynamics Square</a>, we can implement a highly customized Supply Chain solution that meets the needs of your enterprise.</p>
+                      <p><b>Note:</b> Each of the above features can be configured fully or customized to meet your specific business needs. At <Link href="/">Dynamics Square</Link>, we can implement a highly customized Supply Chain solution that meets the needs of your enterprise.</p>
                     </div>
                   </div>
                 </div>
@@ -639,7 +639,7 @@ const SupplyChainManagement = () => {
                   >
                     <div className="accordion-body">
                      <p>You can automate your data and keep an update on every business flow, from inventory levels to warehousing practices, logistics demands and procurement to transportation management, and more.</p>
-                     <p><Link href="/contact-us/"><a>Contact Dynamics Square for immediate D365 Support</a></Link> or to learn more about how Supply Chain solutions can benefit your total Supply Chain pipeline and create doors for growth and new business opportunity while minimizing investment costs.</p>
+                     <p><Link href="/contact-us/">Contact Dynamics Square for immediate D365 Support</Link> or to learn more about how Supply Chain solutions can benefit your total Supply Chain pipeline and create doors for growth and new business opportunity while minimizing investment costs.</p>
                     </div>
                   </div>
                 </div>
@@ -681,7 +681,7 @@ const SupplyChainManagement = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>Yes, Microsoft Dynamics 365 Supply Chain is very adaptable and customizable to your specific company requirements. It is built with numerous critical components/modules to support the operational flow of your supply chain. To address your specific supply chain demands and operational flow, you can request your <Link href="/our-services/dynamics-365-implementation-services/"><a>Dynamics 365 implementation partner</a></Link> to implement all the modules or the ones you need. </p>
+                      <p>Yes, Microsoft Dynamics 365 Supply Chain is very adaptable and customizable to your specific company requirements. It is built with numerous critical components/modules to support the operational flow of your supply chain. To address your specific supply chain demands and operational flow, you can request your <Link href="/our-services/dynamics-365-implementation-services/">Dynamics 365 implementation partner</Link> to implement all the modules or the ones you need. </p>
                       <p>Moreover, you can also integrate this SCM app with your existing system or other Microsoft business apps to allow your system to run in parallel while assuring a smoother flow in your operating environment. Dynamics Square can help you create, modify, and implement a system to meet your supply chain operating requirements.</p>
                     </div>
                   </div>

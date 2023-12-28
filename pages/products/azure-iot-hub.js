@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link';
 
 const AzureIoTHub = () => {
   return (
@@ -25,13 +26,13 @@ const AzureIoTHub = () => {
               <p>Take ownership of managing and scaling your business by constructing customized solutions using Azure IoT Hub and Azure Digital Twins for complex IoT scenarios.</p>
               <div>
                 <div className="text-center text-lg-start">
-                  <a
+                  <Link
                     data-bs-toggle="modal"
                     href="#exampleModal"
                     className="btn-get-started scrollto"
                   >
                     <span>Get Started</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -154,13 +155,13 @@ const AzureIoTHub = () => {
                 <h3>Drive better products, optimize operations and costs and create breakthrough customer experiences with Microsoft Azure.</h3>
                 <p>Get in touch with our agile team of Azure IoT Experts and learn more about Azure IoT Hub solutions and how you can take control of your solution architecture.</p>
                 <div className="text-center m-o-t new-btn-nn">
-                  <a
+                  <Link
                     data-bs-toggle="modal"
                     href="#exampleModal"
                     className="btn-get-started scrollto"
                   >
                     <span>Chat with Your Experts now!</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

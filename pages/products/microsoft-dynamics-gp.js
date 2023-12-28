@@ -227,7 +227,7 @@ const MicrosoftDynamicsGP = () => {
             <div className="col-lg-8">
               <div className="call-to-action-content">
                 <h3>Are you planning to move on to the cloud for increased agility and flexibility? Or want to migrate to Dynamics 365 Business Central?</h3>
-                <p>Connect with our highly experienced team of Microsoft consultants to help you smoothly migrate your Dynamics GP data to Microsoft cloud. Or get advice on how <Link href="/products/dynamics-365-business-central/"><a>Business Central</a></Link> can be a robust alternative to Dynamics GP. Explore: <Link href="/dynamics-365-business-central-features/"><a>Dynamics 365 Business Central Features</a></Link></p>
+                <p>Connect with our highly experienced team of Microsoft consultants to help you smoothly migrate your Dynamics GP data to Microsoft cloud. Or get advice on how <Link href="/products/dynamics-365-business-central/">Business Central</Link> can be a robust alternative to Dynamics GP. Explore: <Link href="/dynamics-365-business-central-features/">Dynamics 365 Business Central Features</Link></p>
                 <div className="text-center m-o-t new-btn-nn">
                   <Link href="#exampleModal">
                     <a className="btn-get-started scrollto"  data-bs-toggle="modal"> <span>Chat With Us Now!</span></a>

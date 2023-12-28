@@ -36,12 +36,12 @@ function AuthorsList({ blogs, authorslist, blgsbyauthorslist }) {
                   <ol className="breadcrumb">
                     <li className="breadcrumb-item">
                       <Link href="/">
-                        <a>Home</a>
+                      Home
                       </Link>
                     </li>
                     <li className="breadcrumb-item">
                       <Link href="/blog/">
-                        <a>Blog</a>
+                        Blog
                       </Link>
                     </li>
                     <li className="breadcrumb-item active">Author</li>
@@ -60,7 +60,7 @@ function AuthorsList({ blogs, authorslist, blgsbyauthorslist }) {
                 <div className="col-lg-3">
                       <div className="author-list-card">
                         <Link href={`/blog/author/${authorsitem.name.split(" ").join("-")}`}>
-                          <a><img src={authorsitem.profile_photo_path} alt={authorsitem.name} /> <span>{authorsitem.name}</span></a>
+                          <img src={authorsitem.profile_photo_path} alt={authorsitem.name} /> <span>{authorsitem.name}</span>
                         </Link>
                       </div>
                    

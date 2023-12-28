@@ -64,7 +64,7 @@ const Startup = () => {
               <header className="section-header">
               <h2>Microsoft's Dynamics 365 for Startups - Cultivate a Culture of Innovation</h2>
               <p>Bring people, knowledge, and problem-solving ability together to solve tomorrow's challenges today!</p>
-              <p>Startups and mid-market-sized businesses are the hubs of innovation. They work on tight budgets and have complexities to manage. <b>Dynamics 365 for Startups</b> is not merely an idea but a flexible, easy-to-use, customizable, and low-cost yet highly productive business management platform that helps startups and mid-sized businesses (SMEs/SMBs) streamline operations, <Link href="/products/dynamics-365-customer-engagement/"><a>enhance customer engagement</a></Link>, save development time and cost & drive growth at scale. </p>
+              <p>Startups and mid-market-sized businesses are the hubs of innovation. They work on tight budgets and have complexities to manage. <b>Dynamics 365 for Startups</b> is not merely an idea but a flexible, easy-to-use, customizable, and low-cost yet highly productive business management platform that helps startups and mid-sized businesses (SMEs/SMBs) streamline operations, <Link href="/products/dynamics-365-customer-engagement/">enhance customer engagement</Link>, save development time and cost & drive growth at scale. </p>
               <div className="text-center">
                   <a
                     data-bs-toggle="modal"
@@ -242,7 +242,7 @@ const Startup = () => {
                   </div>
                   <div className="card_new_content">
                     <h3>Process Automation</h3>
-                    <p>Enable data and process automation using <Link href="/products/microsoft-dynamics-365-ai/"><a>built-in AI (Artificial Intelligence)</a></Link> practices and in-cloud environments. </p>
+                    <p>Enable data and process automation using <Link href="/products/microsoft-dynamics-365-ai/">built-in AI (Artificial Intelligence)</Link> practices and in-cloud environments. </p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
@@ -425,7 +425,7 @@ const Startup = () => {
                               </div>
                               <div className="text-wrp-content">
                                 <h3>Food & Beverages</h3>
-                                <p>Employ an intelligent and <Link href="/products/dynamics-365-supply-chain-management/"><a>adaptive supply chain</a></Link> to help drive growth and fulfill customer expectations with <Link href="/industries/food-and-beverages/"><a>Dynamics 365 for the food & beverage industry</a></Link>. </p>
+                                <p>Employ an intelligent and <Link href="/products/dynamics-365-supply-chain-management/">adaptive supply chain</Link> to help drive growth and fulfill customer expectations with <Link href="/industries/food-and-beverages/">Dynamics 365 for the food & beverage industry</Link>. </p>
                                 <span>Explore Now</span>
                               </div>
                             </a>
@@ -445,7 +445,7 @@ const Startup = () => {
                                 </div>
                                 <div className="text-wrp-content">
                                   <h3>Not for Profit</h3>
-                                  <p>Bring automation into your daily operations, help the needy, and drive efficiency in your non-profit mission with <Link href="/industries/microsoft-cloud-for-nonprofit/"><a>Dynamics 365 for Non-Profits</a></Link> Hubs.</p>
+                                  <p>Bring automation into your daily operations, help the needy, and drive efficiency in your non-profit mission with <Link href="/industries/microsoft-cloud-for-nonprofit/">Dynamics 365 for Non-Profits</Link> Hubs.</p>
                                   <span>Explore Now</span>
                                 </div>
                               </a>
@@ -466,7 +466,7 @@ const Startup = () => {
                                 </div>
                                 <div className="text-wrp-content">
                                   <h3>E-Commerce</h3>
-                                  <p>Unify your back office, in-store, call center, and e-commerce experiences and deliver more unified commerce to your customers at scale with <Link href="/products/microsoft-dynamics-365-commerce/"><a>Dynamics 365 Commerce</a></Link>.</p>
+                                  <p>Unify your back office, in-store, call center, and e-commerce experiences and deliver more unified commerce to your customers at scale with <Link href="/products/microsoft-dynamics-365-commerce/">Dynamics 365 Commerce</Link>.</p>
                                   <span>Explore Now</span>
                                 </div>
                               </a>

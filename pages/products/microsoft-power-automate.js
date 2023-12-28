@@ -167,7 +167,7 @@ const PowerAutomate = () => {
                       data-bs-parent="#acccm"
                     >
                       <div className="accordion-body">
-                        <p>Powered by <Link href="/products/microsoft-dynamics-365-ai/"><a>Microsoft AI technology</a></Link> Power Automate not only helps you easily drive automation but also assists in several ways. Get started with creating new flows based on your business model.</p>
+                        <p>Powered by <Link href="/products/microsoft-dynamics-365-ai/">Microsoft AI technology</Link> Power Automate not only helps you easily drive automation but also assists in several ways. Get started with creating new flows based on your business model.</p>
                       </div>
                     </div>
                   </div>
@@ -319,7 +319,7 @@ const PowerAutomate = () => {
                 </div>
                 <div className="card_new_content">
                   <h3>Implementation</h3>
-                  <p>Get Power Automate solutions implemented with <Link href="/"><a>Dynamics Square</a></Link> in a simplified and cost-efficient way without compromising security.</p>
+                  <p>Get Power Automate solutions implemented with <Link href="/">Dynamics Square</Link> in a simplified and cost-efficient way without compromising security.</p>
                   <div className="action-content">
                     <a data-bs-toggle="modal" href="#exampleModal">
                       Get Started

@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link';
 
 const AzureMachineLearning = () => {
   return (
@@ -28,13 +29,13 @@ const AzureMachineLearning = () => {
               <p>Empower your data scientists and developers to build and deploy business-critical machine learning models at scale with Azure Machine Learning - an end-to-end machine learning-as-a-service (ML-aa-S) from Microsoft to efficiently run your machine learning lifecycle.</p>
               <div>
                 <div className="text-center text-lg-start">
-                  <a
+                  <Link
                     data-bs-toggle="modal"
                     href="#exampleModal"
                     className="btn-get-started scrollto"
                   >
                     <span>Get Started</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -290,13 +291,13 @@ const AzureMachineLearning = () => {
 with Azure Machine Learning Solutions.
                 </p>
                 <div className="text-center m-o-t new-btn-nn">
-                  <a
+                  <Link
                     data-bs-toggle="modal"
                     href="#exampleModal"
                     className="btn-get-started scrollto"
                   >
                     <span>Book a Callback</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

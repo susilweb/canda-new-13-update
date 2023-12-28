@@ -68,7 +68,7 @@ const CustomerService = () => {
               <header className="section-header">
                 <h2>What Is Dynamics 365 Customer Service?</h2>
                 <p>Delivering a customer-centric customer experience (CX) is crucial for today's digital world. Dynamics 365 customer service is designed and developed to do even more. It is a comprehensive, highly customizable, and extremely flexible solution for enterprises looking to transform their customer service, sales, and marketing experiences.</p>
-                <p>With this Saas CRM solution, you empower your employees with a single, unified view of the customer to successfully drive omnichannel efficiency. Increase time-to-value for all your business investments by integrating this <Link href="/products/microsoft-dynamics-crm/"><a>cloud-based customer relationship management (CRM) system</a></Link> and unlock new revenue streams, reduce waste, and accelerate inefficiencies.</p>
+                <p>With this Saas CRM solution, you empower your employees with a single, unified view of the customer to successfully drive omnichannel efficiency. Increase time-to-value for all your business investments by integrating this <Link href="/products/microsoft-dynamics-crm/">cloud-based customer relationship management (CRM) system</Link> and unlock new revenue streams, reduce waste, and accelerate inefficiencies.</p>
               </header>
             </div>
           </div>

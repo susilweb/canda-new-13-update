@@ -128,7 +128,7 @@ const PowerApps = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        <p>You can easily build personalized and professional apps while simplifying the complex processes of a business. It comes with in-built <Link href="/products/microsoft-dynamics-365-ai/"><a>AI (Artifical Intelligence)</a></Link> to help you add advanced features to the apps with ease.</p>
+                        <p>You can easily build personalized and professional apps while simplifying the complex processes of a business. It comes with in-built <Link href="/products/microsoft-dynamics-365-ai/">AI (Artifical Intelligence)</Link> to help you add advanced features to the apps with ease.</p>
                       </div>
                     </div>
                   </div>
@@ -559,7 +559,7 @@ const PowerApps = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>Power Apps is part of the broader Microsoft Power Platform built on Azure cloud services. It is a quick app development platform and includes native capabilities for <Link href="/products/microsoft-dynamics-365-sales/"><a>Microsoft Dynamics Sales</a></Link>, Service, <Link href="/products/microsoft-dynamics-365-field-service/"><a>Field Service</a></Link>, <Link href="/products/microsoft-dynamics-365-marketing/"><a>Marketing</a></Link>, and Talent Acquisition Apps.</p>
+                      <p>Power Apps is part of the broader Microsoft Power Platform built on Azure cloud services. It is a quick app development platform and includes native capabilities for <Link href="/products/microsoft-dynamics-365-sales/">Microsoft Dynamics Sales</Link>, Service, <Link href="/products/microsoft-dynamics-365-field-service/">Field Service</Link>, <Link href="/products/microsoft-dynamics-365-marketing/">Marketing</Link>, and Talent Acquisition Apps.</p>
                     </div>
                   </div>
                 </div>

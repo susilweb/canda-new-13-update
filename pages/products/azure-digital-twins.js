@@ -23,13 +23,13 @@ const AzureDigitalTwins = () => {
               <p>Energize your entire organization with IoT spatial intelligence. Create models of physical environments using Azure Digital Twins technology and deliver breakthrough customer experiences.</p>
               <div>
                 <div className="text-center text-lg-start">
-                  <a
+                  <Link
                     data-bs-toggle="modal"
                     href="#exampleModal"
                     className="btn-get-started scrollto"
                   >
                     <span>Start Re-Creating!</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -51,13 +51,13 @@ const AzureDigitalTwins = () => {
                           <h2>What is Azure Digital Twins tech?</h2>
                           <p>Azure Digital Twins is an Internet of Things (IoT) platform that helps your IoT development team comprehensively create digital representations of the world around us - things, people, places, and business processes. Implement Microsoft's Digital Twins technology to gain deep insights and drive better products, optimize ops and cut costs to provide your customers with unprecedented customer experiences.</p>
                           <div className="text-center">
-                            <a
+                            <Link
                             data-bs-toggle="modal"
                             href="#exampleModal"
                             className="btn-get-started scrollto"
                             >
                               <span>Get Started now!</span>
-                            </a>
+                            </Link>
                           </div> <br /><br />
                         </header>
                 </div>  
@@ -224,13 +224,13 @@ const AzureDigitalTwins = () => {
                   your business.
                 </p>
                 <div className="text-center m-o-t new-btn-nn">
-                  <a
+                  <Link
                     data-bs-toggle="modal"
                     href="#exampleModal"
                     className="btn-get-started scrollto"
                   >
                     <span>Book a Callback</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

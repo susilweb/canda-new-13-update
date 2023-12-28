@@ -153,13 +153,13 @@ const BusinessCentral = () => {
               </p>
               <div>
                 <div className="text-center text-lg-start">
-                  <a
+                  <Link
                     data-bs-toggle="modal"
                     href="#exampleModal"
                     className="btn-get-started scrollto"
                   >
                     <span>Get Started with Business Central </span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -236,13 +236,13 @@ const BusinessCentral = () => {
                   and improve results.
                 </p>
                 <div className="text-center m-o-t new-btn-nn">
-                  <a
+                  <Link
                     data-bs-toggle="modal"
                     href="#exampleModal"
                     className="btn-get-started scrollto"
                   >
                     <span>Click For FREE Business Central Trial</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -264,7 +264,7 @@ const BusinessCentral = () => {
                   <b>130+</b> countries and regions. <b>Get Started</b> to{" "}
                   <b>SAVE</b> up to <b>30%</b> for{" "}
                   <Link href="/dynamics-365-business-central-erp-system-implementation/">
-                    <a>Business Central Implementation </a>
+                    Business Central Implementation
                   </Link>
                 </p>
               </header>
@@ -298,7 +298,7 @@ const BusinessCentral = () => {
                         <p>
                           Business Central offers a flexible and adaptable{" "}
                           <Link href="/products/microsoft-dynamics-365/">
-                            <a>cloud ERP solution</a>
+                            cloud ERP solution
                           </Link>{" "}
                           and allows faster adoption. With reliable and secure
                           cloud-based deployment, you can connect all your teams
@@ -364,7 +364,7 @@ const BusinessCentral = () => {
                         <p>
                           Microsoft Business Central has built-in{" "}
                           <Link href="/products/microsoft-dynamics-365-ai/">
-                            <a>Azure AI</a>
+                            Azure AI
                           </Link>{" "}
                           that helps businesses create a cashflow forecast using
                           Flow Analysis. This enhances informed decision-making
@@ -2335,13 +2335,13 @@ const BusinessCentral = () => {
                   Financials for GL, AP, AR, & Dimensional reporting.
                 </p>
                 <div className="text-center m-o-t new-btn-nn">
-                  <a
+                  <Link
                     data-bs-toggle="modal"
                     href="#exampleModal"
                     className="btn-get-started scrollto"
                   >
                     <span>Contact Now!</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -2381,7 +2381,7 @@ const BusinessCentral = () => {
                         <p>
                           With{" "}
                           <Link href="/products/microsoft-power-bi/">
-                            <a>Power BI</a>
+                          Power BI
                           </Link>{" "}
                           Power Automate, Power Apps, Power Virtual Agents, and
                           Dataverse, Business Central is a comprehensive
@@ -2434,7 +2434,7 @@ const BusinessCentral = () => {
                           with their existing systems, third-party apps, and
                           other{" "}
                           <Link href="/products/microsoft-dynamics-365/">
-                            <a>Microsoft Business Apps.</a>
+                            Microsoft Business Apps.
                           </Link>
                         </p>
                       </div>
@@ -2481,14 +2481,14 @@ const BusinessCentral = () => {
                             <b> Dynamics AX, NAV, or GP</b>.
                           </p>
                           <div className="new-btn new-btn-nn">
-                            <a
+                            <Link
                               href="/contact-us/"
                               className="btn-get-started-color"
                             >
                               <span>
                                 Connect With Your Dynamics 365 Partner Today!{" "}
                               </span>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -2521,13 +2521,13 @@ const BusinessCentral = () => {
                   Dynamics 365 Business Central online is getting highly
                   adaptable and feature rich with each update. Look at the
                   updates form{" "}
-                  <a
+                  <Link
                     href="https://learn.microsoft.com/en-us/dynamics365-release-plan/2022wave2/smb/dynamics365-business-central/planned-features"
                     target="_blank"
                     rel="nofollow"
                   >
                     2023 Wave 1 release plan{" "}
-                  </a>
+                  </Link>
                   . Look at the updates:
                 </p>
               </header>
@@ -2590,14 +2590,14 @@ const BusinessCentral = () => {
                 <div className="style-grid-content">
                   <h3>For More, Take Your Sip Here:</h3>
                   <p>
-                    <a
+                    <Link
                       target="_blank"
                       rel="nofollow"
                       href="https://learn.microsoft.com/en-us/dynamics365/release-plan/2023wave1/smb/dynamics365-business-central/"
                     >
                       The 2023 Release Wave 1 Plan for Dynamics 365 Business
                       Central
-                    </a>
+                    </Link>
                   </p>
                 </div>
               </div>
@@ -2655,7 +2655,7 @@ const BusinessCentral = () => {
                   />
                   <div className="video-ytube video-ytubes">
                     <div className="popup-btn popup-btns">
-                      <a
+                      <Link
                         href="#javascript:void(0)"
                         onClick={() => setOpen(true)}
                       >
@@ -2668,7 +2668,7 @@ const BusinessCentral = () => {
                         <span className="cente-icns">
                           <img src="/img/play_icons.svg" alt="play_icons" />
                         </span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -2697,7 +2697,7 @@ const BusinessCentral = () => {
                   </p>
                   <div className="action-content">
                     <Link href="/dynamics-365-business-central-erp-system-implementation/">
-                      <a>Get Started</a>
+                      Get Started
                     </Link>
                   </div>
                 </div>
@@ -2714,14 +2714,14 @@ const BusinessCentral = () => {
                   <p>
                     Upgrade your{" "}
                     <Link href="/products/microsoft-dynamics-erp/">
-                      <a>legacy ERP systems</a>
+                      legacy ERP systems
                     </Link>{" "}
                     and empower your teams with new capabilities that energize
                     your organization to do more with less.
                   </p>
                   <div className="action-content">
                     <Link href="/dynamics-365-business-central-upgrade/">
-                      <a>Get Started</a>
+                      Get Started
                     </Link>
                   </div>
                 </div>
@@ -2741,7 +2741,7 @@ const BusinessCentral = () => {
                   </p>
                   <div className="action-content">
                     <Link href="/dynamics-365-business-central-erp-support/">
-                      <a>Get Started</a>
+                      Get Started
                     </Link>
                   </div>
                 </div>
@@ -3008,21 +3008,21 @@ const BusinessCentral = () => {
 
             <div className="col-lg-12 col-md-12">
               <div className="price-btn d-flex justify-content-center">
-                <a
+                <Link
                   data-bs-toggle="modal"
                   href="#exampleModal"
                   className="btn-get-red"
                 >
                   <span>Get Started Now</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="/assets/pdf/Dynamics-365-Licensing-Guide-June-2022.pdf"
                   className="btn-get-whit"
                   target="_blank"
                   rel=""
                 >
                   <span>See Licensing Guide</span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -3044,13 +3044,13 @@ const BusinessCentral = () => {
                   <strong>Business Central Partner</strong> today!
                 </p>
                 <div className="text-center m-o-t new-btn-nn">
-                  <a
+                  <Link
                     data-bs-toggle="modal"
                     href="#exampleModal"
                     className="btn-get-started scrollto"
                   >
                     <span>Learn More The About Implementation Process </span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -3140,7 +3140,7 @@ const BusinessCentral = () => {
                         Microsoft Dynamics 365 Business Central is the upgraded
                         version of{" "}
                         <Link href="/products/microsoft-dynamics-nav/">
-                          <a>Dynamics NAV</a>
+                          Dynamics NAV
                         </Link>{" "}
                         (also known as Navision). The difference lies in
                         advanced features and navigations in Business Central
@@ -3157,7 +3157,7 @@ const BusinessCentral = () => {
                         We, at <b>Dynamics Square</b>, offer reliable,
                         cost-efficient NAV and{" "}
                         <Link href="/dynamics-365-business-central-erp-support/">
-                          <a>Business Central Support Services</a>
+                          Business Central Support Services
                         </Link>
                         . Get in touch for Business Central implementation to
                         discuss your business problems in <b>1:1</b> meet-ups.
@@ -3196,19 +3196,19 @@ const BusinessCentral = () => {
                         finance and operations hiring needs, which could
                         translate to cost savings for the organization.{" "}
                         <strong>
-                          <a
+                          <Link
                             href="https://download.microsoft.com/download/f/8/b/f8b3d4db-d2b6-4357-bfc4-a1fdafd8b993/TEI_of_Microsoft_Business%20Central_FINAL.pdf"
                             target="_blank"
                             rel="nofollow"
                           >
                             Download the study by Gartner
-                          </a>
+                          </Link>
                         </strong>{" "}
                         to explore the whole report.
                       </p>
                       <p>
                         <Link href="/contact-us/">
-                          <a>Get in touch</a>
+                          Get in touch
                         </Link>{" "}
                         with your <b>Business Central Partner</b> based in
                         Canada like <b>Dynamics Square</b> for effortless,
@@ -3240,7 +3240,7 @@ const BusinessCentral = () => {
                         Dynamics 365 Business Central, we're always a call away.
                         Our team of{" "}
                         <Link href="/our-services/dynamics-365-implementation-services/">
-                          <a>Dynamics 365 experts</a>
+                          Dynamics 365 experts
                         </Link>{" "}
                         and proficient consultants in Vancouver can help
                         implement a highly configured solution for your business
@@ -3250,7 +3250,7 @@ const BusinessCentral = () => {
                         For more details or to avail our{" "}
                         <strong>free system health check</strong>,{" "}
                         <Link href="/contact-us/">
-                          <a>get in touch with us today</a>
+                          get in touch with us today
                         </Link>
                         .
                       </p>
@@ -3288,7 +3288,7 @@ const BusinessCentral = () => {
                         service hubs across Canada; Vancouver, Toronto,
                         Montreal, Quebec City, and more.{" "}
                         <Link href="/contact-us/">
-                          <a>Contact us</a>
+                        Contact us
                         </Link>{" "}
                         today!
                       </p>
@@ -3338,7 +3338,7 @@ const BusinessCentral = () => {
                         Still not sure which business central implementation
                         cost plan would best suit your business,{" "}
                         <Link href="/contact-us/">
-                          <a>call our experts</a>
+                          call our experts
                         </Link>{" "}
                         based in Vancouver, Canada. We're are always eager to
                         extend help. <b>Connect now!</b>
@@ -3371,7 +3371,7 @@ const BusinessCentral = () => {
                         dedicated support system and an expert team you provide
                         timely, efficient, and flexible{" "}
                         <Link href="/our-services/dynamics-365-support-services/">
-                          <a>Dynamics 365 Support</a>
+                          Dynamics 365 Support
                         </Link>{" "}
                         to our clients.
                       </p>
@@ -3406,7 +3406,7 @@ const BusinessCentral = () => {
                         aspects. Data analytics and data visualization software
                         like{" "}
                         <Link href="/products/microsoft-power-bi/">
-                          <a>Microsoft Power BI</a>
+                          Microsoft Power BI
                         </Link>{" "}
                         are already included in Business Central.{" "}
                       </p>
@@ -3446,11 +3446,11 @@ const BusinessCentral = () => {
                         mid-market sized companies and has basic
                         funcitonalities. While F&O or{" "}
                         <Link href="/products/microsoft-dynamics-365-finance-operations/">
-                          <a>Dynamics 365 Finance and Operations</a>
+                          Dynamics 365 Finance and Operations
                         </Link>{" "}
                         (now available in two separate modules as{" "}
                         <Link href="/products/microsoft-dynamics-365-finance/">
-                          <a>Dynamics 365 Finance</a>
+                          Dynamics 365 Finance
                         </Link>{" "}
                         and Supply Chain Management) caters to large enterprises
                         that have complex operations to manage.
@@ -3458,11 +3458,11 @@ const BusinessCentral = () => {
                       <p>
                         For implementation of{" "}
                         <Link href="/products/dynamics-365-supply-chain-management/">
-                          <a>Dynamics 365 Supply Chain Management</a>
+                          Dynamics 365 Supply Chain Management
                         </Link>
                         , you can{" "}
                         <Link href="/contact-us/">
-                          <a>contact us</a>
+                          contact us
                         </Link>{" "}
                         and share your requirements to get a quote.
                       </p>
