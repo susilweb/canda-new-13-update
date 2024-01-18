@@ -284,9 +284,11 @@ export default function Home() {
                 <div className="bnner_inline_images">
                   <ul>
                     <li>
-                      <img
+                      <Image
                         src="/img/Microsoft-Partner-black.png"
                         alt="Microsoft Partner black.png"
+                        width={337}
+                        height={151}
                       />
                     </li>
                   </ul>
