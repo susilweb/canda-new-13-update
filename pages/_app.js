@@ -6,6 +6,8 @@ import {useRouter} from 'next/router';
 import Header from '../components/Header';
 import {useState, useEffect} from 'react'
 import LoadingBar from 'react-top-loading-bar'
+import Providers from "./providers";
+import ThemeSwitcher from "./ThemeSwitcher";
 // function MyApp({ Component, pageProps }) {
 
 //   return 
@@ -62,9 +64,13 @@ setProgress(600)
       height={2}
       onLoaderFinished={() => setProgress(0)}
       />
+
+<Providers>
+<ThemeSwitcher />   
   <Layouts>
   <Component {...pageProps} />
   </Layouts>
+  </Providers>
   </>
 }
 
