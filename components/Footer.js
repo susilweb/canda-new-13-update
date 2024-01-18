@@ -1,5 +1,6 @@
 import React, { useRef ,useState } from 'react';
 import Form from "./Form";
+import Image from "next/image";
 import emailjs from '@emailjs/browser';
 import { useRouter } from 'next/router';
 const Footer = () =>{
@@ -177,11 +178,13 @@ const Footer = () =>{
                   </div>
                 </div>
                 <div className="col-sm-4 col-md-6 col-lg-6 hide-c">
-                  <img
+                  <Image
                     src="/img/contactfor-sede-img.jpg"
                     alt="contactfor-sede-img"
                     className="image-cover"
                     layout="responsive"
+                    width={545}
+                    height={614}
                   />
                 </div>
               </div>
