@@ -302,7 +302,7 @@ export default function Home() {
                     src="/img/banner-head-image.png"
                     alt="business-center-logo"
                     className="icon"
-                    width={750}
+                    width={600}
                     height={520}
                   />
               {/* <Spline className='nn' scene="https://prod.spline.design/mMw4apDfV4WLm7kV/scene.splinecode" />  */}
