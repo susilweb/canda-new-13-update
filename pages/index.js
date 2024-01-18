@@ -483,10 +483,12 @@ export default function Home() {
             <div className="col-lg-4 col-md-6">
               <div className="service-box  service-box-blue">
                 <div className="top">
-                  <img
+                  <Image
                     src="/img/business-center-logo.svg"
                     alt="business-center-logo"
                     className="icon"
+                    width={45}
+                    height={45}
                   />
                   <h3>
                     Dynamics 365 <br /> Business Central
@@ -503,10 +505,12 @@ export default function Home() {
             <div className="col-lg-4 col-md-6">
               <div className="service-box service-box-blue">
                 <div className="top">
-                  <img
+                  <Image
                     src="/img/finace-icons.svg"
                     alt="finace-icons"
                     className="icon"
+                    width={45}
+                    height={45}
                   />
                   <h3>
                     Dynamics 365 <br />
@@ -524,10 +528,12 @@ export default function Home() {
             <div className="col-lg-4 col-md-6">
               <div className="service-box service-box-blue">
                 <div className="top">
-                  <img
+                  <Image
                     src="/img/supplychain-logo.svg"
                     alt="supplychain-logo"
                     className="icon"
+                    width={45}
+                    height={45}
                   />
                   <h3>
                     Dynamics 365 <br />
@@ -551,10 +557,12 @@ export default function Home() {
             >
               <div className="service-box service-box-blue">
                 <div className="top">
-                  <img
+                  <Image
                     src="/img/Sales_scalable.svg"
                     alt="Sales_scalable"
                     className="icon"
+                    width={45}
+                    height={45}
                   />
                   <h3>
                     Dynamics 365 <br />
@@ -577,10 +585,12 @@ export default function Home() {
             >
               <div className="service-box service-box-blue">
                 <div className="top">
-                  <img
+                  <Image
                     src="/img/powerbilogo.png"
                     alt="Powerapps_power-apps"
                     className="icon"
+                    width={45}
+                    height={45}
                   />
                   <h3>
                     Microsoft <br />
@@ -602,10 +612,12 @@ export default function Home() {
             >
               <div className="service-box service-box-blue">
                 <div className="top">
-                  <img
+                  <Image
                     src="/img/Azure-IoT.svg"
                     alt="Azure-IoT"
                     className="icon"
+                    width={45}
+                    height={45}
                   />
                   <h3>
                     Internet Of <br />
