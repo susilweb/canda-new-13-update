@@ -1,0 +1,48 @@
+/* components/ContactForm.module.css */
+.crmWebToEntityForm {
+    width: 100%;
+    padding: 25px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  
+  .crmWebToEntityForm * {
+    box-sizing: border-box;
+  }
+  
+  .crmWebToEntityForm {
+    text-align: left;
+  }
+  
+  .crmWebToEntityForm * {
+    direction: ltr;
+  }
+  
+  .crmWebToEntityForm .zcwf_title {
+    word-wrap: break-word;
+    padding: 0px 6px 10px;
+    font-weight: bold;
+  }
+  
+  .crmWebToEntityForm .formsubmit {
+    margin-right: 5px;
+    cursor: pointer;
+    color: var(--baseColor);
+    font-size: 12px;
+  }
+  
+  .crmWebToEntityForm .zcwf_button {
+    font-size: 12px;
+    color: var(--baseColor);
+    border: 1px solid #c0c6cc;
+    padding: 3px 9px;
+    border-radius: 4px;
+    cursor: pointer;
+    max-width: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  /* Add other styles as needed */
+  
