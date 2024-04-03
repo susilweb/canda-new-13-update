@@ -3,53 +3,34 @@ import React from 'react';
 import styles from '../styles/ContactForm.module.css'; // Import CSS module
 
 const ContactForm = () => {
-  function checkMandatory583330000000339005() {
-    var mndFileds = new Array('Company', 'Last Name');
-    var fldLangVal = new Array('Company', 'Last\x20Name');
-    for (var i = 0; i < mndFileds.length; i++) {
-      var fieldObj = document.forms['WebToLeads583330000000339005'][mndFileds[i]];
-      if (fieldObj) {
-        if (((fieldObj.value).replace(/^\s+|\s+$/g, '')).length == 0) {
-          if (fieldObj.type == 'file') {
-            alert('Please select a file to upload.');
-            fieldObj.focus();
-            return false;
-          }
-          alert(fldLangVal[i] + ' cannot be empty.');
-          fieldObj.focus();
-          return false;
-        } else if (fieldObj.nodeName == 'SELECT') {
-          if (fieldObj.options[fieldObj.selectedIndex].value == '-None-') {
-            alert(fldLangVal[i] + ' cannot be none.');
-            fieldObj.focus();
-            return false;
-          }
-        } else if (fieldObj.type == 'checkbox') {
-          if (fieldObj.checked == false) {
-            alert('Please accept  ' + fldLangVal[i]);
-            fieldObj.focus();
-            return false;
-          }
+    function checkMandatory583330000000339005() {
+        var mndFileds = ['Company', 'Last Name']; // List of mandatory fields
+        var fldLangVal = ['Company', 'Last\x20Name']; // Display names of mandatory fields
+    
+        for (var i = 0; i < mndFileds.length; i++) {
+            var fieldObj = document.forms['WebToLeads583330000000339005'][mndFileds[i]]; // Select the field element by its name
+    
+            if (fieldObj) {
+                if (((fieldObj.value).trim()).length == 0) { // Check if the field is empty
+                    alert(fldLangVal[i] + ' cannot be empty.');
+                    fieldObj.focus();
+                    return false;
+                }
+            } else {
+                console.error('Field ' + mndFileds[i] + ' not found.'); // Log an error if the field is not found
+                return false;
+            }
         }
-        try {
-          if (fieldObj.name == 'Last Name') {
-            name = fieldObj.value;
-          }
-        } catch (e) {}
-      }
+    
+        // If all fields are filled, disable the submit button to prevent multiple submissions
+        var submitBtn = document.querySelector('.crmWebToEntityForm .formsubmit');
+        if (submitBtn) {
+            submitBtn.setAttribute('disabled', true);
+        } else {
+            console.error('Submit button not found.');
+        }
     }
-    var urlparams = new URLSearchParams(window.location.search);
-    if (urlparams.has('service') && (urlparams.get('service') === 'smarturl')) {
-      var webform = document.getElementById('webform583330000000339005');
-      var service = urlparams.get('service');
-      var smarturlfield = document.createElement('input');
-      smarturlfield.setAttribute('type', 'hidden');
-      smarturlfield.setAttribute('value', service);
-      smarturlfield.setAttribute('name', 'service');
-      webform.appendChild(smarturlfield);
-    }
-    document.querySelector('.crmWebToEntityForm .formsubmit').setAttribute('disabled', true);
-  }
+    
 
   function tooltipShow583330000000339005(el) {
     var tooltip = el.nextElementSibling;
