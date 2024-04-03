@@ -16,8 +16,8 @@ const ContactForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Perform form submission logic here
     const form = e.target;
+    // Perform form submission logic here
     fetch(form.action, {
       method: form.method,
       body: new URLSearchParams(new FormData(form)).toString(),
@@ -32,13 +32,14 @@ const ContactForm = () => {
         // Handle successful form submission
         console.log('Form submitted successfully');
         // Reset form fields
-        form.reset();
+        form.reset(); // Use form.reset() instead of s.reset()
       })
       .catch(error => {
         // Handle form submission error
         console.error('Form submission error:', error);
       });
   };
+  
 
   return (
     <div id='crmWebToEntityForm' className='zcwf_lblLeft crmWebToEntityForm' style={{ backgroundColor: 'white', color: 'black', maxWidth: '600px' }}>
