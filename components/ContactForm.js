@@ -71,13 +71,16 @@ const ContactForm = () => {
       <meta http-equiv='content-type' content='text/html;charset=UTF-8' />
 
       <form
-        id='webform583330000000339005'
-        action='https://crm.zoho.in/crm/WebToLeadForm'
-        name='WebToLeads583330000000339005'
-        method='POST'
-        onSubmit='javascript:document.charset="UTF-8"; return checkMandatory583330000000339005()'
-        acceptCharset='UTF-8'
-      >
+  id='webform583330000000339005'
+  action='https://crm.zoho.in/crm/WebToLeadForm'
+  name='WebToLeads583330000000339005'
+  method='POST'
+  onSubmit={(event) => {
+    event.preventDefault(); // Prevent default form submission
+    checkMandatory583330000000339005(); // Call your form validation function
+  }}
+  acceptCharset='UTF-8'
+>
         <input type='text' style={{ display: 'none' }} name='xnQsjsdp' value='301390302ac5208fa9c9d258747757f5410edba55580cadaf090cd53cfaa1cba' />
         <input type='hidden' name='zc_gad' id='zc_gad' value='' />
         <input type='text' style={{ display: 'none' }} name='xmIwtLD' value='91c9cb0353618abac9c19863620775ef36911c41096cd10529d54bc8f30e515106c89f9d2ad10417c9ee0b46566b7a78' />
