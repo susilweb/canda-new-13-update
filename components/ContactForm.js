@@ -20,10 +20,28 @@ const ContactForm = () => {
         }));
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        // Add your form submission logic here
-        console.log(formData);
+        
+        const formData = new FormData(e.target);
+        const url = 'https://crm.zoho.in/crm/WebToLeadForm';
+    
+        try {
+            const response = await fetch(url, {
+                method: 'POST',
+                body: formData
+            });
+    
+            if (response.ok) {
+                // Handle success, e.g., show a success message
+                console.log('Form submitted successfully');
+            } else {
+                // Handle error, e.g., show an error message
+                console.error('Error submitting form:', response.statusText);
+            }
+        } catch (error) {
+            console.error('Error submitting form:', error);
+        }
     };
 
     return (
