@@ -28,8 +28,7 @@ const ContactForm = () => {
 
     return (
         <div id='crmWebToEntityForm' className='zcwf_lblLeft crmWebToEntityForm' style={{ backgroundColor: 'white', color: 'black', maxWidth: '600px' }}>
-            <meta name='viewport' content='width=device-width, initial-scale=1.0' />
-            <META HTTP-EQUIV='content-type' CONTENT='text/html;charset=UTF-8' />
+          
 
             <form id='webform583330000000339005' action='https://crm.zoho.in/crm/WebToLeadForm' name='WebToLeads583330000000339005' method='POST' onSubmit={handleSubmit} acceptCharset='UTF-8'>
                 <input type='text' style={{ display: 'none' }} name='xnQsjsdp' value='ad5c4e51162238d204dc5b9178c4c687f9acbe466af2e0ae9e7ee4a13ae57565' />
