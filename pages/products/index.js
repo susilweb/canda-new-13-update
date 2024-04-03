@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Head from 'next/head'
+import ContactForm from "../../components/ContactForm";
 // import ModalVideo from "react-modal-video";
 const ProductHome = () => {
   const [isOpen, setOpen] = useState(false);
@@ -24,6 +25,7 @@ const ProductHome = () => {
           </div>
         </div>
       </section>
+      <ContactForm />
     </>
   );
 };
