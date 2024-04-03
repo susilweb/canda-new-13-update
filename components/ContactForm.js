@@ -14,33 +14,16 @@ const ContactForm = () => {
     });
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
-    try {
-      const response = await fetch('https://crm.zoho.in/crm/WebToLeadForm', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(formData)
-      });
-      const data = await response.json();
-      console.log('Form submitted successfully:', data);
-      // Reset form fields after successful submission
-      setFormData({
-        Company: '',
-        'Last Name': ''
-        // Reset other form fields here
-      });
-    } catch (error) {
-      console.error('Error submitting form:', error);
-    }
+    // Perform form submission logic here
+    console.log(formData); // For demonstration, log form data to console
   };
 
   return (
     <div id='crmWebToEntityForm' className='zcwf_lblLeft crmWebToEntityForm' style={{ backgroundColor: 'white', color: 'black', maxWidth: '600px' }}>
       {/* Include meta and other HTML tags here */}
-      <form id='webform583330000000339005' onSubmit={handleSubmit} acceptCharset='UTF-8'>
+      <form id='webform583330000000339005' action='https://crm.zoho.in/crm/WebToLeadForm' name='WebToLeads583330000000339005' method='POST' onSubmit={handleSubmit} acceptCharset='UTF-8'>
         {/* Include input fields here */}
         <input type='text' style={{ display: 'none' }} name='xnQsjsdp' value='659b31daccca0c70473967b130eed38edab0b4b17f03cbd2c77dedec7664fdd0' />
         {/* Add other input fields */}
