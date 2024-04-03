@@ -17,16 +17,37 @@ const ContactForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Perform form submission logic here
-    console.log(formData); // For demonstration, log form data to console
+    const form = e.target;
+    fetch(form.action, {
+      method: form.method,
+      body: new URLSearchParams(new FormData(form)).toString(),
+      headers: {
+        'Content-Type': 'application/x-www-form-urlencoded'
+      }
+    })
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Failed to submit form');
+        }
+        // Handle successful form submission
+        console.log('Form submitted successfully');
+        // Reset form fields
+        form.reset();
+      })
+      .catch(error => {
+        // Handle form submission error
+        console.error('Form submission error:', error);
+      });
   };
 
   return (
     <div id='crmWebToEntityForm' className='zcwf_lblLeft crmWebToEntityForm' style={{ backgroundColor: 'white', color: 'black', maxWidth: '600px' }}>
-      {/* Include meta and other HTML tags here */}
       <form id='webform583330000000339005' action='https://crm.zoho.in/crm/WebToLeadForm' name='WebToLeads583330000000339005' method='POST' onSubmit={handleSubmit} acceptCharset='UTF-8'>
-        {/* Include input fields here */}
         <input type='text' style={{ display: 'none' }} name='xnQsjsdp' value='659b31daccca0c70473967b130eed38edab0b4b17f03cbd2c77dedec7664fdd0' />
-        {/* Add other input fields */}
+        <input type='hidden' name='zc_gad' id='zc_gad' value='' />
+        <input type='text' style={{ display: 'none' }} name='xmIwtLD' value='a055472592c0ec7bb3c2d3a72c9dce78262a67da270f19b8193c3a7ededd4a4d63a61322c97ffbabefcaff26cf324c51' />
+        <input type='text' style={{ display: 'none' }} name='actionType' value='TGVhZHM=' />
+        <input type='text' style={{ display: 'none' }} name='returnURL' value='null' />
         <div className='zcwf_row'>
           <div className='zcwf_col_lab' style={{ fontSize: '12px', fontFamily: 'Arial' }}>
             <label htmlFor='Company'>Company<span style={{ color: 'red' }}>*</span></label>
@@ -45,7 +66,6 @@ const ContactForm = () => {
             <div className='zcwf_col_help'></div>
           </div>
         </div>
-        {/* Add other input fields */}
         <div className='zcwf_row'>
           <div className='zcwf_col_lab'></div>
           <div className='zcwf_col_fld'>
